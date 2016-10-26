@@ -1,0 +1,27 @@
+nav {
+	position: fixed;
+	height: 3em;
+	bottom: 0;
+	width: 100%;
+	background-color: $accent-color;
+	div.button-group {
+		vertical-align: middle;
+		text-align: center;
+		button {
+			text-align: center;
+			margin-top: 0.15em;
+			margin-left: -1px;
+			margin-right: -1px;
+		}
+		button.left-btn {
+			@include button($bg-color, 6px, 0px, 0px, 6px);
+		}
+		// tl tr br bl
+		button.right-btn {
+			@include button($bg-color, 0px, 6px, 6px, 0px);
+		}
+		button.mid-btn {
+			@include button($bg-color, 0px, 0px, 0px, 0px);
+		}
+	}
+}

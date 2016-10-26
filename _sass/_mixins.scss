@@ -1,0 +1,41 @@
+@mixin columns($number, $width, $gutter, $span) {
+	-webkit-columns: $number $width;
+     -moz-columns: $number $width;
+          columns: $number $width;
+	-webkit-column-gap: $gutter;
+     -moz-column-gap: $gutter;
+          column-gap: $gutter;
+      -webkit-column-span: $span; 
+          column-span: $span; 
+	-moz-column-fill: auto;
+       column-fill: auto;
+}
+
+@mixin button($buttoncolor, $corner-tl, $corner-tr, $corner-br, $corner-bl) {
+  border-top-left-radius: $corner-tl;
+  border-top-right-radius: $corner-tr;
+  border-bottom-right-radius: $corner-br;
+  border-bottom-left-radius: $corner-bl;
+  line-height: 1.3;
+  background-color: $buttoncolor;
+  display: inline-block;
+  white-space: nowrap;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border-color: darken($buttoncolor, 5%);
+  border: 1px solid transparent;
+  text-shadow: none;
+  &:hover {
+          background-color: darken($buttoncolor, 5%)
+        }
+        &:active {
+          background-color: darken($buttoncolor, 15%)
+        }
+            
+}

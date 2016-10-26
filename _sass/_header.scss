@@ -1,0 +1,62 @@
+header 	{
+	padding-top: 4em;
+	padding-bottom: 2em;
+	display: block;
+	text-align: center;
+	text-indent: 0;
+	text-shadow: $shadow;
+	box-sizing: border-box;
+	color: $primary-color;
+	margin: 0;
+	div.strip {
+		background-color: #fff;
+		opacity: 0.55;
+		display: block;
+		h1 {
+			font-size: 3.5em;
+			padding-top: 1em;
+			line-height: 1.2;
+			margin: 0;
+			border-top: $standard-border;
+			padding-top: 0.75em;
+			font-family: $stack-ss;
+			font-weight: bold;
+		}
+
+		p.tag-line {
+			font-style: italic;
+			color: $accent-color;
+			line-height: 1.5;
+			font-family: $stack-serif;
+			margin-top: 0;
+
+		}
+
+		p.header-links {
+			font-size: 2.5em;
+			border-bottom: $standard-border;
+			padding-bottom: 1em;
+			font-family: $stack-ss;
+			margin: 0;
+		}
+	}
+	h3 {
+		font-size: 1em;
+		line-height: 1.2;
+		font-style: italic;
+		margin: 0;
+		font-family: $stack-ss;
+		color: $text-color;
+	}
+	button {
+		@include button($button-color, 6px, 6px, 6px, 6px);
+		padding-top: 10px;
+		padding-right: 16px;
+		padding-bottom: 10px;
+		padding-left: 16px;
+		margin-bottom: 1.5em;
+	    font-size: 18px;
+	    color: white;
+	    font-family: $stack-ss;
+	    }
+	}
