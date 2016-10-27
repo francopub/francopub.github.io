@@ -1,6 +1,8 @@
 header 	{
-	padding-top: 4em;
-	padding-bottom: 2em;
+	position: fixed;
+  	width: 100%;
+  	top: 0;
+	padding-top: 50px;
 	display: block;
 	text-align: center;
 	text-indent: 0;
@@ -8,6 +10,8 @@ header 	{
 	box-sizing: border-box;
 	color: $primary-color;
 	margin: 0;
+	height:300px;
+	background-color: $bg-color;
 	div.strip {
 		background-color: #fff;
 		opacity: 0.55;
