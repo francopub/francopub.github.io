@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Welcome to my website.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: francofaa
+twitter_username: NoFrancosPlease
 github_username:  francofaa
 # Build settings
 markdown: kramdown
@@ -34,17 +34,21 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: "page"
   - 
     scope:
-      path: ""
+      path: "blog"
       type: "posts"
     values:
       layout: "post"
-      author: "Franco Alvarado"
+      author: "Franco"
+      category: "blog"
+
   -
     scope:
-      path: "portfolio"
-      type: "projects" ## layout for each individual project in the portfolio
+      path: "projects"
     values:
       layout: "project"
+      category: "projects"
+
+permalink: pretty

@@ -1,0 +1,56 @@
+article {
+	margin: 0 350px;
+	margin-top:-7em;
+	max-width: 650px;
+	header {
+		font-family: $stack-ss;
+		padding-bottom: 9px;
+		margin: 40px 0 20px;
+		border-bottom: 1px solid $post-highlight;
+		text-align: center;
+		line-height: 1.4;
+		text-shadow: $shadow;
+
+		h1.post-title {
+			margin-top: 0;
+			hyphens: none;
+			margin-bottom: 0;
+			font-size: 4em;
+		}
+		p.byline {
+			font-size: 1.25em;
+			line-height: 1;
+			margin-top: 1em;
+			text-align: center;
+			margin-bottom: 3em;
+			font-weight: bold;
+		}
+		p.post-info {
+			font-size: 1em;
+			margin-top: 0;
+			line-height: 1;
+
+		}
+	}
+	section {
+		p {
+			margin-top: 0.5em;
+			font-size: 1.25em;
+			line-height: 1.5;
+			widows: 2;
+			orphans: 2;
+			font-family: $stack-serif;
+		}
+	}
+	aside.bio {
+		margin-top: 1em;
+		font-size: 1.25em;
+		font-style: italic;
+		margin: 0;
+		border-top: 1px solid $post-highlight;
+		font-family: $stack-serif;
+		i {
+			font-style: normal;
+		}	
+	}
+}
