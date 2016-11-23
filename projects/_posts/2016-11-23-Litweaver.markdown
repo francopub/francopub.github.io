@@ -1,6 +1,7 @@
 ---
 date:   2016-11-22 13:24:17 -0400
-title: Testing
+title: Litweaver
+subtitle: Ebook series with paragraph numbering
 permalink: /projects/Litweaver
 ---
 Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.
