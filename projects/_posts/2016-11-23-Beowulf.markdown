@@ -1,0 +1,31 @@
+---
+date:   2016-11-22 13:24:17 -0400
+title: Beowulf
+subtitle: Book design
+permalink: /projects/Beowulf
+---
+For this edition of *Beowulf*, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.
+
+![Dedication](beo-ded)
+
+![Front matter opener](beo-fm)
+
+![Spread with all marginalia](beo-marginalia)
+
+![Marginalia detail](beo-marginalia-dt)
+
+![Chapter opener spread](beo-chap-open)
+
+For the cover, I created a Viking ship on the water, all created with typographical ornaments. These were then echoed in the title page.
+
+![Cover]()
+
+![Title page]()
+
+[]:
+[]:
+[]:
+[]:
+[]:
+[]:
+[]:

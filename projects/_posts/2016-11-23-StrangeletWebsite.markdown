@@ -1,6 +1,6 @@
 ---
 date:   2016-11-22 13:24:17 -0400
-title: Strangelet Press
+title: Strangelet Website
 subtitle: Print book and ebooks for the literary magazine Strangelet
 permalink: /projects/StrangeletBooks
 ---
