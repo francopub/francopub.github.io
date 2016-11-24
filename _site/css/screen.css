@@ -402,32 +402,28 @@ article {
     article aside.bio i {
       font-style: normal; }
 
-.post {
+.post-group .post {
   float: left;
   padding: 0px;
   position: relative;
   overflow: hidden; }
-
-img {
+.post-group img {
   margin: 0;
   padding: 0;
   float: left;
   z-index: 4; }
-
-.caption {
+.post-group .caption {
   cursor: pointer;
   position: absolute;
   opacity: 0;
   transition: all 0.45s ease-in-out; }
-
-.blur {
+.post-group .blur {
   background-color: rgba(0, 0, 0, 0.65);
   height: 300px;
   width: 400px;
   z-index: 5;
   position: absolute; }
-
-.caption-text {
+.post-group .caption-text {
   z-index: 10;
   color: white;
   position: absolute;

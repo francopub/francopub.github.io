@@ -54,6 +54,8 @@ article {
 		}	
 	}
 }
+
+.post-group {
 	.post {
 	  float: left;
 	  padding: 0px;
@@ -91,7 +93,8 @@ article {
 	  text-align: center;
 	  top: 100px;
 	}
+}
 
-	.post:hover .caption {
+.post:hover .caption {
 	  opacity: 1;
 	}
