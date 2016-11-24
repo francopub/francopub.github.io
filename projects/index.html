@@ -8,10 +8,10 @@ category: projects
 <h2>BOTH</h2>
 <!-- this section will have onclicks for the h2's  above that will hide and reveal the list items below for the types of portfolio projects people might want to see ; they are defaulted to visible 
 -->
-<ul>
+<ul id="rig">
 {% for post in site.posts %}
   {% if post.categories contains 'projects' %}
-	<li class="post">
+	<li>
 	<a class="rig-cell" href="{{ post.url }}">
 		<img src="" alt="" class="rig-img" />
 		<span class="rig-overlay"></span>
