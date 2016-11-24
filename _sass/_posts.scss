@@ -56,10 +56,12 @@ article {
 }
 
 	.post {
-	  float: left;
-	  padding: 0.5em;
-	  position: relative;
-	  overflow: hidden;
+    float: left;
+    padding: 1.5em;
+    position: relative;
+    overflow: hidden;
+    width: 10em;
+    height: 10em;
 	}
 
 	.post-group img {
@@ -71,7 +73,7 @@ article {
 
 	.caption {
 	  cursor: pointer;
-	  position: absolute;
+	  /*position: absolute;*/
 	  opacity: 0;
 	  transition: all 0.45s ease-in-out;
 	}
@@ -91,8 +93,8 @@ article {
 	  z-index: 10;
 	  color: white;
 	  position: absolute;
-	  width: 400px;
-	  height: 300px;
+	  /*width: 400px;
+	  height: 300px;*/
 	  text-align: center;
 	  top: 100px;
 	}
