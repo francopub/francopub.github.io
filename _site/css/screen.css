@@ -191,7 +191,8 @@ header.site-header {
   color: #69C;
   margin: 0;
   height: 300px;
-  background-color: #F6F6F8; }
+  background: -webkit-linear-gradient(330deg, #b03df1, #1271db);
+  background: linear-gradient(120deg, #b03df1, #1271db); }
   header.site-header div.strip {
     background-color: #fff;
     opacity: 0.55;
