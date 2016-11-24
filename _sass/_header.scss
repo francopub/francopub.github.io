@@ -11,9 +11,7 @@ header.site-header 	{
 	color: $primary-color;
 	margin: 0;
 	height:300px;
-	// background-color: $bg-color;
-	background: -webkit-linear-gradient(330deg, #b03df1,#1271db);
-	background: linear-gradient(120deg, #b03df1,#1271db);
+	background-color: $bg-color;
 	div.strip {
 		background-color: #fff;
 		opacity: 0.55;
