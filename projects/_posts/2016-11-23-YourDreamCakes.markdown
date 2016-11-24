@@ -4,4 +4,11 @@ title: Your Dream Cakes
 subtitle: Website, logo, and business cards for catering company
 permalink: /projects/YourDreamCakes
 ---
-Your Dream Cakes is a custom dessert and catering service in South Florida. I designed the website using a WordPress child theme. 
+Your Dream Cakes is a custom dessert and catering service in South Florida. I built and designed the website using WordPress. I also designed the logo using and business cards.
+
+![Website](yourdreamcakes-site)
+
+![Business cards](yourdreamcakes-cards)
+
+[yourdreamcakes-cards]: 
+[yourdreamcakes-site]: 
