@@ -55,7 +55,6 @@ article {
 	}
 }
 
-.post-group {
 	.post {
 	  float: left;
 	  padding: 0px;
@@ -63,7 +62,7 @@ article {
 	  overflow: hidden;
 	}
 
-	img {
+	.post-group img {
 	  margin: 0;
 	  padding: 0;
 	  float: left;
@@ -75,6 +74,10 @@ article {
 	  position: absolute;
 	  opacity: 0;
 	  transition: all 0.45s ease-in-out;
+	}
+	
+	.post:hover .caption {
+	  opacity: 1;
 	}
 
 	.blur {
@@ -92,9 +95,4 @@ article {
 	  height: 300px;
 	  text-align: center;
 	  top: 100px;
-	}
-}
-
-.post:hover .caption {
-	  opacity: 1;
 	}
