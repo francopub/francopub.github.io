@@ -8,13 +8,24 @@ category: projects
 <h2>BOTH</h2>
 <!-- this section will have onclicks for the h2's  above that will hide and reveal the list items below for the types of portfolio projects people might want to see ; they are defaulted to visible 
 -->
+<div class="post-group">
 {% for post in site.posts %}
   {% if post.categories contains 'projects' %}
-	<div class="post">
-		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}: {{ post.subtitle }} </a></h3>
-		<!--<p class="entry">
-			{{ post.content | strip_html | truncatewords: 10 }}</p>-->
-		</div>
-	</div>
+<div class="post">
+  <a href="{{ post.url }}">
+  <img src="http://www.webtutorialplus.com/Images/css-effects-image/1.jpg" alt="image" />
+  <div class="caption">
+  
+    <div class="blur">
+    </div>
+    
+    <div class="caption-text">
+        <h3 class="title">{{ post.title }}: {{ post.subtitle }} </h3>
+    </div>
+  
+  </div>
+    </a>
+</div>
   {% endif %}
 {% endfor %}
+</div>
