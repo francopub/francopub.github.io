@@ -425,7 +425,6 @@ article {
   font-size: 1em; }
 
 .post-group > .post {
-  float: left;
   text-align: center; }
 
 .post img {
@@ -474,12 +473,3 @@ article {
 	}
 }
 */
-@media (max-width: 9000px) {
-  #rig li {
-    width: 25%; } }
-@media (max-width: 700px) {
-  #rig li {
-    width: 33.33%; } }
-@media (max-width: 550px) {
-  #rig li {
-    width: 50%; } }

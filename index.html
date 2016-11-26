@@ -1,22 +1,38 @@
 ---
 title: "Franco A. Alvarado"
 layout: page
+author: Franco
 ---
 
 <article>
-<h1 id="aboutme">About Me</h1>
+<h1 id="aboutme">Hello!</h1>
 <p>
-	I like to fix things: sentences, pages, and books. I like to make your content look good, whether it is a website, an ebook, or a print book--or all three! I have made publishing my career, both digital and print, and I want to help you.
+	Welcome to my website. I am a publishing professional living in the Boston area. I&#8217;m a problem-solver, and I like to fix things: print books, ebooks, and websites. {% if author.available == true %} I am currently <b>available </b>to help you! {% else %} I am currently working at {{ author.job  }}, but please feel free to get in touch anyway. {% endif %}
 </p>
-<p>
-	I&#8217;ve worn a lot of different hats. Currently my hat is Senior Technical Production Specialist at F+W Media where I focus on building templates, working on ebook quality assurance, and managing CMS publishing workflows for HTML, XML, ebook, and, of course, print.
+{% if author.available == true %} 
+<p class="center">
+	Taking projects as of November 2016. Services I provide include:
 </p>
+{% else %}
+<p class="center">
+	Areas of expertise include:	
+</p>
+ {% endif %}
+	
+	<ul>
+		<li>Print and ebook design and development</li>
+		<li>Fixed layout EPUBs</li>
+		<li>Website design and development</li>
+		<li>Digital workflow consultation</li>
+		<li>Editorial services</li>
+	</ul>
+	
 <p>
-	Feel free to explore my site or get in touch with me. 
+	Feel free to explore my site and get in touch.
 </p>
 </article>
 
-{% include services.html %}
+{% include testimonials.html %}
 {% include contact.html %}
 
 <!--
