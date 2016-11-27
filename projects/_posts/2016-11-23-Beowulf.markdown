@@ -1,31 +1,50 @@
 ---
 date:   2016-11-22 13:24:17 -0400
 title: Beowulf
-subtitle: Book design
+subtitle: Book design, master's project, 2012
 permalink: /projects/Beowulf
+imgfolder: beowulf
+categories: Book design
 ---
 For this edition of *Beowulf*, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.
 
-![Dedication](beo-ded)
+![Title page](title-page)
+*For the cover, I created a Viking ship on the water using typographical ornaments. These were then echoed in the title page.*
 
-![Front matter opener](beo-fm)
+![Title page, detail](title-page-detail)
+*Detail of ornaments*
 
-![Spread with all marginalia](beo-marginalia)
+![Cover](cover)
+*Cover image*
 
-![Marginalia detail](beo-marginalia-dt)
+![Chapter open spread](chapter-spread)
+*Chapter opener spread, showing all text elements: running text, running headers, chapter number and title, glosses, footnotes, line numbers, and folios*
 
-![Chapter opener spread](beo-chap-open)
+![Marginalia detail](marginalia)
+*Detail of page*
 
-For the cover, I created a Viking ship on the water, all created with typographical ornaments. These were then echoed in the title page.
+![Dedication page](dedication)
+*Dedication page*
 
-![Cover]()
+![Front matter with drop cap](fm-spread)
+*Front matter (prose) with drop cap*
 
-![Title page]()
+![Another spread, without chapter opener](spread)
+*Another spread, without chapter opener*
 
-[]:
-[]:
-[]:
-[]:
-[]:
-[]:
-[]:
+![Spread with a large amount of footnotes](footnote-spread)
+*Another spread with a large amount of footnotes*
+
+![Detail of running head](rh-detail)
+*Detail of running head*
+
+[title-page]: /img/beowulf/1a-title-page.jpg
+[title-page-detail]: /img/beowulf/1b-title-page-detail.jpg
+[cover]: /img/beowulf/1c-cover.jpg
+[chapter-spread]: /img/beowulf/2a-chapter-spread.jpg
+[marginalia-detail]: /img/beowulf/2b-marginalia-detail.jpg
+[dedication]: /img/beowulf/3-dedication.jpg
+[fm-spread]: /img/beowulf/4-fm-spread.jpg
+[spread]: /img/beowulf/5a-pages-spread.jpg
+[footnote-spread]: /img/beowulf/5b-footnote-spread.jpg
+[rh-detail]: /img/beowulf/5c-running-head-detail.jpg
