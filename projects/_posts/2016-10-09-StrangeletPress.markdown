@@ -7,62 +7,62 @@ imgfolder: strangeletpress
 categories: workflows, ebook development, print design
 tagline: Print and ebook design work for a bimonthly SFF magazine
 ---
-*Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer][StrangeletWebsite], and art editor.
+*Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer][../StrangeletWebsite], and art editor.
 
 For *Strangelet*, I typeset the book in Caslon with the display text as Marta. The title page typeface is Hightower and the cover a combination of typefaces to reflect the tone of the books: strange, bizarre, eerie. We produced bimonthly issues, very short, around 50 to 70 pages each, and combined them in an omnibus at the end of the year.
 
 By setting up the InDesign files myself, we were able to have a streamlined and efficient production process for ebook production.
 
-![Our anthologies](covers)
+![Our anthologies](../../img/strangeletpress/1-covers-anthologies.jpg)
 *Issue 0 was our proof-of-concept. Volume 1 and 2 followed*
 
-![The issues from volume 1, along with the omnibus](year1)
+![The issues from volume 1, along with the omnibus](../../img/strangeletpress/2-year1-covers.jpg)
 *Issues from volume 1*
 
-![The issues from volume 2, along with the omnibus](year2)
+![The issues from volume 2, along with the omnibus](../../img/strangeletpress/2-year2-covers.jpg)
 *Issues from volume 2. During this year, I took over the art acquisition duties*
 
-![Ebook editions of all of our books](library)
+![Ebook editions of all of our books](../../img/strangeletpress/4-library.jpg)
 *Ebook editions of all of our books, save the omnibuses*
 
-![Title page](tp)
+![Title page](../../img/strangeletpress/5a-title-page.jpg)
 *Title page, standard throughout the magazine's run*
 
-![Title page in EPUB, color pulled from cover](tp-ebook1)
-![Another title page in EPUB, color pulled from cover](tp-ebook2)
+![Title page in EPUB, color pulled from cover](../../img/strangeletpress/5b-i-title-page-open-ebook.jpg)
+![Another title page in EPUB, color pulled from cover](../../img/strangeletpress/5b-ii-title-page-open-ebook.jpg)
 *For the ebook edition, I pulled colors from the covers as the link and highlight color.*
 
-![Table of contents](toc)
+![Table of contents](../../img/strangeletpress/6-toc.jpg)
 *Table of contents*
 
-![Story opener](story-open)
+![Story opener](../../img/strangeletpress/7a-story-open-spread.jpg)
 *For Vol 1, Issue 4, we had an illustrator create drawings for each of our issues.*
 
-![Story opener in the ebook](story-open-ebook)
+![Story opener in the ebook](../../img/strangeletpress/7b-i-story-open-spread.jpg)
 *The opener for the same story. The illustration was moved to allow the reader to see the title as the first thing.*
 
-![Illustration in reflowable ebook](story-ebook)
+![Illustration in reflowable ebook](../../img/strangeletpress/7b-ii-story-open-spread.jpg)
 *Example of illustration treatment in reflowable ebook*
 
-![Prose spread](prose-spread)
+![Prose spread](../../img/strangeletpress/8a-prose-spread.jpg)
 *Prose page spread*
 
-![Illustration as section break](section-break)
+![Illustration as section break](../../img/strangeletpress/8b-section-div-spread.jpg)
 *For the story "Running With", shown above, I used these small sketches as the section breaks.*
 
-![Author bio](prose-bio)
+![Author bio](../../img/strangeletpress/8c-ebook-spread-1.jpg)
 *Treatment of the author bio.*
 
-![Different text element treatments in ebook edition](prose-spread-ebook)
+![Different text element treatments in ebook edition](../../img/strangeletpress/8d-footer-detail.jpg)
 *Demonstration of treatment of different text elements in the ebook edition: title, subtitle, author name, sub-sections, epigraphs, and author bio sections. Compare with print versions.*
 
-![Running feet detail](runningfeet)
+![Running feet detail](../../img/strangeletpress/9-prose-bio.jpg)
 *Running feet detail*
 
-![Poem in print](poem-print)
+![Poem in print](../../img/strangeletpress/11a-poem-print.jpg)
 *Poem treatment in print book. Compare with ebook version below.*
 
-![Poem in ebook](poem-ebook)
+![Poem in ebook](../../img/strangeletpress/11b-poem-ebook.jpg)
 *Poem treatment in ebook. Poetry ebooks have long languished as after-thoughts for some publishers.*
 
 CSS for poetry below: 
@@ -115,28 +115,3 @@ p.poem-2-ind2-sb {
 	text-indent:-1.5em;
 	}
 {% endhighlight %}
-
-
-[StrangeletWebsite]: ../StrangeletWebsite
-
-[covers]: ../../img/strangeletpress/1-covers-anthologies.jpg
-[year1]: ../../img/strangeletpress/2-year1-covers.jpg
-[year2]: ../../img/strangeletpress/3-year2-covers.jpg
-[library]: ../../img/strangeletpress/4-library.jpg
-[tp]: ../../img/strangeletpress/5a-title-page.jpg
-
-[tp-ebook1]: ../../img/strangeletpress/5b-i-title-page-open-ebook.jpg
-[tp-ebook2]: ../../img/strangeletpress/5b-ii-title-page-open-ebook.jpg
-[toc]: ../../img/strangeletpress/6-toc.jpg
-[story-open]: ../../img/strangeletpress/7a-story-open-spread.jpg
-[story-open-ebook]: ../../img/strangeletpress/7b-i-story-open-spread.jpg
-
-[story-ebook]: ../../img/strangeletpress/7b-ii-story-open-spread.jpg
-[prose-spread]: ../../img/strangeletpress/8a-prose-spread.jpg
-[section-break]: ../../img/strangeletpress/8b-section-div-spread.jpg
-[prose-spread-ebook]: ../../img/strangeletpress/8c-ebook-spread-1.jpg
-[runningfeet]: ../../img/strangeletpress/8d-footer-detail.jpg
-
-[prose-bio]: ../../img/strangeletpress/9-prose-bio.jpg
-[poem-print]: ../../img/strangeletpress/11a-poem-print.jpg
-[poem-ebook]: ../../img/strangeletpress/11b-poem-ebook.jpg

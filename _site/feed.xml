@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-11-27T18:31:02-05:00</updated><id>/</id><title type="html">Franco Alvarado</title><subtitle>Welcome to my website.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-11-27T18:40:54-05:00</updated><id>/</id><title type="html">Franco Alvarado</title><subtitle>Welcome to my website.
 </subtitle><entry><title type="html">The Death of Gueda Hesme</title><link href="/blog/2016/10/28/Death-of-Gueda-Hesme/" rel="alternate" type="text/html" title="The Death of Gueda Hesme" /><published>2016-10-28T14:04:17-04:00</published><updated>2016-10-28T14:04:17-04:00</updated><id>/blog/2016/10/28/Death-of-Gueda-Hesme</id><content type="html" xml:base="/blog/2016/10/28/Death-of-Gueda-Hesme/">&lt;p&gt;Tia Gueda Hesme lived in the house, having worked for the Von Kromer family for as long as anyone could remember. No one knew how she was related to the family, and Calébres and Alessandro doubted she was ever young. Her eyes were white and murky, and she looked as old as a tree, gnarled and knotted with wrinkles. She never moved as she sat in her chair, aside from moving her hand to her mouth to take a puff from her cigar.&lt;/p&gt;
 
 &lt;p&gt;—-Right down there, in the plaza, she told the boys in her strange accent, there used to be a well, and one of the boys—his name was Raul, one of the sons of Marcos. Marcos, now, he should be your great-great-great uncle. But yes, his boy would go to that well every day to get water, early in the morning, and one day, a voice called from inside the well, crying out to him, Up there, if you help me, I’ll give you all the money you could ever hope for. Just look, the voice said, and Raul saw something flash, like silver catching the sun. So Raul lowered the bucket and said, Get in the bucket, but the voice said back: No, you have to come down yourself and get me. So your cousin went down into the well, with the rope tied around his waist, and they never saw him again, no. Whatever was down there, snatched him away, and as she said this, her hand snatched something invisible out of the air. Alessandro flinched.&lt;/p&gt;
@@ -49,62 +49,62 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Andy Dost</name></author><category term="blog" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Strangelet Press</title><link href="/projects/StrangeletPress" rel="alternate" type="text/html" title="Strangelet Press" /><published>2016-10-09T13:24:17-04:00</published><updated>2016-10-09T13:24:17-04:00</updated><id>/projects/StrangeletPress</id><content type="html" xml:base="/projects/StrangeletPress">&lt;p&gt;&lt;em&gt;Strangelet&lt;/em&gt; was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the &lt;a href=&quot;../StrangeletWebsite&quot;&gt;website designer&lt;/a&gt;, and art editor.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Andy Dost</name></author><category term="blog" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Strangelet Press</title><link href="/projects/StrangeletPress" rel="alternate" type="text/html" title="Strangelet Press" /><published>2016-10-09T13:24:17-04:00</published><updated>2016-10-09T13:24:17-04:00</updated><id>/projects/StrangeletPress</id><content type="html" xml:base="/projects/StrangeletPress">&lt;p&gt;&lt;em&gt;Strangelet&lt;/em&gt; was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer][../StrangeletWebsite], and art editor.&lt;/p&gt;
 
 &lt;p&gt;For &lt;em&gt;Strangelet&lt;/em&gt;, I typeset the book in Caslon with the display text as Marta. The title page typeface is Hightower and the cover a combination of typefaces to reflect the tone of the books: strange, bizarre, eerie. We produced bimonthly issues, very short, around 50 to 70 pages each, and combined them in an omnibus at the end of the year.&lt;/p&gt;
 
 &lt;p&gt;By setting up the InDesign files myself, we were able to have a streamlined and efficient production process for ebook production.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;covers&quot; alt=&quot;Our anthologies&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/1-covers-anthologies.jpg&quot; alt=&quot;Our anthologies&quot; /&gt;
 &lt;em&gt;Issue 0 was our proof-of-concept. Volume 1 and 2 followed&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;year1&quot; alt=&quot;The issues from volume 1, along with the omnibus&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/2-year1-covers.jpg&quot; alt=&quot;The issues from volume 1, along with the omnibus&quot; /&gt;
 &lt;em&gt;Issues from volume 1&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;year2&quot; alt=&quot;The issues from volume 2, along with the omnibus&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/2-year2-covers.jpg&quot; alt=&quot;The issues from volume 2, along with the omnibus&quot; /&gt;
 &lt;em&gt;Issues from volume 2. During this year, I took over the art acquisition duties&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;library&quot; alt=&quot;Ebook editions of all of our books&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/4-library.jpg&quot; alt=&quot;Ebook editions of all of our books&quot; /&gt;
 &lt;em&gt;Ebook editions of all of our books, save the omnibuses&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;tp&quot; alt=&quot;Title page&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/5a-title-page.jpg&quot; alt=&quot;Title page&quot; /&gt;
 &lt;em&gt;Title page, standard throughout the magazine’s run&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;tp-ebook1&quot; alt=&quot;Title page in EPUB, color pulled from cover&quot; /&gt;
-&lt;img src=&quot;tp-ebook2&quot; alt=&quot;Another title page in EPUB, color pulled from cover&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/5b-i-title-page-open-ebook.jpg&quot; alt=&quot;Title page in EPUB, color pulled from cover&quot; /&gt;
+&lt;img src=&quot;../../img/strangeletpress/5b-ii-title-page-open-ebook.jpg&quot; alt=&quot;Another title page in EPUB, color pulled from cover&quot; /&gt;
 &lt;em&gt;For the ebook edition, I pulled colors from the covers as the link and highlight color.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;toc&quot; alt=&quot;Table of contents&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/6-toc.jpg&quot; alt=&quot;Table of contents&quot; /&gt;
 &lt;em&gt;Table of contents&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;story-open&quot; alt=&quot;Story opener&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/7a-story-open-spread.jpg&quot; alt=&quot;Story opener&quot; /&gt;
 &lt;em&gt;For Vol 1, Issue 4, we had an illustrator create drawings for each of our issues.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;story-open-ebook&quot; alt=&quot;Story opener in the ebook&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/7b-i-story-open-spread.jpg&quot; alt=&quot;Story opener in the ebook&quot; /&gt;
 &lt;em&gt;The opener for the same story. The illustration was moved to allow the reader to see the title as the first thing.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;story-ebook&quot; alt=&quot;Illustration in reflowable ebook&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/7b-ii-story-open-spread.jpg&quot; alt=&quot;Illustration in reflowable ebook&quot; /&gt;
 &lt;em&gt;Example of illustration treatment in reflowable ebook&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;prose-spread&quot; alt=&quot;Prose spread&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/8a-prose-spread.jpg&quot; alt=&quot;Prose spread&quot; /&gt;
 &lt;em&gt;Prose page spread&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;section-break&quot; alt=&quot;Illustration as section break&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/8b-section-div-spread.jpg&quot; alt=&quot;Illustration as section break&quot; /&gt;
 &lt;em&gt;For the story “Running With”, shown above, I used these small sketches as the section breaks.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;prose-bio&quot; alt=&quot;Author bio&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/8c-ebook-spread-1.jpg&quot; alt=&quot;Author bio&quot; /&gt;
 &lt;em&gt;Treatment of the author bio.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;prose-spread-ebook&quot; alt=&quot;Different text element treatments in ebook edition&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/8d-footer-detail.jpg&quot; alt=&quot;Different text element treatments in ebook edition&quot; /&gt;
 &lt;em&gt;Demonstration of treatment of different text elements in the ebook edition: title, subtitle, author name, sub-sections, epigraphs, and author bio sections. Compare with print versions.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;runningfeet&quot; alt=&quot;Running feet detail&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/9-prose-bio.jpg&quot; alt=&quot;Running feet detail&quot; /&gt;
 &lt;em&gt;Running feet detail&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;poem-print&quot; alt=&quot;Poem in print&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/11a-poem-print.jpg&quot; alt=&quot;Poem in print&quot; /&gt;
 &lt;em&gt;Poem treatment in print book. Compare with ebook version below.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;poem-ebook&quot; alt=&quot;Poem in ebook&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/11b-poem-ebook.jpg&quot; alt=&quot;Poem in ebook&quot; /&gt;
 &lt;em&gt;Poem treatment in ebook. Poetry ebooks have long languished as after-thoughts for some publishers.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;CSS for poetry below: &lt;/p&gt;
@@ -154,36 +154,36 @@
 &lt;span class=&quot;lineno&quot;&gt;43&lt;/span&gt; 	&lt;span class=&quot;k&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;44&lt;/span&gt; 	&lt;span class=&quot;k&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
 &lt;span class=&quot;lineno&quot;&gt;45&lt;/span&gt; 	&lt;span class=&quot;k&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;46&lt;/span&gt; 	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><summary type="html">Strangelet was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the website designer, and art editor.</summary></entry><entry><title type="html">Once Magazine</title><link href="/projects/Once" rel="alternate" type="text/html" title="Once Magazine" /><published>2016-10-08T13:24:17-04:00</published><updated>2016-10-08T13:24:17-04:00</updated><id>/projects/OnceMagazine</id><content type="html" xml:base="/projects/Once">&lt;p&gt;&lt;em&gt;Once&lt;/em&gt; magazine was a project for my magazine design class at Emerson College’s Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics. &lt;/p&gt;
+&lt;span class=&quot;lineno&quot;&gt;46&lt;/span&gt; 	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><summary type="html">Strangelet was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer][../StrangeletWebsite], and art editor.</summary></entry><entry><title type="html">Once Magazine</title><link href="/projects/Once" rel="alternate" type="text/html" title="Once Magazine" /><published>2016-10-08T13:24:17-04:00</published><updated>2016-10-08T13:24:17-04:00</updated><id>/projects/OnceMagazine</id><content type="html" xml:base="/projects/Once">&lt;p&gt;&lt;em&gt;Once&lt;/em&gt; magazine was a project for my magazine design class at Emerson College’s Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;cover&quot; alt=&quot;Front cover of magazine&quot; /&gt;
-&lt;img src=&quot;backcover&quot; alt=&quot;Back cover of magazine&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/1a-cover.jpg&quot; alt=&quot;Front cover of magazine&quot; /&gt;
+&lt;img src=&quot;../../img/oncemagazine/1b-back-cover.jpg&quot; alt=&quot;Back cover of magazine&quot; /&gt;
 &lt;em&gt;For the back cover, I took a public domain image of a German wolf stamp and edited it in Photoshop&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;toc&quot; alt=&quot;The table of contents, laid out as a map&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/2a-toc-spread.jpg&quot; alt=&quot;The table of contents, laid out as a map&quot; /&gt;
 &lt;em&gt;To add to the whimsical nature of the project, I decided to make the table of contents into a map. I illustrated some images and combined them in Photoshop along with the appropriate text&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;toc-dt-1&quot; alt=&quot;Detail of table of contents&quot; /&gt;
-&lt;img src=&quot;toc-dt-2&quot; alt=&quot;Detail of table of contents&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/2b-toc-detail-1.jpg&quot; alt=&quot;Detail of table of contents&quot; /&gt;
+&lt;img src=&quot;../../img/oncemagazine/2b-toc-detail-2.jpg&quot; alt=&quot;Detail of table of contents&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;troll&quot; alt=&quot;Interview article spread&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/3-troll-spread.jpg&quot; alt=&quot;Interview article spread&quot; /&gt;
 &lt;em&gt;Article spread for an interview&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;red&quot; alt=&quot;Feature spread&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/4a-red-spread.jpg&quot; alt=&quot;Feature spread&quot; /&gt;
 &lt;em&gt;Feature article spread&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;red-dt&quot; alt=&quot;Detail, edited images from the public domain&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/4b-red-detail.jpg&quot; alt=&quot;Detail, edited images from the public domain&quot; /&gt;
 &lt;em&gt;Detail&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;fen&quot; alt=&quot;Detail, feature article&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/5-fenrir-detail.jpg&quot; alt=&quot;Detail, feature article&quot; /&gt;
 &lt;em&gt;Detail of a feature article. I wanted the image to pop out of the page here to add some depth&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;dept&quot; alt=&quot;Departments&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/6-dept-spread.jpg&quot; alt=&quot;Departments&quot; /&gt;
 &lt;em&gt;Departments at the end of the issue&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Once magazine was a project for my magazine design class at Emerson College’s Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics.</summary></entry><entry><title type="html">Crimson Romance</title><link href="/projects/CrimsonRomance" rel="alternate" type="text/html" title="Crimson Romance" /><published>2016-10-07T13:24:17-04:00</published><updated>2016-10-07T13:24:17-04:00</updated><id>/projects/CrimsonRomance</id><content type="html" xml:base="/projects/CrimsonRomance">&lt;p&gt;Crimson Romance is the romance line at Adams Media. This is an ebook-first series. For this series, I helped with a transition to a CMS-based workflow. I was the sole developer on this series during my time at F+W Media, with 2 to 3 titles being published per week.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;crimsonlibrary&quot; alt=&quot;Library of Crimson Romance ebooks&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/crimsonromance/1-library.jpg&quot; alt=&quot;Library of Crimson Romance ebooks&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Due to the quick turnaround with this series, I was presented with an interesting challenge. The CMS filled in the metadata fields for the EPUB export; however, since the content was outpacing the metadata for this fast-paced workflow, I had to enter in that information manually: the cover, author name, title, and ISBN. Initially, I set up a set of regexes that I would run upon opening the files, but eventually I created a Python script. The script is available &lt;a href=&quot;https://github.com/francofaa/RomanceEPUBCleanup&quot;&gt;here on github&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Due to the quick turnaround with this series, I was presented with an interesting challenge. The CMS filled in the metadata fields for the EPUB export; however, since the content was outpacing the metadata for this fast-paced workflow, I had to enter in that information manually: the cover, author name, title, and ISBN. Initially, I set up a set of regexes that I would run upon opening the files, but eventually I created a Python script. The script is available [here on github][https://github.com/francofaa/RomanceEPUBCleanup]. &lt;/p&gt;
 
 &lt;p&gt;It’s also down here:&lt;/p&gt;
 
@@ -309,50 +309,50 @@
 &lt;span class=&quot;lineno&quot;&gt;120&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foul&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;121&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shutil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rmtree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><summary type="html">Crimson Romance is the romance line at Adams Media. This is an ebook-first series. For this series, I helped with a transition to a CMS-based workflow. I was the sole developer on this series during my time at F+W Media, with 2 to 3 titles being published per week.</summary></entry><entry><title type="html">Beowulf</title><link href="/projects/Beowulf" rel="alternate" type="text/html" title="Beowulf" /><published>2016-10-06T13:24:17-04:00</published><updated>2016-10-06T13:24:17-04:00</updated><id>/projects/Beowulf</id><content type="html" xml:base="/projects/Beowulf">&lt;p&gt;For this edition of &lt;em&gt;Beowulf&lt;/em&gt;, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;title-page&quot; alt=&quot;Title page&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1a-title-page.jpg&quot; alt=&quot;Title page&quot; /&gt;
 &lt;em&gt;For the cover, I created a Viking ship on the water using typographical ornaments. These were then echoed in the title page.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;title-page-detail&quot; alt=&quot;Title page, detail&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1b-title-page-detail.jpg&quot; alt=&quot;Title page, detail&quot; /&gt;
 &lt;em&gt;Detail of ornaments&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;cover&quot; alt=&quot;Cover&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1c-cover.jpg&quot; alt=&quot;Cover&quot; /&gt;
 &lt;em&gt;Cover image&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;chapter-spread&quot; alt=&quot;Chapter open spread&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/2a-chapter-spread.jpg&quot; alt=&quot;Chapter open spread&quot; /&gt;
 &lt;em&gt;Chapter opener spread, showing all text elements: running text, running headers, chapter number and title, glosses, footnotes, line numbers, and folios&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;marginalia&quot; alt=&quot;Marginalia detail&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/2b-marginalia-detail.jpg&quot; alt=&quot;Marginalia detail&quot; /&gt;
 &lt;em&gt;Detail of page&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;dedication&quot; alt=&quot;Dedication page&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/3-dedication.jpg&quot; alt=&quot;Dedication page&quot; /&gt;
 &lt;em&gt;Dedication page&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;fm-spread&quot; alt=&quot;Front matter with drop cap&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/4-fm-spread.jpg&quot; alt=&quot;Front matter with drop cap&quot; /&gt;
 &lt;em&gt;Front matter (prose) with drop cap&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;spread&quot; alt=&quot;Another spread, without chapter opener&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5a-pages-spread.jpg&quot; alt=&quot;Another spread, without chapter opener&quot; /&gt;
 &lt;em&gt;Another spread, without chapter opener&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;footnote-spread&quot; alt=&quot;Spread with a large amount of footnotes&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5b-footnote-spread.jpg&quot; alt=&quot;Spread with a large amount of footnotes&quot; /&gt;
 &lt;em&gt;Another spread with a large amount of footnotes&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;rh-detail&quot; alt=&quot;Detail of running head&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5c-running-head-detail.jpg&quot; alt=&quot;Detail of running head&quot; /&gt;
 &lt;em&gt;Detail of running head&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">For this edition of Beowulf, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.</summary></entry><entry><title type="html">Litweaver</title><link href="/projects/Litweaver" rel="alternate" type="text/html" title="Litweaver" /><published>2016-10-05T13:24:17-04:00</published><updated>2016-10-05T13:24:17-04:00</updated><id>/projects/Litweaver</id><content type="html" xml:base="/projects/Litweaver">&lt;p&gt;Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;litweaver-library&quot; alt=&quot;Selection of the Litweaver ebook library&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/litweaver/1-library.jpg&quot; alt=&quot;Selection of the Litweaver ebook library&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I worked with Litweaver for two years, creating over 100 ebooks for the series, which included short stories, novels, poems, and plays. I also developed a paragraph-numbering system for them. Previously they had been using non-semantic tables, which presented various problems in resizing and accessibility. Due to compensate for e-reading technology, instead of implementing a purely CSS3 solution, I included the numbering in the mark-up and used CSS to position the paragraphs appropriately.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;poem-first-page&quot; alt=&quot;First page of poem&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/litweaver/2-poem-firstpage.jpg&quot; alt=&quot;First page of poem&quot; /&gt;
 &lt;em&gt;First page of a poem&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;poem-spread&quot; alt=&quot;Poem with line-number back links included&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/litweaver/3-poem-spread.jpg&quot; alt=&quot;Poem with line-number back links included&quot; /&gt;
 &lt;em&gt;Poem with line number links included&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;prose&quot; alt=&quot;Prose with line numbers&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/litweaver/4-prose-spread.jpg&quot; alt=&quot;Prose with line numbers&quot; /&gt;
 &lt;em&gt;Prose with line numbers&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;drama&quot; alt=&quot;Drama with line numbers&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/litweaver/5-drama-spread.jpg&quot; alt=&quot;Drama with line numbers&quot; /&gt;
 &lt;em&gt;Drama with line numbers&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.</summary></entry><entry><title type="html">Strangelet Website</title><link href="/projects/StrangeletWebsite" rel="alternate" type="text/html" title="Strangelet Website" /><published>2016-10-04T13:24:17-04:00</published><updated>2016-10-04T13:24:17-04:00</updated><id>/projects/StrangeletWebsite</id><content type="html" xml:base="/projects/StrangeletWebsite">&lt;p&gt;&lt;em&gt;Strangelet&lt;/em&gt; was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the &lt;a href=&quot;../StrangeletPress&quot;&gt;production of the books and ebooks&lt;/a&gt;. The website is &lt;a href=&quot;weblink&quot;&gt;strangeletjournal.com&lt;/a&gt;. The content manager and I also handled the updates to the site.&lt;/p&gt;
 
 &lt;p&gt;The website was built in Wordpress, using a child theme based on the theme Responsive.&lt;/p&gt;

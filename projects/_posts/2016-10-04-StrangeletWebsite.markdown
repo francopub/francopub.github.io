@@ -29,11 +29,17 @@ The following three images show story excerpts on the website. The excerpts are 
 *This was a test version for a distraction-free version of an excerpt. This is found at [sample.strangeletjournal.com](samplelink).*
 
 [StrangeletPress]: ../StrangeletPress
+
 [weblink]: http://strangeletjournal.com
+
 [samplelink]: http://sample.strangeletjournal.com
 
 [splash]: ../../img/strangeletwebsite/1-splashpage.jpg
+
 [mobile]: ../../img/strangeletwebsite/2-mobile.jpg
+
 [sidebars]: ../../img/strangeletwebsite/3a-article-sidebars.jpg
+
 [narrow]: ../../img/strangeletwebsite/3b-article-narrow.jpg
+
 [nodistract]: ../../img/strangeletwebsite/3c-article-no-distraction.jpg

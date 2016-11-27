@@ -12,8 +12,3 @@ Your Dream Cakes is a custom dessert and catering service in South Florida. I bu
 ![Website](../../img/yourdreamcakes/2-business-cards.JPG)
 
 ![Business cards](../../img/yourdreamcakes/1-website-image.jpg)
-
-[link]: http://yourdreamcakes.com
-
-[cards]: ../../img/yourdreamcakes/1-website-image.jpg 
-[site]: ../../img/yourdreamcakes/2-business-cards.JPG
