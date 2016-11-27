@@ -7,11 +7,11 @@ imgfolder: yourdreamcakes
 categories: website
 tagline: Website and branding for a catering service
 ---
-Your Dream Cakes is a custom dessert and catering service in South Florida. I built and designed the website using Wordpress. The website is [here](link). 
+Your Dream Cakes is a custom dessert and catering service in South Florida. I built and designed the website using Wordpress. The website is [here](http://yourdreamcakes.com). 
 
-![Website](site)
+![Website](../../img/yourdreamcakes/2-business-cards.JPG)
 
-![Business cards](cards)
+![Business cards](../../img/yourdreamcakes/1-website-image.jpg)
 
 [link]: http://yourdreamcakes.com
 
