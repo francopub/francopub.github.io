@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{{% include nav.html %}}
 <!--
 
 {% if page.category == "blog" %}
@@ -30,6 +31,9 @@ layout: default
 		{% include author-bio.html %}
 	</main>
 </article>
+{{% include post-nav.html %}}
+
+
 <!--{% elsif page.category == "projects" %}
 <p>This is a project page</p>
 <main>{{content}} </main>

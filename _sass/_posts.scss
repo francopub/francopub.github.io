@@ -56,7 +56,6 @@ article {
 }
 .post-group {
   min-height: 500px;
-  background: lightgrey;
   text-align: center;
  -webkit-column-count: 3;
   column-count: 3;
@@ -70,11 +69,13 @@ article {
 
 .post-group > .post {
   text-align: center;
+  margin-top: 1em;
 }
 
 .post img {
   width: 100% !important;
   height: auto !important;
+  border-radius: 30px;
 }
 
 .post a {
@@ -103,10 +104,48 @@ article {
   color:white;
   opacity: 0;
   transition:opacity .5s ease;
+  border-radius: 30px;
 }
 
 .post a:hover .caption {
   opacity: 1;
-  background: rgba(255,0,0,0.6);
+  background: rgba(68,85,136,0.6);
   transition: opacity .5s ease;
 }
+
+.caption-text {
+    text-shadow: -1px 0px 2px rgba(0, 0, 0, 1);
+    h3.title {
+		font-family: $stack-ss;
+    }
+    p {
+    	font-family: $stack-serif;
+    }
+}
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
+
+img + em {
+	
+
+
+
+}
+

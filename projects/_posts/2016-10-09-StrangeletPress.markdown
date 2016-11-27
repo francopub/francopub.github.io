@@ -1,10 +1,11 @@
 ---
-date:   2016-11-22 13:24:17 -0400
+date:   2016-10-09 13:24:17 -0400
 title: Strangelet Press
 subtitle: Print book and ebook production for the literary magazine <i>Strangelet</i>, 2012-2016
 permalink: /projects/StrangeletPress
 imgfolder: strangeletpress
-categories: Digital workflows, ebook development, book design
+categories: workflows, ebook development, print design
+tagline: Print and ebook design work for a bimonthly SFF magazine
 ---
 *Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer][StrangeletWebsite], and art editor.
 
@@ -118,24 +119,24 @@ p.poem-2-ind2-sb {
 
 [StrangeletWebsite]: ../StrangeletWebsite
 
-[covers]: /img/strangeletpress/1-covers-anthologies.jpg
-[year1]: /img/strangeletpress/2-year1-covers.jpg
-[year2]: /img/strangeletpress/3-year2-covers.jpg
-[library]: /img/strangeletpress/4-library.jpg
-[tp]: /img/strangeletpress/5a-title-page.jpg
+[covers]: ../../img/strangeletpress/1-covers-anthologies.jpg
+[year1]: ../../img/strangeletpress/2-year1-covers.jpg
+[year2]: ../../img/strangeletpress/3-year2-covers.jpg
+[library]: ../../img/strangeletpress/4-library.jpg
+[tp]: ../../img/strangeletpress/5a-title-page.jpg
 
-[tp-ebook1]: /img/strangeletpress/5b-i-title-page-open-ebook.jpg
-[tp-ebook2]: /img/strangeletpress/5b-ii-title-page-open-ebook.jpg
-[toc]: /img/strangeletpress/6-toc.jpg
-[story-open]: /img/strangeletpress/7a-story-open-spread.jpg
-[story-open-ebook]: /img/strangeletpress/7b-i-story-open-spread.jpg
+[tp-ebook1]: ../../img/strangeletpress/5b-i-title-page-open-ebook.jpg
+[tp-ebook2]: ../../img/strangeletpress/5b-ii-title-page-open-ebook.jpg
+[toc]: ../../img/strangeletpress/6-toc.jpg
+[story-open]: ../../img/strangeletpress/7a-story-open-spread.jpg
+[story-open-ebook]: ../../img/strangeletpress/7b-i-story-open-spread.jpg
 
-[story-ebook]: /img/strangeletpress/7b-ii-story-open-spread.jpg
-[prose-spread]: /img/strangeletpress/8a-prose-spread.jpg
-[section-break]: /img/strangeletpress/8b-section-div-spread.jpg
-[prose-spread-ebook]: /img/strangeletpress/8c-ebook-spread-1.jpg
-[runningfeet]: /img/strangeletpress/8d-footer-detail.jpg
+[story-ebook]: ../../img/strangeletpress/7b-ii-story-open-spread.jpg
+[prose-spread]: ../../img/strangeletpress/8a-prose-spread.jpg
+[section-break]: ../../img/strangeletpress/8b-section-div-spread.jpg
+[prose-spread-ebook]: ../../img/strangeletpress/8c-ebook-spread-1.jpg
+[runningfeet]: ../../img/strangeletpress/8d-footer-detail.jpg
 
-[prose-bio]: /img/strangeletpress/9-prose-bio.jpg
-[poem-print]: /img/strangeletpress/11a-poem-print.jpg
-[poem-ebook]: /img/strangeletpress/11b-poem-ebook.jpg
+[prose-bio]: ../../img/strangeletpress/9-prose-bio.jpg
+[poem-print]: ../../img/strangeletpress/11a-poem-print.jpg
+[poem-ebook]: ../../img/strangeletpress/11b-poem-ebook.jpg

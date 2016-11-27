@@ -1,10 +1,11 @@
 ---
-date:   2016-11-22 13:24:17 -0400
+date:   2016-10-07 13:24:17 -0400
 title: Crimson Romance
 subtitle: Ebook series with script-based workflow, 2013-2016
 permalink: /projects/CrimsonRomance
 imgfolder: crimsonromance
-categories: Digital workflows, ebook development
+categories: ebook design, workflows
+tagline: A streamlined ebook-first workflow
 ---
 Crimson Romance is the romance line at Adams Media. This is an ebook-first series. For this series, I helped with a transition to a CMS-based workflow. I was the sole developer on this series during my time at F+W Media, with 2 to 3 titles being published per week.
 
@@ -142,4 +143,4 @@ shutil.rmtree(isbn)
 [RomanceEPUBCleanUp]: https://github.com/francofaa/RomanceEPUBCleanup
 [crimsonlibrary]: https://
 
-[crimsonlibrary]: /img/crimsonromance/1-library.jpg
+[crimsonlibrary]: ../../img/crimsonromance/1-library.jpg

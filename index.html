@@ -1,16 +1,15 @@
 ---
 title: "Franco A. Alvarado"
 layout: page
-available: true
-job: nothing at nothing inc
+author: Franco
 ---
-
+{% assign author = site.data.authors[page.author] %}
 <article>
 <h1 id="aboutme">Hello!</h1>
 <p>
-	Welcome to my website. I am a publishing professional living in the Boston area. I&#8217;m a problem-solver, and I like to fix things: print books, ebooks, and websites. {% if page.available == true %} I am currently <b>available </b>to help you! {% else %} I am currently working at {{ page.job }}, but please feel free to get in touch anyway. {% endif %}
+	Welcome to my website. I am a publishing professional living in the Boston area. I&#8217;m a problem-solver, and I like to fix things: print books, ebooks, and websites. {% if author.available == true %} I am currently <b>available </b>to help you! {% else %} I am currently working at {{ author.job }}, but please feel free to get in touch anyway. {% endif %}
 </p>
-{% if page.available == true %} 
+{% if author.available == true %} 
 <p class="center">
 	Taking projects as of November 2016. Services I provide include:
 </p>

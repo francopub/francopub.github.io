@@ -10,3 +10,24 @@
 	}
 }
 */
+
+
+@media(max-width: 635px) {
+.post-group {
+  min-height: 500px;
+  text-align: center;
+ -webkit-column-count: 1;
+  column-count: 1;
+  -moz-column-count: 1;
+  column-gap: 5px;
+  position: auto;
+  overflow: auto;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.caption-text p {
+	display: none;
+}
+
+}

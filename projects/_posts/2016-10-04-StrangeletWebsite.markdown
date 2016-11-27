@@ -1,10 +1,11 @@
 ---
-date:   2016-11-22 13:24:17 -0400
+date:   2016-10-04 13:24:17 -0400
 title: Strangelet Website
 subtitle: Print book and ebooks for the literary magazine Strangelet, created 2015
 permalink: /projects/StrangeletWebsite
 imgfolder: strangeletwebsite
-categories: Wordpress, web design, web development
+categories: website
+tagline: Website for Strangelet
 ---
 *Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the [production of the books and ebooks][StrangeletPress]. The website is [strangeletjournal.com](weblink). The content manager and I also handled the updates to the site.
 
@@ -31,8 +32,8 @@ The following three images show story excerpts on the website. The excerpts are 
 [weblink]: http://strangeletjournal.com
 [samplelink]: http://sample.strangeletjournal.com
 
-[splash]: /img/strangeletwebsite/1-splashpage.jpg
-[mobile]: /img/strangeletwebsite/2-mobile.jpg
-[sidebars]: /img/strangeletwebsite/3a-article-sidebars.jpg
-[narrow]: /img/strangeletwebsite/3b-article-narrow.jpg
-[nodistract]: /img/strangeletwebsite/3c-article-no-distraction.jpg
+[splash]: ../../img/strangeletwebsite/1-splashpage.jpg
+[mobile]: ../../img/strangeletwebsite/2-mobile.jpg
+[sidebars]: ../../img/strangeletwebsite/3a-article-sidebars.jpg
+[narrow]: ../../img/strangeletwebsite/3b-article-narrow.jpg
+[nodistract]: ../../img/strangeletwebsite/3c-article-no-distraction.jpg

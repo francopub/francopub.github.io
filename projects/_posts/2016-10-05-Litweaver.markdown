@@ -1,10 +1,11 @@
 ---
-date:   2016-11-22 13:24:17 -0400
+date:   2016-10-05 13:24:17 -0400
 title: Litweaver
 subtitle: Ebook series with paragraph numbering, freelance project, 2014-2015
 permalink: /projects/Litweaver
 imgfolder: litweaver
-categories: Digital workflows, ebook development
+categories: ebook development, workflows
+tagline: Ebook library project with line numbering
 ---
 Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.
 
@@ -24,8 +25,8 @@ I worked with Litweaver for two years, creating over 100 ebooks for the series, 
 ![Drama with line numbers](drama)
 *Drama with line numbers*
 
-[litweaver-library]: /img/litweaver/1-library.jpg
-[poem-first-page]: /img/litweaver/2-poem-firstpage.jpg
-[poem-spread]: /img/litweaver/3-poem-spread.jpg
-[prose]: /img/litweaver/4-prose-spread.jpg
-[drama]: /img/litweaver/5-drama-spread.jpg
+[litweaver-library]: ../../img/litweaver/1-library.jpg
+[poem-first-page]: ../../img/litweaver/2-poem-firstpage.jpg
+[poem-spread]: ../../img/litweaver/3-poem-spread.jpg
+[prose]: ../../img/litweaver/4-prose-spread.jpg
+[drama]: ../../img/litweaver/5-drama-spread.jpg

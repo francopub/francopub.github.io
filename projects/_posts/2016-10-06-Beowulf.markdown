@@ -1,10 +1,11 @@
 ---
-date:   2016-11-22 13:24:17 -0400
+date:   2016-10-06 13:24:17 -0400
 title: Beowulf
 subtitle: Book design, master's project, 2012
 permalink: /projects/Beowulf
 imgfolder: beowulf
-categories: Book design
+categories: print design
+tagline: A complex design for a scholarly edition
 ---
 For this edition of *Beowulf*, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.
 
@@ -38,13 +39,13 @@ For this edition of *Beowulf*, as translated by J. Lesslie Hall, I had to tackle
 ![Detail of running head](rh-detail)
 *Detail of running head*
 
-[title-page]: /img/beowulf/1a-title-page.jpg
-[title-page-detail]: /img/beowulf/1b-title-page-detail.jpg
-[cover]: /img/beowulf/1c-cover.jpg
-[chapter-spread]: /img/beowulf/2a-chapter-spread.jpg
-[marginalia-detail]: /img/beowulf/2b-marginalia-detail.jpg
-[dedication]: /img/beowulf/3-dedication.jpg
-[fm-spread]: /img/beowulf/4-fm-spread.jpg
-[spread]: /img/beowulf/5a-pages-spread.jpg
-[footnote-spread]: /img/beowulf/5b-footnote-spread.jpg
-[rh-detail]: /img/beowulf/5c-running-head-detail.jpg
+[title-page]: ../../img/beowulf/1a-title-page.jpg
+[title-page-detail]: ../../img/beowulf/1b-title-page-detail.jpg
+[cover]: ../../img/beowulf/1c-cover.jpg
+[chapter-spread]: ../../img/beowulf/2a-chapter-spread.jpg
+[marginalia-detail]: ../../img/beowulf/2b-marginalia-detail.jpg
+[dedication]: ../../img/beowulf/3-dedication.jpg
+[fm-spread]: ../../img/beowulf/4-fm-spread.jpg
+[spread]: ../../img/beowulf/5a-pages-spread.jpg
+[footnote-spread]: ../../img/beowulf/5b-footnote-spread.jpg
+[rh-detail]: ../../img/beowulf/5c-running-head-detail.jpg

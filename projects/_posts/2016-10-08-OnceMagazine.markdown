@@ -1,10 +1,11 @@
 ---
-date:   2016-11-22 13:24:17 -0400
+date:   2016-10-08 13:24:17 -0400
 title: Once Magazine
 subtitle: Magazine design, master's project, 2011
 permalink: /projects/Once
 imgfolder: oncemagazine
-categories: Magazine design, illustration
+categories: design
+tagline: A new way to navigate a magazine
 ---
 *Once* magazine was a project for my magazine design class at Emerson College's Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics. 
 
@@ -33,13 +34,13 @@ categories: Magazine design, illustration
 ![Departments](dept)
 *Departments at the end of the issue*
 
-[cover]: /img/oncemagazine/1a-cover.jpg
-[backcover]: /img/oncemagazine/1b-back-cover.jpg
-[toc]: /img/oncemagazine/2a-toc-spread.jpg
-[toc-dt-1]: /img/oncemagazine/2b-toc-detail-1.jpg
-[toc-dt-2]: /img/oncemagazine/2b-toc-detail-2.jpg
-[troll]: /img/oncemagazine/3-troll-spread.jpg
-[red]: /img/oncemagazine/4a-red-spread.jpg
-[red-dt]: /img/oncemagazine/4b-red-detail.jpg
-[fen]: /img/oncemagazine/5-fenrir-detail.jpg
-[dept]: /img/oncemagazine/6-dept-spread.jpg
+[cover]: ../../img/oncemagazine/1a-cover.jpg
+[backcover]: ../../img/oncemagazine/1b-back-cover.jpg
+[toc]: ../../img/oncemagazine/2a-toc-spread.jpg
+[toc-dt-1]: ../../img/oncemagazine/2b-toc-detail-1.jpg
+[toc-dt-2]: ../../img/oncemagazine/2b-toc-detail-2.jpg
+[troll]: ../../img/oncemagazine/3-troll-spread.jpg
+[red]: ../../img/oncemagazine/4a-red-spread.jpg
+[red-dt]: ../../img/oncemagazine/4b-red-detail.jpg
+[fen]: ../../img/oncemagazine/5-fenrir-detail.jpg
+[dept]: ../../img/oncemagazine/6-dept-spread.jpg
