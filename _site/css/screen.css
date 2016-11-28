@@ -370,6 +370,14 @@ nav.topnav-scrolled {
   width: 100%;
   top: 0; }
 
+p img {
+  display: block;
+  padding-bottom: 0.5em;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
+  box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
+
 article {
   margin: 0 350px;
   margin-top: -7em;
@@ -475,7 +483,8 @@ article {
 .caption-text {
   text-shadow: -1px 0px 2px black; }
   .caption-text h3.title {
-    font-family: Helvetica, sans-serif; }
+    font-family: Helvetica, sans-serif;
+    font-size: 3em; }
   .caption-text p {
     font-family: Athelas, Georgia, serif; }
 
@@ -483,11 +492,6 @@ img + em {
   text-align: center;
   display: block;
   margin-bottom: 1em; }
-
-p img {
-  display: block;
-  padding-bottom: 0.5em;
-  margin: 0 auto; }
 
 .PageNavigation {
   font-size: 14px;
