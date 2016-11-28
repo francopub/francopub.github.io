@@ -756,6 +756,43 @@ pre {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
+/* stolen from  Pure v0.6.0 */
+.pure-form-aligned input,
+.pure-form-aligned textarea,
+.pure-form-aligned select,
+.pure-form-aligned .pure-help-inline,
+.pure-form-message-inline {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle; }
+
+.pure-form-aligned textarea {
+  vertical-align: top; }
+
+/* Aligned Forms */
+.pure-form-aligned .pure-control-group {
+  margin-bottom: 0.5em; }
+
+.pure-form-aligned .pure-control-group label {
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 10em;
+  margin: 0 1em 0 0; }
+
+.pure-form-aligned .pure-controls {
+  margin: 1.5em 0 0 11em; }
+
+@media only screen and (max-width: 480px) {
+  .pure-form-aligned .pure-control-group label {
+    margin-bottom: 0.3em;
+    text-align: left;
+    display: block;
+    width: 100%; }
+
+  .pure-form-aligned .pure-controls {
+    margin: 1.5em 0 0 0; } }
 /*
 @media (max-width: 1150px){
 	main {
@@ -779,7 +816,4 @@ pre {
     position: auto;
     overflow: auto;
     box-sizing: border-box;
-    font-size: 1em; }
-
-  .caption-text p {
-    display: none; } }
+    font-size: 1em; } }

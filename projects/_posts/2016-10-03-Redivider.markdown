@@ -11,13 +11,13 @@ tagline: A literary magazine and a new logo
 
 Additionally, I redesigned the logo for *Redivider.*
 
-![Covers for Redivider](covers)
+![Covers for Redivider](../../img/redivider/1-cover.jpg)
 
-![Logo for book](logo)
+![Logo for book](../../img/redivider/2-logo.jpg)
 *Using the end of the R's ears as the dots, I completed the division symbol with a bar pulled from the typeface's division symbol*
 
-![Story spread](spread)
+![Story spread](../../img/redivider/3-spread.jpg)
 
-[spread]: ../../img/redivider/3-spread.jpg
-[covers]: ../../img/redivider/1-cover.jpg
-[logo]: ../../img/redivider/2-logo.jpg
+[spread]: 
+[covers]: 
+[logo]: 
