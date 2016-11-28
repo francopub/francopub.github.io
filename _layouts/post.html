@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-{{% include nav.html %}}
 <!--
 
 {% if page.category == "blog" %}
 -->
 {% assign author = site.data.authors[page.author] %}
+{% include nav.html %}
 <article>
 	<header>
 		{% if page.excerpt %}

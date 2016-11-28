@@ -2,7 +2,7 @@ nav.topnav {
 	z-index: 150;
 	box-shadow: 0 2px 3px rgba(0,0,0, .4);
 	width: 100%;
-	@include gradient(120deg, #FF9B4A, #B67067) ;
+	@include gradient(-45deg, #9bb4df, #d0dff0) ;
 	position: relative;
 	height: 80px;
 	margin-bottom: -80px;
@@ -32,3 +32,33 @@ nav.topnav-scrolled {
   		width: 100%;
   		top: 0;
 	}
+
+
+nav.topnav {
+	ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+		li {
+		display:inline-block;
+		float: left;
+		margin-right: 1px;
+			}
+			a {
+				display:block;
+				min-width:140px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: #fff;
+				background: #2f3036;
+				text-decoration: none;
+			}
+	}
+	li:hover a {
+	background: #19c589;
+}
+
+}
