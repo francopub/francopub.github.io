@@ -19,7 +19,7 @@ By setting up the InDesign files myself, we were able to have a streamlined and 
 ![The issues from volume 1, along with the omnibus](../../img/strangeletpress/2-year1-covers.jpg)
 *Issues from volume 1*
 
-![The issues from volume 2, along with the omnibus](../../img/strangeletpress/2-year2-covers.jpg)
+![The issues from volume 2, along with the omnibus](../../img/strangeletpress/3-year2-covers.jpg)
 *Issues from volume 2. During this year, I took over the art acquisition duties*
 
 ![Ebook editions of all of our books](../../img/strangeletpress/4-library.jpg)
