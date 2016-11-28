@@ -17,7 +17,7 @@ tagline: A new way to navigate a magazine
 *To add to the whimsical nature of the project, I decided to make the table of contents into a map. I illustrated some images and combined them in Photoshop along with the appropriate text*
 
 ![Detail of table of contents](../../img/oncemagazine/2b-toc-detail-1.jpg)
-![Detail of table of contents](../../img/oncemagazine/2b-toc-detail-2.jpg)
+![Detail of table of contents](../../img/oncemagazine/2c-toc-detail-2.jpg)
 
 ![Interview article spread](../../img/oncemagazine/3-troll-spread.jpg)
 *Article spread for an interview*

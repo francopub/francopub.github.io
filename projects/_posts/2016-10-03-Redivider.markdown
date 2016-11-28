@@ -17,7 +17,3 @@ Additionally, I redesigned the logo for *Redivider.*
 *Using the end of the R's ears as the dots, I completed the division symbol with a bar pulled from the typeface's division symbol*
 
 ![Story spread](../../img/redivider/3-spread.jpg)
-
-[spread]: 
-[covers]: 
-[logo]: 

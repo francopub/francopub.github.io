@@ -59,7 +59,7 @@ By setting up the InDesign files myself, we were able to have a streamlined and 
 ![Running feet detail](../../img/strangeletpress/9-prose-bio.jpg)
 *Running feet detail*
 
-![Poem in print](../../img/strangeletpress/11a-poem-print.jpg)
+![Poem in print](../../img/strangeletpress/11a-poem-print.JPG)
 *Poem treatment in print book. Compare with ebook version below.*
 
 ![Poem in ebook](../../img/strangeletpress/11b-poem-ebook.jpg)

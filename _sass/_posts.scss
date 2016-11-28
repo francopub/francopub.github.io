@@ -95,6 +95,12 @@ article {
   vertical-align: middle;
 }
 
+.post img {
+	-webkit-box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.54);
+	-moz-box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.54);
+	box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.54);
+}
+
 .caption {
   position: absolute;
   top:0;
@@ -123,6 +129,22 @@ article {
     }
 }
 
+
+img + em {
+    text-align: center; 
+    display: block;
+    margin-bottom: 1em;    
+
+
+}
+
+p img {
+    display: block;
+    padding-bottom: 0.5em;
+    margin: 0 auto;
+}
+
+
 .PageNavigation {
   font-size: 14px;
   display: block;
@@ -140,12 +162,3 @@ article {
 .PageNavigation .next {
   text-align: right;
 }
-
-
-img + em {
-	
-
-
-
-}
-
