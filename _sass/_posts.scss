@@ -67,10 +67,13 @@ article {
 
 article.project {
 	margin-top:-7em;
+	margin: 0 auto;
+	max-width: 100%;
 	header {
 		font-family: $stack-ss;
 		padding-bottom: 9px;
-		margin: 40px 0 20px;
+		margin: 0 auto;
+		max-width: 650px;
 		border-bottom: 1px solid $post-highlight;
 		text-align: center;
 		line-height: 1.4;

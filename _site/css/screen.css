@@ -432,11 +432,14 @@ article {
       font-style: normal; }
 
 article.project {
-  margin-top: -7em; }
+  margin-top: -7em;
+  margin: 0 auto;
+  max-width: 100%; }
   article.project header {
     font-family: Helvetica, sans-serif;
     padding-bottom: 9px;
-    margin: 40px 0 20px;
+    margin: 0 auto;
+    max-width: 650px;
     border-bottom: 1px solid #eee;
     text-align: center;
     line-height: 1.4;
