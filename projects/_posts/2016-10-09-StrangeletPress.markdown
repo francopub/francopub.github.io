@@ -7,7 +7,7 @@ imgfolder: strangeletpress
 categories: workflows, ebook development, print design
 tagline: Print and ebook design work for a bimonthly SFF magazine
 ---
-*Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer][../StrangeletWebsite], and art editor.
+*Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer](../StrangeletWebsite), and art editor.
 
 For *Strangelet*, I typeset the book in Caslon with the display text as Marta. The title page typeface is Hightower and the cover a combination of typefaces to reflect the tone of the books: strange, bizarre, eerie. We produced bimonthly issues, very short, around 50 to 70 pages each, and combined them in an omnibus at the end of the year.
 
