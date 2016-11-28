@@ -36,6 +36,12 @@ main {
 		widows: 2;
 		orphans: 2;
 	}
+	li {
+		font-family: $stack-serif;
+		font-size: 1.25em;
+		widows: 2;
+		orphans: 2;	
+	}
 	//@include columns(3, 100px, 3em, all);
 }
 
