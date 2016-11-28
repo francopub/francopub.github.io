@@ -381,6 +381,7 @@ nav.topnav-scrolled {
 p img {
   display: block;
   margin: 0 auto 0.5em;
+  padding-bottom: 0;
   -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
@@ -428,6 +429,51 @@ article {
     border-top: 1px solid #eee;
     font-family: Athelas, Georgia, serif; }
     article aside.bio i {
+      font-style: normal; }
+
+article.project {
+  margin-top: -7em; }
+  article.project header {
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    line-height: 1.4;
+    text-shadow: 0 1px 0 #cccccc; }
+    article.project header h1.post-title {
+      margin-top: 0;
+      hyphens: none;
+      margin-bottom: 0;
+      font-size: 4em; }
+    article.project header p.byline {
+      font-size: 1.25em;
+      line-height: 1;
+      margin-top: 1em;
+      text-align: center;
+      margin-bottom: 3em;
+      font-weight: bold; }
+    article.project header p.post-info {
+      font-size: 1em;
+      margin-top: 0;
+      line-height: 1; }
+  article.project section p {
+    margin-top: 0.5em;
+    font-size: 1.25em;
+    line-height: 1.5;
+    margin-left: 350px;
+    margin-right: 350px;
+    widows: 2;
+    orphans: 2;
+    font-family: Athelas, Georgia, serif; }
+  article.project aside.bio {
+    margin-top: 1em;
+    font-size: 1.25em;
+    font-style: italic;
+    margin: 0;
+    border-top: 1px solid #eee;
+    font-family: Athelas, Georgia, serif; }
+    article.project aside.bio i {
       font-style: normal; }
 
 .post-group {
@@ -498,6 +544,7 @@ article {
 img + em {
   text-align: center;
   display: block;
+  margin: 0;
   margin-bottom: 1em; }
 
 .PageNavigation {
