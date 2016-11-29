@@ -43,127 +43,127 @@
 
 <p>It’s also down here:</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="lineno">  1</span> <span class="kn">import</span> <span class="nn">re</span><span class="o">,</span> <span class="nn">zipfile</span><span class="o">,</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">shutil</span>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">  1</span> import re, zipfile, os, shutil
 <span class="lineno">  2</span> 
-<span class="lineno">  3</span> <span class="c">##Enter in author name first. Since there are so many variations on first and last names (and since we need author names in both first name first and first name last) I thought an input might work better</span>
-<span class="lineno">  4</span> <span class="n">firstName</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">&#39;Author</span><span class="se">\&#39;</span><span class="s">s first name: &#39;</span><span class="p">)</span>
-<span class="lineno">  5</span> <span class="k">print</span><span class="p">(</span><span class="n">firstName</span><span class="p">)</span>
-<span class="lineno">  6</span> <span class="n">lastName</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">&#39;Author</span><span class="se">\&#39;</span><span class="s">s last name: &#39;</span><span class="p">)</span>
-<span class="lineno">  7</span> <span class="k">print</span><span class="p">(</span><span class="n">lastName</span><span class="p">)</span>
+<span class="lineno">  3</span> ##Enter in author name first. Since there are so many variations on first and last names (and since we need author names in both first name first and first name last) I thought an input might work better
+<span class="lineno">  4</span> firstName = raw_input(&#39;Author\&#39;s first name: &#39;)
+<span class="lineno">  5</span> print(firstName)
+<span class="lineno">  6</span> lastName = raw_input(&#39;Author\&#39;s last name: &#39;)
+<span class="lineno">  7</span> print(lastName)
 <span class="lineno">  8</span> 
-<span class="lineno">  9</span> <span class="c"># set our directory to the current one where the python script lives</span>
-<span class="lineno"> 10</span> <span class="n">bookFolder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+<span class="lineno">  9</span> # set our directory to the current one where the python script lives
+<span class="lineno"> 10</span> bookFolder = os.getcwd()
 <span class="lineno"> 11</span> 
-<span class="lineno"> 12</span> <span class="c"># This locates our epub file, no matter what it is called. Sometimes the CMS calls it not\_named.epub, but sometimes I download more than one at a time so they are even more unhelpfully titled things like not\_named(1) and not\_named(2), so we can assign the only epub in this folder the variable foul.</span>
+<span class="lineno"> 12</span> # This locates our epub file, no matter what it is called. Sometimes the CMS calls it not\_named.epub, but sometimes I download more than one at a time so they are even more unhelpfully titled things like not\_named(1) and not\_named(2), so we can assign the only epub in this folder the variable foul.
 <span class="lineno"> 13</span> 
-<span class="lineno"> 14</span> <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">bookFolder</span><span class="p">):</span>
-<span class="lineno"> 15</span> 	<span class="k">if</span> <span class="nb">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">&#39;.epub&#39;</span><span class="p">):</span>
-<span class="lineno"> 16</span> 		<span class="n">foul</span> <span class="o">=</span> <span class="nb">file</span>
+<span class="lineno"> 14</span> for file in os.listdir(bookFolder):
+<span class="lineno"> 15</span> 	if file.endswith(&#39;.epub&#39;):
+<span class="lineno"> 16</span> 		foul = file
 <span class="lineno"> 17</span> 
-<span class="lineno"> 18</span> <span class="c"># our cover file should also be in this directory (Crimson Week number directory)</span>
-<span class="lineno"> 19</span> <span class="c"># this finds the cover file, which should contain the ISBN and puts it in a var called isbn that removes the jpg extension. We&#39;ll be needing the ISBN a lot so it&#39;s good to define it now</span>
-<span class="lineno"> 20</span> <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">bookFolder</span><span class="p">):</span>
-<span class="lineno"> 21</span> 	<span class="k">if</span> <span class="nb">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">&#39;.jpg&#39;</span><span class="p">):</span>
-<span class="lineno"> 22</span> 		<span class="n">isbn</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="nb">file</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="lineno"> 18</span> # our cover file should also be in this directory (Crimson Week number directory)
+<span class="lineno"> 19</span> # this finds the cover file, which should contain the ISBN and puts it in a var called isbn that removes the jpg extension. We&#39;ll be needing the ISBN a lot so it&#39;s good to define it now
+<span class="lineno"> 20</span> for file in os.listdir(bookFolder):
+<span class="lineno"> 21</span> 	if file.endswith(&#39;.jpg&#39;):
+<span class="lineno"> 22</span> 		isbn = os.path.splitext(file)[0]
 <span class="lineno"> 23</span> 
-<span class="lineno"> 24</span> <span class="c"># this creates the directory named isbn to which we&#39;ll extract our epub content we got out of the foul epub</span>
-<span class="lineno"> 25</span> <span class="n">os</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span>
-<span class="lineno"> 26</span> <span class="n">zip_ref</span> <span class="o">=</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">foul</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span>
-<span class="lineno"> 27</span> <span class="n">zip_ref</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span>
-<span class="lineno"> 28</span> <span class="n">zip_ref</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="lineno"> 24</span> # this creates the directory named isbn to which we&#39;ll extract our epub content we got out of the foul epub
+<span class="lineno"> 25</span> os.mkdir(isbn)
+<span class="lineno"> 26</span> zip_ref = zipfile.ZipFile(foul, &#39;r&#39;)
+<span class="lineno"> 27</span> zip_ref.extractall(isbn)
+<span class="lineno"> 28</span> zip_ref.close()
 <span class="lineno"> 29</span> 
-<span class="lineno"> 30</span> <span class="c"># this var will place us in the correct folder for the next edits</span>
-<span class="lineno"> 31</span> <span class="n">epub_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">bookFolder</span> <span class="o">+</span> <span class="s">&#39;/&#39;</span> <span class="o">+</span> <span class="n">isbn</span><span class="p">)</span>
-<span class="lineno"> 32</span> <span class="n">oebps_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">epub_folder</span> <span class="o">+</span> <span class="s">&#39;/OEBPS&#39;</span><span class="p">)</span>
+<span class="lineno"> 30</span> # this var will place us in the correct folder for the next edits
+<span class="lineno"> 31</span> epub_folder = os.path.join(bookFolder + &#39;/&#39; + isbn)
+<span class="lineno"> 32</span> oebps_folder = os.path.join(epub_folder + &#39;/OEBPS&#39;)
 <span class="lineno"> 33</span> 
-<span class="lineno"> 34</span> <span class="c"># this will rename our cover image to cover.jpg  and set up a variable so that we can copy coverImg over the blank placeholder cover image</span>
-<span class="lineno"> 35</span> <span class="n">os</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">isbn</span> <span class="o">+</span> <span class="s">&#39;.jpg&#39;</span><span class="p">,</span> <span class="s">&#39;cover.jpg&#39;</span><span class="p">)</span>
+<span class="lineno"> 34</span> # this will rename our cover image to cover.jpg  and set up a variable so that we can copy coverImg over the blank placeholder cover image
+<span class="lineno"> 35</span> os.rename(isbn + &#39;.jpg&#39;, &#39;cover.jpg&#39;)
 <span class="lineno"> 36</span> 
-<span class="lineno"> 37</span> <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">bookFolder</span><span class="p">):</span>
-<span class="lineno"> 38</span> 	<span class="k">if</span> <span class="nb">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">&#39;.jpg&#39;</span><span class="p">):</span>
-<span class="lineno"> 39</span> 		<span class="n">coverImg</span> <span class="o">=</span> <span class="nb">file</span>
+<span class="lineno"> 37</span> for file in os.listdir(bookFolder):
+<span class="lineno"> 38</span> 	if file.endswith(&#39;.jpg&#39;):
+<span class="lineno"> 39</span> 		coverImg = file
 <span class="lineno"> 40</span> 
-<span class="lineno"> 41</span> <span class="c"># this copies over our placeholder image</span>
-<span class="lineno"> 42</span> <span class="n">shutil</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">coverImg</span><span class="p">,</span> <span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">&#39;/images&#39;</span><span class="p">)</span>
+<span class="lineno"> 41</span> # this copies over our placeholder image
+<span class="lineno"> 42</span> shutil.copy(coverImg, oebps_folder + &#39;/images&#39;)
 <span class="lineno"> 43</span> 
-<span class="lineno"> 44</span> <span class="c">#This names it back</span>
-<span class="lineno"> 45</span> <span class="n">os</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s">&#39;cover.jpg&#39;</span><span class="p">,</span> <span class="n">isbn</span> <span class="o">+</span> <span class="s">&#39;.jpg&#39;</span><span class="p">)</span>
+<span class="lineno"> 44</span> #This names it back
+<span class="lineno"> 45</span> os.rename(&#39;cover.jpg&#39;, isbn + &#39;.jpg&#39;)
 <span class="lineno"> 46</span> 
-<span class="lineno"> 47</span> <span class="c"># REGEXES #</span>
+<span class="lineno"> 47</span> # REGEXES #
 <span class="lineno"> 48</span> 
-<span class="lineno"> 49</span> <span class="c"># OPF</span>
+<span class="lineno"> 49</span> # OPF
 <span class="lineno"> 50</span> 
-<span class="lineno"> 51</span> <span class="n">opf</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">&#39;/content.opf&#39;</span><span class="p">)</span>
-<span class="lineno"> 52</span> <span class="n">opf_contents</span> <span class="o">=</span> <span class="n">opf</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-<span class="lineno"> 53</span> <span class="n">opf</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">&#39;/content.opf&#39;</span><span class="p">,</span> <span class="s">&#39;wb&#39;</span><span class="p">)</span>
+<span class="lineno"> 51</span> opf = open(oebps_folder + &#39;/content.opf&#39;)
+<span class="lineno"> 52</span> opf_contents = opf.read()
+<span class="lineno"> 53</span> opf = open(oebps_folder + &#39;/content.opf&#39;, &#39;wb&#39;)
 <span class="lineno"> 54</span> 
-<span class="lineno"> 55</span> <span class="c"># Get rid of new lines</span>
-<span class="lineno"> 56</span> <span class="n">opf_contents</span> <span class="o">=</span> <span class="n">opf_contents</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;</span><span class="se">\r</span><span class="s">&#39;</span><span class="p">,</span> <span class="s">&#39;&#39;</span><span class="p">)</span>
-<span class="lineno"> 57</span> <span class="n">opf_contents</span> <span class="o">=</span> <span class="n">opf_contents</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;</span><span class="se">\r</span><span class="s">&#39;</span><span class="p">,</span> <span class="s">&#39;&#39;</span><span class="p">)</span>
-<span class="lineno"> 58</span> <span class="n">opf_contents</span> <span class="o">=</span> <span class="n">opf_contents</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;  &#39;</span><span class="p">,</span> <span class="s">&#39; &#39;</span><span class="p">)</span>
+<span class="lineno"> 55</span> # Get rid of new lines
+<span class="lineno"> 56</span> opf_contents = opf_contents.replace(&#39;\r&#39;, &#39;&#39;)
+<span class="lineno"> 57</span> opf_contents = opf_contents.replace(&#39;\r&#39;, &#39;&#39;)
+<span class="lineno"> 58</span> opf_contents = opf_contents.replace(&#39;  &#39;, &#39; &#39;)
 <span class="lineno"> 59</span> 
-<span class="lineno"> 60</span> <span class="c">## Spine regex</span>
+<span class="lineno"> 60</span> ## Spine regex
 <span class="lineno"> 61</span> 
-<span class="lineno"> 62</span> <span class="n">spine_regex</span> <span class="o">=</span> <span class="s">&#39;&lt;spine toc=&quot;ncx&quot; page-progression-direction=&quot;ltr&quot;&gt;</span><span class="se">\n</span><span class="s">&lt;itemref idref=&quot;toc&quot; /&gt;</span><span class="se">\n</span><span class="s"> &lt;itemref idref=&quot;(.*?)&quot; /&gt;</span><span class="se">\n</span><span class="s"> &lt;itemref idref=&quot;(.*?)&quot; /&gt;&#39;</span>
-<span class="lineno"> 63</span> <span class="n">spine_subst</span> <span class="o">=</span> <span class="s">r&#39;&lt;spine toc=&quot;ncx&quot; page-progression-direction=&quot;ltr&quot;&gt;&lt;itemref idref=&quot;cover&quot; linear=&quot;yes&quot; /&gt;&lt;itemref idref=&quot;\1&quot; /&gt;&lt;itemref idref=&quot;\2&quot; /&gt;&lt;itemref idref=&quot;newsletter&quot; /&gt;&lt;itemref idref=&quot;toc&quot; /&gt;&#39;</span>
-<span class="lineno"> 64</span> <span class="n">opf_contents</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">spine_regex</span><span class="p">,</span> <span class="n">spine_subst</span><span class="p">,</span> <span class="n">opf_contents</span><span class="p">)</span>
+<span class="lineno"> 62</span> spine_regex = &#39;<span class="nt">&lt;spine</span> <span class="na">toc=</span><span class="s">&quot;ncx&quot;</span> <span class="na">page-progression-direction=</span><span class="s">&quot;ltr&quot;</span><span class="nt">&gt;</span>\n<span class="nt">&lt;itemref</span> <span class="na">idref=</span><span class="s">&quot;toc&quot;</span> <span class="nt">/&gt;</span>\n <span class="nt">&lt;itemref</span> <span class="na">idref=</span><span class="s">&quot;(.*?)&quot;</span> <span class="nt">/&gt;</span>\n <span class="nt">&lt;itemref</span> <span class="na">idref=</span><span class="s">&quot;(.*?)&quot;</span> <span class="nt">/&gt;</span>&#39;
+<span class="lineno"> 63</span> spine_subst = r&#39;<span class="nt">&lt;spine</span> <span class="na">toc=</span><span class="s">&quot;ncx&quot;</span> <span class="na">page-progression-direction=</span><span class="s">&quot;ltr&quot;</span><span class="nt">&gt;&lt;itemref</span> <span class="na">idref=</span><span class="s">&quot;cover&quot;</span> <span class="na">linear=</span><span class="s">&quot;yes&quot;</span> <span class="nt">/&gt;&lt;itemref</span> <span class="na">idref=</span><span class="s">&quot;\1&quot;</span> <span class="nt">/&gt;&lt;itemref</span> <span class="na">idref=</span><span class="s">&quot;\2&quot;</span> <span class="nt">/&gt;&lt;itemref</span> <span class="na">idref=</span><span class="s">&quot;newsletter&quot;</span> <span class="nt">/&gt;&lt;itemref</span> <span class="na">idref=</span><span class="s">&quot;toc&quot;</span> <span class="nt">/&gt;</span>&#39;
+<span class="lineno"> 64</span> opf_contents = re.sub(spine_regex, spine_subst, opf_contents)
 <span class="lineno"> 65</span> 
-<span class="lineno"> 66</span> <span class="c">## metadata regex </span>
+<span class="lineno"> 66</span> ## metadata regex 
 <span class="lineno"> 67</span> 
-<span class="lineno"> 68</span> <span class="n">metadata_regex</span> <span class="o">=</span> <span class="s">&#39;&lt;dc:identifier id=&quot;bookid&quot;&gt;&lt;/dc:identifier&gt;</span><span class="se">\n</span><span class="s">&lt;dc:date&gt;(.*?)&lt;/dc:date&gt;</span><span class="se">\n</span><span class="s">&lt;dc:rights&gt;&lt;/dc:rights&gt;&#39;</span>
-<span class="lineno"> 69</span> <span class="n">metadata_subst</span> <span class="o">=</span> <span class="s">r&#39;&lt;dc:date&gt;\1&lt;/dc:date&gt;&lt;dc:identifier id=&quot;bookid&quot;&gt;&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span> <span class="o">+</span> <span class="s">r&#39;&lt;/dc:identifier&gt;&lt;dc:creator id=&quot;mainauthor1&quot;&gt;&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">firstName</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39; &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">lastName</span><span class="p">)</span> <span class="o">+</span> <span class="s">r&#39;&lt;/dc:creator&gt;&lt;meta refines=&quot;#mainauthor1&quot; property=&quot;role&quot; scheme=&quot;marc:relators&quot;&gt;aut&lt;/meta&gt;&lt;meta refines=&quot;#mainauthor1&quot; property=&quot;file-as&quot;&gt;&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">lastName</span><span class="p">)</span> <span class="o">+</span> <span class="s">r&#39;, &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">firstName</span><span class="p">)</span> <span class="o">+</span> <span class="s">r&#39;&lt;/meta&gt;&lt;meta refines=&quot;#mainauthor1&quot; property=&quot;display-seq&quot;&gt;1&lt;/meta&gt;&lt;dc:publisher&gt;Adams Media&lt;/dc:publisher&gt;&lt;dc:rights&gt;WORLD&lt;/dc:rights&gt;&#39;</span>
-<span class="lineno"> 70</span> <span class="n">opf_contents</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">metadata_regex</span><span class="p">,</span> <span class="n">metadata_subst</span><span class="p">,</span> <span class="n">opf_contents</span><span class="p">)</span>
+<span class="lineno"> 68</span> metadata_regex = &#39;<span class="nt">&lt;dc:identifier</span> <span class="na">id=</span><span class="s">&quot;bookid&quot;</span><span class="nt">&gt;&lt;/dc:identifier&gt;</span>\n<span class="nt">&lt;dc:date&gt;</span>(.*?)<span class="nt">&lt;/dc:date&gt;</span>\n<span class="nt">&lt;dc:rights&gt;&lt;/dc:rights&gt;</span>&#39;
+<span class="lineno"> 69</span> metadata_subst = r&#39;<span class="nt">&lt;dc:date&gt;</span>\1<span class="nt">&lt;/dc:date&gt;&lt;dc:identifier</span> <span class="na">id=</span><span class="s">&quot;bookid&quot;</span><span class="nt">&gt;</span>&#39; + str(isbn) + r&#39;<span class="nt">&lt;/dc:identifier&gt;&lt;dc:creator</span> <span class="na">id=</span><span class="s">&quot;mainauthor1&quot;</span><span class="nt">&gt;</span>&#39; + str(firstName) + &#39; &#39; + str(lastName) + r&#39;<span class="nt">&lt;/dc:creator&gt;&lt;meta</span> <span class="na">refines=</span><span class="s">&quot;#mainauthor1&quot;</span> <span class="na">property=</span><span class="s">&quot;role&quot;</span> <span class="na">scheme=</span><span class="s">&quot;marc:relators&quot;</span><span class="nt">&gt;</span>aut<span class="nt">&lt;/meta&gt;&lt;meta</span> <span class="na">refines=</span><span class="s">&quot;#mainauthor1&quot;</span> <span class="na">property=</span><span class="s">&quot;file-as&quot;</span><span class="nt">&gt;</span>&#39; + str(lastName) + r&#39;, &#39; + str(firstName) + r&#39;<span class="nt">&lt;/meta&gt;&lt;meta</span> <span class="na">refines=</span><span class="s">&quot;#mainauthor1&quot;</span> <span class="na">property=</span><span class="s">&quot;display-seq&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/meta&gt;&lt;dc:publisher&gt;</span>Adams Media<span class="nt">&lt;/dc:publisher&gt;&lt;dc:rights&gt;</span>WORLD<span class="nt">&lt;/dc:rights&gt;</span>&#39;
+<span class="lineno"> 70</span> opf_contents = re.sub(metadata_regex, metadata_subst, opf_contents)
 <span class="lineno"> 71</span> 
-<span class="lineno"> 72</span> <span class="n">opf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">opf_contents</span><span class="p">)</span>
-<span class="lineno"> 73</span> <span class="n">opf</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="lineno"> 72</span> opf.write(opf_contents)
+<span class="lineno"> 73</span> opf.close()
 <span class="lineno"> 74</span> 
-<span class="lineno"> 75</span> <span class="c"># NAV.XHTML</span>
+<span class="lineno"> 75</span> # NAV.XHTML
 <span class="lineno"> 76</span> 
-<span class="lineno"> 77</span> <span class="n">nav</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">&#39;/nav.xhtml&#39;</span><span class="p">)</span>
-<span class="lineno"> 78</span> <span class="n">nav_contents</span> <span class="o">=</span> <span class="n">nav</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-<span class="lineno"> 79</span> <span class="n">nav</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">&#39;/nav.xhtml&#39;</span><span class="p">,</span> <span class="s">&#39;w&#39;</span><span class="p">)</span>
+<span class="lineno"> 77</span> nav = open(oebps_folder + &#39;/nav.xhtml&#39;)
+<span class="lineno"> 78</span> nav_contents = nav.read()
+<span class="lineno"> 79</span> nav = open(oebps_folder + &#39;/nav.xhtml&#39;, &#39;w&#39;)
 <span class="lineno"> 80</span> 
-<span class="lineno"> 81</span> <span class="n">nav_regex</span> <span class="o">=</span> <span class="s">r&#39;&lt;ol class=&quot;epub_landmarks&quot; epub:type=&quot;list&quot;&gt;&#39;</span>
-<span class="lineno"> 82</span> <span class="n">nav_subst</span> <span class="o">=</span> <span class="s">r&#39;&lt;ol class=&quot;epub_landmarks&quot; epub:type=&quot;list&quot;&gt;\n&lt;li&gt;&lt;a epub:type=&quot;cover&quot; href=&quot;cover.xhtml&quot;&gt;Cover&lt;/a&gt;&lt;/li&gt;&#39;</span>
-<span class="lineno"> 83</span> <span class="n">nav_contents</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">nav_regex</span><span class="p">,</span> <span class="n">nav_subst</span><span class="p">,</span> <span class="n">nav_contents</span><span class="p">)</span>
+<span class="lineno"> 81</span> nav_regex = r&#39;<span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">&quot;epub_landmarks&quot;</span> <span class="na">epub:type=</span><span class="s">&quot;list&quot;</span><span class="nt">&gt;</span>&#39;
+<span class="lineno"> 82</span> nav_subst = r&#39;<span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">&quot;epub_landmarks&quot;</span> <span class="na">epub:type=</span><span class="s">&quot;list&quot;</span><span class="nt">&gt;</span>\n<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">epub:type=</span><span class="s">&quot;cover&quot;</span> <span class="na">href=</span><span class="s">&quot;cover.xhtml&quot;</span><span class="nt">&gt;</span>Cover<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>&#39;
+<span class="lineno"> 83</span> nav_contents = re.sub(nav_regex, nav_subst, nav_contents)
 <span class="lineno"> 84</span> 
-<span class="lineno"> 85</span> <span class="n">nav</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">nav_contents</span><span class="p">)</span>
-<span class="lineno"> 86</span> <span class="n">nav</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="lineno"> 85</span> nav.write(nav_contents)
+<span class="lineno"> 86</span> nav.close()
 <span class="lineno"> 87</span> 
-<span class="lineno"> 88</span> <span class="c"># NCX </span>
-<span class="lineno"> 89</span> <span class="n">ncx</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">&#39;/toc.ncx&#39;</span><span class="p">)</span>
-<span class="lineno"> 90</span> <span class="n">ncx_contents</span> <span class="o">=</span> <span class="n">ncx</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-<span class="lineno"> 91</span> <span class="n">ncx</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">&#39;/toc.ncx&#39;</span><span class="p">,</span> <span class="s">&#39;w&#39;</span><span class="p">)</span>
+<span class="lineno"> 88</span> # NCX 
+<span class="lineno"> 89</span> ncx = open(oebps_folder + &#39;/toc.ncx&#39;)
+<span class="lineno"> 90</span> ncx_contents = ncx.read()
+<span class="lineno"> 91</span> ncx = open(oebps_folder + &#39;/toc.ncx&#39;, &#39;w&#39;)
 <span class="lineno"> 92</span> 
-<span class="lineno"> 93</span> <span class="n">ncx_regex</span> <span class="o">=</span> <span class="s">r&#39;&lt;meta name=&quot;dtb:uid&quot; content=&quot;&quot; /&gt;&#39;</span>
-<span class="lineno"> 94</span> <span class="n">ncx_subst</span> <span class="o">=</span> <span class="s">r&#39;&lt;meta name=&quot;dtb:uid&quot; content=&quot;&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span> <span class="o">+</span> <span class="s">r&#39;&quot; /&gt;&#39;</span>
-<span class="lineno"> 95</span> <span class="n">ncx_contents</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">ncx_regex</span><span class="p">,</span> <span class="n">ncx_subst</span><span class="p">,</span> <span class="n">ncx_contents</span><span class="p">)</span>
+<span class="lineno"> 93</span> ncx_regex = r&#39;<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;dtb:uid&quot;</span> <span class="na">content=</span><span class="s">&quot;&quot;</span> <span class="nt">/&gt;</span>&#39;
+<span class="lineno"> 94</span> ncx_subst = r&#39;<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;dtb:uid&quot;</span> <span class="na">content=</span><span class="s">&quot;&#39; + str(isbn) + r&#39;&quot;</span> <span class="nt">/&gt;</span>&#39;
+<span class="lineno"> 95</span> ncx_contents = re.sub(ncx_regex, ncx_subst, ncx_contents)
 <span class="lineno"> 96</span> 
-<span class="lineno"> 97</span> <span class="n">ncx</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">ncx_contents</span><span class="p">)</span>
-<span class="lineno"> 98</span> <span class="n">ncx</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="lineno"> 97</span> ncx.write(ncx_contents)
+<span class="lineno"> 98</span> ncx.close()
 <span class="lineno"> 99</span> 
-<span class="lineno">100</span> <span class="c"># zip it up and zip it out!</span>
+<span class="lineno">100</span> # zip it up and zip it out!
 <span class="lineno">101</span> 
-<span class="lineno">102</span> <span class="c">## This groups all of the files and folders inside of a folder into a zip file; we cycle through all the files, first making sure that they are not hidden files by eschewing files that start with &#39;.&#39;</span>
-<span class="lineno">103</span> <span class="k">def</span> <span class="nf">build_epub</span><span class="p">(</span><span class="n">epub_name</span><span class="p">,</span> <span class="nb">dir</span><span class="p">):</span>
-<span class="lineno">104</span> 	<span class="n">dir_length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">dir</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">sep</span><span class="p">))</span> <span class="o">+</span> <span class="mi">1</span>
-<span class="lineno">105</span> 	<span class="k">with</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">epub_name</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s">&quot;w&quot;</span><span class="p">,</span> <span class="n">compression</span><span class="o">=</span><span class="n">zipfile</span><span class="o">.</span><span class="n">ZIP_DEFLATED</span><span class="p">)</span> <span class="k">as</span> <span class="n">zf</span><span class="p">:</span>
-<span class="lineno">106</span> 		<span class="k">for</span> <span class="n">dirname</span><span class="p">,</span> <span class="n">subdirs</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="nb">dir</span><span class="p">):</span>
-<span class="lineno">107</span> 			<span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
-<span class="lineno">108</span> 				<span class="k">if</span> <span class="ow">not</span> <span class="n">filename</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">):</span>
-<span class="lineno">109</span> 					<span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
-<span class="lineno">110</span> 					<span class="n">entry</span> <span class="o">=</span> <span class="n">path</span><span class="p">[</span><span class="n">dir_length</span><span class="p">:]</span>
-<span class="lineno">111</span> 					<span class="n">zf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">entry</span><span class="p">)</span>
+<span class="lineno">102</span> ## This groups all of the files and folders inside of a folder into a zip file; we cycle through all the files, first making sure that they are not hidden files by eschewing files that start with &#39;.&#39;
+<span class="lineno">103</span> def build_epub(epub_name, dir):
+<span class="lineno">104</span> 	dir_length = len(dir.rstrip(os.sep)) + 1
+<span class="lineno">105</span> 	with zipfile.ZipFile(epub_name, mode=&quot;w&quot;, compression=zipfile.ZIP_DEFLATED) as zf:
+<span class="lineno">106</span> 		for dirname, subdirs, files in os.walk(dir):
+<span class="lineno">107</span> 			for filename in files:
+<span class="lineno">108</span> 				if not filename.startswith(&#39;.&#39;):
+<span class="lineno">109</span> 					path = os.path.join(dirname, filename)
+<span class="lineno">110</span> 					entry = path[dir_length:]
+<span class="lineno">111</span> 					zf.write(path, entry)
 <span class="lineno">112</span> 
-<span class="lineno">113</span> <span class="c"># store the folder&#39;s name in this var</span>
-<span class="lineno">114</span> <span class="n">bookFolderName</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">bookFolder</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+<span class="lineno">113</span> # store the folder&#39;s name in this var
+<span class="lineno">114</span> bookFolderName = os.path.split(bookFolder)[1]
 <span class="lineno">115</span> 
-<span class="lineno">116</span> <span class="c">#call that function and adhere to naming conventions</span>
-<span class="lineno">117</span> <span class="n">build_epub</span><span class="p">(</span><span class="n">isbn</span> <span class="o">+</span> <span class="s">&#39;_&#39;</span> <span class="o">+</span> <span class="n">bookFolderName</span> <span class="o">+</span> <span class="s">&#39;.epub&#39;</span><span class="p">,</span> <span class="n">epub_folder</span><span class="p">)</span>
+<span class="lineno">116</span> #call that function and adhere to naming conventions
+<span class="lineno">117</span> build_epub(isbn + &#39;_&#39; + bookFolderName + &#39;.epub&#39;, epub_folder)
 <span class="lineno">118</span> 
-<span class="lineno">119</span> <span class="c">#folder cleanup</span>
-<span class="lineno">120</span> <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">foul</span><span class="p">)</span>
-<span class="lineno">121</span> <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span></code></pre></div>
+<span class="lineno">119</span> #folder cleanup
+<span class="lineno">120</span> os.remove(foul)
+<span class="lineno">121</span> shutil.rmtree(isbn)</code></pre></div>
 
 
 	</section>
