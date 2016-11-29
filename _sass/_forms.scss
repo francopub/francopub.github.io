@@ -1,8 +1,11 @@
 div#form-container {
+<<<<<<< HEAD
     padding-top: 0px;
+=======
+>>>>>>> origin/master
     background-color: $offwhite;
-    padding: 3em;
-    width: 50%;
+    padding: 1em;
+    width: 35em;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     margin: 0 auto;
@@ -33,7 +36,6 @@ input:focus, textarea:focus {
     border: 3px solid #3498db;
     color: #3498db;
     outline: none;
-  padding: 13px 13px 13px 54px;
 }
 
 textarea {
@@ -62,5 +64,10 @@ button.formbutton {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     font-weight: 700;
+    &:hover {
+    	background-color: $offwhite;
+		color: $accent-color;
+
+    }
 }
 }
