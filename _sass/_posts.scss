@@ -190,8 +190,8 @@ article.project {
 }
 
 .post a:hover img {
-	-webkit-filter:blur(2px);
-	filter: blur(2px);
+	/* -webkit-filter:blur(2px);
+	filter: blur(2px); */
 }
 
 .caption-text {
@@ -199,7 +199,7 @@ article.project {
     h3.title {
 		font-family: $stack-ss;
 		font-size: 3.5em;
-		margin: 1.65em 1em 0.5em 0 1em;
+		margin: 2.6em 1em 0.25em 1em;
 		line-height: 1.1;
 		font-weight: bold;
     }

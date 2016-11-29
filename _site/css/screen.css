@@ -173,7 +173,7 @@ main {
     margin-bottom: 0.5em;
     padding-bottom: 0;
     border-bottom: #eee solid 2px;
-    text-shadow: 0 2px 0 #2f3036;
+    text-shadow: 0 2px 0 #eee;
     font-size: 2.5em;
     text-align: center;
     font-family: "Open Sans", sans-serif; }
@@ -199,7 +199,7 @@ header.site-header {
   padding: 5.5em 0;
   text-align: center;
   text-indent: 0;
-  text-shadow: 0 2px 0 #2f3036;
+  text-shadow: 0 2px 0 #eee;
   box-sizing: border-box;
   color: #6699cc;
   margin: 0;
@@ -288,11 +288,42 @@ footer {
 
 nav.topnav {
   z-index: 150;
+  text-shadow: 0 2px 0 #eee;
   width: 100%;
   position: fixed;
   height: 50px;
   background-color: #2f3036;
-  /*margin-bottom: -80px;*/ }
+  /*Style for dropdown links*/
+  /*Hover state for dropdown links*/ }
+  nav.topnav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed; }
+    nav.topnav ul li {
+      display: inline-block;
+      float: left;
+      margin-right: 1px; }
+    nav.topnav ul a {
+      display: block;
+      min-width: 140px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: "Open Sans", sans-serif;
+      color: #f3f3f3;
+      background: #2f3036;
+      text-decoration: none; }
+  nav.topnav li:hover a {
+    background: #6699cc; }
+  nav.topnav li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px; }
+  nav.topnav li:hover ul a:hover {
+    background: #6699cc;
+    color: #f3f3f3; }
   nav.topnav div.button-group {
     vertical-align: middle;
     text-align: center; }
@@ -379,39 +410,6 @@ nav.topnav-scrolled {
   width: 100%;
   top: 0; }
 
-nav.topnav {
-  /*Style for dropdown links*/
-  /*Hover state for dropdown links*/ }
-  nav.topnav ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    position: fixed; }
-    nav.topnav ul li {
-      display: inline-block;
-      float: left;
-      margin-right: 1px; }
-    nav.topnav ul a {
-      display: block;
-      min-width: 140px;
-      height: 50px;
-      text-align: center;
-      line-height: 50px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #f3f3f3;
-      background: #2f3036;
-      text-decoration: none; }
-  nav.topnav li:hover a {
-    background: #6699cc; }
-  nav.topnav li:hover ul a {
-    background: #f3f3f3;
-    color: #2f3036;
-    height: 40px;
-    line-height: 40px; }
-  nav.topnav li:hover ul a:hover {
-    background: #6699cc;
-    color: #f3f3f3; }
-
 .show-menu {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
@@ -448,7 +446,7 @@ article {
     border-bottom: 1px solid #eee;
     text-align: center;
     line-height: 1.4;
-    text-shadow: 0 2px 0 #2f3036; }
+    text-shadow: 0 2px 0 #eee; }
     article header h1.post-title {
       margin: 4.5em 0.67em 0;
       hyphens: none;
@@ -492,7 +490,7 @@ article.project {
     border-bottom: 1px solid #eee;
     text-align: center;
     line-height: 1.4;
-    text-shadow: 0 2px 0 #2f3036; }
+    text-shadow: 0 2px 0 #eee; }
     article.project header h1 {
       margin: 4.5em 0.67em 0; }
     article.project header p.byline {
@@ -584,15 +582,15 @@ article.project {
   box-shadow: inset 0 0 90px -20px #2f3036; }
 
 .post a:hover img {
-  -webkit-filter: blur(2px);
-  filter: blur(2px); }
+  /* -webkit-filter:blur(2px);
+  filter: blur(2px); */ }
 
 .caption-text {
-  text-shadow: 0 2px 0 #2f3036; }
+  text-shadow: 0 2px 0 #eee; }
   .caption-text h3.title {
     font-family: "Open Sans", sans-serif;
     font-size: 3.5em;
-    margin: 1.65em 1em 0.5em 0 1em;
+    margin: 2.6em 1em 0.25em 1em;
     line-height: 1.1;
     font-weight: bold; }
   .caption-text p {
@@ -901,6 +899,10 @@ div#form-container {
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   margin: 0 auto; }
+  div#form-container .boxshadow, div#form-container nav.topnav, div#form-container .highlight {
+    -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
+    box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
   div#form-container input, div#form-container textarea {
     color: #3c3c3c;
     font-family: "Open Sans", sans-serif;

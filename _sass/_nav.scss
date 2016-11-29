@@ -1,11 +1,50 @@
 nav.topnav {  
 	z-index: 150;
 	@extend .boxshadow;
+	text-shadow: $shadow;
 	width: 100%;
 	position: fixed;
 	height: 50px;
 	background-color: $charcoal;
-	/*margin-bottom: -80px;*/
+	ul {
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	position: fixed;
+		li {
+		display:inline-block;
+		float: left;
+		margin-right: 1px;
+			}
+			a {
+				display:block;
+				min-width:140px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				font-family: $stack-ss;
+				color: $offwhite;
+				background: $charcoal;
+				text-decoration: none;
+			}
+	}
+	li:hover a {
+	background: $link-color;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+	background: $offwhite;
+	color: $charcoal;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	background: $link-color;
+	color: $offwhite;
+}
 	div.button-group {
 		vertical-align: middle;
 		text-align: center;
@@ -33,48 +72,6 @@ nav.topnav-scrolled {
   		top: 0;
 	}
 
-
-nav.topnav {
-	ul {
-	list-style-type:none;
-	margin:0 auto;
-	padding:0;
-	position: fixed;
-		li {
-		display:inline-block;
-		float: left;
-		margin-right: 1px;
-			}
-			a {
-				display:block;
-				min-width:140px;
-				height: 50px;
-				text-align: center;
-				line-height: 50px;
-				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-				color: $offwhite;
-				background: $charcoal;
-				text-decoration: none;
-			}
-	}
-	li:hover a {
-	background: $link-color;
-}
-
-/*Style for dropdown links*/
-li:hover ul a {
-	background: $offwhite;
-	color: $charcoal;
-	height: 40px;
-	line-height: 40px;
-}
-
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
-	background: $link-color;
-	color: $offwhite;
-}
-}
 
 .show-menu {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

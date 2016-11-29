@@ -6,9 +6,8 @@ div#form-container {
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     margin: 0 auto;
-
-
-
+    @import 'mixins';
+    
 input, textarea {
     color:#3c3c3c;
     font-family: $stack-ss;
