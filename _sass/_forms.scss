@@ -57,20 +57,18 @@ input:focus, textarea:focus {
 }
 
 button.formbutton {
-    font-family: $stack-ss;
-    float:left;
+  font-family: $stack-ss;
     width: 100%;
-    border: #fbfbfb solid 4px;
-    cursor:pointer;
-    background-color: #3498db;
-    color:white;
-    font-size:24px;
-    padding-top:22px;
-    padding-bottom:22px;
+    border: $offwhite solid 4px;
+    cursor: pointer;
+    background-color: $highlight;
+    color: $offwhite;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+    font-weight: 700;
 }
 }
