@@ -444,8 +444,8 @@ p img {
 
 article {
   margin: 0 auto;
-  margin-top: -7em;
-  max-width: 50%; }
+  max-width: 50%;
+  padding-top: 1px; }
   article header {
     font-family: Helvetica, sans-serif;
     padding-bottom: 9px;
@@ -455,9 +455,8 @@ article {
     line-height: 1.4;
     text-shadow: 0 1px 0 #cccccc; }
     article header h1.post-title {
-      margin-top: 0;
+      margin: 4.5em 0.67em 0;
       hyphens: none;
-      margin-bottom: 0;
       font-size: 4em; }
     article header p.byline {
       font-size: 1.25em;
@@ -488,7 +487,6 @@ article {
       font-style: normal; }
 
 article.project {
-  margin-top: -7em;
   margin: 0 auto;
   max-width: 100%; }
   article.project header {
@@ -500,11 +498,8 @@ article.project {
     text-align: center;
     line-height: 1.4;
     text-shadow: 0 1px 0 #cccccc; }
-    article.project header h1.post-title {
-      margin-top: 0;
-      hyphens: none;
-      margin-bottom: 0;
-      font-size: 4em; }
+    article.project header h1 {
+      margin: 4.5em 0.67em 0; }
     article.project header p.byline {
       font-size: 1.25em;
       line-height: 1;
@@ -998,7 +993,6 @@ div#form-container {
 
   article {
     margin: 0 auto;
-    margin-top: -7em;
     max-width: 100%; }
 
   /*Display 'show menu' link*/

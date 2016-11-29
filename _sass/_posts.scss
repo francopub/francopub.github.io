@@ -9,8 +9,9 @@ p img {
 
 article {
 	margin: 0 auto;
-    margin-top: -7em;
     max-width: 50%;
+    padding-top: 1px;
+
 	header {
 		font-family: $stack-ss;
 		padding-bottom: 9px;
@@ -21,9 +22,8 @@ article {
 		text-shadow: $shadow;
 
 		h1.post-title {
-			margin-top: 0;
+			margin: 4.5em 0.67em 0;	
 			hyphens: none;
-			margin-bottom: 0;
 			font-size: 4em;
 		}
 		p.byline {
@@ -66,7 +66,6 @@ article {
 
 
 article.project {
-	margin-top:-7em;
 	margin: 0 auto;
 	max-width: 100%;
 	header {
@@ -79,12 +78,10 @@ article.project {
 		line-height: 1.4;
 		text-shadow: $shadow;
 
-		h1.post-title {
-			margin-top: 0;
-			hyphens: none;
-			margin-bottom: 0;
-			font-size: 4em;
+		h1 {
+		margin: 4.5em 0.67em 0;	
 		}
+
 		p.byline {
 			font-size: 1.25em;
 			line-height: 1;
