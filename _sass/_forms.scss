@@ -61,5 +61,10 @@ button.formbutton {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     font-weight: 700;
+    &:hover {
+    	background-color: $offwhite;
+		color: $accent-color;
+
+    }
 }
 }
