@@ -1,17 +1,18 @@
 ---
-date:   2016-10-07 13:24:17 -0400
+date: '2016-10-07 13:24:17 -0400'
 title: Crimson Romance
-subtitle: Ebook series with script-based workflow, 2013-2016
+subtitle: 'Ebook series with script-based workflow, 2013-2016'
 permalink: /projects/CrimsonRomance
 imgfolder: crimsonromance
-categories: ebook design, workflows
+categories: 'ebook design, workflows'
 tagline: A streamlined ebook-first workflow
+published: true
 ---
 Crimson Romance is the romance line at Adams Media. This is an ebook-first series. For this series, I helped with a transition to a CMS-based workflow. I was the sole developer on this series during my time at F+W Media, with 2 to 3 titles being published per week.
 
 ![Library of Crimson Romance ebooks](../../img/crimsonromance/1-library.jpg)
 
-Due to the quick turnaround with this series, I was presented with an interesting challenge. The CMS filled in the metadata fields for the EPUB export; however, since the content was outpacing the metadata for this fast-paced workflow, I had to enter in that information manually: the cover, author name, title, and ISBN. Initially, I set up a set of regexes that I would run upon opening the files, but eventually I created a Python script. The script is available [here on github][https://github.com/francofaa/RomanceEPUBCleanup]. 
+Due to the quick turnaround with this series, I was presented with an interesting challenge. The CMS filled in the metadata fields for the EPUB export; however, since the content was outpacing the metadata for this fast-paced workflow, I had to enter in that information manually: the cover, author name, title, and ISBN. Initially, I set up a set of regexes that I would run upon opening the files, but eventually I created a Python script. The script is available [here on github](https://github.com/francofaa/RomanceEPUBCleanup). 
 
 It's also down here:
 
