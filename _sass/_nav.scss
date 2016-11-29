@@ -6,7 +6,7 @@ nav.topnav {
 	position: fixed;
 	height: 50px;
 	background-color: $charcoal;
-	ul {
+	ul#menu {
 	list-style-type:none;
 	margin:0;
 	padding:0;
@@ -75,10 +75,10 @@ nav.topnav-scrolled {
 
 
 .show-menu {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $stack-ss;
     text-decoration: none;
-    color: #fff;
-    background: #19c589;
+    color: $offwhite;
+    background: $link-color;
     text-align: center;
     padding: 10px 0;
     display: none;
