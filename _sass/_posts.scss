@@ -186,16 +186,25 @@ article.project {
   opacity: 1;
   background: rgba(68,85,136,0.6);
   transition: opacity .5s ease;
+  box-shadow: inset 0 0 90px -20px $charcoal;
+}
+
+.post a:hover img {
+	-webkit-filter:blur(2px);
+	filter: blur(2px);
 }
 
 .caption-text {
     text-shadow: $shadow;
     h3.title {
 		font-family: $stack-ss;
-		font-size: 3em;
+		font-size: 2.5em;
+		margin: 1.65em 1em 0 1em;
+		line-height: 0.9;
     }
     p {
     	font-family: $stack-serif;
+    	margin: 0 1.5em;
     }
 }
 
