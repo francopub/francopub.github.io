@@ -276,8 +276,8 @@ header.site-header {
 
 footer {
   /*float: right;*/
-  position: relative;
-  color: #000;
+  /* position: relative; */
+  color: #2E2D33;
   text-align: left;
   width: 100%; }
   footer .copyright {
@@ -887,8 +887,8 @@ pre {
 div#form-container {
   padding-top: 0px;
   background-color: #f3f3f3;
-  padding: 3em;
-  width: 50%;
+  padding: 1em;
+  width: 35em;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   margin: 0 auto; }
@@ -913,8 +913,7 @@ div#form-container {
     box-shadow: 0;
     border: 3px solid #3498db;
     color: #3498db;
-    outline: none;
-    padding: 13px 13px 13px 54px; }
+    outline: none; }
   div#form-container textarea {
     width: 100%;
     height: 150px;
@@ -937,6 +936,9 @@ div#form-container {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     font-weight: 700; }
+    div#form-container button.formbutton:hover {
+      background-color: #f3f3f3;
+      color: #8DA0BD; }
 
 /*
 @media (max-width: 1150px){
