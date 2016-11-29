@@ -1,16 +1,13 @@
 header.site-header 	{
-	/*position: fixed; */
   	width: 100%;
-  	/*top: 0;*/
-	padding-top: 75px;
 	display: block;
+    padding: 5.5em 0;
 	text-align: center;
 	text-indent: 0;
 	text-shadow: $shadow;
 	box-sizing: border-box;
 	color: $primary-color;
 	margin: 0;
-	height:200px;
 	background-color: $bg-color;
 	
 	h1 {
