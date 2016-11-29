@@ -50,9 +50,9 @@ input:focus, textarea:focus {
 button.formbutton {
   font-family: $stack-ss;
     width: 100%;
-    border: $accent-color solid 4px;
+    border: $button-color solid 4px;
     cursor: pointer;
-    background-color: $accent-color;
+    background-color: $button-color;
     color: $offwhite;
     font-size: 24px;
     padding-top: 22px;
@@ -63,7 +63,7 @@ button.formbutton {
     font-weight: 700;
     &:hover {
     	background-color: $offwhite;
-		color: $accent-color;
+		color: $button-color;
 
     }
 }

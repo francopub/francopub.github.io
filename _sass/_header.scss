@@ -6,9 +6,9 @@ header.site-header 	{
 	text-indent: 0;
 	text-shadow: $shadow;
 	box-sizing: border-box;
-	color: $primary-color;
+	color: $link-color;
 	margin: 0;
-	background-color: $bg-color;
+	background-color: $offwhite;
 	
 	h1 {
 		margin: 0.67em;
@@ -34,7 +34,7 @@ header.site-header 	{
 
 		p.tag-line {
 			font-style: italic;
-			color: $accent-color;
+			color: $button-color;
 			line-height: 1.5;
 			font-family: $stack-serif;
 			margin-top: 0;
@@ -55,7 +55,7 @@ header.site-header 	{
 		font-style: italic;
 		margin: 0;
 		font-family: $stack-ss;
-		color: $text-color;
+		color: $charcoal;
 	}
 	button {
 		@include button($button-color, 6px, 6px, 6px, 6px);

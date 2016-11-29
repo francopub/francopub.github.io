@@ -1,16 +1,17 @@
-$primary-color: #69C;
-$text-color: #2E2D33;
-$accent-color: #8DA0BD;
-$bg-color: #F6F6F8;
-$link-color: #337ab7;
-$selection-color: #FFF498;
-$border-color: black;
-$stack-ss: Helvetica, sans-serif;
-$stack-serif: Athelas, Georgia, serif;
-$shadow: 0 1px 0 rgba(204,204,204,1);
-$standard-border: solid 2px;
-$button-color: #ccc;
-$button-border: #2e6da4;
-$post-highlight: #eee;
+/* colors */
 $charcoal: #2f3036;
 $offwhite: #f3f3f3;
+$link-color: #6699cc;
+$border-color: #eee;
+$button-color: #8DA0BD;
+$button-border: #2e6da4;
+$selection-color: #FFF498;
+
+/* fonts */
+$stack-ss: 'Open Sans', sans-serif;
+$stack-serif: 'Vollkorn', serif;
+$stack-cursive: 'Amatic SC', cursive;
+
+/* shadows and borders */
+$shadow: 0 2px 0 $charcoal;
+$standard-border: solid 2px;

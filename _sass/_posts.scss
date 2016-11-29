@@ -16,7 +16,7 @@ article {
 		font-family: $stack-ss;
 		padding-bottom: 9px;
 		margin: 40px 0 20px;
-		border-bottom: 1px solid $post-highlight;
+		border-bottom: 1px solid $border-color;
 		text-align: center;
 		line-height: 1.4;
 		text-shadow: $shadow;
@@ -56,7 +56,7 @@ article {
 		font-size: 1.25em;
 		font-style: italic;
 		margin: 0;
-		border-top: 1px solid $post-highlight;
+		border-top: 1px solid $border-color;
 		font-family: $stack-serif;
 		i {
 			font-style: normal;
@@ -73,7 +73,7 @@ article.project {
 		padding-bottom: 9px;
 		margin: 0 auto;
 		max-width: 650px;
-		border-bottom: 1px solid $post-highlight;
+		border-bottom: 1px solid $border-color;
 		text-align: center;
 		line-height: 1.4;
 		text-shadow: $shadow;
@@ -114,7 +114,7 @@ article.project {
 		font-size: 1.25em;
 		font-style: italic;
 		margin: 0;
-		border-top: 1px solid $post-highlight;
+		border-top: 1px solid $border-color;
 		font-family: $stack-serif;
 		i {
 			font-style: normal;
@@ -198,13 +198,15 @@ article.project {
     text-shadow: $shadow;
     h3.title {
 		font-family: $stack-ss;
-		font-size: 2.5em;
-		margin: 1.65em 1em 0 1em;
-		line-height: 0.9;
+		font-size: 3.5em;
+		margin: 1.65em 1em 0.5em 0 1em;
+		line-height: 1.1;
+		font-weight: bold;
     }
     p {
     	font-family: $stack-serif;
     	margin: 0 1.5em;
+    	font-style: italic;
     }
 }
 

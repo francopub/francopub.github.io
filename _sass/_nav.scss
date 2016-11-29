@@ -16,14 +16,14 @@ nav.topnav {
 			margin-right: -1px;
 		}
 		button.left-btn {
-			@include button($bg-color, 6px, 0px, 0px, 6px);
+			@include button($offwhite, 6px, 0px, 0px, 6px);
 		}
 		// tl tr br bl
 		button.right-btn {
-			@include button($bg-color, 0px, 6px, 6px, 0px);
+			@include button($offwhite, 0px, 6px, 6px, 0px);
 		}
 		button.mid-btn {
-			@include button($bg-color, 0px, 0px, 0px, 0px);
+			@include button($offwhite, 0px, 0px, 0px, 0px);
 		}
 	}
 }
@@ -58,7 +58,7 @@ nav.topnav {
 			}
 	}
 	li:hover a {
-	background: $primary-color;
+	background: $link-color;
 }
 
 /*Style for dropdown links*/
@@ -71,7 +71,7 @@ li:hover ul a {
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-	background: $primary-color;
+	background: $link-color;
 	color: $offwhite;
 }
 }
