@@ -15,7 +15,8 @@ Due to the quick turnaround with this series, I was presented with an interestin
 
 It's also down here:
 
-{% highlight python linenos %}
+{% highlight Python linenos %}
+
 import re, zipfile, os, shutil
 
 ##Enter in author name first. Since there are so many variations on first and last names (and since we need author names in both first name first and first name last) I thought an input might work better
