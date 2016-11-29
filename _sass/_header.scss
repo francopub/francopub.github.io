@@ -1,7 +1,7 @@
 header.site-header 	{
   	width: 100%;
 	display: block;
-    padding: 4.5em 0;
+    padding: 1.5em 0;
 	text-align: center;
 	text-indent: 0;
 	box-sizing: border-box;
@@ -9,46 +9,20 @@ header.site-header 	{
 	margin: 0;
 	background-color: $offwhite;
 	text-shadow: $shadow;
-	font-size: 3em;
 	font-family: $stack-ss;
 	h1 {
 		margin: 0.67em;
+		font-size: 2em;
+		padding-top: 1em;
+		line-height: 1.2;
+		margin: 0;
+		border-top: $standard-border;
+		padding-top: 0.75em;
+		font-family: $stack-ss;
+		font-weight: bold;
 	}
 	h2 {
 		margin: 0.67em;
-	}
-
-	div.strip {
-		background-color: #fff;
-		opacity: 0.55;
-		display: block;
-		h1 {
-			font-size: 3.5em;
-			padding-top: 1em;
-			line-height: 1.2;
-			margin: 0;
-			border-top: $standard-border;
-			padding-top: 0.75em;
-			font-family: $stack-ss;
-			font-weight: bold;
-		}
-
-		p.tag-line {
-			font-style: italic;
-			color: $button-color;
-			line-height: 1.5;
-			font-family: $stack-serif;
-			margin-top: 0;
-
-		}
-
-		p.header-links {
-			font-size: 2.5em;
-			border-bottom: $standard-border;
-			padding-bottom: 1em;
-			font-family: $stack-ss;
-			margin: 0;
-		}
 	}
 	h3 {
 		font-size: 1em;
@@ -58,6 +32,15 @@ header.site-header 	{
 		font-family: $stack-ss;
 		color: $charcoal;
 	}
+	p.tag-line {
+		font-style: italic;
+		color: $button-color;
+		line-height: 1.5;
+		font-family: $stack-serif;
+		margin-top: 0;
+		font-size: 1em;
+		font-style: italic;
+		}
 	button {
 		@include button($button-color, 6px, 6px, 6px, 6px);
 		padding-top: 10px;
@@ -70,3 +53,14 @@ header.site-header 	{
 	    font-family: $stack-ss;
 	    }
 	}
+	/* div.strip {
+		background-color: #fff;
+		opacity: 0.55;
+		display: block; 
+		p.header-links {
+			font-size: 2.5em;
+			border-bottom: $standard-border;
+			padding-bottom: 1em;
+			font-family: $stack-ss;
+			margin: 0;
+		}*/

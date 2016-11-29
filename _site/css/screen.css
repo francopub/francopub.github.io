@@ -171,7 +171,7 @@ a {
 main {
   background: white;
   padding: 3em; }
-  main h1 {
+  main h1, main h1#aboutme, main h1#contact {
     margin-bottom: 0.5em;
     padding-bottom: 0;
     border-bottom: #b4b0b0 solid 2px;
@@ -198,7 +198,7 @@ img {
 header.site-header {
   width: 100%;
   display: block;
-  padding: 4.5em 0;
+  padding: 1.5em 0;
   text-align: center;
   text-indent: 0;
   box-sizing: border-box;
@@ -206,37 +206,19 @@ header.site-header {
   margin: 0;
   background-color: #f3f3f3;
   text-shadow: 0 1px 0 #b4b0b0;
-  font-size: 3em;
   font-family: "Open Sans", Helvetica, sans-serif; }
   header.site-header h1 {
-    margin: 0.67em; }
+    margin: 0.67em;
+    font-size: 2em;
+    padding-top: 1em;
+    line-height: 1.2;
+    margin: 0;
+    border-top: solid 2px;
+    padding-top: 0.75em;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: bold; }
   header.site-header h2 {
     margin: 0.67em; }
-  header.site-header div.strip {
-    background-color: #fff;
-    opacity: 0.55;
-    display: block; }
-    header.site-header div.strip h1 {
-      font-size: 3.5em;
-      padding-top: 1em;
-      line-height: 1.2;
-      margin: 0;
-      border-top: solid 2px;
-      padding-top: 0.75em;
-      font-family: "Open Sans", Helvetica, sans-serif;
-      font-weight: bold; }
-    header.site-header div.strip p.tag-line {
-      font-style: italic;
-      color: #8DA0BD;
-      line-height: 1.5;
-      font-family: "Vollkorn", Athelas, Georgia, serif;
-      margin-top: 0; }
-    header.site-header div.strip p.header-links {
-      font-size: 2.5em;
-      border-bottom: solid 2px;
-      padding-bottom: 1em;
-      font-family: "Open Sans", Helvetica, sans-serif;
-      margin: 0; }
   header.site-header h3 {
     font-size: 1em;
     line-height: 1.2;
@@ -244,6 +226,14 @@ header.site-header {
     margin: 0;
     font-family: "Open Sans", Helvetica, sans-serif;
     color: #2f3036; }
+  header.site-header p.tag-line {
+    font-style: italic;
+    color: #8DA0BD;
+    line-height: 1.5;
+    font-family: "Vollkorn", Athelas, Georgia, serif;
+    margin-top: 0;
+    font-size: 1em;
+    font-style: italic; }
   header.site-header button {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -277,6 +267,17 @@ header.site-header {
     header.site-header button:active {
       background-color: #5d78a1; }
 
+/* div.strip {
+	background-color: #fff;
+	opacity: 0.55;
+	display: block; 
+	p.header-links {
+		font-size: 2.5em;
+		border-bottom: $standard-border;
+		padding-bottom: 1em;
+		font-family: $stack-ss;
+		margin: 0;
+	}*/
 footer {
   /*float: right;*/
   /* position: relative; */
@@ -319,8 +320,8 @@ nav.topnav {
       color: #f3f3f3;
       background: #2f3036;
       text-decoration: none; }
-  nav.topnav li:hover a {
-    background: #6699cc; }
+    nav.topnav ul#menu li:hover a {
+      background: #6699cc; }
   nav.topnav li:hover ul a {
     background: #f3f3f3;
     color: #2f3036;
@@ -948,7 +949,9 @@ div#form-container {
 
 h1#contact {
   width: 17em;
-  margin: 19px auto; }
+  margin: 19px auto;
+  text-align: center;
+  border-bottom: black solid 1px; }
 
 /*
 @media (max-width: 1150px){
