@@ -196,18 +196,15 @@ img {
   max-width: 100%; }
 
 header.site-header {
-  /*position: fixed; */
   width: 100%;
-  /*top: 0;*/
-  padding-top: 75px;
   display: block;
+  padding: 5.5em 0;
   text-align: center;
   text-indent: 0;
   text-shadow: 0 1px 0 #cccccc;
   box-sizing: border-box;
   color: #69C;
   margin: 0;
-  height: 200px;
   background-color: #F6F6F8; }
   header.site-header h1 {
     margin: 0.67em; }
