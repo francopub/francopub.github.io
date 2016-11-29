@@ -59,9 +59,9 @@ input:focus, textarea:focus {
 button.formbutton {
   font-family: $stack-ss;
     width: 100%;
-    border: $accent-color solid 4px;
+    border: $link-color solid 4px;
     cursor: pointer;
-    background-color: $highlight;
+    background-color: $accent-color;
     color: $offwhite;
     font-size: 24px;
     padding-top: 22px;
