@@ -4,12 +4,13 @@ header.site-header 	{
     padding: 5.5em 0;
 	text-align: center;
 	text-indent: 0;
-	text-shadow: $shadow;
 	box-sizing: border-box;
 	color: $link-color;
 	margin: 0;
 	background-color: $offwhite;
-	
+	text-shadow: $shadow;
+	font-size: 3em;
+	font-family: $stack-cursive;
 	h1 {
 		margin: 0.67em;
 	}

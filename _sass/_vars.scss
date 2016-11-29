@@ -1,17 +1,21 @@
 /* colors */
 $charcoal: #2f3036;
 $offwhite: #f3f3f3;
+
 $link-color: #6699cc;
-$border-color: #eee;
-$button-color: #8DA0BD;
-$button-border: #2e6da4;
 $selection-color: #FFF498;
 
-/* fonts */
-$stack-ss: 'Open Sans', sans-serif;
-$stack-serif: 'Vollkorn', serif;
-$stack-cursive: 'Amatic SC', cursive;
+$button-color: #8DA0BD;
+$button-border: #2e6da4;
 
-/* shadows and borders */
-$shadow: 0 2px 0 $border-color;
+/* fonts */
+$stack-ss: 'Open Sans', Helvetica, sans-serif;
+$stack-serif: 'Vollkorn', Athelas, Georgia, serif;
+$stack-cursive: 'Amatic SC', Courier, monospace, cursive;
+
+/* borders */
+$border-color: #b4b0b0;
 $standard-border: solid 2px;
+
+/* shadows */
+$shadow: 0 2px 0 $border-color;
