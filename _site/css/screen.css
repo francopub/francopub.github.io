@@ -169,8 +169,7 @@ a {
 
 main {
   background: white;
-  padding: 110px 50px 50px;
-  position: relative; }
+  padding: 3em; }
   main h1 {
     margin-bottom: 0.5em;
     padding-bottom: 0;
@@ -935,19 +934,17 @@ div#form-container {
     background-color: white; }
   div#form-container button.formbutton {
     font-family: Helvetica, sans-serif;
-    float: left;
     width: 100%;
-    border: #fbfbfb solid 4px;
+    border: #337ab7 solid 4px;
     cursor: pointer;
-    background-color: #3498db;
-    color: white;
+    background-color: #8DA0BD;
+    color: #f3f3f3;
     font-size: 24px;
     padding-top: 22px;
     padding-bottom: 22px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    margin-top: -4px;
     font-weight: 700; }
 
 /*
