@@ -68,50 +68,54 @@ By setting up the InDesign files myself, we were able to have a streamlined and 
 CSS for poetry below: 
 
 {% highlight CSS linenos %}
+
 /*poetry*/
 p.poem-1 {
 	margin-left:1.5em;
-	text-indent:-1.5em;
-	}
-
+	text-indent:-1.5em;}
+		
 p.poem-1-ind1-sa {
 	margin-top:1em;
 	margin-left: 3.5em; 
 	text-indent:-1.5em;
-	}
+}
 
 p.poem-1-ind1 {
 	margin-left: 3.5em; 
 	text-indent:-1.5em;
-	}
+}
 
 p.poem-1-ind1-sb {
 	margin-bottom:1em;
 	margin-left: 3.5em; 
 	text-indent:-1.5em;
-	}
+}
 
 p.poem-2 {
 	margin-bottom:1em;
 	margin-left: 1.5em; 
-	text-indent:-1.5em;
-	}
+	text-indent:-1.5em;}
 
 p.poem-2-sa {
 	margin-top:1em;
 	margin-left: 1.5em; 
 	text-indent:-1.5em;
-	}
+}
 
 p.poem-2-ind1-sb {
 	margin-bottom:1em;
 	margin-left: 3.5em; 
 	text-indent:-1.5em;
-	}
+}
+
+p.poem-1-ind2 {
+	margin-left: 5.5em; 
+	text-indent:-1.5em;
+}
 
 p.poem-2-ind2-sb {
 	margin-bottom:1em;
 	margin-left: 5.5em; 
 	text-indent:-1.5em;
-	}
+}
 {% endhighlight %}
