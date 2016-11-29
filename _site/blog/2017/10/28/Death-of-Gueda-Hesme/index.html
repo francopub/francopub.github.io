@@ -7,14 +7,9 @@
 	<script src="/js/jquery-2.1.1.min.js"></script>
 </head>
 <body>
-<!--
-
-
--->
-
 <nav class="topnav">
 	<!--<div class="button-group">-->
-	<label for="show-menu" class="show-menu">Show Menu</label>
+	<label for="show-menu" class="show-menu">Menu</label>
 	<input type="checkbox" id="show-menu" role="button">
 	<ul>
 		<li>
@@ -28,12 +23,12 @@
 		</li>
 	</ul>
 		
-		<!--<button class="left-btn" type="button"></button>
-		<button class="mid-btn" type="button"></button>
-		<button class="mid-btn" type="button"></button>
-		<button class="right-btn" type="button"></button>
-	</div>-->
 </nav>
+<!--
+
+
+-->
+
 <article>
 	<header>
 		
@@ -109,6 +104,16 @@
 </div>
 
 <!---->
+<h1 id="contact">Contact</h1>
+<div id="form-container">
+<form method="POST" action="http://formspree.io/franco.faa@gmail.com">
+	<input type="text" name="_replyto" placeholder="Your email" />
+	<textarea name="message" placeholder="Your message"></textarea>
+	<input type="text" name="_gotcha" style="display:none;" />
+	<input type="hidden" name="_next" value="//site.io/thanks.html" /> <!-- This is for a custom thank you for submitting form web page ; create one and have a linkback -->
+	<button class="formbutton" type="submit">send</button>
+</form>
+</div>
 <footer>
 <hr>
 	<p class="social">

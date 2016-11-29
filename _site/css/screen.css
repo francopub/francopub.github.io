@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans:400,400i,700,700i,800|Vollkorn:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Macondo+Swash+Caps|Open+Sans:400,400i,700,700i,800|Vollkorn:400,400i,700,700i");
 .content {
   width: 80%;
   margin: 0 auto; }
@@ -206,7 +206,7 @@ header.site-header {
   background-color: #f3f3f3;
   text-shadow: 0 1px 0 #b4b0b0;
   font-size: 3em;
-  font-family: "Amatic SC", Courier, monospace, cursive; }
+  font-family: "Macondo Swash Caps", "Open Sans", Helvetica, sans-serif; }
   header.site-header h1 {
     margin: 0.67em; }
   header.site-header h2 {
@@ -281,7 +281,8 @@ footer {
   /* position: relative; */
   color: #2f3036;
   text-align: left;
-  width: 100%; }
+  width: 100%;
+  font-family: "Vollkorn", Athelas, Georgia, serif; }
   footer .copyright {
     padding-left: 1em; }
   footer .social {
@@ -300,9 +301,9 @@ nav.topnav {
   /*Hover state for dropdown links*/ }
   nav.topnav ul {
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    position: fixed; }
+    position: absolute; }
     nav.topnav ul li {
       display: inline-block;
       float: left;
@@ -412,6 +413,23 @@ nav.topnav-scrolled {
   position: fixed;
   width: 100%;
   top: 0; }
+
+.show-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #19c589;
+  text-align: center;
+  padding: 10px 0;
+  display: none; }
+
+/*Hide checkbox*/
+input[type=checkbox] {
+  display: none; }
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu {
+  display: block; }
 
 p img {
   display: block;
@@ -932,23 +950,6 @@ div#form-container {
     div#form-container button.formbutton:hover {
       background-color: #f3f3f3;
       color: #8DA0BD; }
-
-.show-menu {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  color: #fff;
-  background: #19c589;
-  text-align: center;
-  padding: 10px 0;
-  display: none; }
-
-/*Hide checkbox*/
-input[type=checkbox] {
-  display: none; }
-
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu {
-  display: block; }
 
 /*
 @media (max-width: 1150px){
