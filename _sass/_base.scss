@@ -14,10 +14,8 @@ a {
 }
 
 main {
-	background: white;
-  	padding: 110px 50px 50px;
-  	position: relative;
-	//margin: 0 60px 0 60px;
+	background: $offwhite;
+  	padding: 3em;
 	h1 {
 		margin-bottom: 0.5em;
 		padding-bottom: 0;
@@ -47,4 +45,3 @@ main {
 img {
 	max-width: 100%;
 }
-
