@@ -7,17 +7,9 @@
     margin: 0 auto;
     width: 75%;
     color: $offwhite;
-    span {
-        &:before {
-            counter-increment: line;
-            content: counter(line);
-            display: inline-block;
-            border-right: 1px solid #ddd;
-            padding: 0 .5em;
-            margin-right: .5em;
-            color: #888
-            }
-        }
+    code {
+        padding-left: 6px;
+    }
 }
 
 pre {

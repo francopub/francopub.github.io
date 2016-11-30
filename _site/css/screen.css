@@ -169,9 +169,9 @@ a {
   a:-webkit-any-link {
     cursor: auto; }
   a:hover {
-    color: #ba7900; }
+    color: #ed9b00; }
   a:active {
-    color: #875800; }
+    color: #ba7900; }
 
 ::selection {
   background: #fffd3a; }
@@ -525,14 +525,8 @@ aside.bio ul {
   margin: 0 auto;
   width: 75%;
   color: #f3f3f3; }
-  .highlight span:before {
-    counter-increment: line;
-    content: counter(line);
-    display: inline-block;
-    border-right: 1px solid #ddd;
-    padding: 0 .5em;
-    margin-right: .5em;
-    color: #888; }
+  .highlight code {
+    padding-left: 6px; }
 
 pre {
   white-space: pre-wrap;
@@ -887,9 +881,9 @@ button {
   font-family: "Open Sans", Helvetica, sans-serif;
   padding: 16px 16px; }
   button:hover {
-    background-color: #0040ba; }
+    background-color: #0052ed; }
   button:active {
-    background-color: #00143a; }
+    background-color: #0037a0; }
 
 button.contact-link {
   display: block;
@@ -932,7 +926,7 @@ div.PageNavigation {
     transition: all 0.3s;
     float: left; }
     div.PageNavigation button.left-btn:hover {
-      background-color: black; }
+      background-color: #0b0c0d; }
     div.PageNavigation button.left-btn:active {
       background-color: black; }
   div.PageNavigation button.right-btn {
@@ -960,7 +954,7 @@ div.PageNavigation {
     transition: all 0.3s;
     float: right; }
     div.PageNavigation button.right-btn:hover {
-      background-color: black; }
+      background-color: #0b0c0d; }
     div.PageNavigation button.right-btn:active {
       background-color: black; }
   div.PageNavigation button.mid-btn {
@@ -987,7 +981,7 @@ div.PageNavigation {
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
     div.PageNavigation button.mid-btn:hover {
-      background-color: black; }
+      background-color: #0b0c0d; }
     div.PageNavigation button.mid-btn:active {
       background-color: black; }
 

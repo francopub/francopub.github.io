@@ -42,10 +42,10 @@
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   &:hover {
-    background-color: darken($buttoncolor, 25%)
+    background-color: darken($buttoncolor, 15%)
     }
   &:active {
-    background-color: darken($buttoncolor, 50%)
+    background-color: darken($buttoncolor, 30%)
     }   
 }
 
