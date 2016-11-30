@@ -16,7 +16,7 @@ Due to the quick turnaround with this series, I was presented with an interestin
 
 It's also down here:
 
-{% highlight Python linenos=table %}
+{% highlight Python %}
 
 import re, zipfile, os, shutil
 

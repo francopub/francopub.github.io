@@ -2,11 +2,11 @@ div#form-container {
     padding-top: 0px;
     background-color: $charcoal;
     padding: 1em;
-    width: 35em;
+    width: 25em;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     margin: 0 auto;
-    font-size: 1.25em;
+    font-size: 1em;
     @extend .boxshadow;
     
 input, textarea {
@@ -53,7 +53,7 @@ input:focus, textarea:focus {
 
 h1#contact {
     @extend h1#aboutme;
-    border: none;
+    border-bottom: none;
     margin: 19px auto;
     text-align: center;
     }

@@ -9,10 +9,10 @@ a {
 			cursor: auto;
 		}
 		&:hover {
-	        background-color: darken($link-color, 5%)
+	        color: darken($link-color, 5%)
 	    }
         &:active {
-        background-color: darken($link-color, 15%)
+        	color: darken($link-color, 15%)
         }
 }
 
