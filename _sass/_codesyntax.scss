@@ -7,9 +7,6 @@
     margin: 0 auto;
     width: 75%;
     color: $offwhite;
-    code {
-        padding-left: 6px;
-    }
     span {
         &:before {
             counter-increment: line;

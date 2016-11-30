@@ -14,6 +14,7 @@ main#thanks {
     button {
       animation: pulsebutton 10s infinite;
       display: block;
+      margin: 0 auto;
       @extend .boxshadow;
     }
 }
@@ -44,26 +45,48 @@ main#thanks {
 
 
 @keyframes pulsebutton {
-  100% {
+  10% {
     background-color: #fd8282;
   }
-  85% {
+  25% {
     background-color: #fdfc82;
   }
-  75%{
+  50%{
    background-color: #82fd8c;
   }
-  50% {
+  75% {
     background-color: #af9eff;
   }
-  25% {
+  85% {
     background-color: #e782fd;
   }
-  10% {
+  100% {
     background-color: #82defd;    
   }
   0% {
     background-color: #fd8282;
+  }
+  
+  0% {
+    color: #fd8282;
+  }
+  10% {
+    color: #fdfc82;
+  }
+  25%{
+   color: #82fd8c;
+  }
+  50% {
+   color: #af9eff;
+  }
+  75% {
+   color: #e782fd;
+  }
+  85% {
+   color: #82defd;    
+  }
+  100% {
+   color: #fd8282;
   }
 }
 

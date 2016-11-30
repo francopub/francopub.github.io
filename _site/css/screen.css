@@ -171,7 +171,7 @@ a {
   a:hover {
     color: #ba7900; }
   a:active {
-    color: #3a2600; }
+    color: #875800; }
 
 ::selection {
   background: #fffd3a; }
@@ -525,8 +525,6 @@ aside.bio ul {
   margin: 0 auto;
   width: 75%;
   color: #f3f3f3; }
-  .highlight code {
-    padding-left: 6px; }
   .highlight span:before {
     counter-increment: line;
     content: counter(line);
@@ -889,9 +887,9 @@ button {
   font-family: "Open Sans", Helvetica, sans-serif;
   padding: 16px 16px; }
   button:hover {
-    background-color: #216dff; }
+    background-color: #0040ba; }
   button:active {
-    background-color: #0052ed; }
+    background-color: #00143a; }
 
 button.contact-link {
   display: block;
@@ -934,9 +932,9 @@ div.PageNavigation {
     transition: all 0.3s;
     float: left; }
     div.PageNavigation button.left-btn:hover {
-      background-color: #232428; }
+      background-color: black; }
     div.PageNavigation button.left-btn:active {
-      background-color: #0b0c0d; }
+      background-color: black; }
   div.PageNavigation button.right-btn {
     border-top-left-radius: 0px;
     border-top-right-radius: 6px;
@@ -962,9 +960,9 @@ div.PageNavigation {
     transition: all 0.3s;
     float: right; }
     div.PageNavigation button.right-btn:hover {
-      background-color: #232428; }
+      background-color: black; }
     div.PageNavigation button.right-btn:active {
-      background-color: #0b0c0d; }
+      background-color: black; }
   div.PageNavigation button.mid-btn {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -989,9 +987,9 @@ div.PageNavigation {
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
     div.PageNavigation button.mid-btn:hover {
-      background-color: #232428; }
+      background-color: black; }
     div.PageNavigation button.mid-btn:active {
-      background-color: #0b0c0d; }
+      background-color: black; }
 
 button.formbutton {
   width: 100%;
@@ -1010,7 +1008,8 @@ main#thanks {
     text-align: center; }
   main#thanks button {
     animation: pulsebutton 10s infinite;
-    display: block; }
+    display: block;
+    margin: 0 auto; }
 
 @keyframes pulse {
   0% {
@@ -1028,20 +1027,34 @@ main#thanks {
   100% {
     background-color: #fd8282; } }
 @keyframes pulsebutton {
-  100% {
-    background-color: #fd8282; }
-  85% {
-    background-color: #fdfc82; }
-  75% {
-    background-color: #82fd8c; }
-  50% {
-    background-color: #af9eff; }
-  25% {
-    background-color: #e782fd; }
   10% {
+    background-color: #fd8282; }
+  25% {
+    background-color: #fdfc82; }
+  50% {
+    background-color: #82fd8c; }
+  75% {
+    background-color: #af9eff; }
+  85% {
+    background-color: #e782fd; }
+  100% {
     background-color: #82defd; }
   0% {
-    background-color: #fd8282; } }
+    background-color: #fd8282; }
+  0% {
+    color: #fd8282; }
+  10% {
+    color: #fdfc82; }
+  25% {
+    color: #82fd8c; }
+  50% {
+    color: #af9eff; }
+  75% {
+    color: #e782fd; }
+  85% {
+    color: #82defd; }
+  100% {
+    color: #fd8282; } }
 /*
 @media (max-width: 1150px){
 	main {
