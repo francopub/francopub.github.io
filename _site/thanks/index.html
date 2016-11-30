@@ -25,11 +25,49 @@
 	</ul>
 		
 </nav>
+<header role="banner" class="site-header">
+	<h1>
+		Franco A. Alvarado
+	</h1>
+	<p class="tag-line">
+		fixes things in pixels and ink
+	</p>
+	<h2>Print + Digital Publishing Services</h2>
+	<a href="index.html#contact"><button type="button">Contact Me!</button></a>
+</header>
+<main>
 <main id="thanks">
 	<p>Form submitted successfully</p>
 	<p>Thanks for getting in touch!</p>
 	<a href="/index.html"><button>Return home</button></a>
 </main>
+<h1 id="contact">Contact</h1>
+<div id="form-container">
+<form method="POST" action="http://formspree.io/franco.faa@gmail.com">
+	<input type="text" name="_replyto" placeholder="Your email" />
+	<textarea name="message" placeholder="Your message"></textarea>
+	<input type="text" name="_gotcha" style="display:none;" />
+	<input type="hidden" name="_next" value="/thanks.html" /> <!-- This is for a custom thank you for submitting form web page ; create one and have a linkback -->
+	<button class="formbutton" type="submit">Send</button>
+</form>
+</div>
+<footer>
+	<p class="copyright">&copy; Franco A. Alvarado 2016. 
+		<!--<a href="">Blog</a>-->
+		
+	 | <a href="https://twitter.com/">
+		      <i class="fa fa-twitter"></i> 
+		    </a>
+		
+		
+		    | <a href="https://github.com/">
+		      <i class="fa fa-github"></i> 
+		    </a>
+		
+		 </p>
+</footer>
+</main>
+
 <script src="/js/functions.js"></script>
 </body>
 </html>
