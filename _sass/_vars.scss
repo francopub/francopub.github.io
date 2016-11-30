@@ -1,23 +1,26 @@
 /* textures */
 $paper: url(../img/back.png);
 
-/* colors */
+/* black and white */
 $charcoal: #2f3036;
 $offwhite: #f3f3f3;
 
-$link-color: purple;
-$selection-color: #FFF498;
+/* colors */
 
-$button-color: #8DA0BD;
-$button-border: #2e6da4;
+$link-color: #ffbb3a;
+$selection-color: adjust-hue($link-color, 20deg);
+
+$button-color: complement($link-color);
+$button-border: darken($button-color, 20%);
 
 /* fonts */
 $stack-ss: 'Open Sans', Helvetica, sans-serif;
 $stack-serif: 'Vollkorn', Athelas, Georgia, serif;
 $stack-logo: 'Macondo Swash Caps', $stack-ss;
+$stack-mono: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 
 /* borders */
-$border-color: #b4b0b0;
+$border-color: grayscale($link-color);
 $standard-border: solid 2px;
 
 /* shadows */

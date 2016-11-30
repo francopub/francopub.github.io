@@ -45,27 +45,8 @@ li:hover ul#menu a:hover {
 	background: $link-color;
 	color: $offwhite;
 }
-	div.button-group {
-		vertical-align: middle;
-		text-align: center;
-		button {
-			text-align: center;
-			margin-top: 0.15em;
-			margin-left: -1px;
-			margin-right: -1px;
-		}
-		button.left-btn {
-			@include button($offwhite, 6px, 0px, 0px, 6px);
-		}
-		// tl tr br bl
-		button.right-btn {
-			@include button($offwhite, 0px, 6px, 6px, 0px);
-		}
-		button.mid-btn {
-			@include button($offwhite, 0px, 0px, 0px, 0px);
-		}
-	}
 }
+
 nav.topnav-scrolled {
 		position: fixed;
   		width: 100%;

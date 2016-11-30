@@ -1,0 +1,33 @@
+button {
+		@include button($button-color, 6px, 6px, 6px, 6px);
+		color: $offwhite;
+		margin-bottom: 1.5em;
+	    font-size: 24px;
+	    font-family: $stack-ss;
+	    padding: 22px 16px;
+	    }
+
+div.button-group {
+		vertical-align: middle;
+		text-align: center;
+		button {
+			text-align: center;
+			margin-top: 0.15em;
+			margin-left: -1px;
+			margin-right: -1px;
+		}
+		button.left-btn {
+			@include button($charcoal, 6px, 0px, 0px, 6px);
+		}
+		// tl tr br bl
+		button.right-btn {
+			@include button($charcoal, 0px, 6px, 6px, 0px);
+		}
+		button.mid-btn {
+			@include button($charcoal, 0px, 0px, 0px, 0px);
+		}
+	}
+
+button.formbutton {
+	width: 100%;
+  	}

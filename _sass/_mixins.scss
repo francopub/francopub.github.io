@@ -38,6 +38,9 @@
   border-color: darken($buttoncolor, 5%);
   border: 1px solid transparent;
   text-shadow: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
   &:hover {
           background-color: darken($buttoncolor, 5%)
         }

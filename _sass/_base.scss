@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	color: #333;
+	color: $charcoal;
 }
 a {
 	&:-webkit-any-link {
@@ -13,9 +13,17 @@ a {
 	color: $link-color;
 }
 
+::selection {
+	background: $selection-color;
+}
+
+::-moz-selection {
+	background: $selection-color;
+}
+
 main {
 	background: white;
-  	padding: 3em;
+  	padding: 3em 0 0 0;
 	h1, h1#aboutme {
 		margin-bottom: 0.5em;
 		padding-bottom: 0;
@@ -44,4 +52,8 @@ main {
 
 img {
 	max-width: 100%;
+}
+
+.center {
+	text-align: center;
 }

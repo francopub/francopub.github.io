@@ -1,16 +1,16 @@
 Franco:
   name: Franco A. Alvarado
-  twitter: NoFrancosPlease
   bio: Franco Alvarado is the one who wrote this. This data is being pulled from a YAML file. Isn't that COOL? Goddam this shit is cool. Wow it doesn't even need quote marks. But what if I did <i> this </i>. Oh great. Yeah this all works really well. This is exciting.
-  github: francofaa
-  linkedin: franco-alvarado-17959124
+  github_username: francofaa
+  linkedin_username: franco-alvarado-17959124
+  twitter_username: NoFrancosPlease
   email: franco.faa@gmail.com
   available: true
   job: nowhere
   
 Andy:
   name: Andy Dost
-  twitter: AndyDost
+  twitter_username: AndyDost
   bio: This is some info
 
 Casey:

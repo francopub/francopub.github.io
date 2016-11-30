@@ -4,6 +4,7 @@ $( document ).ready(function() {
 
 });
 
+/*
 var mn = $('.topnav');
 
 $(window).scroll(function() {
@@ -15,3 +16,5 @@ $(window).scroll(function() {
 		mn.removeClass("topnav-scrolled");
 	}
 })
+
+*/

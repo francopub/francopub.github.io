@@ -1,6 +1,6 @@
 div#form-container {
     padding-top: 0px;
-    background-color: $offwhite;
+    background-color: $charcoal;
     padding: 1em;
     width: 35em;
     -moz-border-radius: 7px;
@@ -46,33 +46,12 @@ input:focus, textarea:focus {
     background-color:white;
 }
 
-button.formbutton {
-  font-family: $stack-ss;
-    width: 100%;
-    border: $button-color solid 4px;
-    cursor: pointer;
-    background-color: $button-color;
-    color: $offwhite;
-    font-size: 24px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    font-weight: 700;
-    &:hover {
-    	background-color: $offwhite;
-		color: $button-color;
 
-    }
-}
 }
 
 
 h1#contact {
     @extend h1#aboutme;
-    width: 17em;
     margin: 19px auto;
     text-align: center;
-    border-bottom: black solid 1px;
     }

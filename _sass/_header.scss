@@ -7,9 +7,10 @@ header.site-header 	{
 	box-sizing: border-box;
 	color: $link-color;
 	margin: 0;
-	background-color: $offwhite;
+	background: $paper;
 	text-shadow: $shadow;
 	font-family: $stack-ss;
+	@extend .boxshadow;
 	h1 {
 		margin: 0.67em;
 		font-size: 2em;
@@ -41,17 +42,6 @@ header.site-header 	{
 		font-size: 1em;
 		font-style: italic;
 		}
-	button {
-		@include button($button-color, 6px, 6px, 6px, 6px);
-		padding-top: 10px;
-		padding-right: 16px;
-		padding-bottom: 10px;
-		padding-left: 16px;
-		margin-bottom: 1.5em;
-	    font-size: 18px;
-	    color: white;
-	    font-family: $stack-ss;
-	    }
 	}
 	/* div.strip {
 		background-color: #fff;

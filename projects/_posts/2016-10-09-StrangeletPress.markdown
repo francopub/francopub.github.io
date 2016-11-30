@@ -67,7 +67,7 @@ By setting up the InDesign files myself, we were able to have a streamlined and 
 
 CSS for poetry below: 
 
-{% highlight CSS linenos %}
+{% highlight CSS linenos=table %}
 
 /*poetry*/
 p.poem-1 {
