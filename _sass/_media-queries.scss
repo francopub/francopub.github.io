@@ -29,16 +29,16 @@
 
 @media screen and (max-width : 800px){
   /*Make dropdown links appear inline*/
-  ul {
+  ul#menu {
     position: static;
     display: none;
   }
   /*Create vertical spacing*/
-  li {
+  ul#menu li {
     margin-bottom: 1px;
   }
   /*Make all menu links full width*/
-  ul li, li a {
+  ul#menu li, li a {
     width: 100%;
   }
   article {
