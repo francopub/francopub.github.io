@@ -53,6 +53,7 @@ input:focus, textarea:focus {
 
 h1#contact {
     @extend h1#aboutme;
+    border: none;
     margin: 19px auto;
     text-align: center;
     }

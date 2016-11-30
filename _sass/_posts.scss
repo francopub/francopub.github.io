@@ -22,7 +22,7 @@ article {
 		text-shadow: $shadow;
 
 		h1.post-title {
-			margin: 4.5em 0.67em 0;	
+			margin: 0em 0.67em;	
 			hyphens: none;
 			font-size: 4em;
 		}
@@ -64,6 +64,9 @@ article {
 	}
 }
 
+article.blogpost {
+	padding-top: 3em;
+}
 
 article.project {
 	margin: 0 auto;

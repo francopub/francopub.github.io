@@ -1,8 +1,66 @@
 /* css for post contact page */
 
 main#thanks {
-	margin: 0 auto;
-	p {
-		text-align: center;
-	}
+  	margin: 0 auto;
+    animation: pulse 10s infinite;
+    min-height: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    p {
+		  text-align: center;
+    }
+    button {
+      animation: pulsebutton 10s infinite;
+    }
 }
+
+@keyframes pulse {
+  0% {
+    background-color: #fd8282;
+  }
+  10% {
+  	background-color: #fdfc82;
+  }
+  25%{
+	 background-color: #82fd8c;
+  }
+  50% {
+  	background-color: #af9eff;
+  }
+  75% {
+  	background-color: #e782fd;
+  }
+  85% {
+  	background-color: #82defd;  	
+  }
+  100% {
+    background-color: #fd8282;
+  }
+}
+
+
+@keyframes pulsebutton {
+  100% {
+    background-color: #fd8282;
+  }
+  85% {
+    background-color: #fdfc82;
+  }
+  75%{
+   background-color: #82fd8c;
+  }
+  50% {
+    background-color: #af9eff;
+  }
+  25% {
+    background-color: #e782fd;
+  }
+  10% {
+    background-color: #82defd;    
+  }
+  0% {
+    background-color: #fd8282;
+  }
+}
+

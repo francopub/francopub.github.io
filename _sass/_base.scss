@@ -3,14 +3,17 @@ body {
 	color: $charcoal;
 }
 a {
-	&:-webkit-any-link {
-		cursor: auto;
-	}
-	&:hover {
-
-	}
-	text-decoration: none;
+    text-decoration: none;
 	color: $link-color;
+		&:-webkit-any-link {
+			cursor: auto;
+		}
+		&:hover {
+	        background-color: darken($link-color, 5%)
+	    }
+        &:active {
+        background-color: darken($link-color, 15%)
+        }
 }
 
 ::selection {

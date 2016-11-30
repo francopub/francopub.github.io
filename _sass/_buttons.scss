@@ -1,38 +1,43 @@
 button {
-		@include button($button-color, 6px, 6px, 6px, 6px);
-		color: $offwhite;
-		margin-bottom: 1em;
-		margin-top: 1em;
-	    font-size: 1.25em;
-	    font-family: $stack-ss;
-	    padding: 16px 16px;
-	    }
+	@include button($button-color, 6px, 6px, 6px, 6px);
+	color: $offwhite;
+	font-size: 1.25em;
+    font-family: $stack-ss;
+    padding: 16px 16px;
+}
+
+button.contact-link {
+	display: block;
+	width: 50%;
+	margin: 1em auto;
+}
 
 div.PageNavigation {
-		vertical-align: middle;
+	vertical-align: middle;
+	text-align: center;
+	display: table;
+	margin-top: 3em;
+	margin: 3em auto 0 auto;
+	button {
 		text-align: center;
-		display: table;
-		margin-top: 3em;
-		button {
-			text-align: center;
-			margin-top: 0.15em;
-			margin-left: -1px;
-			margin-right: -1px;
-			@extend .boxshadow;
-		}
-		button.left-btn {
-			@include button($charcoal, 6px, 0px, 0px, 6px);
-			float: left;
-		}
-		// tl tr br bl
-		button.right-btn {
-			@include button($charcoal, 0px, 6px, 6px, 0px);
-			float: right;
-		}
-		button.mid-btn {
-			@include button($charcoal, 0px, 0px, 0px, 0px);
-		}
+		margin-top: 0.15em;
+		margin-left: -1px;
+		margin-right: -1px;
+		@extend .boxshadow;
 	}
+	button.left-btn {
+		@include button($charcoal, 6px, 0px, 0px, 6px);
+		float: left;
+	}
+	// tl tr br bl
+	button.right-btn {
+		@include button($charcoal, 0px, 6px, 6px, 0px);
+		float: right;
+	}
+	button.mid-btn {
+		@include button($charcoal, 0px, 0px, 0px, 0px);
+	}
+}
 
 button.formbutton {
 	width: 100%;
