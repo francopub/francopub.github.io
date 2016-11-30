@@ -16,16 +16,16 @@ nav.topnav {
 		float: left;
 		margin-right: 1px;
 			}
-			a {
-				display:block;
-				min-width:140px;
-				height: 50px;
-				text-align: center;
-				line-height: 50px;
-				font-family: $stack-ss;
-				color: $offwhite;
-				background: $charcoal;
-				text-decoration: none;
+		a {
+			display:block;
+			min-width:140px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			font-family: $stack-ss;
+			color: $offwhite;
+			background: $charcoal;
+			text-decoration: none;
 			}
 	}
 	li:hover a {
@@ -33,7 +33,7 @@ nav.topnav {
 }
 
 /*Style for dropdown links*/
-li:hover ul a {
+li:hover ul#menu a {
 	background: $offwhite;
 	color: $charcoal;
 	height: 40px;
@@ -41,7 +41,7 @@ li:hover ul a {
 }
 
 /*Hover state for dropdown links*/
-li:hover ul a:hover {
+li:hover ul#menu a:hover {
 	background: $link-color;
 	color: $offwhite;
 }

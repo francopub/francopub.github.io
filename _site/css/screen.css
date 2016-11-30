@@ -321,12 +321,12 @@ nav.topnav {
       text-decoration: none; }
   nav.topnav li:hover a {
     background: #6699cc; }
-  nav.topnav li:hover ul a {
+  nav.topnav li:hover ul#menu a {
     background: #f3f3f3;
     color: #2f3036;
     height: 40px;
     line-height: 40px; }
-  nav.topnav li:hover ul a:hover {
+  nav.topnav li:hover ul#menu a:hover {
     background: #6699cc;
     color: #f3f3f3; }
   nav.topnav div.button-group {
@@ -976,16 +976,16 @@ h1#contact {
     font-size: 1em; } }
 @media screen and (max-width: 800px) {
   /*Make dropdown links appear inline*/
-  ul {
+  ul#menu {
     position: static;
     display: none; }
 
   /*Create vertical spacing*/
-  li {
+  ul#menu li {
     margin-bottom: 1px; }
 
   /*Make all menu links full width*/
-  ul li, li a {
+  ul#menu li, li a {
     width: 100%; }
 
   article {
