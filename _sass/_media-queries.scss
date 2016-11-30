@@ -62,3 +62,9 @@
         padding-right: 3%;
     }
 }
+
+@media only screen and (max-width: 570px) {
+    button.left-btn, button.right-btn {
+      font-size: 1em;
+    }
+}

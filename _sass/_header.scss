@@ -5,20 +5,18 @@ header.site-header 	{
 	text-align: center;
 	text-indent: 0;
 	box-sizing: border-box;
-	color: $link-color;
+	color: $charcoal;
 	margin: 0;
 	background: $paper;
 	text-shadow: $shadow;
 	font-family: $stack-ss;
-	@extend .boxshadow;
+	border-bottom: $charcoal 2px dashed;
 	h1 {
 		margin: 0.67em;
-		font-size: 2em;
-		padding-top: 1em;
+		font-size: 3em;
+		padding-top: 2em;
 		line-height: 1.2;
 		margin: 0;
-		border-top: $standard-border;
-		padding-top: 0.75em;
 		font-family: $stack-ss;
 		font-weight: bold;
 	}
@@ -35,7 +33,7 @@ header.site-header 	{
 	}
 	p.tag-line {
 		font-style: italic;
-		color: $button-color;
+		color: $gray;
 		line-height: 1.5;
 		font-family: $stack-serif;
 		margin-top: 0;

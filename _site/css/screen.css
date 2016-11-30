@@ -154,7 +154,7 @@ td, th {
 /* borders */
 /* shadows */
 /* .. begin fonts */
-.boxshadow, header.site-header, nav.topnav, .highlight, div#form-container {
+.boxshadow, nav.topnav, .highlight, div#form-container, div.PageNavigation button {
   -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
@@ -212,19 +212,18 @@ header.site-header {
   text-align: center;
   text-indent: 0;
   box-sizing: border-box;
-  color: #ffbb3a;
+  color: #2f3036;
   margin: 0;
   background: url(../img/back.png);
   text-shadow: 0 1px 0 #9d9d9d;
-  font-family: "Open Sans", Helvetica, sans-serif; }
+  font-family: "Open Sans", Helvetica, sans-serif;
+  border-bottom: #2f3036 2px dashed; }
   header.site-header h1 {
     margin: 0.67em;
-    font-size: 2em;
-    padding-top: 1em;
+    font-size: 3em;
+    padding-top: 2em;
     line-height: 1.2;
     margin: 0;
-    border-top: solid 2px;
-    padding-top: 0.75em;
     font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: bold; }
   header.site-header h2 {
@@ -238,7 +237,7 @@ header.site-header {
     color: #2f3036; }
   header.site-header p.tag-line {
     font-style: italic;
-    color: #3a7eff;
+    color: #919295;
     line-height: 1.5;
     font-family: "Vollkorn", Athelas, Georgia, serif;
     margin-top: 0;
@@ -502,20 +501,12 @@ img + em {
   margin: 0;
   margin-bottom: 1em; }
 
-.PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden; }
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0; }
-
-.PageNavigation .next {
-  text-align: right; }
+aside.bio h2 {
+  text-align: left; }
+aside.bio ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
 
 .highlight {
   background-color: #2f3036;
@@ -523,7 +514,8 @@ img + em {
   padding-left: 1em;
   font-family: "Source Code Pro", Menlo, Consolas, Monaco, monospace;
   margin: 0 auto;
-  width: 75%; }
+  width: 75%;
+  color: #f3f3f3; }
 
 pre {
   white-space: pre-wrap;
@@ -539,7 +531,7 @@ pre {
   padding-right: 1.5em; }
 
 .highlight .c {
-  color: #999988;
+  color: #d2d2d2;
   font-style: italic; }
 
 /* Comment */
@@ -557,22 +549,22 @@ pre {
 
 /* Operator */
 .highlight .cm {
-  color: #999988;
+  color: #d2d2d2;
   font-style: italic; }
 
 /* Comment.Multiline */
 .highlight .cp {
-  color: #999999;
+  color: #d2d2d2;
   font-weight: bold; }
 
 /* Comment.Preproc */
 .highlight .c1 {
-  color: #999988;
+  color: #d2d2d2;
   font-style: italic; }
 
 /* Comment.Single */
 .highlight .cs {
-  color: #999999;
+  color: #d2d2d2;
   font-weight: bold;
   font-style: italic; }
 
@@ -592,11 +584,11 @@ pre {
 
 /* Generic.Emph */
 .highlight .gr {
-  color: #aa0000; }
+  color: #f63d3d; }
 
 /* Generic.Error */
 .highlight .gh {
-  color: #999999; }
+  color: #d2d2d2; }
 
 /* Generic.Heading */
 .highlight .gi {
@@ -610,11 +602,11 @@ pre {
 
 /* Generic.Inserted.Specific */
 .highlight .go {
-  color: #888888; }
+  color: #fbdada; }
 
 /* Generic.Output */
 .highlight .gp {
-  color: #555555; }
+  color: #f6f6f6; }
 
 /* Generic.Prompt */
 .highlight .gs {
@@ -622,11 +614,11 @@ pre {
 
 /* Generic.Strong */
 .highlight .gu {
-  color: #aaaaaa; }
+  color: #f2d8d8; }
 
 /* Generic.Subheading */
 .highlight .gt {
-  color: #aa0000; }
+  color: #f63d3d; }
 
 /* Generic.Traceback */
 .highlight .kc {
@@ -646,12 +638,12 @@ pre {
 
 /* Keyword.Reserved */
 .highlight .kt {
-  color: #445588;
+  color: #7f9df6;
   font-weight: bold; }
 
 /* Keyword.Type */
 .highlight .m {
-  color: #009999; }
+  color: #0cdfdf; }
 
 /* Literal.Number */
 .highlight .s {
@@ -659,7 +651,7 @@ pre {
 
 /* Literal.String */
 .highlight .na {
-  color: #008080; }
+  color: #37d6d6; }
 
 /* Name.Attribute */
 .highlight .nb {
@@ -667,12 +659,12 @@ pre {
 
 /* Name.Builtin */
 .highlight .nc {
-  color: #445588;
+  color: #7f9df6;
   font-weight: bold; }
 
 /* Name.Class */
 .highlight .no {
-  color: #008080; }
+  color: #37d6d6; }
 
 /* Name.Constant */
 .highlight .ni {
@@ -680,25 +672,25 @@ pre {
 
 /* Name.Entity */
 .highlight .ne {
-  color: #990000;
+  color: #e50000;
   font-weight: bold; }
 
 /* Name.Exception */
 .highlight .nf {
-  color: #990000;
+  color: #e50000;
   font-weight: bold; }
 
 /* Name.Function */
 .highlight .nn {
-  color: #555555; }
+  color: #f6f6f6; }
 
 /* Name.Namespace */
 .highlight .nt {
-  color: #000080; }
+  color: #f7ffb3; }
 
 /* Name.Tag */
 .highlight .nv {
-  color: #008080; }
+  color: #37d6d6; }
 
 /* Name.Variable */
 .highlight .ow {
@@ -710,19 +702,19 @@ pre {
 
 /* Text.Whitespace */
 .highlight .mf {
-  color: #009999; }
+  color: #0cdfdf; }
 
 /* Literal.Number.Float */
 .highlight .mh {
-  color: #009999; }
+  color: #0cdfdf; }
 
 /* Literal.Number.Hex */
 .highlight .mi {
-  color: #009999; }
+  color: #0cdfdf; }
 
 /* Literal.Number.Integer */
 .highlight .mo {
-  color: #009999; }
+  color: #0cdfdf; }
 
 /* Literal.Number.Oct */
 .highlight .sb {
@@ -758,7 +750,7 @@ pre {
 
 /* Literal.String.Other */
 .highlight .sr {
-  color: #009926; }
+  color: #04df3b; }
 
 /* Literal.String.Regex */
 .highlight .s1 {
@@ -766,27 +758,27 @@ pre {
 
 /* Literal.String.Single */
 .highlight .ss {
-  color: #990073; }
+  color: #f209b8; }
 
 /* Literal.String.Symbol */
 .highlight .bp {
-  color: #999999; }
+  color: #d2d2d2; }
 
 /* Name.Builtin.Pseudo */
 .highlight .vc {
-  color: #008080; }
+  color: #37d6d6; }
 
 /* Name.Variable.Class */
 .highlight .vg {
-  color: #008080; }
+  color: #37d6d6; }
 
 /* Name.Variable.Global */
 .highlight .vi {
-  color: #008080; }
+  color: #37d6d6; }
 
 /* Name.Variable.Instance */
 .highlight .il {
-  color: #009999; }
+  color: #0cdfdf; }
 
 /* Literal.Number.Integer.Long */
 .highlight .lineno {
@@ -808,7 +800,8 @@ div#form-container {
   width: 35em;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 1.25em; }
   div#form-container input, div#form-container textarea {
     color: #3c3c3c;
     font-family: "Open Sans", Helvetica, sans-serif;
@@ -874,24 +867,27 @@ button {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   color: #f3f3f3;
-  margin-bottom: 1.5em;
-  font-size: 24px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 1.25em;
   font-family: "Open Sans", Helvetica, sans-serif;
-  padding: 22px 16px; }
+  padding: 16px 16px; }
   button:hover {
     background-color: #216dff; }
   button:active {
     background-color: #0052ed; }
 
-div.button-group {
+div.PageNavigation {
   vertical-align: middle;
-  text-align: center; }
-  div.button-group button {
+  text-align: center;
+  display: table;
+  margin-top: 3em; }
+  div.PageNavigation button {
     text-align: center;
     margin-top: 0.15em;
     margin-left: -1px;
     margin-right: -1px; }
-  div.button-group button.left-btn {
+  div.PageNavigation button.left-btn {
     border-top-left-radius: 6px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -913,12 +909,13 @@ div.button-group {
     text-shadow: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
-    transition: all 0.3s; }
-    div.button-group button.left-btn:hover {
+    transition: all 0.3s;
+    float: left; }
+    div.PageNavigation button.left-btn:hover {
       background-color: #232428; }
-    div.button-group button.left-btn:active {
+    div.PageNavigation button.left-btn:active {
       background-color: #0b0c0d; }
-  div.button-group button.right-btn {
+  div.PageNavigation button.right-btn {
     border-top-left-radius: 0px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -940,12 +937,13 @@ div.button-group {
     text-shadow: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
-    transition: all 0.3s; }
-    div.button-group button.right-btn:hover {
+    transition: all 0.3s;
+    float: right; }
+    div.PageNavigation button.right-btn:hover {
       background-color: #232428; }
-    div.button-group button.right-btn:active {
+    div.PageNavigation button.right-btn:active {
       background-color: #0b0c0d; }
-  div.button-group button.mid-btn {
+  div.PageNavigation button.mid-btn {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -968,13 +966,14 @@ div.button-group {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
-    div.button-group button.mid-btn:hover {
+    div.PageNavigation button.mid-btn:hover {
       background-color: #232428; }
-    div.button-group button.mid-btn:active {
+    div.PageNavigation button.mid-btn:active {
       background-color: #0b0c0d; }
 
 button.formbutton {
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
 
 /*
 @media (max-width: 1150px){
@@ -1029,3 +1028,6 @@ button.formbutton {
     margin-left: 0;
     padding-left: 3%;
     padding-right: 3%; } }
+@media only screen and (max-width: 570px) {
+  button.left-btn, button.right-btn {
+    font-size: 1em; } }

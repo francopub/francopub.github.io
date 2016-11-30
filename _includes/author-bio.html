@@ -1,27 +1,19 @@
 
 <aside class="bio">
-	<p>{{author.bio}}</p>
-	<ul>
-		{% if author.twitter_username %}
-		  <li>
-		    <a href="https://twitter.com/{{ site.twitter_username }}">
-		      <i class="fa fa-twitter"></i> Twitter
+	<h2>{{author.name}} {% if author.twitter_username %}
+		    | <a href="https://twitter.com/{{ author.twitter_username }}">
+		      <i class="fa fa-twitter"></i> 
 		    </a>
-		  </li>
 		{% endif %}
 		{% if author.github_username %}
-		  <li>
-		    <a href="https://github.com/{{ site.github_username }}">
-		      <i class="fa fa-github"></i> GitHub
+		    | <a href="https://github.com/{{ author.github_username }}">
+		      <i class="fa fa-github"></i> 
 		    </a>
-		  </li>
 		{% endif %}
 		{% if author.linkedin_username %}
-		  <li>
-		    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-		      <i class="fa fa-linkedin"></i> LinkedIn
+		    | <a href="https://linkedin.com/in/{{ author.linkedin_username }}">
+		      <i class="fa fa-linkedin"></i> 
 		    </a>
-		  </li>
-		{% endif %}
-	</ul>
+		{% endif %}</h2>
+	<p>{{author.bio}}</p>
 </aside>
