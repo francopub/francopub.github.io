@@ -164,7 +164,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #6699cc; }
+  color: purple; }
   a:-webkit-any-link {
     cursor: auto; }
 
@@ -202,7 +202,7 @@ header.site-header {
   text-align: center;
   text-indent: 0;
   box-sizing: border-box;
-  color: #6699cc;
+  color: purple;
   margin: 0;
   background-color: #f3f3f3;
   text-shadow: 0 1px 0 #b4b0b0;
@@ -319,14 +319,14 @@ nav.topnav {
       background: #2f3036;
       text-decoration: none; }
   nav.topnav li:hover a {
-    background: #6699cc; }
+    background: purple; }
   nav.topnav li:hover ul#menu a {
     background: #f3f3f3;
     color: #2f3036;
     height: 40px;
     line-height: 40px; }
   nav.topnav li:hover ul#menu a:hover {
-    background: #6699cc;
+    background: purple;
     color: #f3f3f3; }
   nav.topnav div.button-group {
     vertical-align: middle;
@@ -418,7 +418,7 @@ nav.topnav-scrolled {
   font-family: "Open Sans", Helvetica, sans-serif;
   text-decoration: none;
   color: #f3f3f3;
-  background: #6699cc;
+  background: purple;
   text-align: center;
   padding: 10px 0;
   display: none; }
