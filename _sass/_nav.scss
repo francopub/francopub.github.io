@@ -26,10 +26,13 @@ nav.topnav {
 			color: $offwhite;
 			background: $charcoal;
 			text-decoration: none;
+			&:hover {
+				background: $link-color;
+				}
 			}
 	}
-	li:hover a {
-	background: $link-color;
+	
+	
 }
 
 /*Style for dropdown links*/
