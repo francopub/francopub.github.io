@@ -9,51 +9,51 @@ div#form-container {
     font-size: 1em;
     @extend .boxshadow;
     
-input, textarea {
-    color:#3c3c3c;
-    font-family: $stack-ss;
-  font-weight:500;
-    font-size: 18px;
-    border-radius: 0;
-    line-height: 22px;
-    background-color: #fbfbfb;
-    padding: 1em;
-    margin-bottom: 0.5em;
-    width:100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+    input, textarea {
+        color:#3c3c3c;
+        font-family: $stack-ss;
+        font-weight:500;
+        font-size: 18px;
+        border-radius: 0;
+        line-height: 22px;
+        background-color: #fbfbfb;
+        padding: 1em;
+        margin-bottom: 0.5em;
+        width:100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+      border: 3px solid rgba(0,0,0,0);
+    }
+
+    input:focus, textarea:focus {
+        background: #fff;
+        box-shadow: 0;
+        border: 3px solid #3498db;
+        color: #3498db;
+        outline: none;
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+        line-height: 150%;
+        resize:vertical;
+    }
+
+    input:hover, textarea:hover,
+    input:focus, textarea:focus {
+        background-color:white;
+    }
 }
-
-input:focus, textarea:focus {
-    background: #fff;
-    box-shadow: 0;
-    border: 3px solid #3498db;
-    color: #3498db;
-    outline: none;
-}
-
-textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-}
-
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-    background-color:white;
-}
-
-
-}
-
 
 h1#contact {
-    @extend h1#aboutme;
+    margin-bottom: 0.5em;
+    padding-bottom: 0;
     border-bottom: none;
-    margin: 19px auto;
+    text-shadow: $shadow;
+    font-size: 2.5em;
+    font-family: $stack-ss;    
     text-align: center;
     }
