@@ -46,15 +46,14 @@
   ul#menu li, li a {
     width: 100%;
   }
+  .show-menu {
+    display:block;
+    }
+}
   article {
     margin: 0 5%;
     max-width: 100%;}
 
-/*Display 'show menu' link*/
-  .show-menu {
-    display:block;
-    }
-  }
 }
 
 @media only screen and (max-width: 580px) {

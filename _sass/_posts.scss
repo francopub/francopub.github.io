@@ -181,9 +181,10 @@ article.project {
 }
 
 .post a:hover .caption {
-  background: rgba($complementcolor, 0.5);
-  transition: opacity .5s ease;
-  box-shadow: inset 0 0 90px -20px $charcoal;
+	opacity: 1;
+	background: rgba($complementcolor, 0.5);
+	transition: opacity .5s ease;
+	box-shadow: inset 0 0 90px -20px $charcoal;
 }
 
 .post a:hover img {

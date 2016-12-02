@@ -197,7 +197,7 @@ main {
     font-size: 1.2em;
     widows: 2;
     orphans: 2; }
-  main li {
+  main li, main li ul li {
     font-family: "Noticia Text", Athelas, Georgia, serif;
     font-size: 1.2em;
     widows: 2;
@@ -362,19 +362,11 @@ input[type=checkbox]:checked ~ #menu {
 
 @keyframes iconpulse {
   0% {
-    color: #fd8282; }
-  10% {
-    color: #fdfc82; }
-  25% {
-    color: #82fd8c; }
+    color: #2f3036; }
   50% {
-    color: #af9eff; }
-  75% {
-    color: #e782fd; }
-  85% {
-    color: #82defd; }
+    color: #f3f3f3; }
   100% {
-    color: #fd8282; } }
+    color: #2f3036; } }
 p img {
   display: block;
   margin: 0 auto 0.5em;
@@ -523,6 +515,7 @@ article.project {
   /* border-radius: 30px; */ }
 
 .post a:hover .caption {
+  opacity: 1;
   background: rgba(0, 102, 204, 0.5);
   transition: opacity .5s ease;
   box-shadow: inset 0 0 90px -20px #2f3036; }
@@ -1131,8 +1124,7 @@ main#thanks {
 
   nav.topnav {
     /*Create vertical spacing*/
-    /*Make all menu links full width*/
-    /*Display 'show menu' link*/ }
+    /*Make all menu links full width*/ }
     nav.topnav ul#menu {
       position: static;
       display: none;
@@ -1141,11 +1133,12 @@ main#thanks {
       margin-bottom: 1px; }
     nav.topnav ul#menu li, nav.topnav li a {
       width: 100%; }
-    nav.topnav article {
-      margin: 0 5%;
-      max-width: 100%; }
     nav.topnav .show-menu {
-      display: block; } }
+      display: block; }
+
+  article {
+    margin: 0 5%;
+    max-width: 100%; } }
 @media only screen and (max-width: 580px) {
   div#form-container {
     width: 88%;
