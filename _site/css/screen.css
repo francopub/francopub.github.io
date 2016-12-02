@@ -1105,7 +1105,7 @@ main#thanks {
 	}
 }
 */
-@media (max-width: 1026px) {
+@media screen and (max-width: 1026px) {
   .post-group {
     min-height: 500px;
     text-align: center;
@@ -1117,7 +1117,7 @@ main#thanks {
     overflow: auto;
     box-sizing: border-box;
     font-size: 1em; } }
-@media screen and (max-device-width: 800px) {
+@media screen and (max-width: 800px) {
   /*Make dropdown links appear inline*/
   div#logo {
     display: none; }
@@ -1139,7 +1139,7 @@ main#thanks {
   article {
     margin: 0 5%;
     max-width: 100%; } }
-@media screen and (min-width: 580px) {
+@media screen and (max-width: 580px) {
   div#form-container {
     width: 88%;
     margin-left: 0;
