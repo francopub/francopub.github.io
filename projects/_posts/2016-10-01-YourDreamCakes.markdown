@@ -1,6 +1,6 @@
 ---
 date: 2016-10-01 13:24:17 -0400
-title: Your Dream Cakes
+title: Portfolio > Your Dream Cakes website
 subtitle: Website, logo, and business cards for catering company, created 2015
 permalink: /projects/YourDreamCakes
 imgfolder: yourdreamcakes

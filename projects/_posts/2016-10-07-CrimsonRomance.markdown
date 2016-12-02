@@ -1,7 +1,7 @@
 ---
 date: '2016-10-07 13:24:17 -0400'
-title: Crimson Romance
-subtitle: 'Ebook series with script-based workflow, 2013-2016'
+title: Portfolio > Crimson Romance, ebooks
+subtitle: Ebook series with script-based workflow, 2013–2016
 permalink: /projects/CrimsonRomance
 imgfolder: crimsonromance
 categories: 'ebook design, workflows'

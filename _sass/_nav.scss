@@ -11,7 +11,7 @@ nav.topnav {
 		@include gradient(2deg, $complementcolor, $maincolor, $offwhite);
 		float: right;
 		padding: 0.4em 0.65em;
-		font-family: $stack-logo;
+		font-family: $stack-serif;
 		font-size: 2.25em;
 		color: $offwhite;
 		animation: iconpulse 10s infinite;

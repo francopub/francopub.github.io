@@ -1,7 +1,7 @@
 ---
 date: 2016-10-03 13:24:17 -0400
-title: Redivider
-subtitle: Production editor at Redivider, literary magazine at Emerson College, 2011-2012
+title: Portfolio > Redivider, book design
+subtitle: Production editor at Redivider, literary magazine at Emerson College, 2011–2012
 permalink: /projects/Redivider
 imgfolder: redivider
 categories: print design

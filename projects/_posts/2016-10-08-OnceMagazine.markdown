@@ -1,6 +1,6 @@
 ---
 date:   2016-10-08 13:24:17 -0400
-title: Once Magazine
+title: Portfolio > Once Magazine, design
 subtitle: Magazine design, master's project, 2011
 permalink: /projects/Once
 imgfolder: oncemagazine
