@@ -309,22 +309,9 @@ nav.topnav {
       font-family: "Open Sans", Helvetica, sans-serif;
       color: #f3f3f3;
       background: #2f3036;
-      text-decoration: none;
-      overflow: hidden;
-      -webkit-perspective: 600px;
-      -moz-perspective: 600px;
-      -ms-perspective: 600px;
-      perspective: 600px;
-      -webkit-perspective-origin: 50% 70%;
-      -moz-perspective-origin: 50% 70%;
-      -ms-perspective-origin: 50% 70%;
-      perspective-origin: 50% 70%; }
+      text-decoration: none; }
       nav.topnav ul#menu a:hover, nav.topnav ul#menu li#contactme:hover {
         background: #cc6600; }
-        nav.topnav ul#menu a:hover span, nav.topnav ul#menu li#contactme:hover span {
-          transform: translate3d(0px, 0px, -30px) rotateX(90deg); }
-          nav.topnav ul#menu a:hover span:after, nav.topnav ul#menu li#contactme:hover span:after {
-            content: attr(data-title); }
     nav.topnav ul#menu li#contactme {
       -webkit-user-select: none;
       /* Chrome/Safari */
