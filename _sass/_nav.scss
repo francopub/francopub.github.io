@@ -8,7 +8,7 @@ nav.topnav {
 	background-color: $charcoal;
 	div#logo {
 		@extend .boxshadow;
-		@include gradient(20deg, $complementcolor, $maincolor);
+		@include gradient(2deg, $complementcolor, $maincolor, $offwhite);
 		float: right;
 		padding: 0.4em 0.65em;
 		font-family: $stack-logo;
@@ -102,24 +102,12 @@ input[type=checkbox]:checked ~ #menu{
 
 @keyframes iconpulse {
   0% {
-    color: #fd8282;
-  }
-  10% {
-    color: #fdfc82;
-  }
-  25%{
-   color: #82fd8c;
+    color: $charcoal;
   }
   50% {
-   color: #af9eff;
-  }
-  75% {
-   color: #e782fd;
-  }
-  85% {
-   color: #82defd;    
+   color: $offwhite;
   }
   100% {
-   color: #fd8282;
+   color: $charocal;
   }
 }

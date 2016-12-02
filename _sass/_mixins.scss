@@ -11,10 +11,10 @@
        column-fill: auto;
 }
 
-@mixin gradient($deg, $color1, $color2) {
-  background: -moz-linear-gradient($deg, $color1, $color2);
-  background: -webkit-linear-gradient($deg, $color1, $color2);
-  background: linear-gradient($deg, $color1, $color2);
+@mixin gradient($deg, $color1, $color2, $color3) {
+  background: -moz-linear-gradient($deg, $color1, $color2, $color3);
+  background: -webkit-linear-gradient($deg, $color1, $color2, $color3);
+  background: linear-gradient($deg, $color1, $color2, $color3);
 }    
     
 

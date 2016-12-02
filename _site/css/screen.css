@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Vollkorn|Macondo+Swash+Caps|Open+Sans:400,400i,700,700i,800|Vollkorn:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Macondo+Swash+Caps|Open+Sans:400,400i,700,700i,800|Noticia+Text:400,400i,700,700i|");
 .content {
   width: 80%;
   margin: 0 auto; }
@@ -191,15 +191,15 @@ main {
     text-align: center;
     font-family: "Open Sans", Helvetica, sans-serif; }
   main p {
-    font-family: "Vollkorn", Athelas, Georgia, serif;
+    font-family: "Noticia Text", Athelas, Georgia, serif;
     line-height: 1.3;
     padding-bottom: 0.5em;
-    font-size: 1.25em;
+    font-size: 1.2em;
     widows: 2;
     orphans: 2; }
   main li {
-    font-family: "Vollkorn", Athelas, Georgia, serif;
-    font-size: 1.25em;
+    font-family: "Noticia Text", Athelas, Georgia, serif;
+    font-size: 1.2em;
     widows: 2;
     orphans: 2; }
 
@@ -243,7 +243,7 @@ header.site-header {
     font-style: italic;
     color: #0066cc;
     line-height: 1.5;
-    font-family: "Vollkorn", Athelas, Georgia, serif;
+    font-family: "Noticia Text", Athelas, Georgia, serif;
     margin-top: 0;
     font-size: 1em;
     font-style: italic; }
@@ -265,7 +265,7 @@ footer {
   color: #2f3036;
   text-align: left;
   width: 100%;
-  font-family: "Vollkorn", Athelas, Georgia, serif;
+  font-family: "Noticia Text", Athelas, Georgia, serif;
   margin-top: 4em;
   border-top: 1px solid #919295; }
   footer .copyright {
@@ -285,9 +285,9 @@ nav.topnav {
   /*Style for dropdown links*/
   /*Hover state for dropdown links*/ }
   nav.topnav div#logo {
-    background: -moz-linear-gradient(20deg, #0066cc, #cc6600);
-    background: -webkit-linear-gradient(20deg, #0066cc, #cc6600);
-    background: linear-gradient(20deg, #0066cc, #cc6600);
+    background: -moz-linear-gradient(2deg, #0066cc, #cc6600, #f3f3f3);
+    background: -webkit-linear-gradient(2deg, #0066cc, #cc6600, #f3f3f3);
+    background: linear-gradient(2deg, #0066cc, #cc6600, #f3f3f3);
     float: right;
     padding: 0.4em 0.65em;
     font-family: "Macondo Swash Caps", "Open Sans", Helvetica, sans-serif;
@@ -416,14 +416,14 @@ article {
     line-height: 1.5;
     widows: 2;
     orphans: 2;
-    font-family: "Vollkorn", Athelas, Georgia, serif; }
+    font-family: "Noticia Text", Athelas, Georgia, serif; }
   article aside.bio {
     margin-top: 1em;
     font-size: 1.25em;
     font-style: italic;
     margin: 0;
     border-top: 1px solid #003366;
-    font-family: "Vollkorn", Athelas, Georgia, serif; }
+    font-family: "Noticia Text", Athelas, Georgia, serif; }
     article aside.bio i {
       font-style: normal; }
 
@@ -457,14 +457,14 @@ article.project {
     margin-right: 10%;
     widows: 2;
     orphans: 2;
-    font-family: "Vollkorn", Athelas, Georgia, serif; }
+    font-family: "Noticia Text", Athelas, Georgia, serif; }
   article.project aside.bio {
     margin-top: 1em;
     font-size: 1.25em;
     font-style: italic;
     margin: 0;
     border-top: 1px solid #003366;
-    font-family: "Vollkorn", Athelas, Georgia, serif; }
+    font-family: "Noticia Text", Athelas, Georgia, serif; }
     article.project aside.bio i {
       font-style: normal; }
 
@@ -540,7 +540,7 @@ article.project {
     line-height: 1.1;
     font-weight: bold; }
   .caption-text p {
-    font-family: "Vollkorn", Athelas, Georgia, serif;
+    font-family: "Noticia Text", Athelas, Georgia, serif;
     margin: 0 1.5em;
     font-style: italic; }
 
