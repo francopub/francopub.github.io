@@ -154,7 +154,7 @@ td, th {
 /* borders */
 /* shadows */
 /* .. begin fonts */
-.boxshadow, nav.topnav, .highlight, div.PageNavigation button, main#thanks button {
+.boxshadow, nav.topnav, nav.topnav div#logo, .highlight, div.PageNavigation button, main#thanks button {
   -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
@@ -285,12 +285,19 @@ nav.topnav {
   /*Style for dropdown links*/
   /*Hover state for dropdown links*/ }
   nav.topnav div#logo {
+    background: -moz-linear-gradient(20deg, #0066cc, #cc6600);
+    background: -webkit-linear-gradient(20deg, #0066cc, #cc6600);
+    background: linear-gradient(20deg, #0066cc, #cc6600);
     float: right;
     padding: 0.4em 0.65em;
     font-family: "Macondo Swash Caps", "Open Sans", Helvetica, sans-serif;
-    font-size: 2.75em;
+    font-size: 2.25em;
     color: #f3f3f3;
-    animation: iconpulse 10s infinite; }
+    animation: iconpulse 10s infinite;
+    margin: 0.25em 0.35em;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px; }
   nav.topnav ul#menu {
     list-style-type: none;
     /* margin:0; */
@@ -848,6 +855,7 @@ div#form-container {
   width: 25em;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
+  border-radius: 7px;
   margin: 5em auto 0;
   font-size: 1em;
   display: none;
