@@ -181,15 +181,14 @@ article.project {
 }
 
 .post a:hover .caption {
-  opacity: 1;
-  background: $complementcolor;
+  background: rgba($complementcolor, 0.5);
   transition: opacity .5s ease;
   box-shadow: inset 0 0 90px -20px $charcoal;
 }
 
 .post a:hover img {
-	/* -webkit-filter:blur(2px);
-	filter: blur(2px); */
+	-webkit-filter:blur(2px);
+	filter: blur(2px); 
 }
 
 .caption-text {
