@@ -154,7 +154,7 @@ td, th {
 /* borders */
 /* shadows */
 /* .. begin fonts */
-.boxshadow, nav.topnav, .highlight, div#form-container, div.PageNavigation button, main#thanks button {
+.boxshadow, nav.topnav, .highlight, div.PageNavigation button, main#thanks button {
   -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
@@ -169,9 +169,9 @@ a {
   a:-webkit-any-link {
     cursor: auto; }
   a:hover {
-    color: #804000; }
+    color: #b35900; }
   a:active {
-    color: #4d2600; }
+    color: #804000; }
 
 ::selection {
   background: #ccaa00; }
@@ -311,9 +311,10 @@ nav.topnav {
       -moz-user-select: none;
       /* Firefox */
       -ms-user-select: none;
-      background-color: #cc6600; }
+      background-color: #ccaa00;
+      cursor: pointer; }
       nav.topnav ul#menu li#contactme:hover {
-        background: #994d00; }
+        background: light(#ccaa00, 20%); }
   nav.topnav li:hover ul#menu a {
     background: #f3f3f3;
     color: #2f3036;
@@ -814,13 +815,16 @@ pre {
   word-wrap: normal; }
 
 div#form-container {
+  box-shadow: 0px 0px 100px 1000px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0px 0px 100px 1000px rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: 0px 0px 100px 1000px rgba(255, 255, 255, 0.7);
   padding-top: 0px;
   background-color: #2f3036;
   padding: 1em;
   width: 25em;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
-  margin: 0 auto;
+  margin: 5em auto 0;
   font-size: 1em;
   display: none;
   text-align: center;
@@ -860,6 +864,12 @@ div#form-container {
   div#form-container input:hover, div#form-container textarea:hover,
   div#form-container input:focus, div#form-container textarea:focus {
     background-color: white; }
+  div#form-container h1 {
+    color: #f3f3f3;
+    border-bottom: none;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 2em; }
 
 button {
   border-top-left-radius: 6px;
@@ -1097,7 +1107,7 @@ main#thanks {
     width: 100%; }
 
   article {
-    margin: 0 auto;
+    margin: 0 5%;
     max-width: 100%; }
 
   /*Display 'show menu' link*/
@@ -1105,12 +1115,12 @@ main#thanks {
     display: block; } }
 @media only screen and (max-width: 580px) {
   div#form-container {
-    left: 3%;
-    margin-right: 3%;
     width: 88%;
     margin-left: 0;
     padding-left: 3%;
-    padding-right: 3%; } }
+    padding-right: 3%;
+    z-index: 200;
+    margin-top: 0; } }
 @media only screen and (max-width: 570px) {
   button.left-btn, button.right-btn {
     font-size: 1em; } }

@@ -1,12 +1,14 @@
 div#form-container {
-    @extend .boxshadow;
+    box-shadow: 0px 0px 100px 1000px rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: 0px 0px 100px 1000px rgba(255, 255, 255, 0.7);
+    -moz-box-shadow: 0px 0px 100px 1000px rgba(255, 255, 255, 0.7);
     padding-top: 0px;
     background-color: $charcoal;
     padding: 1em;
     width: 25em;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
-    margin: 0 auto;
+    margin: 5em auto 0;
     font-size: 1em;
     display: none;
     text-align: center;
@@ -53,5 +55,13 @@ div#form-container {
     input:hover, textarea:hover,
     input:focus, textarea:focus {
         background-color:white;
+    }
+
+    h1 {
+        color: $offwhite;
+        border-bottom: none;
+        margin-top: 0;
+        font-weight: normal;
+        font-size: 2em;
     }
 }

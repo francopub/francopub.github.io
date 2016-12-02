@@ -42,7 +42,7 @@
     width: 100%;
   }
   article {
-    margin: 0 auto;
+    margin: 0 5%;
     max-width: 100%;}
 
 /*Display 'show menu' link*/
@@ -54,12 +54,12 @@
 
 @media only screen and (max-width: 580px) {
     div#form-container{
-        left: 3%;
-        margin-right: 3%;
         width: 88%;
         margin-left: 0;
         padding-left: 3%;
         padding-right: 3%;
+        z-index: 200;
+        margin-top: 0;
     }
 }
 

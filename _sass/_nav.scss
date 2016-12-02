@@ -34,9 +34,10 @@ nav.topnav {
 			-webkit-user-select: none; /* Chrome/Safari */        
 			-moz-user-select: none; /* Firefox */
 			-ms-user-select: none; 
-			background-color: $link-color;
+			background-color: $selection-color;
+			cursor: pointer;
 			&:hover {
-				background: darken($link-color, 10%);
+				background: light($selection-color, 20%);
 			}
 		}
 }
@@ -53,6 +54,7 @@ li:hover ul#menu a {
 li:hover ul#menu a:hover {
 	background: lighten($link-color, 20%);
 	color: $offwhite;
+
 }
 }
 
@@ -83,3 +85,4 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
+
