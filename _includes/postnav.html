@@ -2,10 +2,10 @@
 <div class="PageNavigation">
 
   {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}"><button class="left-btn">&laquo; {{page.previous.title}}</button></a>
+    <a class="prev" href="{{page.previous.url}}"><button class="left-btn">&laquo; {{page.previous.project_name}}</button></a>
   {% endif %}
 
   {% if page.next.url %}
-   <a class="next" href="{{page.next.url}}"><button class="right-btn"> {{page.next.title}} &raquo;</button></a>
+   <a class="next" href="{{page.next.url}}"><button class="right-btn"> {{page.next.project_name}} &raquo;</button></a>
   {% endif %}
 </div>
