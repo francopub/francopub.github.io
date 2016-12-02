@@ -16,7 +16,7 @@ nav.topnav {
 		float: left;
 		margin-right: 1px;
 			}
-		a {
+		a, li#contactme {
 			display:block;
 			min-width:140px;
 			height: 50px;
@@ -30,6 +30,15 @@ nav.topnav {
 				background: $link-color;
 				}
 			}
+		li#contactme {
+			-webkit-user-select: none; /* Chrome/Safari */        
+			-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; 
+			background-color: $link-color;
+			&:hover {
+				background: darken($link-color, 10%);
+			}
+		}
 }
 
 /*Style for dropdown links*/
@@ -42,7 +51,7 @@ li:hover ul#menu a {
 
 /*Hover state for dropdown links*/
 li:hover ul#menu a:hover {
-	background: $link-color;
+	background: lighten($link-color, 20%);
 	color: $offwhite;
 }
 }

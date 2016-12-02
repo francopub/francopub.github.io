@@ -165,19 +165,19 @@ body {
 
 a {
   text-decoration: none;
-  color: #439818; }
+  color: #cc6600; }
   a:-webkit-any-link {
     cursor: auto; }
   a:hover {
-    color: #26560e; }
+    color: #804000; }
   a:active {
-    color: #122a07; }
+    color: #4d2600; }
 
 ::selection {
-  background: #189818; }
+  background: #ccaa00; }
 
 ::-moz-selection {
-  background: #189818; }
+  background: #ccaa00; }
 
 main {
   background: white;
@@ -185,8 +185,8 @@ main {
   main h1, main h1#aboutme {
     margin-bottom: 0.5em;
     padding-bottom: 0;
-    border-bottom: #585858 solid 2px;
-    text-shadow: 0 1px 0 #585858;
+    border-bottom: #666666 solid 2px;
+    text-shadow: 0 1px 0 #666666;
     font-size: 2.5em;
     text-align: center;
     font-family: "Open Sans", Helvetica, sans-serif; }
@@ -219,7 +219,7 @@ header.site-header {
   color: #2f3036;
   margin: 0;
   background: url(../img/back.png);
-  text-shadow: 0 1px 0 #585858;
+  text-shadow: 0 1px 0 #666666;
   font-family: "Open Sans", Helvetica, sans-serif;
   border-bottom: #2f3036 2px dashed; }
   header.site-header h1 {
@@ -277,7 +277,7 @@ footer {
 
 nav.topnav {
   z-index: 150;
-  text-shadow: 0 1px 0 #585858;
+  text-shadow: 0 1px 0 #666666;
   width: 100%;
   position: fixed;
   height: 50px;
@@ -293,7 +293,7 @@ nav.topnav {
       display: inline-block;
       float: left;
       margin-right: 1px; }
-    nav.topnav ul#menu a {
+    nav.topnav ul#menu a, nav.topnav ul#menu li#contactme {
       display: block;
       min-width: 140px;
       height: 50px;
@@ -303,15 +303,24 @@ nav.topnav {
       color: #f3f3f3;
       background: #2f3036;
       text-decoration: none; }
-      nav.topnav ul#menu a:hover {
-        background: #439818; }
+      nav.topnav ul#menu a:hover, nav.topnav ul#menu li#contactme:hover {
+        background: #cc6600; }
+    nav.topnav ul#menu li#contactme {
+      -webkit-user-select: none;
+      /* Chrome/Safari */
+      -moz-user-select: none;
+      /* Firefox */
+      -ms-user-select: none;
+      background-color: #cc6600; }
+      nav.topnav ul#menu li#contactme:hover {
+        background: #994d00; }
   nav.topnav li:hover ul#menu a {
     background: #f3f3f3;
     color: #2f3036;
     height: 40px;
     line-height: 40px; }
   nav.topnav li:hover ul#menu a:hover {
-    background: #439818;
+    background: #ff9933;
     color: #f3f3f3; }
 
 nav.topnav-scrolled {
@@ -323,7 +332,7 @@ nav.topnav-scrolled {
   font-family: "Open Sans", Helvetica, sans-serif;
   text-decoration: none;
   color: #f3f3f3;
-  background: #439818;
+  background: #cc6600;
   text-align: center;
   padding: 10px 0;
   display: none; }
@@ -352,10 +361,10 @@ article {
     font-family: "Open Sans", Helvetica, sans-serif;
     padding-bottom: 9px;
     margin: 40px 0 20px;
-    border-bottom: 1px solid #585858;
+    border-bottom: 1px solid #666666;
     text-align: center;
     line-height: 1.4;
-    text-shadow: 0 1px 0 #585858; }
+    text-shadow: 0 1px 0 #666666; }
     article header h1.post-title {
       margin: 0em 0.67em;
       hyphens: none;
@@ -383,7 +392,7 @@ article {
     font-size: 1.25em;
     font-style: italic;
     margin: 0;
-    border-top: 1px solid #585858;
+    border-top: 1px solid #666666;
     font-family: "Vollkorn", Athelas, Georgia, serif; }
     article aside.bio i {
       font-style: normal; }
@@ -424,7 +433,7 @@ article.project {
     font-size: 1.25em;
     font-style: italic;
     margin: 0;
-    border-top: 1px solid #585858;
+    border-top: 1px solid #666666;
     font-family: "Vollkorn", Athelas, Georgia, serif; }
     article.project aside.bio i {
       font-style: normal; }
@@ -492,7 +501,7 @@ article.project {
   filter: blur(2px); */ }
 
 .caption-text {
-  text-shadow: 0 1px 0 #585858; }
+  text-shadow: 0 1px 0 #666666; }
   .caption-text h3.title {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 2em;
@@ -812,15 +821,22 @@ div#form-container {
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   margin: 0 auto;
-  font-size: 1em; }
+  font-size: 1em;
+  display: none;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }
   div#form-container input, div#form-container textarea {
-    color: #3c3c3c;
+    color: #2f3036;
     font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 18px;
     border-radius: 0;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color: #f3f3f3;
     padding: 1em;
     margin-bottom: 0.5em;
     width: 100%;
@@ -828,12 +844,13 @@ div#form-container {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    border: 3px solid transparent; }
+    border: 3px solid transparent;
+    display: block; }
   div#form-container input:focus, div#form-container textarea:focus {
-    background: #fff;
+    background: white;
     box-shadow: 0;
-    border: 3px solid #3498db;
-    color: #3498db;
+    border: 3px solid #ccaa00;
+    color: #ccaa00;
     outline: none; }
   div#form-container textarea {
     width: 100%;
@@ -844,22 +861,13 @@ div#form-container {
   div#form-container input:focus, div#form-container textarea:focus {
     background-color: white; }
 
-h1#contact {
-  margin-bottom: 0.5em;
-  padding-bottom: 0;
-  border-bottom: none;
-  text-shadow: 0 1px 0 #585858;
-  font-size: 2.5em;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  text-align: center; }
-
 button {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
   line-height: 1.3;
-  background-color: #6d1898;
+  background-color: #0066cc;
   display: inline-block;
   white-space: nowrap;
   -ms-touch-action: manipulation;
@@ -870,7 +878,7 @@ button {
   -ms-user-select: none;
   user-select: none;
   background-image: none;
-  border-color: #5d1582;
+  border-color: #0059b3;
   border: 1px solid transparent;
   text-shadow: none;
   -webkit-transition: all 0.3s;
@@ -881,9 +889,9 @@ button {
   font-family: "Open Sans", Helvetica, sans-serif;
   padding: 16px 16px; }
   button:hover {
-    background-color: #3e0e56; }
+    background-color: #0059b3; }
   button:active {
-    background-color: #0e0314; }
+    background-color: #004080; }
 
 button.contact-link {
   display: block;
@@ -926,9 +934,9 @@ div.PageNavigation {
     transition: all 0.3s;
     float: left; }
     div.PageNavigation button.left-btn:hover {
-      background-color: #0b0c0d; }
+      background-color: #232428; }
     div.PageNavigation button.left-btn:active {
-      background-color: black; }
+      background-color: #0b0c0d; }
   div.PageNavigation button.right-btn {
     border-top-left-radius: 0px;
     border-top-right-radius: 6px;
@@ -954,9 +962,9 @@ div.PageNavigation {
     transition: all 0.3s;
     float: right; }
     div.PageNavigation button.right-btn:hover {
-      background-color: #0b0c0d; }
+      background-color: #232428; }
     div.PageNavigation button.right-btn:active {
-      background-color: black; }
+      background-color: #0b0c0d; }
   div.PageNavigation button.mid-btn {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -981,13 +989,14 @@ div.PageNavigation {
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
     div.PageNavigation button.mid-btn:hover {
-      background-color: #0b0c0d; }
+      background-color: #232428; }
     div.PageNavigation button.mid-btn:active {
-      background-color: black; }
+      background-color: #0b0c0d; }
 
 button.formbutton {
   width: 100%;
-  margin: 0; }
+  margin: 0;
+  display: inline-block; }
 
 /* css for post contact page */
 main#thanks {
