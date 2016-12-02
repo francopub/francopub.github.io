@@ -10,12 +10,12 @@ nav.topnav {
 		@extend .boxshadow;
 		@include gradient(2deg, $complementcolor, $maincolor, $offwhite);
 		float: right;
-		padding: 0.4em 0.65em;
+		padding: 0.4em 0.8em;
 		font-family: $stack-serif;
 		font-size: 2.25em;
 		color: $offwhite;
 		animation: iconpulse 10s infinite;
-		margin: 0.25em 0.35em;
+		margin: 0.15em 0.23em;
 		border-radius: 50px;
 		-moz-border-radius: 50px;
    		-webkit-border-radius: 50px;

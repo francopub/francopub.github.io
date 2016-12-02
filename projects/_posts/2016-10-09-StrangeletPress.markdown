@@ -1,6 +1,7 @@
 ---
 date:   2016-10-09 13:24:17 -0400
 title: Portfolio > Strangelet Press, print and ebook design
+project_name: Strangelet Press
 subtitle: Print book and ebook production for the literary magazine <i>Strangelet</i>, 2012–2016
 permalink: /projects/StrangeletPress
 imgfolder: strangeletpress

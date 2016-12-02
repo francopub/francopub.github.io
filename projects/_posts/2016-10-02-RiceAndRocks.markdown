@@ -1,6 +1,7 @@
 ---
 date:   2016-10-02 13:24:17 -0400
 title: Portfolio > Rice and Rocks, ebook
+project_name: Rice and Rocks
 subtitle: Enhanced fixed-layout EPUB, freelance project, 2016
 permalink: /projects/RiceAndRocks
 imgfolder: riceandrocks

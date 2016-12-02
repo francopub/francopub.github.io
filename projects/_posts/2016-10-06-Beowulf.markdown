@@ -2,6 +2,7 @@
 date:   2016-10-06 13:24:17 -0400
 title: Portfolio > Beowulf, book design
 subtitle: Book design, master's project, 2012
+project_name: Beowulf
 permalink: /projects/Beowulf
 imgfolder: beowulf
 categories: print design
