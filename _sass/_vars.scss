@@ -8,11 +8,11 @@ $gray: mix($charcoal, $offwhite);
 
 /* colors */
 
-$link-color: #cc6600;
-$selection-color: adjust-hue($link-color, 20deg);
+$maincolor: #cc6600;
+$selectcolor: adjust-hue($maincolor, 20deg);
 
-$button-color: complement($link-color);
-$button-border: darken($button-color, 20%);
+$complementcolor: complement($maincolor);
+$bordercolor: darken($complementcolor, 20%);
 
 /* fonts */
 $stack-ss: 'Open Sans', Helvetica, sans-serif;
@@ -21,8 +21,7 @@ $stack-logo: 'Macondo Swash Caps', $stack-ss;
 $stack-mono: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 
 /* borders */
-$border-color: grayscale($link-color);
 $standard-border: solid 2px;
 
 /* shadows */
-$shadow: 0 1px 0 $border-color;
+$shadow: 0 1px 0 $gray;

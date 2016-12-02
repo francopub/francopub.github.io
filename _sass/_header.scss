@@ -14,7 +14,7 @@ header.site-header 	{
 	h1 {
 		margin: 0.67em;
 		font-size: 3em;
-		padding-top: 2em;
+		padding-top: 3em;
 		line-height: 1.2;
 		margin: 0;
 		font-family: $stack-ss;
@@ -33,7 +33,7 @@ header.site-header 	{
 	}
 	p.tag-line {
 		font-style: italic;
-		color: $gray;
+		color: $complementcolor;
 		line-height: 1.5;
 		font-family: $stack-serif;
 		margin-top: 0;

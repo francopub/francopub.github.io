@@ -1,20 +1,28 @@
 nav.topnav {  
-	z-index: 150;
 	@extend .boxshadow;
+	z-index: 150;
 	text-shadow: $shadow;
 	width: 100%;
 	position: fixed;
-	height: 50px;
+	height: 90px;
 	background-color: $charcoal;
+	div#logo {
+		float:right;
+		padding: 0 0.5em;
+		font-family: $stack-logo;
+		font-size: 2.75em;
+		color: $offwhite;
+		animation: iconpulse 10s infinite;
+	}
 	ul#menu {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	position: absolute;
+		list-style-type:none;
+		/* margin:0; */
+		padding:0;
+		position: absolute;
 		li {
-		display:inline-block;
-		float: left;
-		margin-right: 1px;
+			display:inline-block;
+			float: left;
+			margin-right: 1px;
 			}
 		a, li#contactme {
 			display:block;
@@ -26,18 +34,33 @@ nav.topnav {
 			color: $offwhite;
 			background: $charcoal;
 			text-decoration: none;
-			&:hover {
-				background: $link-color;
+			overflow: hidden;
+			-webkit-perspective: 600px;
+		    -moz-perspective: 600px;
+		    -ms-perspective: 600px;
+		    perspective: 600px;
+		    -webkit-perspective-origin: 50% 70%;
+		    -moz-perspective-origin: 50% 70%;
+		    -ms-perspective-origin: 50% 70%;
+		    perspective-origin: 50% 70%;
+				&:hover {
+				background: $maincolor;
+					span {
+						transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+						&:after {
+							content: attr(data-title);
+						}
+					}
 				}
 			}
 		li#contactme {
 			-webkit-user-select: none; /* Chrome/Safari */        
 			-moz-user-select: none; /* Firefox */
 			-ms-user-select: none; 
-			background-color: $selection-color;
+			background-color: $selectcolor;
 			cursor: pointer;
 			&:hover {
-				background: light($selection-color, 20%);
+				background: light($selectcolor, 20%);
 			}
 		}
 }
@@ -52,7 +75,7 @@ li:hover ul#menu a {
 
 /*Hover state for dropdown links*/
 li:hover ul#menu a:hover {
-	background: lighten($link-color, 20%);
+	background: lighten($maincolor, 20%);
 	color: $offwhite;
 
 }
@@ -70,7 +93,7 @@ nav.topnav-scrolled {
     font-family: $stack-ss;
     text-decoration: none;
     color: $offwhite;
-    background: $link-color;
+    background: $complementcolor;
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -86,3 +109,26 @@ input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 
+@keyframes iconpulse {
+  0% {
+    color: #fd8282;
+  }
+  10% {
+    color: #fdfc82;
+  }
+  25%{
+   color: #82fd8c;
+  }
+  50% {
+   color: #af9eff;
+  }
+  75% {
+   color: #e782fd;
+  }
+  85% {
+   color: #82defd;    
+  }
+  100% {
+   color: #fd8282;
+  }
+}

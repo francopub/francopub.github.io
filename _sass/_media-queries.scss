@@ -29,6 +29,11 @@
 
 @media screen and (max-width : 800px){
   /*Make dropdown links appear inline*/
+  div#logo {
+    display: none;
+  }
+  nav.topnav {
+    background-color: $selectcolor;
   ul#menu {
     position: static;
     display: none;
@@ -48,8 +53,8 @@
 /*Display 'show menu' link*/
   .show-menu {
     display:block;
+    }
   }
-
 }
 
 @media only screen and (max-width: 580px) {

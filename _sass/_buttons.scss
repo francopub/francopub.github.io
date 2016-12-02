@@ -1,5 +1,5 @@
 button {
-	@include button($button-color, 6px, 6px, 6px, 6px);
+	@include button($complementcolor, 6px, 6px, 6px, 6px);
 	color: $offwhite;
 	font-size: 1.25em;
     font-family: $stack-ss;

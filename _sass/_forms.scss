@@ -40,8 +40,8 @@ div#form-container {
     input:focus, textarea:focus {
         background: white;
         box-shadow: 0;
-        border: 3px solid $selection-color;
-        color: $selection-color;
+        border: 3px solid $selectcolor;
+        color: $selectcolor;
         outline: none;
     }
 
