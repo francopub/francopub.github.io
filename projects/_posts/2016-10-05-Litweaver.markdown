@@ -5,7 +5,6 @@ project_name: Litweaver
 subtitle: Ebook series with paragraph numbering, freelance project, 2014–2015
 permalink: /projects/Litweaver
 imgfolder: litweaver
-categories: ebook development, workflows
 tagline: Ebook library project with line numbering
 ---
 Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.

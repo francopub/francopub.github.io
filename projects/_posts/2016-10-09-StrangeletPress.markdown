@@ -5,7 +5,6 @@ project_name: Strangelet Press
 subtitle: Print book and ebook production for the literary magazine <i>Strangelet</i>, 2012–2016
 permalink: /projects/StrangeletPress
 imgfolder: strangeletpress
-categories: workflows, ebook development, print design
 tagline: Print and ebook design work for a bimonthly SFF magazine
 ---
 *Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer](../StrangeletWebsite), and art editor.

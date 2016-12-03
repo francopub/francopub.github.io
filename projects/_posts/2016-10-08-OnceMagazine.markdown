@@ -5,7 +5,6 @@ project_name: Once
 subtitle: Magazine design, master's project, 2011
 permalink: /projects/Once
 imgfolder: oncemagazine
-categories: design
 tagline: A new way to navigate a magazine
 ---
 *Once* magazine was a project for my magazine design class at Emerson College's Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics. 

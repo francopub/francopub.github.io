@@ -5,7 +5,6 @@ project_name: Crimson Romance
 subtitle: Ebook series with script-based workflow, 2013–2016
 permalink: /projects/CrimsonRomance
 imgfolder: crimsonromance
-categories: 'ebook design, workflows'
 tagline: A streamlined ebook-first workflow
 published: true
 ---

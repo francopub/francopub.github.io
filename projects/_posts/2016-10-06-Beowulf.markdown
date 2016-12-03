@@ -5,7 +5,6 @@ subtitle: Book design, master's project, 2012
 project_name: Beowulf
 permalink: /projects/Beowulf
 imgfolder: beowulf
-categories: print design
 tagline: A complex design for a scholarly edition
 ---
 For this edition of *Beowulf*, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.
