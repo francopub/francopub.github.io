@@ -5,10 +5,6 @@ subtitle:
 author: Franco
 publication: Strangelet
 ---
-
-
-
-
 Tia Gueda Hesme lived in the house, having worked for the Von Kromer family for as long as anyone could remember. No one knew how she was related to the family, and Calébres and Alessandro doubted she was ever young. Her eyes were white and murky, and she looked as old as a tree, gnarled and knotted with wrinkles. She never moved as she sat in her chair, aside from moving her hand to her mouth to take a puff from her cigar.
 
 —-Right down there, in the plaza, she told the boys in her strange accent, there used to be a well, and one of the boys—his name was Raul, one of the sons of Marcos. Marcos, now, he should be your great-great-great uncle. But yes, his boy would go to that well every day to get water, early in the morning, and one day, a voice called from inside the well, crying out to him, Up there, if you help me, I’ll give you all the money you could ever hope for. Just look, the voice said, and Raul saw something flash, like silver catching the sun. So Raul lowered the bucket and said, Get in the bucket, but the voice said back: No, you have to come down yourself and get me. So your cousin went down into the well, with the rope tied around his waist, and they never saw him again, no. Whatever was down there, snatched him away, and as she said this, her hand snatched something invisible out of the air. Alessandro flinched.

@@ -1,11 +1,9 @@
 ---
 date: 2016-10-01 13:24:17 -0400
-title: Portfolio > Your Dream Cakes website
-project_name: Your Dream Cakes
+title: Your Dream Cakes
 subtitle: Website, logo, and business cards for catering company, created 2015
 permalink: /projects/YourDreamCakes
 imgfolder: yourdreamcakes
-categories: website
 tagline: Website and branding for a catering service
 ---
 Your Dream Cakes is a custom dessert and catering service in South Florida. I built and designed the website using Wordpress. The website is [here](http://yourdreamcakes.com). 

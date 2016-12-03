@@ -1,11 +1,9 @@
 ---
 date:   2016-10-02 13:24:17 -0400
-title: Portfolio > Rice and Rocks, ebook
-project_name: Rice and Rocks
+title: Rice and Rocks
 subtitle: Enhanced fixed-layout EPUB, freelance project, 2016
 permalink: /projects/RiceAndRocks
 imgfolder: riceandrocks
-categories: ebook development
 tagline: A fixed-layout children's book with music
 ---
 *Rice and Rocks* is a children's book published by Wise Ink. I was contracted to create three different fixed-layout versions, one enhanced version with music and two more versions without the music enhancement, in EPUB3 and KF8/Mobi.

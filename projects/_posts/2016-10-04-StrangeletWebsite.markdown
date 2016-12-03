@@ -1,7 +1,6 @@
 ---
 date:   2016-10-04 13:24:17 -0400
-title: Portfolio > Strangelet Website
-project_name: Strangelet Website
+title: Strangelet Website
 subtitle: Print book and ebooks for the literary magazine Strangelet, created 2015
 permalink: /projects/StrangeletWebsite
 imgfolder: strangeletwebsite

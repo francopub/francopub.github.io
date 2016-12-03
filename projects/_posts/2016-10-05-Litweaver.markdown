@@ -1,7 +1,6 @@
 ---
 date:   2016-10-05 13:24:17 -0400
-title: Projects > Litweaver ebooks
-project_name: Litweaver
+title: Litweaver
 subtitle: Ebook series with paragraph numbering, freelance project, 2014–2015
 permalink: /projects/Litweaver
 imgfolder: litweaver

@@ -1,11 +1,9 @@
 ---
 date: 2016-10-03 13:24:17 -0400
-title: Portfolio > Redivider, book design
-project_name: Redivider
+title: Redivider
 subtitle: Production editor at Redivider, literary magazine at Emerson College, 2011–2012
 permalink: /projects/Redivider
 imgfolder: redivider
-categories: print design
 tagline: A literary magazine and a new logo
 ---
 *Redivider* is the graduate-run biannual literary magazine at Emerson College. I was production editor, leading the design and production of the journal. My team and I designed and laid out the cover and pages for the books. 
