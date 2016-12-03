@@ -42,10 +42,10 @@ layout: default
         {% endif %}
     {% endfor %}
   {% if next_post %}
-   <a class="next" href="{{next_post}}"><button class="right-btn"> {{next_post.title}} &raquo;</button></a>
+   <a class="next" href="{{next_post}}"><button class="right-btn"> {{page.next.title}} &raquo;</button></a>
   {% endif %}
   {% if prev_post %}
-    <a class="prev" href="{{prev_post}}"><button class="left-btn">&laquo; {{prev_post.title}}</button></a>
+    <a class="prev" href="{{prev_post}}"><button class="left-btn">&laquo; {{page.previous.title}}</button></a>
   {% endif %}
 </div>
 {% include footer.html %}
