@@ -25,7 +25,12 @@
 		</li>
 		<li id="contactme"><i class="fa fa-comments" aria-hidden="true"></i><span data-title="Contact Me"> Contact Me</span></li>
 	</ul>
-	<div id="logo">F</div>
+	<div id="logo">
+		<a href="/">
+			<img src="/img/franco-image.jpg" alt="" />
+			<div class="logo-overlay"></div>
+		</a>
+	</div>
 </nav>
 <header role="banner" class="site-header">
 	<h1>
@@ -110,9 +115,19 @@
 </p> -->
 </article>
 </main>
+<script src="/js/functions.js"></script>
+<div id="form-container">
+<h1>Keep in touch!</h1>
+<form method="POST" action="http://formspree.io/franco.faa@gmail.com">
+	<input type="text" name="_replyto" placeholder="Your email" />
+	<textarea name="message" placeholder="Your message"></textarea>
+	<input type="text" name="_gotcha" style="display:none;" />
+	<input type="hidden" name="_next" value="/thanks.html" />
+	<button class="formbutton" type="submit">Send</button>
+</form>
+</div>
 <footer>
 	<p class="copyright">&copy; Franco A. Alvarado 2016. 
-		<!--<a href="">Blog</a>-->
 		
 	 | <a href="https://twitter.com/NoFrancosPlease">
 		      <i class="fa fa-twitter"></i> 
@@ -129,16 +144,5 @@
 		    </a>
 		 </p>
 </footer>
-<script src="/js/functions.js"></script>
-<div id="form-container">
-<h1>Keep in touch!</h1>
-<form method="POST" action="http://formspree.io/franco.faa@gmail.com">
-	<input type="text" name="_replyto" placeholder="Your email" />
-	<textarea name="message" placeholder="Your message"></textarea>
-	<input type="text" name="_gotcha" style="display:none;" />
-	<input type="hidden" name="_next" value="/thanks.html" />
-	<button class="formbutton" type="submit">Send</button>
-</form>
-</div>
 </body>
 </html>

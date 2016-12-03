@@ -1,18 +1,17 @@
 <footer>
-	<p class="copyright">&copy; Franco A. Alvarado {{ site.time | date: '%Y'}}. 
-		<!--<a href="">Blog</a>-->
+	<p class="copyright">&copy; {{site.copyright}} {{ site.time | date: '%Y'}}. 
 		{% if site.twitter_username %}
-	 | <a href="https://twitter.com/NoFrancosPlease">
+	 | <a href="https://twitter.com/{{site.twitter_username}}">
 		      <i class="fa fa-twitter"></i> 
 		    </a>
 		{% endif %}
 		{% if site.github_username %}
-		    | <a href="https://github.com/francofaa">
+		    | <a href="https://github.com/{{site.github_username}}">
 		      <i class="fa fa-github"></i> 
 		    </a>
 		{% endif %}
 		{% if site.linkedin_username %}
-		    | <a href="https://linkedin.com/in/franco-alvarado-17959124">
+		    | <a href="https://linkedin.com/in/{{site.linkedin_username}}">
 		      <i class="fa fa-linkedin"></i> 
 		    </a>
 		{% endif %} </p>

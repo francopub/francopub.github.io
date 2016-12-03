@@ -8,53 +8,71 @@ nav.topnav {
 	background-color: $charcoal;
 	div#logo {
 		@extend .boxshadow;
-		@include gradient(2deg, $complementcolor, $maincolor, $offwhite);
-		float: right;
-		padding: 0.4em 0.8em;
-		font-family: $stack-serif;
-		font-size: 2.25em;
-		color: $offwhite;
-		animation: iconpulse 10s infinite;
-		margin: 0.15em 0.23em;
-		border-radius: 50px;
-		-moz-border-radius: 50px;
-   		-webkit-border-radius: 50px;
-	}
-	ul#menu {
-		list-style-type:none;
-		/* margin:0; */
-		padding:0;
-		position: absolute;
-		li {
-			display:inline-block;
-			float: left;
-			margin-right: 1px;
-			}
-		a, li#contactme {
-			display:block;
-			min-width:140px;
-			height: 50px;
-			text-align: center;
-			line-height: 50px;
-			font-family: $stack-ss;
+		    float: right;
+		    width: 80px;
+		    position: relative;
+		    height: 80px;
 			color: $offwhite;
-			background: $charcoal;
-			text-decoration: none;
-				&:hover {
-				background: $maincolor;
-				}
+		    margin: 6px 8px;
+		    border-radius: 50px;
+		    -moz-border-radius: 50px;
+		    -webkit-border-radius: 50px;
+	   	img {
+		    border-radius: 50px;
+		    -moz-border-radius: 50px;
+		    -webkit-border-radius: 50px;
+			border-radius: 50px;
 			}
-		li#contactme {
-			-webkit-user-select: none; /* Chrome/Safari */        
-			-moz-user-select: none; /* Firefox */
-			-ms-user-select: none; 
-			background-color: $selectcolor;
-			cursor: pointer;
-			&:hover {
-				background: light($selectcolor, 20%);
+		div.logo-overlay {
+		    width: 80px;
+		    height: 80px;
+		    padding:0px 1px 0px 2px;
+		    border-radius: 50px;
+		    -moz-border-radius: 50px;
+		    -webkit-border-radius: 50px;
+			position: absolute;
+			animation: pulse 10s infinite;
+			opacity: 0.4;
+			width: 80px;
+			top: 0;
+			height: 80px;
 			}
 		}
-}
+		ul#menu {
+			list-style-type:none;
+			/* margin:0; */
+			padding:0;
+			position: absolute;
+			li {
+				display:inline-block;
+				float: left;
+				margin-right: 1px;
+				}
+			a, li#contactme {
+				display:block;
+				min-width:140px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				font-family: $stack-ss;
+				color: $offwhite;
+				background: $charcoal;
+				text-decoration: none;
+					&:hover {
+					background: $maincolor;
+					}
+				}
+			li#contactme {
+				-webkit-user-select: none; /* Chrome/Safari */        
+				-moz-user-select: none; /* Firefox */
+				-ms-user-select: none; 
+				background-color: $selectcolor;
+				cursor: pointer;
+				&:hover {
+					background: light($selectcolor, 20%);
+				}
+			}
+	}
 
 /*Style for dropdown links*/
 li:hover ul#menu a {
@@ -78,8 +96,6 @@ nav.topnav-scrolled {
   		top: 0;
 	}
 
-
-
 .show-menu {
     font-family: $stack-ss;
     text-decoration: none;
@@ -98,16 +114,4 @@ input[type=checkbox]{
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
     display: block;
-}
-
-@keyframes iconpulse {
-  0% {
-    color: $charcoal;
-  }
-  50% {
-   color: $offwhite;
-  }
-  100% {
-   color: $charcoal;
-  }
 }

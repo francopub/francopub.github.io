@@ -1,15 +1,14 @@
 ---
 layout: page
-author: Franco
+title: About
 permalink: /
 ---
-{% assign author = site.data.authors[page.author] %}
 <article>
 <h1 id="aboutme">Hello!</h1>
 <p>
-	Welcome to my website. I am a publishing professional living in the Boston area. I&#8217;m a problem-solver, and I like to fix things: print books, ebooks, and websites. {% if author.available == true %} I am currently <b>available </b>to help you! {% else %} I am currently working at {{ author.job }}, but please feel free to get in touch anyway. {% endif %}
+	Welcome to my website. I am a publishing professional living in the Boston area. I&#8217;m a problem-solver, and I like to fix things: print books, ebooks, and websites. {% if site.available == true %} I am currently <b>available </b>to help you! {% else %} I am currently working at {{ site.job }}, but please feel free to get in touch anyway. {% endif %}
 </p>
-{% if author.available == true %} 
+{% if site.available == true %} 
 <p class="center">
 	<i>Accepting new projects. Services I provide include:</i>
 </p>

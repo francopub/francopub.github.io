@@ -285,19 +285,33 @@ nav.topnav {
   /*Style for dropdown links*/
   /*Hover state for dropdown links*/ }
   nav.topnav div#logo {
-    background: -moz-linear-gradient(2deg, #0066cc, #cc6600, #f3f3f3);
-    background: -webkit-linear-gradient(2deg, #0066cc, #cc6600, #f3f3f3);
-    background: linear-gradient(2deg, #0066cc, #cc6600, #f3f3f3);
     float: right;
-    padding: 0.4em 0.8em;
-    font-family: "Noticia Text", Athelas, Georgia, serif;
-    font-size: 2.25em;
+    width: 80px;
+    position: relative;
+    height: 80px;
     color: #f3f3f3;
-    animation: iconpulse 10s infinite;
-    margin: 0.15em 0.23em;
+    margin: 6px 8px;
     border-radius: 50px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px; }
+    nav.topnav div#logo img {
+      border-radius: 50px;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px; }
+    nav.topnav div#logo div.logo-overlay {
+      width: 80px;
+      height: 80px;
+      padding: 0px 1px 0px 2px;
+      border-radius: 50px;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      position: absolute;
+      animation: pulse 10s infinite;
+      opacity: 0.4;
+      width: 80px;
+      top: 0;
+      height: 80px; }
   nav.topnav ul#menu {
     list-style-type: none;
     /* margin:0; */
@@ -360,13 +374,6 @@ input[type=checkbox] {
 input[type=checkbox]:checked ~ #menu {
   display: block; }
 
-@keyframes iconpulse {
-  0% {
-    color: #2f3036; }
-  50% {
-    color: #f3f3f3; }
-  100% {
-    color: #2f3036; } }
 p img {
   display: block;
   margin: 0 auto 0.5em;
@@ -420,7 +427,7 @@ article {
       font-style: normal; }
 
 article.blogpost {
-  padding-top: 3em; }
+  padding-top: 9.5em; }
 
 article.project {
   margin: 0 auto;
@@ -467,7 +474,6 @@ article.project {
   column-count: 3;
   -moz-column-count: 3;
   column-gap: 5px;
-  position: auto;
   overflow: auto;
   box-sizing: border-box;
   font-size: 1em;
@@ -1113,7 +1119,6 @@ main#thanks {
     column-count: 1;
     -moz-column-count: 1;
     column-gap: 5px;
-    position: auto;
     overflow: auto;
     box-sizing: border-box;
     font-size: 1em; } }

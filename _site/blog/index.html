@@ -25,7 +25,12 @@
 		</li>
 		<li id="contactme"><i class="fa fa-comments" aria-hidden="true"></i><span data-title="Contact Me"> Contact Me</span></li>
 	</ul>
-	<div id="logo">F</div>
+	<div id="logo">
+		<a href="/">
+			<img src="/img/franco-image.jpg" alt="" />
+			<div class="logo-overlay"></div>
+		</a>
+	</div>
 </nav>
 <header role="banner" class="site-header">
 	<h1>
@@ -37,11 +42,12 @@
 	<h2>Print + Digital Publishing Services</h2>
 </header>
 <main>
+<div class="post-group">
 
   
 	<div class="post">
 		<h3 class="title"><a href="/blog/2016/10/28/Death-of-Gueda-Hesme/">The Death of Gueda Hesme</a></h3>
-		<p class="meta">Date: 2016-10-28 14:04:17 -0400</p>
+		<p class="meta">28 October 2016</p>
 		<div class="entry">
 			Tia Gueda Hesme lived in the house, having worked for the Von Kromer family for as long as anyone could remember. No one knew how she was related to the family, and Calébres and Alessandro doubted she was ever young. Her eyes were white and murky, and she looked as old as a tree, gnarled and knotted with wrinkles. She never moved as she sat in her chair, aside from moving her hand to her mouth to take a puff from her cigar. —-Right down there, in the plaza, she told the boys in her strange accent, there used to...
 		</div>
@@ -51,7 +57,7 @@
   
 	<div class="post">
 		<h3 class="title"><a href="/blog/2016/10/24/welcome-to-jekyll/">This is the title</a></h3>
-		<p class="meta">Date: 2016-10-24 14:04:17 -0400</p>
+		<p class="meta">24 October 2016</p>
 		<div class="entry">
 			You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for...
 		</div>
@@ -76,11 +82,21 @@
 
   
 
-
+</div>
 </main>
+<script src="/js/functions.js"></script>
+<div id="form-container">
+<h1>Keep in touch!</h1>
+<form method="POST" action="http://formspree.io/franco.faa@gmail.com">
+	<input type="text" name="_replyto" placeholder="Your email" />
+	<textarea name="message" placeholder="Your message"></textarea>
+	<input type="text" name="_gotcha" style="display:none;" />
+	<input type="hidden" name="_next" value="/thanks.html" />
+	<button class="formbutton" type="submit">Send</button>
+</form>
+</div>
 <footer>
 	<p class="copyright">&copy; Franco A. Alvarado 2016. 
-		<!--<a href="">Blog</a>-->
 		
 	 | <a href="https://twitter.com/NoFrancosPlease">
 		      <i class="fa fa-twitter"></i> 
@@ -97,16 +113,5 @@
 		    </a>
 		 </p>
 </footer>
-<script src="/js/functions.js"></script>
-<div id="form-container">
-<h1>Keep in touch!</h1>
-<form method="POST" action="http://formspree.io/franco.faa@gmail.com">
-	<input type="text" name="_replyto" placeholder="Your email" />
-	<textarea name="message" placeholder="Your message"></textarea>
-	<input type="text" name="_gotcha" style="display:none;" />
-	<input type="hidden" name="_next" value="/thanks.html" />
-	<button class="formbutton" type="submit">Send</button>
-</form>
-</div>
 </body>
 </html>

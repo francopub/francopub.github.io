@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width">
-	<title>Franco A. Alvarado > </title>
+	<title>Franco A. Alvarado > About</title>
 	<link rel="stylesheet" href="/css/screen.css" />
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<script src="/js/jquery-2.1.1.min.js"></script>
@@ -25,7 +25,12 @@
 		</li>
 		<li id="contactme"><i class="fa fa-comments" aria-hidden="true"></i><span data-title="Contact Me"> Contact Me</span></li>
 	</ul>
-	<div id="logo">F</div>
+	<div id="logo">
+		<a href="/">
+			<img src="/img/franco-image.jpg" alt="" />
+			<div class="logo-overlay"></div>
+		</a>
+	</div>
 </nav>
 <header role="banner" class="site-header">
 	<h1>
@@ -37,7 +42,6 @@
 	<h2>Print + Digital Publishing Services</h2>
 </header>
 <main>
-
 <article>
 <h1 id="aboutme">Hello!</h1>
 <p>
@@ -64,9 +68,19 @@
 
 
 </main>
+<script src="/js/functions.js"></script>
+<div id="form-container">
+<h1>Keep in touch!</h1>
+<form method="POST" action="http://formspree.io/franco.faa@gmail.com">
+	<input type="text" name="_replyto" placeholder="Your email" />
+	<textarea name="message" placeholder="Your message"></textarea>
+	<input type="text" name="_gotcha" style="display:none;" />
+	<input type="hidden" name="_next" value="/thanks.html" />
+	<button class="formbutton" type="submit">Send</button>
+</form>
+</div>
 <footer>
 	<p class="copyright">&copy; Franco A. Alvarado 2016. 
-		<!--<a href="">Blog</a>-->
 		
 	 | <a href="https://twitter.com/NoFrancosPlease">
 		      <i class="fa fa-twitter"></i> 
@@ -83,16 +97,5 @@
 		    </a>
 		 </p>
 </footer>
-<script src="/js/functions.js"></script>
-<div id="form-container">
-<h1>Keep in touch!</h1>
-<form method="POST" action="http://formspree.io/franco.faa@gmail.com">
-	<input type="text" name="_replyto" placeholder="Your email" />
-	<textarea name="message" placeholder="Your message"></textarea>
-	<input type="text" name="_gotcha" style="display:none;" />
-	<input type="hidden" name="_next" value="/thanks.html" />
-	<button class="formbutton" type="submit">Send</button>
-</form>
-</div>
 </body>
 </html>
