@@ -4,7 +4,7 @@ title: Crimson Romance
 subtitle: Ebook series with script-based workflow, 2013–2016
 permalink: /projects/CrimsonRomance
 imgfolder: crimsonromance
-tagline: A streamlined ebook-first workflow
+project_type: Python, Ebook development
 published: true
 ---
 Crimson Romance is the romance line at Adams Media. This is an ebook-first series. For this series, I helped with a transition to a CMS-based workflow. I was the sole developer on this series during my time at F+W Media, with 2 to 3 titles being published per week.

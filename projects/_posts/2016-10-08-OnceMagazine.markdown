@@ -4,13 +4,13 @@ title: Once
 subtitle: Magazine design, master's project, 2011
 permalink: /projects/Once
 imgfolder: oncemagazine
-tagline: A new way to navigate a magazine
+project_type: Magazine design
 ---
 *Once* magazine was a project for my magazine design class at Emerson College's Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics. 
 
 ![Front cover of magazine](../../img/oncemagazine/1a-cover.jpg)
 ![Back cover of magazine](../../img/oncemagazine/1b-back-cover.jpg)
-*For the back cover, I took a public domain image of a German wolf stamp and edited it in Photoshop*
+*For the back cover, I took a public domain image of a German postage stamp and edited it in Photoshop*
 
 ![The table of contents, laid out as a map](../../img/oncemagazine/2a-toc-spread.jpg)
 *To add to the whimsical nature of the project, I decided to make the table of contents into a map. I illustrated some images and combined them in Photoshop along with the appropriate text*
