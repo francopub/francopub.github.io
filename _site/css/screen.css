@@ -435,7 +435,7 @@ article.project {
   article.project header {
     margin: 0 auto;
     max-width: 650px; }
-    article.project header h1, article.project header h3, article.project header ul {
+    article.project header h1 {
       margin: 4.5em 0.67em 0; }
     article.project header p.byline {
       font-size: 1.25em;
@@ -448,7 +448,7 @@ article.project {
       font-size: 1em;
       margin-top: 0;
       line-height: 1; }
-  article.project section p {
+  article.project section p, article.project section ul li {
     margin-top: 0.5em;
     font-size: 1.25em;
     line-height: 1.5;
@@ -457,6 +457,11 @@ article.project {
     widows: 2;
     orphans: 2;
     font-family: "Noticia Text", Athelas, Georgia, serif; }
+  article.project section h3 {
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Open Sans", Helvetica, sans-serif; }
   article.project aside.bio {
     margin-top: 1em;
     font-size: 1.25em;

@@ -74,7 +74,7 @@ article.project {
 	header {
 		margin: 0 auto;
 		max-width: 650px;
-		h1, h3, ul {
+		h1 {
 		margin: 4.5em 0.67em 0;	
 		}
 		
@@ -94,7 +94,7 @@ article.project {
 		}
 	}
 	section {
-		p {
+		p, ul li {
 			margin-top: 0.5em;
 			font-size: 1.25em;
 			line-height: 1.5;
@@ -104,6 +104,13 @@ article.project {
 			orphans: 2;
 			font-family: $stack-serif;
 		}
+		h3 {
+			font-size: 2em;
+			margin-left: 10%;
+			margin-right: 10%;
+			font-family: $stack-ss;
+		}
+
 	}
 	aside.bio {
 		margin-top: 1em;
