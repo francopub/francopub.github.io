@@ -13,17 +13,20 @@
 
 
 @media screen and (max-width: 1026px) {
-.post-group {
-  min-height: 500px;
-  text-align: center;
- -webkit-column-count: 1;
-  column-count: 1;
-  -moz-column-count: 1;
-  column-gap: 5px;
-  overflow: auto;
-  box-sizing: border-box;
-  font-size: 1em;
-}
+  .post-group {
+    min-height: 500px;
+    text-align: center;
+   -webkit-column-count: 1;
+    column-count: 1;
+    -moz-column-count: 1;
+    column-gap: 5px;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  h1#projects {
+    width: 7.6em;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -52,7 +55,6 @@
   article {
     margin: 0 5%;
     max-width: 100%;}
-
 }
 
 @media screen and (max-width: 580px) {

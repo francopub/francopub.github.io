@@ -4,7 +4,7 @@ title: Your Dream Cakes
 subtitle: Website, logo, and business cards for catering company, created 2015
 permalink: /projects/YourDreamCakes
 imgfolder: yourdreamcakes
-project_type: Web design and development, Branding
+project_type: Web design and development, WordPress, Branding
 ---
 
 ### Summary

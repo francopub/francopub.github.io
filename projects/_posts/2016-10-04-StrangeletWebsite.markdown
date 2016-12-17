@@ -4,7 +4,7 @@ title: Strangelet Website
 subtitle: Print book and ebooks for the literary magazine Strangelet, created 2015
 permalink: /projects/StrangeletWebsite
 imgfolder: strangeletwebsite
-project_type: Web design and development
+project_type: Web design and development, WordPress
 ---
 
 ### Summary
