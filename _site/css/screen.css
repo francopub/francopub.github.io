@@ -267,7 +267,8 @@ footer {
   width: 100%;
   font-family: "Noticia Text", Athelas, Georgia, serif;
   margin-top: 4em;
-  border-top: 1px solid #919295; }
+  border-top: 1px solid #919295;
+  font-size: 1.2em; }
   footer .copyright {
     padding-left: 1em; }
   footer .social {
@@ -458,7 +459,7 @@ article.project {
     orphans: 2;
     font-family: "Noticia Text", Athelas, Georgia, serif; }
   article.project section h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: 10%;
     margin-right: 10%;
     font-family: "Open Sans", Helvetica, sans-serif; }
