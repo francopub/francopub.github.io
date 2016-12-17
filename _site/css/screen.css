@@ -435,7 +435,7 @@ article.project {
   article.project header {
     margin: 0 auto;
     max-width: 650px; }
-    article.project header h1 {
+    article.project header h1, article.project header h3, article.project header ul {
       margin: 4.5em 0.67em 0; }
     article.project header p.byline {
       font-size: 1.25em;
