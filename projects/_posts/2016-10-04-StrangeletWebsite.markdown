@@ -6,7 +6,22 @@ permalink: /projects/StrangeletWebsite
 imgfolder: strangeletwebsite
 project_type: Web design and development
 ---
+### Summary
+
 *Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the [production of the books and ebooks](../StrangeletPress). The website is [strangeletjournal.com](http://strangeletjournal.com). The content manager and I also handled the updates to the site.
+
+### Role
+
+Designer and Developer
+
+### Skills Used
+
+- WordPress
+- CSS
+- HTML5
+- Photoshop
+
+### Description
 
 The website was built in Wordpress, using a child theme based on the theme Responsive.
 

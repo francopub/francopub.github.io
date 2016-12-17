@@ -7,7 +7,25 @@ imgfolder: crimsonromance
 project_type: Python, Ebook development
 published: true
 ---
+### Summary
+
 Crimson Romance is the romance line at Adams Media. This is an ebook-first series. For this series, I helped with a transition to a CMS-based workflow. I was the sole developer on this series during my time at F+W Media, with 2 to 3 titles being published per week.
+
+### Role
+
+Developer
+
+### Skills Used
+
+- Python
+- RegEx
+- EPUB3
+- CMS development
+- CSS
+- XML
+- XHTML
+
+### Description
 
 ![Library of Crimson Romance ebooks](../../img/crimsonromance/1-library.jpg)
 

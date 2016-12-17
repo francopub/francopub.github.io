@@ -4,9 +4,26 @@ title: Strangelet Press
 subtitle: Print book and ebook production for the literary magazine <i>Strangelet</i>, 2012–2016
 permalink: /projects/StrangeletPress
 imgfolder: strangeletpress
-project_type: Book design, Ebook development, CSS
+project_type: Book design, Ebook development, CSS, XHTML
 ---
-*Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to managing the design and production, I was also a co-founder, the [website designer](../StrangeletWebsite), and art editor.
+### Summary
+
+*Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. 
+
+### Role
+
+Book Designer, Ebook Developer, Production Editor, Art Editor, Founding Partner, [Website Designer](../StrangeletWebsite)
+
+### Skills Used
+
+- InDesign
+- Photoshop
+- EPUB3
+- CSS
+- XML
+- XHTML
+
+### Work Done
 
 For *Strangelet*, I typeset the book in Caslon with the display text as Marta. The title page typeface is Hightower and the cover a combination of typefaces to reflect the tone of the books: strange, bizarre, eerie. We produced bimonthly issues, around 50 to 70 pages each, and combined them in an omnibus at the end of the year.
 

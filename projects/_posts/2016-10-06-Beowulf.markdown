@@ -6,7 +6,21 @@ permalink: /projects/Beowulf
 imgfolder: beowulf
 project_type: Book design
 ---
+### Summary
+
 For this edition of *Beowulf*, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.
+
+### Role
+
+Book Designer
+
+### Skills Used
+
+- InDesign
+- Photoshop
+- GREP (RegEx)
+
+### Description
 
 ![Title page](../../img/beowulf/1a-title-page.jpg)
 *For the cover, I created a Viking ship on the water using typographical ornaments. These were then echoed in the title page.*

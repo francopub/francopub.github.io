@@ -6,7 +6,21 @@ permalink: /projects/Once
 imgfolder: oncemagazine
 project_type: Magazine design
 ---
+### Summary
+
 *Once* magazine was a project for my magazine design class at Emerson College's Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics. 
+
+### Role
+
+Magazine Designer
+
+### Skills Used
+
+- InDesign
+- Photoshop
+- Drawing
+
+### Description
 
 ![Front cover of magazine](../../img/oncemagazine/1a-cover.jpg)
 ![Back cover of magazine](../../img/oncemagazine/1b-back-cover.jpg)

@@ -6,7 +6,22 @@ permalink: /projects/Litweaver
 imgfolder: litweaver
 project_type: Ebook development
 ---
+### Summary
+
 Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.
+
+### Role
+
+Ebook Developer
+
+### Skills Used
+
+- EPUB3
+- CSS
+- XML
+- XHTML
+
+### Description
 
 ![Selection of the Litweaver ebook library](../../img/litweaver/1-library.jpg)
 
