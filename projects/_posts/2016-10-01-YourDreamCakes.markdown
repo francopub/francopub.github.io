@@ -6,6 +6,7 @@ permalink: /projects/YourDreamCakes
 imgfolder: yourdreamcakes
 project_type: Web design and development, Branding
 ---
+
 ### Summary
 
 Your Dream Cakes is a custom dessert and catering service in South Florida. I built and designed the website using Wordpress. The website is [here](http://yourdreamcakes.com). 

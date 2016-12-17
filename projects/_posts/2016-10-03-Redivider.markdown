@@ -6,6 +6,7 @@ permalink: /projects/Redivider
 imgfolder: redivider
 project_type: Book design
 ---
+
 ### Summary
 
 *Redivider* is the graduate-run biannual literary magazine at Emerson College. I was production editor, leading the design and production of the journal. My team and I designed and laid out the cover and pages for the books. 

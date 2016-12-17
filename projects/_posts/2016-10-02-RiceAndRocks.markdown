@@ -6,6 +6,7 @@ permalink: /projects/RiceAndRocks
 imgfolder: riceandrocks
 project_type: Ebook development, Fixed-layout ebook
 ---
+
 ### Summary
 
 *Rice and Rocks* is a children's book published by Wise Ink. I was contracted to create three different fixed-layout versions, one enhanced version with music and two more versions without the music enhancement, in EPUB3 and KF8/Mobi.

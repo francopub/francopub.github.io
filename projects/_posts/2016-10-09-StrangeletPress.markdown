@@ -6,6 +6,7 @@ permalink: /projects/StrangeletPress
 imgfolder: strangeletpress
 project_type: Book design, Ebook development, CSS, XHTML
 ---
+
 ### Summary
 
 *Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. 
