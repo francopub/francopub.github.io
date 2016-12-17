@@ -458,6 +458,8 @@ article.project {
     widows: 2;
     orphans: 2;
     font-family: "Noticia Text", Athelas, Georgia, serif; }
+  article.project section ul li {
+    line-height: 1; }
   article.project section h3 {
     font-size: 1.5em;
     margin-left: 10%;

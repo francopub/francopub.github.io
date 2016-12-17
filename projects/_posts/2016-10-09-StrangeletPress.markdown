@@ -24,7 +24,7 @@ Book Designer, Ebook Developer, Production Editor, Art Editor, Founding Partner,
 - XML
 - XHTML
 
-### Work Done
+### Description
 
 For *Strangelet*, I typeset the book in Caslon with the display text as Marta. The title page typeface is Hightower and the cover a combination of typefaces to reflect the tone of the books: strange, bizarre, eerie. We produced bimonthly issues, around 50 to 70 pages each, and combined them in an omnibus at the end of the year.
 

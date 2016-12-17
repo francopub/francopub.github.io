@@ -104,6 +104,9 @@ article.project {
 			orphans: 2;
 			font-family: $stack-serif;
 		}
+		ul li {
+			line-height: 1;
+		}
 		h3 {
 			font-size: 1.5em;
 			margin-left: 10%;
