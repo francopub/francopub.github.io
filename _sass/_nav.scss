@@ -71,6 +71,7 @@ nav.topnav {
 				background-color: $charcoal;
 				font-family: $stack-logo;
 				font-weight: 100;
+				text-transform: uppercase;
 				&:hover {
 					background-color: $charcoal;
 					animation: textpulse 10s infinite;

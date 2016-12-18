@@ -404,7 +404,8 @@ nav.topnav {
       font-size: 1.5em;
       background-color: #2f3036;
       font-family: "Arima Madurai", "Raleway", Helvetica, sans-serif;
-      font-weight: 100; }
+      font-weight: 100;
+      text-transform: uppercase; }
       nav.topnav ul#menu li#name:hover {
         background-color: #2f3036;
         animation: textpulse 10s infinite; }
