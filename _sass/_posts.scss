@@ -137,11 +137,11 @@ article.project {
 .post-group {
   min-height: 500px;
   text-align: center;
- -webkit-column-count: 3;
+ /*-webkit-column-count: 3;
   column-count: 3;
   -moz-column-count: 3;
   column-gap: 5px;
-  overflow: auto;
+   overflow: auto; */
   box-sizing: border-box;
   font-size: 1em;
   margin: 0 auto;
@@ -149,8 +149,10 @@ article.project {
 }
 
 .post-group > .post {
-  text-align: center;
-  margin-top: 1em;
+	/* text-align: center; */
+	margin-top: 0.5em;
+	float: left;
+	margin-left: 1.2em;
 }
 
 .post img {

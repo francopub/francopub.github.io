@@ -29,32 +29,31 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1010px) {
   /*Make dropdown links appear inline*/
   div#logo {
     display: none;
   }
   nav.topnav {
-  ul#menu {
-    position: static;
-    display: none;
-    margin: 0;
-  }
-  /*Create vertical spacing*/
-  ul#menu li {
-    margin-bottom: 1px;
-  }
-  /*Make all menu links full width*/
-  ul#menu li, li a {
-    width: 100%;
-  }
-  .show-menu {
-    display:block;
+    ul#menu {
+      position: static;
+      display: none;
+      margin: 0;
+    li#contactme, li#name, li, li a {
+        width: 100%;
+        background-color: $charcoal;
+        margin-left: 0;
+        margin-bottom: 1px;
+      }
     }
-}
+    .show-menu {
+      display:block;
+      }
+  }
   article {
     margin: 0 5%;
-    max-width: 100%;}
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 580px) {

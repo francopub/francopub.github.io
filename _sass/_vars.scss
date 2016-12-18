@@ -15,9 +15,9 @@ $complementcolor: complement($maincolor);
 $bordercolor: darken($complementcolor, 20%);
 
 /* fonts */
-$stack-ss: 'Open Sans', Helvetica, sans-serif;
-$stack-serif: 'Noticia Text', Athelas, Georgia, serif;
-$stack-logo: 'Macondo Swash Caps', $stack-ss;
+$stack-ss: 'Nunito Sans', Helvetica, sans-serif;
+$stack-serif: 'Vollkorn', Athelas, Georgia, serif;
+$stack-logo: $stack-ss;
 $stack-mono: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 
 /* borders */

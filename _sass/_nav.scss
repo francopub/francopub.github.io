@@ -7,8 +7,8 @@ nav.topnav {
 	height: 90px;
 	background-color: $charcoal;
 	div#logo {
-		@extend .boxshadow;
-		    float: right;
+			@extend .boxshadow;
+		    float: left;
 		    width: 80px;
 		    position: relative;
 		    height: 80px;
@@ -40,17 +40,17 @@ nav.topnav {
 		}
 		ul#menu {
 			list-style-type:none;
-			/* margin:0; */
+			float: right;
 			padding:0;
-			position: absolute;
+			position: relative;
 			li {
 				display:inline-block;
 				float: left;
 				margin-right: 1px;
 				}
-			a, li#contactme {
+			a, li#contactme, li#name {
 				display:block;
-				min-width:140px;
+				min-width: 140px;
 				height: 50px;
 				text-align: center;
 				line-height: 50px;
@@ -61,6 +61,17 @@ nav.topnav {
 					background: $maincolor;
 					}
 				}
+			li#name {
+				min-width: 200px;
+				-webkit-user-select: none; /* Chrome/Safari */        
+				-moz-user-select: none; /* Firefox */
+				-ms-user-select: none; 
+				background-color: $maincolor;
+				cursor: pointer;
+				margin-left: 100px;
+				&:hover {
+					animation: pulsebutton 10s infinite;
+			}
 			li#contactme {
 				-webkit-user-select: none; /* Chrome/Safari */        
 				-moz-user-select: none; /* Firefox */
