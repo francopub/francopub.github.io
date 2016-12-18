@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Arima+Madurai:100,200,300|Raleway:400,400i,700,700i|Vollkorn:400,400i,700,700i|");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Cabin+Sketch|Raleway:400,400i,700,700i|Vollkorn:400,400i,700,700i|");
 .content {
   width: 80%;
   margin: 0 auto; }
@@ -403,7 +403,7 @@ nav.topnav {
       margin-left: 10px;
       font-size: 1.5em;
       background-color: #2f3036;
-      font-family: "Arima Madurai", "Raleway", Helvetica, sans-serif;
+      font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif;
       font-weight: 100;
       text-transform: uppercase; }
       nav.topnav ul#menu li#name:hover {
