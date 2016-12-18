@@ -23,6 +23,29 @@
   }
 }
 
+@keyframes textpulse {
+    0% {
+    color: #fd8282;
+  }
+  10% {
+    color: #fdfc82;
+  }
+  25%{
+   color: #82fd8c;
+  }
+  50% {
+   color: #af9eff;
+  }
+  75% {
+   color: #e782fd;
+  }
+  85% {
+   color: #82defd;    
+  }
+  100% {
+   color: #fd8282;
+  }
+}
 
 @keyframes pulsebutton {
   10% {
@@ -69,4 +92,5 @@
    color: #fd8282;
   }
 }
+
 

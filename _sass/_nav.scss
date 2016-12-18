@@ -40,12 +40,10 @@ nav.topnav {
 		}
 		ul#menu {
 			list-style-type:none;
-			float: right;
 			padding:0;
-			position: relative;
 			li {
 				display:inline-block;
-				float: left;
+				float: right;
 				margin-right: 1px;
 				}
 			a, li#contactme, li#name {
@@ -62,15 +60,16 @@ nav.topnav {
 					}
 				}
 			li#name {
-				min-width: 200px;
+				width: auto;
 				-webkit-user-select: none; /* Chrome/Safari */        
 				-moz-user-select: none; /* Firefox */
 				-ms-user-select: none; 
-				background-color: $maincolor;
-				cursor: pointer;
-				margin-left: 100px;
+				float: left;
+				padding: 0 20px;
+				margin-left: 10px;
+				font-size: 1.5em;
 				&:hover {
-					animation: pulsebutton 10s infinite;
+					animation: textpulse 10s infinite;
 				}
 			}
 			li#contactme {

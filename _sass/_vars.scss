@@ -15,9 +15,9 @@ $complementcolor: complement($maincolor);
 $bordercolor: darken($complementcolor, 20%);
 
 /* fonts */
-$stack-ss: 'Nunito Sans', Helvetica, sans-serif;
+$stack-ss: 'Raleway', Helvetica, sans-serif;
 $stack-serif: 'Vollkorn', Athelas, Georgia, serif;
-$stack-logo: $stack-ss;
+$stack-logo: 'Arima Madurai', $stack-ss;
 $stack-mono: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 
 /* borders */
