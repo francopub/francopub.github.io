@@ -401,8 +401,10 @@ nav.topnav {
       float: left;
       padding: 0 20px;
       margin-left: 10px;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      background-color: #2f3036; }
       nav.topnav ul#menu li#name:hover {
+        background-color: #2f3036;
         animation: textpulse 10s infinite; }
     nav.topnav ul#menu li#contactme {
       -webkit-user-select: none;
