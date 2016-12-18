@@ -160,6 +160,50 @@ td, th {
   -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
 
+@keyframes pulse {
+  0% {
+    background-color: #fd8282; }
+  10% {
+    background-color: #fdfc82; }
+  25% {
+    background-color: #82fd8c; }
+  50% {
+    background-color: #af9eff; }
+  75% {
+    background-color: #e782fd; }
+  85% {
+    background-color: #82defd; }
+  100% {
+    background-color: #fd8282; } }
+@keyframes pulsebutton {
+  10% {
+    background-color: #fd8282; }
+  25% {
+    background-color: #fdfc82; }
+  50% {
+    background-color: #82fd8c; }
+  75% {
+    background-color: #af9eff; }
+  85% {
+    background-color: #e782fd; }
+  100% {
+    background-color: #82defd; }
+  0% {
+    background-color: #fd8282; }
+  0% {
+    color: #fd8282; }
+  10% {
+    color: #fdfc82; }
+  25% {
+    color: #82fd8c; }
+  50% {
+    color: #af9eff; }
+  75% {
+    color: #e782fd; }
+  85% {
+    color: #82defd; }
+  100% {
+    color: #fd8282; } }
 body {
   margin: 0;
   color: #2f3036; }
@@ -287,7 +331,7 @@ nav.topnav {
   /*Style for dropdown links*/
   /*Hover state for dropdown links*/ }
   nav.topnav div#logo {
-    float: right;
+    float: left;
     width: 80px;
     position: relative;
     height: 80px;
@@ -316,14 +360,14 @@ nav.topnav {
       height: 80px; }
   nav.topnav ul#menu {
     list-style-type: none;
-    /* margin:0; */
+    float: right;
     padding: 0;
-    position: absolute; }
+    position: relative; }
     nav.topnav ul#menu li {
       display: inline-block;
       float: left;
       margin-right: 1px; }
-    nav.topnav ul#menu a, nav.topnav ul#menu li#contactme {
+    nav.topnav ul#menu a, nav.topnav ul#menu li#contactme, nav.topnav ul#menu li#name {
       display: block;
       min-width: 140px;
       height: 50px;
@@ -332,8 +376,20 @@ nav.topnav {
       font-family: "Nunito Sans", Helvetica, sans-serif;
       color: #f3f3f3;
       text-decoration: none; }
-      nav.topnav ul#menu a:hover, nav.topnav ul#menu li#contactme:hover {
+      nav.topnav ul#menu a:hover, nav.topnav ul#menu li#contactme:hover, nav.topnav ul#menu li#name:hover {
         background: #8da0bd; }
+    nav.topnav ul#menu li#name {
+      min-width: 200px;
+      -webkit-user-select: none;
+      /* Chrome/Safari */
+      -moz-user-select: none;
+      /* Firefox */
+      -ms-user-select: none;
+      background-color: #8da0bd;
+      cursor: pointer;
+      margin-left: 100px; }
+      nav.topnav ul#menu li#name:hover {
+        animation: pulsebutton 10s infinite; }
     nav.topnav ul#menu li#contactme {
       -webkit-user-select: none;
       /* Chrome/Safari */
@@ -1069,50 +1125,6 @@ main#thanks {
     display: block;
     margin: 0 auto; }
 
-@keyframes pulse {
-  0% {
-    background-color: #fd8282; }
-  10% {
-    background-color: #fdfc82; }
-  25% {
-    background-color: #82fd8c; }
-  50% {
-    background-color: #af9eff; }
-  75% {
-    background-color: #e782fd; }
-  85% {
-    background-color: #82defd; }
-  100% {
-    background-color: #fd8282; } }
-@keyframes pulsebutton {
-  10% {
-    background-color: #fd8282; }
-  25% {
-    background-color: #fdfc82; }
-  50% {
-    background-color: #82fd8c; }
-  75% {
-    background-color: #af9eff; }
-  85% {
-    background-color: #e782fd; }
-  100% {
-    background-color: #82defd; }
-  0% {
-    background-color: #fd8282; }
-  0% {
-    color: #fd8282; }
-  10% {
-    color: #fdfc82; }
-  25% {
-    color: #82fd8c; }
-  50% {
-    color: #af9eff; }
-  75% {
-    color: #e782fd; }
-  85% {
-    color: #82defd; }
-  100% {
-    color: #fd8282; } }
 /*
 @media (max-width: 1150px){
 	main {
@@ -1139,31 +1151,26 @@ main#thanks {
 
   h1#projects {
     width: 7.6em; } }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1010px) {
   /*Make dropdown links appear inline*/
   div#logo {
     display: none; }
 
-  nav.topnav {
-    /*Create vertical spacing*/
-    /*Make all menu links full width*/ }
-    nav.topnav ul#menu {
-      position: static;
-      display: none;
-      margin: 0; }
-    nav.topnav ul#menu li {
+  nav.topnav ul#menu {
+    position: static;
+    display: none;
+    margin: 0; }
+    nav.topnav ul#menu li#contactme, nav.topnav ul#menu li#name, nav.topnav ul#menu li, nav.topnav ul#menu li a {
+      width: 100%;
+      background-color: #2f3036;
+      margin-left: 0;
       margin-bottom: 1px; }
-    nav.topnav ul#menu li, nav.topnav li a {
-      width: 100%; }
-    nav.topnav .show-menu {
-      display: block; }
+  nav.topnav .show-menu {
+    display: block; }
 
   article {
     margin: 0 5%;
-    max-width: 100%; }
-
-  nav.topnav ul#menu a, nav.topnav ul#menu li#contactme {
-    background-color: #2f3036; } }
+    max-width: 100%; } }
 @media screen and (max-width: 580px) {
   div#form-container {
     width: 88%;
