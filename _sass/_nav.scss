@@ -69,6 +69,8 @@ nav.topnav {
 				margin-left: 10px;
 				font-size: 1.5em;
 				background-color: $charcoal;
+				font-family: $stack-logo;
+				font-weight: 100;
 				&:hover {
 					background-color: $charcoal;
 					animation: textpulse 10s infinite;
