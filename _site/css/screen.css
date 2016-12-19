@@ -155,7 +155,7 @@ td, th {
 /* borders */
 /* shadows */
 /* .. begin fonts */
-.boxshadow, nav.topnav, nav.topnav div#logo, .highlight, div.PageNavigation button, main#thanks button {
+.boxshadow, main article, .widgetbox .widget, nav.topnav, nav.topnav div#logo, .highlight, div.PageNavigation button, main#thanks button {
   -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
@@ -250,6 +250,8 @@ main {
     font-size: 2.5em;
     text-align: center;
     font-family: "Raleway", Helvetica, sans-serif; }
+  main h1#aboutme {
+    border-bottom: none; }
   main p {
     font-family: "Vollkorn", Athelas, Georgia, serif;
     line-height: 1.3;
@@ -262,6 +264,9 @@ main {
     font-size: 1.2rem;
     widows: 2;
     orphans: 2; }
+  main article {
+    padding: 0em 15%;
+    background-color: #f3f3f3; }
 
 img {
   max-width: 100%; }
@@ -281,7 +286,6 @@ header.site-header {
   background: url(../img/back.png);
   text-shadow: 0 1px 0 #919295;
   font-family: "Raleway", Helvetica, sans-serif;
-  border-bottom: #2f3036 2px dashed;
   /*h3 {
   	font-size: 1em;
   	line-height: 1.2;
@@ -338,6 +342,34 @@ footer {
     padding-left: 1em; }
     footer .social a {
       font-style: italic; }
+
+.widgetbox {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1em;
+  width: 100%;
+  font-family: 'Cabin Sketch'; }
+  .widgetbox .widget {
+    float: left;
+    width: 33.3%;
+    background: #f3f3f3;
+    position: relative;
+    height: 300px;
+    margin-bottom: 3em; }
+    .widgetbox .widget p {
+      padding: 0 1.5em;
+      text-shadow: 0 1px 0 #919295; }
+    .widgetbox .widget p.icon {
+      font-size: 4em;
+      margin: 20px 0 0;
+      padding: 0;
+      text-align: center;
+      color: #0b56dd;
+      text-shadow: 0 1px 0 #919295; }
+    .widgetbox .widget h3 {
+      margin: 0;
+      font-size: 2.85em;
+      color: #0b56dd; }
 
 nav.topnav {
   z-index: 150;
@@ -3496,6 +3528,14 @@ main#thanks {
     font-size: 1em;
     width: 625px;
     margin: 0 auto; } }
+@media screen and (max-width: 780px) {
+  .widget {
+    width: 100%;
+    margin-bottom: 0;
+    height: auto; }
+
+  h1#aboutme {
+    margin-top: 1em; } }
 @media screen and (max-width: 637px) {
   .post-group {
     width: 100%; }

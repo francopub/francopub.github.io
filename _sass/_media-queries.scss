@@ -48,6 +48,17 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  .widget {
+    width: 100%;
+    margin-bottom: 0;
+    height: auto;
+  }
+  h1#aboutme {
+    margin-top: 1em;
+  }
+}
+
 @media screen and (max-width: 637px) {
   .post-group {
     width: 100%;
