@@ -24,7 +24,7 @@ Developer and Designer
 
 ### Description
 
-Play around with the project here: [https://francofaa.github.io/GradeYouLater/](https://francofaa.github.io/GradeYouLater/). Explore the code [here on Github](https://github.com/francofaa/GradeYouLater/). 
+Play around with the project [here](https://francofaa.github.io/GradeYouLater/). Explore the code [here on Github](https://github.com/francofaa/GradeYouLater/). 
 
 The user enters in the student name, assignment name, and total possible points. The user then tallies using the big plus and minus buttons.
 

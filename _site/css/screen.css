@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Cabin+Sketch:400,700|Raleway:400,400i,700,700i|Vollkorn:400,400i,700,700i|");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Cabin+Sketch:700|Raleway:400,400i,700,700i|Vollkorn:400,400i,700,700i|");
 .content {
   width: 80%;
   margin: 0 auto; }
@@ -288,7 +288,7 @@ header.site-header {
     padding-top: 2.5em;
     line-height: 1.2;
     margin: 0;
-    font-family: "Raleway", Helvetica, sans-serif;
+    font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif;
     font-weight: bold; }
   header.site-header h2 {
     margin: 0.67em; }
@@ -305,7 +305,7 @@ header.site-header {
     line-height: 1.5;
     font-family: "Vollkorn", Athelas, Georgia, serif;
     margin-top: 0;
-    font-size: 1em;
+    font-size: 1.3em;
     font-style: italic; }
 
 /* div.strip {
@@ -401,7 +401,7 @@ nav.topnav {
       float: left;
       padding: 0 20px;
       margin-left: 10px;
-      font-size: 1.5em;
+      font-size: 2em;
       background-color: #2f3036;
       font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif;
       text-transform: uppercase; }
@@ -567,10 +567,9 @@ article.project {
   max-width: 61em; }
 
 .post-group > .post {
-  /* text-align: center; */
   margin-top: 0.5em;
   float: left;
-  margin-left: 1.2em; }
+  margin-left: 10px; }
 
 .post img {
   width: 100% !important;
@@ -1157,15 +1156,12 @@ main#thanks {
 */
 @media screen and (max-width: 1026px) {
   .post-group {
-    min-height: 500px;
     text-align: center;
-    -webkit-column-count: 1;
-    column-count: 1;
-    -moz-column-count: 1;
-    column-gap: 5px;
     overflow: auto;
     box-sizing: border-box;
-    font-size: 1em; }
+    font-size: 1em;
+    width: 100%;
+    margin: 0; }
 
   h1#projects {
     width: 7.6em; } }
@@ -1186,6 +1182,8 @@ main#thanks {
       padding: 0; }
     nav.topnav ul#menu li#name {
       font-size: 1.5em; }
+    nav.topnav ul#menu li#contactme {
+      background-color: #8d90bd; }
   nav.topnav .show-menu {
     display: block; }
 
