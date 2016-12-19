@@ -264,7 +264,7 @@ p {
 
 li, li ul li {
   font-family: "Vollkorn", Athelas, Georgia, serif;
-  font-size: 1.2rem;
+  font-size: 1em;
   widows: 2;
   orphans: 2; }
 
@@ -307,7 +307,8 @@ header.site-header {
     line-height: 1.2;
     margin: 0;
     font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    border-bottom: none; }
   header.site-header h2 {
     margin: 0.67em;
     font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif;
@@ -355,7 +356,7 @@ footer {
   font-size: 1em;
   width: 100%;
   font-family: 'Cabin Sketch';
-  margin-top: -3em; }
+  /*margin-top: -3em;*/ }
   .widgetbox .widget {
     float: left;
     width: 33.3%;
