@@ -55,7 +55,10 @@ main {
 	}
 	article {
 		@extend .boxshadow;
-	    padding: 0em 15%;
+	}
+	article#aboutarticle {
+		max-width: 100%;
+		padding: 0em 15%;
 	    background-color: $offwhite;
 	}
 }
