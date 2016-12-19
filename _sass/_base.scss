@@ -54,12 +54,13 @@ main {
 		orphans: 2;	
 	}
 	article {
-		@extend .boxshadow;
+		
 	}
 	article#aboutarticle {
 		max-width: 100%;
 		padding: 0em 15%;
 	    background-color: $offwhite;
+	    @extend .boxshadow;
 	}
 }
 

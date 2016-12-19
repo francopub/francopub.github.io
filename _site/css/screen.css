@@ -155,7 +155,7 @@ td, th {
 /* borders */
 /* shadows */
 /* .. begin fonts */
-.boxshadow, main article, .widgetbox .widget, nav.topnav, nav.topnav div#logo, .highlight, div.PageNavigation button, main#thanks button {
+.boxshadow, main article#aboutarticle, .widgetbox .widget, nav.topnav, nav.topnav div#logo, .highlight, div.PageNavigation button, main#thanks button {
   -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
@@ -349,7 +349,8 @@ footer {
   box-sizing: border-box;
   font-size: 1em;
   width: 100%;
-  font-family: 'Cabin Sketch'; }
+  font-family: 'Cabin Sketch';
+  margin-top: -3em; }
   .widgetbox .widget {
     float: left;
     width: 33.3%;
@@ -3520,7 +3521,8 @@ main#thanks {
 
   article {
     /*margin: 0 5%;*/
-    max-width: 100%; } }
+    max-width: 100%;
+    padding: 1px 20px; } }
 @media screen and (max-width: 945px) {
   .post-group {
     text-align: center;
@@ -3535,7 +3537,8 @@ main#thanks {
     margin-bottom: 0;
     height: auto; }
   .widgetbox h1#aboutme {
-    margin-top: 1em; } }
+    margin-top: 1em;
+    padding-top: 18em; } }
 @media screen and (max-width: 650px) {
   .post-group {
     width: 100%; }
