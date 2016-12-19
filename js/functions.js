@@ -21,6 +21,9 @@ $(window).scroll(function() {
 
 $(function() {
   
+  var shiftWindow = function() { scrollBy(0, -135) };
+  window.addEventListener("hashchange", shiftWindow);
+  function load() { if (window.location.hash) shiftWindow(); }
   // contact form animations
   $('#contactme').click(function() {
     $('#form-container').fadeToggle();
@@ -34,9 +37,4 @@ $(function() {
         container.fadeOut();
     }
   });
-  
 });
-
-var shiftWindow = function() { scrollBy(0, -135) };
-    window.addEventListener("hashchange", shiftWindow);
-    function load() { if (window.location.hash) shiftWindow(); }

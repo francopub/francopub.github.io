@@ -1,7 +1,7 @@
-
-
 @media screen and (max-width: 1249px) {
-  width: 950px;
+  .post-group {
+    width: 950px;
+  }
 }
 
 @media screen and (max-width: 1058px) {
@@ -24,7 +24,7 @@
       font-size: 1.5em;
       }
     li#contactme {
-              background-color: $selectcolor;
+      background-color: $selectcolor;
       }
     }
     .show-menu {
