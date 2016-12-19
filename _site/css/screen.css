@@ -300,7 +300,8 @@ header.site-header {
     font-weight: bold; }
   header.site-header h2 {
     margin: 0.67em;
-    font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif; }
+    font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif;
+    font-weight: bold; }
   header.site-header p.tag-line {
     font-style: italic;
     color: #bdaa8d;
