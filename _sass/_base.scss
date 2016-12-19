@@ -24,9 +24,9 @@ a {
 	background: $selectcolor;
 }
 
-main {
+/* main {
 	background: white;
-  	padding: 3em 0 0 0;
+  	padding: 3em 0 0 0; */
 	h1, h1#aboutme {
 		margin-bottom: 0.5em;
 		padding-bottom: 0;
@@ -54,7 +54,7 @@ main {
 		orphans: 2;	
 	}
 	article {
-		
+
 	}
 	article#aboutarticle {
 		max-width: 100%;
@@ -62,7 +62,7 @@ main {
 	    background-color: $offwhite;
 	    @extend .boxshadow;
 	}
-}
+/*}*/
 
 img {
 	max-width: 100%;

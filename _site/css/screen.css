@@ -155,7 +155,7 @@ td, th {
 /* borders */
 /* shadows */
 /* .. begin fonts */
-.boxshadow, main article#aboutarticle, .widgetbox .widget, nav.topnav, nav.topnav div#logo, .highlight, div.PageNavigation button, main#thanks button {
+.boxshadow, article#aboutarticle, .widgetbox .widget, nav.topnav, nav.topnav div#logo, .highlight, div.PageNavigation button, main#thanks button {
   -webkit-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.54); }
@@ -234,41 +234,46 @@ a {
     color: #946207; }
 
 ::selection {
-  background: #bfdd0b; }
+  background: #d1dd0b; }
 
 ::-moz-selection {
-  background: #bfdd0b; }
+  background: #d1dd0b; }
 
-main {
-  background: white;
-  padding: 3em 0 0 0; }
-  main h1, main h1#aboutme {
-    margin-bottom: 0.5em;
-    padding-bottom: 0;
-    border-bottom: #06307c solid 2px;
-    text-shadow: 0 1px 0 #919295;
-    font-size: 2.5em;
-    text-align: center;
-    font-family: "Raleway", Helvetica, sans-serif; }
-  main h1#aboutme {
-    border-bottom: none; }
-  main p {
-    font-family: "Vollkorn", Athelas, Georgia, serif;
-    line-height: 1.3;
-    padding-bottom: 0.5em;
-    font-size: 1.2rem;
-    widows: 2;
-    orphans: 2; }
-  main li, main li ul li {
-    font-family: "Vollkorn", Athelas, Georgia, serif;
-    font-size: 1.2rem;
-    widows: 2;
-    orphans: 2; }
-  main article#aboutarticle {
-    max-width: 100%;
-    padding: 0em 15%;
-    background-color: #f3f3f3; }
+/* main {
+	background: white;
+  	padding: 3em 0 0 0; */
+h1, h1#aboutme {
+  margin-bottom: 0.5em;
+  padding-bottom: 0;
+  border-bottom: #06307c solid 2px;
+  text-shadow: 0 1px 0 #919295;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: "Raleway", Helvetica, sans-serif; }
 
+h1#aboutme {
+  border-bottom: none; }
+
+p {
+  font-family: "Vollkorn", Athelas, Georgia, serif;
+  line-height: 1.3;
+  padding-bottom: 0.5em;
+  font-size: 1.2rem;
+  widows: 2;
+  orphans: 2; }
+
+li, li ul li {
+  font-family: "Vollkorn", Athelas, Georgia, serif;
+  font-size: 1.2rem;
+  widows: 2;
+  orphans: 2; }
+
+article#aboutarticle {
+  max-width: 100%;
+  padding: 0em 15%;
+  background-color: #f3f3f3; }
+
+/*}*/
 img {
   max-width: 100%; }
 
@@ -1000,8 +1005,8 @@ div#form-container {
   div#form-container input:focus, div#form-container textarea:focus {
     background: white;
     box-shadow: 0;
-    border: 3px solid #bfdd0b;
-    color: #bfdd0b;
+    border: 3px solid #d1dd0b;
+    color: #d1dd0b;
     outline: none; }
   div#form-container textarea {
     width: 100%;
@@ -3515,7 +3520,7 @@ main#thanks {
     nav.topnav ul#menu li#name {
       font-size: 1.5em; }
     nav.topnav ul#menu li#contactme {
-      background-color: #bfdd0b; }
+      background-color: #d1dd0b; }
   nav.topnav .show-menu {
     display: block; }
 

@@ -9,7 +9,7 @@ $gray: mix($charcoal, $offwhite);
 /* colors */
 
 $maincolor: #dd920b;
-$selectcolor: adjust-hue($maincolor, 30deg);
+$selectcolor: adjust-hue($maincolor, 25deg);
 
 $complementcolor: complement($maincolor);
 $bordercolor: darken($complementcolor, 20%);
