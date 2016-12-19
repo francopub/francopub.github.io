@@ -245,7 +245,6 @@ a {
 h1, h1#aboutme {
   margin-bottom: 0.5em;
   padding-bottom: 0;
-  border-bottom: #06307c solid 2px;
   text-shadow: 0 1px 0 #919295;
   font-size: 2.5em;
   text-align: center;
@@ -425,7 +424,7 @@ nav.topnav {
       margin-right: 1px; }
     nav.topnav ul#menu a, nav.topnav ul#menu li#contactme, nav.topnav ul#menu li#name {
       display: block;
-      min-width: 120px;
+      min-width: 150px;
       height: 50px;
       text-align: center;
       line-height: 50px;
