@@ -225,19 +225,19 @@ body {
 
 a {
   text-decoration: none;
-  color: #dd920b; }
+  color: #BD4010; }
   a:-webkit-any-link {
     cursor: auto; }
   a:hover {
-    color: #c5820a; }
+    color: #a5380e; }
   a:active {
-    color: #946207; }
+    color: #76280a; }
 
 ::selection {
-  background: #d1dd0b; }
+  background: #bd8810; }
 
 ::-moz-selection {
-  background: #d1dd0b; }
+  background: #bd8810; }
 
 h1, h1#aboutme {
   margin-bottom: 0.5em;
@@ -310,7 +310,7 @@ header.site-header {
     font-weight: bold; }
   header.site-header p.tag-line {
     font-style: italic;
-    color: #0b56dd;
+    color: #108dbd;
     line-height: 1.5;
     font-family: "Vollkorn", Athelas, Georgia, serif;
     margin-top: 0;
@@ -367,12 +367,12 @@ footer {
       margin: 20px 0 0;
       padding: 0;
       text-align: center;
-      color: #dd920b;
+      color: #BD4010;
       text-shadow: 0 1px 0 #919295; }
     .widgetbox .widget h3 {
       margin: 0;
       font-size: 2.85em;
-      color: #dd920b; }
+      color: #BD4010; }
 
 nav.topnav {
   z-index: 150;
@@ -424,7 +424,7 @@ nav.topnav {
         height: 40px;
         line-height: 40px; }
         nav.topnav ul#menu li:hover ul#menu a:hover {
-          background: #f7be57;
+          background: #ef7344;
           color: #f3f3f3; }
     nav.topnav ul#menu a, nav.topnav ul#menu li#contactme, nav.topnav ul#menu li#name {
       display: block;
@@ -436,7 +436,7 @@ nav.topnav {
       color: #f3f3f3;
       text-decoration: none; }
       nav.topnav ul#menu a:hover, nav.topnav ul#menu li#contactme:hover, nav.topnav ul#menu li#name:hover {
-        background: #dd920b; }
+        background: #BD4010; }
     nav.topnav ul#menu li#name {
       width: auto;
       -webkit-user-select: none;
@@ -460,7 +460,7 @@ nav.topnav {
       -moz-user-select: none;
       /* Firefox */
       -ms-user-select: none;
-      background-color: #0b56dd;
+      background-color: #108dbd;
       cursor: pointer; }
 
 nav.topnav-scrolled {
@@ -472,7 +472,7 @@ nav.topnav-scrolled {
   font-family: "Raleway", Helvetica, sans-serif;
   text-decoration: none;
   color: #f3f3f3;
-  background: #0b56dd;
+  background: #108dbd;
   text-align: center;
   padding: 2.2em 0;
   display: none; }
@@ -504,7 +504,7 @@ article {
     font-family: "Raleway", Helvetica, sans-serif;
     padding-bottom: 9px;
     margin: 40px 0 20px;
-    border-bottom: 1px solid #06307c;
+    border-bottom: 1px solid #08475f;
     text-align: center;
     line-height: 1.4;
     text-shadow: 0 1px 0 #919295; }
@@ -535,7 +535,7 @@ article {
     font-size: 1.25em;
     font-style: italic;
     margin: 0;
-    border-top: 1px solid #06307c;
+    border-top: 1px solid #08475f;
     font-family: "Vollkorn", Athelas, Georgia, serif; }
     article aside.bio i {
       font-style: normal; }
@@ -583,7 +583,7 @@ article.project {
     font-size: 1.25em;
     font-style: italic;
     margin: 0;
-    border-top: 1px solid #06307c;
+    border-top: 1px solid #08475f;
     font-family: "Vollkorn", Athelas, Georgia, serif; }
     article.project aside.bio i {
       font-style: normal; }
@@ -639,7 +639,7 @@ article.project {
 
 .post a:hover .caption, .post a:active .caption {
   opacity: 1;
-  background: rgba(11, 86, 221, 0.5);
+  background: rgba(16, 141, 189, 0.5);
   transition: opacity .5s ease;
   box-shadow: inset 0 0 90px -20px #2f3036; }
 
@@ -1001,8 +1001,8 @@ div#form-container {
   div#form-container input:focus, div#form-container textarea:focus {
     background: white;
     box-shadow: 0;
-    border: 3px solid #d1dd0b;
-    color: #d1dd0b;
+    border: 3px solid #bd8810;
+    color: #bd8810;
     outline: none; }
   div#form-container textarea {
     width: 100%;
@@ -1025,7 +1025,7 @@ button {
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
   line-height: 1.3;
-  background-color: #0b56dd;
+  background-color: #108dbd;
   display: inline-block;
   white-space: nowrap;
   -ms-touch-action: manipulation;
@@ -1036,7 +1036,7 @@ button {
   -ms-user-select: none;
   user-select: none;
   background-image: none;
-  border-color: #0a4dc5;
+  border-color: #0e7ba5;
   border: 1px solid transparent;
   text-shadow: none;
   -webkit-transition: all 0.3s;
@@ -1047,9 +1047,9 @@ button {
   font-family: "Raleway", Helvetica, sans-serif;
   padding: 16px 16px; }
   button:hover {
-    background-color: #0a4dc5; }
+    background-color: #0e7ba5; }
   button:active {
-    background-color: #073a94; }
+    background-color: #0a5876; }
 
 button.contact-link {
   display: block;
@@ -3515,8 +3515,6 @@ main#thanks {
       padding: 0; }
     nav.topnav ul#menu li#name {
       font-size: 1.5em; }
-    nav.topnav ul#menu li#contactme {
-      background-color: #d1dd0b; }
   nav.topnav .show-menu {
     display: block; }
 
