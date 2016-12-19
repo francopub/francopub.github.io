@@ -560,7 +560,8 @@ article.project {
   text-align: center;
   box-sizing: border-box;
   font-size: 1em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 1250px; }
 
 .post-group > .post {
   margin-top: 0.5em;
@@ -603,13 +604,13 @@ article.project {
   transition: opacity .5s ease;
   /* border-radius: 30px; */ }
 
-.post a:hover .caption {
+.post a:hover .caption, .post a:active .caption {
   opacity: 1;
   background: rgba(189, 170, 141, 0.5);
   transition: opacity .5s ease;
   box-shadow: inset 0 0 90px -20px #2f3036; }
 
-.post a:hover img {
+.post a:hover img, .post a:active img {
   -webkit-filter: blur(2px);
   filter: blur(2px); }
 
@@ -3462,16 +3463,8 @@ main#thanks {
   overflow: visible;
   clip: auto; }
 
-@media screen and (max-width: 929px) {
-  .post-group {
-    text-align: center;
-    overflow: auto;
-    box-sizing: border-box;
-    font-size: 1em;
-    width: 100%;
-    margin: 0 auto; }
-    .post-group .post {
-      width: 100%; } }
+@media screen and (max-width: 1249px) {
+  width: 950px; }
 @media screen and (max-width: 1058px) {
   div#logo {
     display: none; }
@@ -3496,6 +3489,19 @@ main#thanks {
   article {
     margin: 0 5%;
     max-width: 100%; } }
+@media screen and (max-width: 945px) {
+  .post-group {
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 625px;
+    margin: 0 auto; } }
+@media screen and (max-width: 637px) {
+  .post-group {
+    width: 100%; }
+    .post-group .post {
+      width: 100%; } }
 @media screen and (max-width: 580px) {
   div#form-container {
     width: 88%;

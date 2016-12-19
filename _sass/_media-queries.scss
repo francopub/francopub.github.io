@@ -1,16 +1,9 @@
-@media screen and (max-width: 929px) {
-  .post-group {
-    text-align: center;
-    overflow: auto;
-    box-sizing: border-box;
-    font-size: 1em;
-    width: 100%;
-    margin: 0 auto;
-    .post {
-      width: 100%;
-    }
-  }
+
+
+@media screen and (max-width: 1249px) {
+  width: 950px;
 }
+
 @media screen and (max-width: 1058px) {
   div#logo {
     display: none;
@@ -43,6 +36,27 @@
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 945px) {
+  .post-group {
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 625px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 637px) {
+  .post-group {
+    width: 100%;
+    .post {
+      width: 100%;
+    }
+  }
+}
+
 
 @media screen and (max-width: 580px) {
     div#form-container{
