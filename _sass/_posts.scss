@@ -1,6 +1,5 @@
 h1#projects {
-	width: 23.96em;
-    margin: 0 auto;
+	border-bottom: none;
 }
 
 p img {
@@ -137,15 +136,9 @@ article.project {
 .post-group {
   min-height: 500px;
   text-align: center;
- /*-webkit-column-count: 3;
-  column-count: 3;
-  -moz-column-count: 3;
-  column-gap: 5px;
-   overflow: auto; */
   box-sizing: border-box;
   font-size: 1em;
   margin: 0 auto;
-  max-width: 61em;
 }
 
 .post-group > .post {

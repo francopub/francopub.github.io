@@ -281,7 +281,15 @@ header.site-header {
   background: url(../img/back.png);
   text-shadow: 0 1px 0 #919295;
   font-family: "Raleway", Helvetica, sans-serif;
-  border-bottom: #2f3036 2px dashed; }
+  border-bottom: #2f3036 2px dashed;
+  /*h3 {
+  	font-size: 1em;
+  	line-height: 1.2;
+  	font-style: italic;
+  	margin: 0;
+  	font-family: $stack-ss;
+  	color: $charcoal;
+  }*/ }
   header.site-header h1 {
     margin: 0.67em;
     font-size: 4em;
@@ -291,14 +299,8 @@ header.site-header {
     font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif;
     font-weight: bold; }
   header.site-header h2 {
-    margin: 0.67em; }
-  header.site-header h3 {
-    font-size: 1em;
-    line-height: 1.2;
-    font-style: italic;
-    margin: 0;
-    font-family: "Raleway", Helvetica, sans-serif;
-    color: #2f3036; }
+    margin: 0.67em;
+    font-family: "Cabin Sketch", "Raleway", Helvetica, sans-serif; }
   header.site-header p.tag-line {
     font-style: italic;
     color: #bdaa8d;
@@ -382,7 +384,7 @@ nav.topnav {
       margin-right: 1px; }
     nav.topnav ul#menu a, nav.topnav ul#menu li#contactme, nav.topnav ul#menu li#name {
       display: block;
-      min-width: 140px;
+      min-width: 120px;
       height: 50px;
       text-align: center;
       line-height: 50px;
@@ -450,8 +452,7 @@ input[type=checkbox]:checked ~ #menu {
   display: block; }
 
 h1#projects {
-  width: 23.96em;
-  margin: 0 auto; }
+  border-bottom: none; }
 
 p img {
   display: block;
@@ -556,15 +557,9 @@ article.project {
 .post-group {
   min-height: 500px;
   text-align: center;
-  /*-webkit-column-count: 3;
-   column-count: 3;
-   -moz-column-count: 3;
-   column-gap: 5px;
-    overflow: auto; */
   box-sizing: border-box;
   font-size: 1em;
-  margin: 0 auto;
-  max-width: 61em; }
+  margin: 0 auto; }
 
 .post-group > .post {
   margin-top: 0.5em;
@@ -1142,31 +1137,17 @@ main#thanks {
     display: block;
     margin: 0 auto; }
 
-/*
-@media (max-width: 1150px){
-	main {
-		@include columns(1, auto, auto, all);
-	}
-}
-@media (max-height: 500px){
-	main {
-		@include columns(1, auto, auto, all);
-	}
-}
-*/
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 929px) {
   .post-group {
     text-align: center;
     overflow: auto;
     box-sizing: border-box;
     font-size: 1em;
     width: 100%;
-    margin: 0; }
-
-  h1#projects {
-    width: 7.6em; } }
-@media screen and (max-width: 1010px) {
-  /*Make dropdown links appear inline*/
+    margin: 0 auto; }
+    .post-group .post {
+      width: 100%; } }
+@media screen and (max-width: 1058px) {
   div#logo {
     display: none; }
 

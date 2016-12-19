@@ -22,15 +22,16 @@ header.site-header 	{
 	}
 	h2 {
 		margin: 0.67em;
+		font-family: $stack-logo;
 	}
-	h3 {
+	/*h3 {
 		font-size: 1em;
 		line-height: 1.2;
 		font-style: italic;
 		margin: 0;
 		font-family: $stack-ss;
 		color: $charcoal;
-	}
+	}*/
 	p.tag-line {
 		font-style: italic;
 		color: $complementcolor;
