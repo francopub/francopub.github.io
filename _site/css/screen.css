@@ -234,10 +234,10 @@ a {
     color: #946207; }
 
 ::selection {
-  background: #ddd80b; }
+  background: #ddb50b; }
 
 ::-moz-selection {
-  background: #ddd80b; }
+  background: #ddb50b; }
 
 main {
   background: white;
@@ -417,10 +417,8 @@ nav.topnav {
       -moz-user-select: none;
       /* Firefox */
       -ms-user-select: none;
-      background-color: #ddd80b;
+      background-color: #0b56dd;
       cursor: pointer; }
-      nav.topnav ul#menu li#contactme:hover {
-        background: light(#ddd80b, 20%); }
   nav.topnav li:hover ul#menu a {
     background: #f3f3f3;
     color: #2f3036;
@@ -968,8 +966,8 @@ div#form-container {
   div#form-container input:focus, div#form-container textarea:focus {
     background: white;
     box-shadow: 0;
-    border: 3px solid #ddd80b;
-    color: #ddd80b;
+    border: 3px solid #ddb50b;
+    color: #ddb50b;
     outline: none; }
   div#form-container textarea {
     width: 100%;
@@ -3483,7 +3481,7 @@ main#thanks {
     nav.topnav ul#menu li#name {
       font-size: 1.5em; }
     nav.topnav ul#menu li#contactme {
-      background-color: #ddd80b; }
+      background-color: #ddb50b; }
   nav.topnav .show-menu {
     display: block; }
 

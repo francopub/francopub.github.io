@@ -80,11 +80,8 @@ nav.topnav {
 				-webkit-user-select: none; /* Chrome/Safari */        
 				-moz-user-select: none; /* Firefox */
 				-ms-user-select: none; 
-				background-color: $selectcolor;
+				background-color: $complementcolor;
 				cursor: pointer;
-				&:hover {
-					background: light($selectcolor, 20%);
-				}
 			}
 	}
 
