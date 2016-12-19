@@ -239,9 +239,6 @@ a {
 ::-moz-selection {
   background: #d1dd0b; }
 
-/* main {
-	background: white;
-  	padding: 3em 0 0 0; */
 h1, h1#aboutme {
   margin-bottom: 0.5em;
   padding-bottom: 0;
@@ -263,7 +260,7 @@ p {
 
 li, li ul li {
   font-family: "Vollkorn", Athelas, Georgia, serif;
-  font-size: 1em;
+  font-size: 1.2rem;
   widows: 2;
   orphans: 2; }
 
@@ -272,7 +269,6 @@ article#aboutarticle {
   padding: 0em 15%;
   background-color: #f3f3f3; }
 
-/*}*/
 img {
   max-width: 100%; }
 
@@ -385,8 +381,7 @@ nav.topnav {
   position: fixed;
   height: 90px;
   background-color: #2f3036;
-  /*Style for dropdown links*/
-  /*Hover state for dropdown links*/ }
+  /*Style for dropdown links*/ }
   nav.topnav div#logo {
     float: left;
     width: 80px;
@@ -421,7 +416,16 @@ nav.topnav {
     nav.topnav ul#menu li {
       display: inline-block;
       float: right;
-      margin-right: 1px; }
+      margin-right: 1px;
+      font-size: 1rem; }
+      nav.topnav ul#menu li:hover ul#menu a {
+        background: #f3f3f3;
+        color: #2f3036;
+        height: 40px;
+        line-height: 40px; }
+        nav.topnav ul#menu li:hover ul#menu a:hover {
+          background: #f7be57;
+          color: #f3f3f3; }
     nav.topnav ul#menu a, nav.topnav ul#menu li#contactme, nav.topnav ul#menu li#name {
       display: block;
       min-width: 150px;
@@ -458,14 +462,6 @@ nav.topnav {
       -ms-user-select: none;
       background-color: #0b56dd;
       cursor: pointer; }
-  nav.topnav li:hover ul#menu a {
-    background: #f3f3f3;
-    color: #2f3036;
-    height: 40px;
-    line-height: 40px; }
-  nav.topnav li:hover ul#menu a:hover {
-    background: #f7be57;
-    color: #f3f3f3; }
 
 nav.topnav-scrolled {
   position: fixed;

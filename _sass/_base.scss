@@ -23,45 +23,38 @@ a {
 ::-moz-selection {
 	background: $selectcolor;
 }
+h1, h1#aboutme {
+	margin-bottom: 0.5em;
+	padding-bottom: 0;
+	text-shadow: $shadow;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: $stack-ss;
+}
+h1#aboutme {
+	border-bottom: none;
+}
+p {
+	font-family: $stack-serif;
+	line-height: 1.3;
+	padding-bottom: 0.5em;
+	font-size: 1.2rem;
+	widows: 2;
+	orphans: 2;
+}
+li, li ul li {
+	font-family: $stack-serif;
+	font-size: 1.2rem;
+	widows: 2;
+	orphans: 2;	
+}
+article#aboutarticle {
+	max-width: 100%;
+	padding: 0em 15%;
+    background-color: $offwhite;
+    @extend .boxshadow;
+}
 
-/* main {
-	background: white;
-  	padding: 3em 0 0 0; */
-	h1, h1#aboutme {
-		margin-bottom: 0.5em;
-		padding-bottom: 0;
-		text-shadow: $shadow;
-		font-size: 2.5em;
-		text-align: center;
-		font-family: $stack-ss;
-	}
-	h1#aboutme {
-		border-bottom: none;
-	}
-	p {
-		font-family: $stack-serif;
-		line-height: 1.3;
-		padding-bottom: 0.5em;
-		font-size: 1.2rem;
-		widows: 2;
-		orphans: 2;
-	}
-	li, li ul li {
-		font-family: $stack-serif;
-		font-size: 1em;
-		widows: 2;
-		orphans: 2;	
-	}
-	article {
-
-	}
-	article#aboutarticle {
-		max-width: 100%;
-		padding: 0em 15%;
-	    background-color: $offwhite;
-	    @extend .boxshadow;
-	}
-/*}*/
 
 img {
 	max-width: 100%;

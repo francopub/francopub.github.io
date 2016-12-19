@@ -7,29 +7,29 @@ nav.topnav {
 	height: 90px;
 	background-color: $charcoal;
 	div#logo {
-			@extend .boxshadow;
-		    float: left;
-		    width: 80px;
-		    position: relative;
-		    height: 80px;
-			color: $offwhite;
-		    margin: 6px 8px;
-		    border-radius: 50px;
-		    -moz-border-radius: 50px;
-		    -webkit-border-radius: 50px;
-	   	img {
-		    border-radius: 50px;
-		    -moz-border-radius: 50px;
-		    -webkit-border-radius: 50px;
+		@extend .boxshadow;
+		float: left;
+		width: 80px;
+		position: relative;
+		height: 80px;
+		color: $offwhite;
+		margin: 6px 8px;
+		border-radius: 50px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+			img {
+			border-radius: 50px;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
 			border-radius: 50px;
 			}
-		div.logo-overlay {
-		    width: 80px;
-		    height: 80px;
-		    padding:0px 1px 0px 2px;
-		    border-radius: 50px;
-		    -moz-border-radius: 50px;
-		    -webkit-border-radius: 50px;
+			div.logo-overlay {
+			width: 80px;
+			height: 80px;
+			padding:0px 1px 0px 2px;
+			border-radius: 50px;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
 			position: absolute;
 			animation: pulse 10s infinite;
 			opacity: 0.4;
@@ -38,91 +38,88 @@ nav.topnav {
 			height: 80px;
 			}
 		}
-		ul#menu {
-			list-style-type:none;
-			padding:0;
-			li {
-				display:inline-block;
-				float: right;
-				margin-right: 1px;
-				}
-			a, li#contactme, li#name {
-				display:block;
-				min-width: 150px;
-				height: 50px;
-				text-align: center;
-				line-height: 50px;
-				font-family: $stack-ss;
+	ul#menu {
+		list-style-type:none;
+		padding:0;
+		li {
+		display:inline-block;
+		float: right;
+		margin-right: 1px;
+		font-size: 1rem;
+		&:hover ul#menu a {
+			background: $offwhite;
+			color: $charcoal;
+			height: 40px;
+			line-height: 40px;
+			&:hover {
+				background: lighten($maincolor, 20%);
 				color: $offwhite;
-				text-decoration: none;
-					&:hover {
-					background: $maincolor;
-					}
-				}
-			li#name {
-				width: auto;
-				-webkit-user-select: none; /* Chrome/Safari */        
-				-moz-user-select: none; /* Firefox */
-				-ms-user-select: none; 
-				float: left;
-				padding: 0 20px;
-				margin-left: 10px;
-				font-size: 2em;
-				background-color: $charcoal;
-				font-family: $stack-logo;
-				text-transform: uppercase;
-				&:hover {
-					background-color: $charcoal;
-					animation: textpulse 10s infinite;
 				}
 			}
-			li#contactme {
-				-webkit-user-select: none; /* Chrome/Safari */        
-				-moz-user-select: none; /* Firefox */
-				-ms-user-select: none; 
-				background-color: $complementcolor;
-				cursor: pointer;
+		}
+		a, li#contactme, li#name {
+		display:block;
+		min-width: 150px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+		font-family: $stack-ss;
+		color: $offwhite;
+		text-decoration: none;
+			&:hover {
+			background: $maincolor;
 			}
+		}
+		li#name {
+		width: auto;
+		-webkit-user-select: none; /* Chrome/Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; 
+		float: left;
+		padding: 0 20px;
+		margin-left: 10px;
+		font-size: 2em;
+		background-color: $charcoal;
+		font-family: $stack-logo;
+		text-transform: uppercase;
+			&:hover {
+			background-color: $charcoal;
+			animation: textpulse 10s infinite;
+			}
+		}
+		li#contactme {
+		-webkit-user-select: none; /* Chrome/Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; 
+		background-color: $complementcolor;
+		cursor: pointer;
+		}
 	}
-
-/*Style for dropdown links*/
-li:hover ul#menu a {
-	background: $offwhite;
-	color: $charcoal;
-	height: 40px;
-	line-height: 40px;
+	/*Style for dropdown links*/
 }
 
-/*Hover state for dropdown links*/
-li:hover ul#menu a:hover {
-	background: lighten($maincolor, 20%);
+	nav.topnav-scrolled {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	}
+
+	.show-menu {
+	font-family: $stack-ss;
+	text-decoration: none;
 	color: $offwhite;
-
-}
-}
-
-nav.topnav-scrolled {
-		position: fixed;
-  		width: 100%;
-  		top: 0;
+	background: $complementcolor;
+	text-align: center;
+	padding: 2.2em 0;
+	display: none;
 	}
 
-.show-menu {
-    font-family: $stack-ss;
-    text-decoration: none;
-    color: $offwhite;
-    background: $complementcolor;
-    text-align: center;
-    padding: 2.2em 0;
-    display: none;
-}
+	/*Hide checkbox*/
+	input[type=checkbox]{
+	display: none;
+	}
 
-/*Hide checkbox*/
-input[type=checkbox]{
-    display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
+	/*Show menu when invisible checkbox is checked*/
+	input[type=checkbox]:checked ~ #menu{
+	display: block;
+	}
