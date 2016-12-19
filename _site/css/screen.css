@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Cabin+Sketch:700|Raleway:400,400i,700,700i|Vollkorn:400,400i,700,700i|");
 .content {
-  width: 80%;
+  /*width: 80%;*/
   margin: 0 auto; }
 
 html {
@@ -1138,51 +1138,6 @@ main#thanks {
     display: block;
     margin: 0 auto; }
 
-@media screen and (max-width: 929px) {
-  .post-group {
-    text-align: center;
-    overflow: auto;
-    box-sizing: border-box;
-    font-size: 1em;
-    width: 100%;
-    margin: 0 auto; }
-    .post-group .post {
-      width: 100%; } }
-@media screen and (max-width: 1058px) {
-  div#logo {
-    display: none; }
-
-  nav.topnav ul#menu {
-    position: static;
-    display: none;
-    margin: 0; }
-    nav.topnav ul#menu li#contactme, nav.topnav ul#menu li#name, nav.topnav ul#menu li, nav.topnav ul#menu li a {
-      width: 100%;
-      background-color: #2f3036;
-      margin-left: 0;
-      margin-bottom: 1px;
-      padding: 0; }
-    nav.topnav ul#menu li#name {
-      font-size: 1.5em; }
-    nav.topnav ul#menu li#contactme {
-      background-color: #8d90bd; }
-  nav.topnav .show-menu {
-    display: block; }
-
-  article {
-    margin: 0 5%;
-    max-width: 100%; } }
-@media screen and (max-width: 580px) {
-  div#form-container {
-    width: 88%;
-    margin-left: 0;
-    padding-left: 3%;
-    padding-right: 3%;
-    z-index: 200;
-    margin-top: 0; }
-
-  button.left-btn, button.right-btn {
-    font-size: 1em; } }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -3506,3 +3461,49 @@ main#thanks {
   margin: 0;
   overflow: visible;
   clip: auto; }
+
+@media screen and (max-width: 929px) {
+  .post-group {
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 100%;
+    margin: 0 auto; }
+    .post-group .post {
+      width: 100%; } }
+@media screen and (max-width: 1058px) {
+  div#logo {
+    display: none; }
+
+  nav.topnav ul#menu {
+    position: static;
+    display: none;
+    margin: 0; }
+    nav.topnav ul#menu li#contactme, nav.topnav ul#menu li#name, nav.topnav ul#menu li, nav.topnav ul#menu li a {
+      width: 100%;
+      background-color: #2f3036;
+      margin-left: 0;
+      margin-bottom: 1px;
+      padding: 0; }
+    nav.topnav ul#menu li#name {
+      font-size: 1.5em; }
+    nav.topnav ul#menu li#contactme {
+      background-color: #8d90bd; }
+  nav.topnav .show-menu {
+    display: block; }
+
+  article {
+    margin: 0 5%;
+    max-width: 100%; } }
+@media screen and (max-width: 580px) {
+  div#form-container {
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    z-index: 200;
+    margin-top: 0; }
+
+  button.left-btn, button.right-btn {
+    font-size: 1em; } }
