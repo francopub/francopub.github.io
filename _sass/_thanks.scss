@@ -2,7 +2,7 @@
 
 main#thanks {
   	margin: 0 auto;
-    animation: pulse 10s infinite;
+    /*animation: pulse 10s infinite;*/
     min-height: 100%;
     position: absolute;
     height: 100%;
@@ -12,7 +12,7 @@ main#thanks {
 		  text-align: center;
     }
     button {
-      animation: pulsebutton 10s infinite;
+      /*animation: pulsebutton 10s infinite;*/
       display: block;
       margin: 0 auto;
       @extend .boxshadow;

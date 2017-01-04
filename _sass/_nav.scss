@@ -31,7 +31,7 @@ nav.topnav {
 			-moz-border-radius: 50px;
 			-webkit-border-radius: 50px;
 			position: absolute;
-			animation: pulse 10s infinite;
+			/*animation: pulse 10s infinite;*/
 			opacity: 0.4;
 			width: 80px;
 			top: 0;
@@ -84,7 +84,7 @@ nav.topnav {
 		text-transform: uppercase;
 			&:hover {
 			background-color: $charcoal;
-			animation: textpulse 10s infinite;
+			/*animation: textpulse 10s infinite;*/
 			}
 		}
 		li#contactme {
