@@ -1,20 +1,21 @@
-<h1 id="projects">Portfolio</h1>
-<div class="post-group">
-{% for post in site.posts %}
-  {% if post.categories contains 'projects' %}
-<div class="post">
-  <a href="{{ post.url }}">
-  <img src="../img/{{ post.imgfolder }}/{{ post.imgfolder }}.jpg" alt="image" />
-  <div class="caption">
+<div id="projectpane">
+  <h1 id="projects">Portfolio</h1>
+  <div class="post-group">
+    {% for post in site.posts %}
+      {% if post.categories contains 'projects' %}
+    <div class="post">
+      <a href="{{ post.url }}">
+      <img src="../img/{{ post.imgfolder }}/{{ post.imgfolder }}.jpg" alt="image" />
+    <div class="caption">
     
-    <div class="caption-text">
-        <h3 class="title">{{ post.title }}</h3>
-        <p>{{ post.project_type}}</p>
+      <div class="caption-text">
+          <h3 class="title">{{ post.title }}</h3>
+          <p>{{ post.project_type}}</p>
+      </div>
     </div>
-  
-  </div>
-    </a>
-</div>
+      </a>
+    </div>
   {% endif %}
 {% endfor %}
+  </div>
 </div>
