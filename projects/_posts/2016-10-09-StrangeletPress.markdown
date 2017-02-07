@@ -4,6 +4,7 @@ title: Strangelet Press
 subtitle: Print book and ebook production for the literary magazine <i>Strangelet</i>, 2012–2016
 permalink: /projects/StrangeletPress
 imgfolder: strangeletpress
+category: projects
 project_type: Book design, Ebook development, CSS, XHTML
 ---
 

@@ -4,6 +4,7 @@ title: Crimson Romance
 subtitle: Ebook series with script-based workflow, 2013–2016
 permalink: /projects/CrimsonRomance
 imgfolder: crimsonromance
+category: projects
 project_type: Python, Ebook development
 ---
 

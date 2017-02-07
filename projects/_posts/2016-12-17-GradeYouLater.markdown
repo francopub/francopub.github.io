@@ -4,6 +4,7 @@ title: GradeYouLater
 subtitle: Single page application for grading, 2016
 permalink: /projects/GradeYouLater
 imgfolder: gradeyoulater
+category: projects
 project_type: Single page application, Web Design and Development, Javascript
 ---
 

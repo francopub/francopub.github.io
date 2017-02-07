@@ -4,6 +4,7 @@ title: Rice and Rocks
 subtitle: Enhanced fixed-layout EPUB, freelance project, 2016
 permalink: /projects/RiceAndRocks
 imgfolder: riceandrocks
+category: projects
 project_type: Ebook development, Fixed-layout ebook
 ---
 

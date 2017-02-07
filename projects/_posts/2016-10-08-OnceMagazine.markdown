@@ -4,6 +4,7 @@ title: Once
 subtitle: Magazine design, master's project, 2011
 permalink: /projects/Once
 imgfolder: oncemagazine
+category: projects
 project_type: Magazine design
 ---
 

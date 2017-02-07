@@ -4,6 +4,7 @@ title: Litweaver
 subtitle: Ebook series with paragraph numbering, freelance project, 2014–2015
 permalink: /projects/Litweaver
 imgfolder: litweaver
+category: projects
 project_type: Ebook development
 ---
 
