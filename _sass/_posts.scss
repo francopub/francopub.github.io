@@ -15,6 +15,7 @@ article {
 	margin: 0 auto;
     max-width: 50%;
     padding-top: 1px;
+    @extend .boxshadow;
 
 	header {
 		font-family: $stack-ss;
@@ -75,7 +76,6 @@ article.blogpost {
 article.project {
 	margin: 0 auto;
 	max-width: 100%;
-    @extend .boxshadow;
 	header {
 		margin: 0 auto;
 		max-width: 650px;
@@ -131,9 +131,6 @@ article.project {
 			font-style: normal;
 		}	
 	}
-}
-
-#projectpane {
 }
 
 .post-group {
