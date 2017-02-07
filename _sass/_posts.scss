@@ -75,6 +75,7 @@ article.blogpost {
 article.project {
 	margin: 0 auto;
 	max-width: 100%;
+    @extend .boxshadow;
 	header {
 		margin: 0 auto;
 		max-width: 650px;
