@@ -1,6 +1,6 @@
 Franco:
   name: Franco A. Alvarado
-  bio: Franco Alvarado is the one who wrote this. This data is being pulled from a YAML file. Isn't that COOL? Goddam this shit is cool. Wow it doesn't even need quote marks. But what if I did <i> this </i>. Oh great. Yeah this all works really well. This is exciting.
+  bio: Franco runs this blog.
   github_username: francofaa
   linkedin_username: franco-alvarado-17959124
   twitter_username: NoFrancosPlease
@@ -9,7 +9,20 @@ Franco:
 Andy:
   name: Andy Dost
   twitter_username: AndyDost
-  bio: This is some info
+  bio: Andy is some kind of person that does things.
 
-Casey:
-  name: Casey Brown
+Aaron:
+	name: Aaron Krol
+    bio: Aaron Krol is a poet and he knows it.
+    
+Shannon:
+	name: Shannon Wagner
+    bio: Shanny Wag wags shannies.
+
+Jackie:
+	name: Jackie Shepherd
+    bio: Jackie is a cleric sometimes.
+
+Daniel:
+	name: Daniel Foust
+    bio: Danny is the master of fate.
