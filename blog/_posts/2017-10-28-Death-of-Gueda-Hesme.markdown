@@ -1,9 +1,8 @@
 ---
-date:   2016-10-28 14:04:17 -0400
+date:   2017-10-28 14:04:17 -0400
 title: The Death of Gueda Hesme
-subtitle: 
 author: Franco
-publication: Strangelet
+publication: Pray to the Devils
 ---
 Tia Gueda Hesme lived in the house, having worked for the Von Kromer family for as long as anyone could remember. No one knew how she was related to the family, and Calébres and Alessandro doubted she was ever young. Her eyes were white and murky, and she looked as old as a tree, gnarled and knotted with wrinkles. She never moved as she sat in her chair, aside from moving her hand to her mouth to take a puff from her cigar.
 

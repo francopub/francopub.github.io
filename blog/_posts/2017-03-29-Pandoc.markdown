@@ -1,0 +1,7 @@
+---
+date:   2017-03-31 14:04:17 -0400
+title: Pandoc
+author: Franco
+---
+
+Coming back from EbookCraft 2017, I was feeling torn. Ebooks were my old job. My new job is as a project manager, but I saw a lot of relevance, especially in discussions over workflow. 

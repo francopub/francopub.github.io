@@ -55,6 +55,6 @@ defaults:
       layout: "project"
       category: "projects"
 
-permalink: pretty
+permalink: none
 sass:
   style: compressed
