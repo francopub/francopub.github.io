@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width">
-	<title>Franco A. Alvarado > Ebookcraft 2017</title>
+	<title>Franco A. Alvarado > Automating contracts</title>
 	<link rel="stylesheet" href="/css/screen.css" />
 <!--<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,24 +38,62 @@
 <article class="blogpost">
 	<header>
 		<h1 class="post-title">
-			Ebookcraft 2017
+			Automating contracts
 		</h1>
 		
 		
-		<p class="byline">17 April 2017 |    
+		<p class="byline">31 March 2017 |    
   
-    <!--<a href="#ebookcraft" class="post-tag">-->
-    <b>ebookcraft | </b>
+    <!--<a href="#latex" class="post-tag">-->
+    <b>LaTeX | </b>
     <!--</a>-->
   
-    <!--<a href="#ebooks" class="post-tag">-->
-    <b>ebooks | </b>
+    <!--<a href="#pandoc" class="post-tag">-->
+    <b>Pandoc | </b>
+    <!--</a>-->
+  
+    <!--<a href="#docx" class="post-tag">-->
+    <b>docx | </b>
     <!--</a>-->
   
    Franco A. Alvarado</p>
 	</header>
 	<section>
-		<p>Coming back from EbookCraft 2017, I was feeling torn. Ebooks were my old job. My new job is as a project manager, but I saw a lot of relevance, especially in discussions over workflow. </p>
+		<p>Currently working on automating contract generation. I have to juggle multiple authors and their contracts, so I thought it’d be better to automate them so I can prevent errors and make things a little simple. Ideal workflow:</p>
+
+<ul>
+  <li>Receive info from routing editors, specifically
+    <ul>
+      <li>Author name</li>
+      <li>Author email address</li>
+      <li>Article title</li>
+      <li>Article abstract</li>
+      <li>Due date</li>
+      <li>Article word count</li>
+    </ul>
+  </li>
+  <li>Collect that info <em>somewhere</em> (YAML, an array, whatever)</li>
+  <li>Run Python or some other kind of script to generate an email with a PDF attachment that is sent to the author</li>
+</ul>
+
+<p>Of course, all of the work is between bullet 2 and 3.</p>
+
+<p>Potential tools:</p>
+
+<ul>
+  <li>Word</li>
+  <li>Python</li>
+  <li>Pandoc</li>
+  <li>Texmaker</li>
+</ul>
+
+<h3 id="space">Space</h3>
+
+<p>Right now I work in a Windows environment in a small, windowless office. Which is fine. But I’ve taken to bringing in my Macbook and setting myself up in the empty “visitor” office, which has windows and plants. When people have walked by, I’ve explained, “I do not have space on my normal desk for this extra computer, the multiple monitors and mice (I have dual monitors on my work machine) would confuse me, and I wanted to bring my Macbook in since I’ve already set up a development environment for working with Python on my Mac that I did not wish to replicate on my Windows machine.” All of which is true, but very boring.</p>
+
+<p>Spent a good deal of time trying to wrap my head around LaTeX, using TeXmaker, because these contracts need to be PDFs, and do I really want to go into the Word doc and save as PDF a dozen times?</p>
+
+<p>At this point, yes. Trying to figure out LaTeX has been really tricky, most of all because I have an image (the company logo) that has to go on every page. I’d like this contract template to work for every contract we have.</p>
 
 	</section>
 		<aside class="bio">
