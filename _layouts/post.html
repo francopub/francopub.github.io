@@ -15,7 +15,13 @@ layout: default
 		{% if page.publication %}
 		<p class="post-info">from {{page.publication}}</p>
 		{% endif %}
-		<p class="byline">{{ page.date | date_to_long_string }} | {{author.name}}</p>
+		<p class="byline">{{ page.date | date_to_long_string }} |   {% if page.tags %} 
+  {% for tag in page.tags %}
+    <!--<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">-->
+    <b>{{ tag }} | </b>
+    <!--</a>-->
+  {% endfor %}
+  {% endif %} {{author.name}}</p>
 	</header>
 	<section>
 		{{content}}
@@ -23,7 +29,7 @@ layout: default
 		{% include author-bio.html %}
 </article>
 <div class="PageNavigation">
-{% for post in site.categories.blog %}{% if post.url == page.url %}{% assign post_index0 = forloop.index0 %}{% assign post_index1 = forloop.index %}{% endif %}{% endfor %}{% for post in site.categories.blog %}{% if post_index0 == forloop.index %}{% assign next_post = post.url %}{% endif %}{% if post_index1 == forloop.index0 %}{% assign prev_post = post.url %}{% endif %}{% endfor %}{% if next_post %}
+{% for post in site.roll.blog %}{% if post.url == page.url %}{% assign post_index0 = forloop.index0 %}{% assign post_index1 = forloop.index %}{% endif %}{% endfor %}{% for post in site.roll.blog %}{% if post_index0 == forloop.index %}{% assign next_post = post.url %}{% endif %}{% if post_index1 == forloop.index0 %}{% assign prev_post = post.url %}{% endif %}{% endfor %}{% if next_post %}
    <a class="next" href="{{next_post}}"><button class="right-btn"> {{page.next.title}} &raquo;</button></a>
   {% endif %}
   {% if prev_post %}

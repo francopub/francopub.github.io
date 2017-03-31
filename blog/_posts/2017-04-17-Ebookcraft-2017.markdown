@@ -1,8 +1,6 @@
 ---
 date:   2017-04-17 07:30:00 -0400
 title: Ebookcraft 2017
-author: Franco
-category: blog
 tags: [ebookcraft, ebooks]
 ---
 

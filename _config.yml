@@ -46,14 +46,13 @@ defaults:
     values:
       layout: "post"
       author: "Franco"
-      category: "blog"
-
+      roll: "blog"
   -
     scope:
       path: "projects"
     values:
       layout: "project"
-      category: "projects"
+      roll: "projects"
 
 permalink: pretty
 sass:
