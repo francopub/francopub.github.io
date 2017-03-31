@@ -57,17 +57,6 @@ article {
 			font-family: $stack-serif;
 		}
 	}
-	aside.bio {
-		margin-top: 1em;
-		font-size: 1.25em;
-		font-style: italic;
-		margin: 0;
-		border-top: 1px solid $bordercolor;
-		font-family: $stack-serif;
-		i {
-			font-style: normal;
-		}	
-	}
 }
 
 article.blogpost {
@@ -127,16 +116,6 @@ article.project {
 			font-family: $stack-ss;
 		}
 
-	}
-	aside.bio {
-		margin-top: 1em;
-		font-size: 1.25em;
-		margin: 0;
-		border-top: 1px solid $bordercolor;
-		font-family: $stack-ss;
-		i {
-			font-style: normal;
-		}	
 	}
 }
 
@@ -235,13 +214,28 @@ img + em {
 }
 
 aside.bio {
-	h2 {
-		text-align: left;
-		font-size: 1.25em;
-	}
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
+	
 }
+
+aside.bio {
+		margin-top: 1em;
+		font-size: 1em;
+		font-style: italic;
+		margin: 0;
+		border-top: 1px solid $bordercolor;
+		font-family: $stack-serif;
+		h2 {
+			text-align: left;
+			font-size: 1.1em;
+			font-style: normal;
+			font-family: $stack-ss;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		i {
+			font-style: normal;
+		}	
+	}
