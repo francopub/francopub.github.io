@@ -15,7 +15,7 @@ layout: default
 		{% if page.publication %}
 		<p class="post-info">from {{page.publication}}</p>
 		{% endif %}
-		<p class="byline">by {{author.name}}</p>
+		<p class="byline">{{ post.date | date_to_long_string }} | {{author.name}}</p>
 	</header>
 	<section>
 		{{content}}
