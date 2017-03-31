@@ -5,9 +5,11 @@ tags:
   - ebookcraft
   - ebooks
 category: Process
-published: false
+published: true
 ---
 
 Coming back from EbookCraft 2017, I was feeling torn. Ebooks were my old job. My new job is as a project manager, but I saw a lot of relevance, especially in discussions over workflow.
 
 I work in a Windows environment in a small, windowless office. Which is fine. But I've taken to bringing in my Macbook and setting myself up in the empty "visitor" office, which has windows and plants. When people have walked by, I've explained, "I do not have space on my normal desk, the multiple monitors and mice would confuse me, and I wanted to bring my Macbook in since I've already set up a development environment for creating scripts on my Mac that I did not wish to replicate on my Windows machine." Which is true, but very boring.
+
+There's a lot to be said for someone sitting down and showing you something. Especially if it's something you're trying to do, something that you've racked your brain about. There is a lot to be said for someone showing you that a thing is even possible. Not even teaching you how to do it. Just showing you, "Hey I did this, and it can be done."
