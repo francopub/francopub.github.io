@@ -54,6 +54,6 @@ defaults:
       layout: "project"
       roll: "projects"
 
-permalink: pretty
+permalink: blog/:year/:month/:day/:title/
 sass:
   style: compressed
