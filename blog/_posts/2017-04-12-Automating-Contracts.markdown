@@ -1,12 +1,11 @@
 ---
-date: '2017-03-31 07:30:00 -0400'
+date: '2017-04-12 07:30:00 -0400'
 title: Automating contracts
 tags:
   - LaTeX
   - Pandoc
   - docx
 category: Workflow Automation
-published: true
 ---
 
 Currently working on automating contract generation. I have to juggle multiple authors and their contracts, so I thought it'd be better to automate them so I can prevent errors and make things a little simple. Ideal workflow:
