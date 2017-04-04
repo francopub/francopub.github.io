@@ -18,6 +18,8 @@ Anyway, I'm going to try this:
 
 {% highlight Python %}
 $ jekyll build
-$ 
+$ git add -A
+$ git commit -m "Weekly Blog Update"
+$ git push
 
 {% endhighlight %}
