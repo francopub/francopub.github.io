@@ -1,5 +1,5 @@
 ---
-date: '2017-04-03 22:17:00 -0400'
+date: '2017-04-03 22:30:00 -0400'
 title: Automating contracts
 tags:
   - LaTeX
