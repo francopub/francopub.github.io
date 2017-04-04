@@ -35,4 +35,4 @@ Right now I work in a Windows environment in a small, windowless office. Which i
 
 Spent a good deal of time trying to wrap my head around LaTeX, using TeXmaker, because these contracts need to be PDFs, and do I really want to go into the Word doc and save as PDF a dozen times?
 
-At this point, yes. Trying to figure out LaTeX has been really tricky, most of all because I have an image (the company logo) that has to go on every page. I'd like this contract template to work for every contract we have.
+At this point, yes. Trying to figure out LaTeX has been really tricky, most of all because I have an image (the company logo) that has to go on every page. I'd like this contract template to work for every contract we have. 
