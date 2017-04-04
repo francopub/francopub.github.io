@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-03T22:00:17-04:00</updated><id>/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume and portfolio of Franco A. Alvarado
-</subtitle><entry><title type="html">GradeYouLater</title><link href="/projects/GradeYouLater" rel="alternate" type="text/html" title="GradeYouLater" /><published>2016-12-17T12:24:17-05:00</published><updated>2016-12-17T12:24:17-05:00</updated><id>/projects/GradeYouLater</id><content type="html" xml:base="/projects/GradeYouLater">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-03T23:44:21-04:00</updated><id>/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume and portfolio of Franco A. Alvarado
+</subtitle><entry><title type="html">Automating contracts</title><link href="/blog/2017/04/03/Automating-Contracts/" rel="alternate" type="text/html" title="Automating contracts" /><published>2017-04-03T22:30:00-04:00</published><updated>2017-04-03T22:30:00-04:00</updated><id>/blog/2017/04/03/Automating-Contracts</id><content type="html" xml:base="/blog/2017/04/03/Automating-Contracts/">&lt;p&gt;Currently working on automating contract generation. I have to juggle multiple authors and their contracts, so I thought it’d be better to automate them so I can prevent errors and make things a little simple. Ideal workflow:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Receive info from routing editors, specifically
+    &lt;ul&gt;
+      &lt;li&gt;Author name&lt;/li&gt;
+      &lt;li&gt;Author email address&lt;/li&gt;
+      &lt;li&gt;Article title&lt;/li&gt;
+      &lt;li&gt;Article abstract&lt;/li&gt;
+      &lt;li&gt;Due date&lt;/li&gt;
+      &lt;li&gt;Article word count&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Collect that info &lt;em&gt;somewhere&lt;/em&gt; (YAML, an array, whatever)&lt;/li&gt;
+  &lt;li&gt;Run Python or some other kind of script to generate an email with a PDF attachment that is sent to the author&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course, all of the work is between bullet 2 and 3.&lt;/p&gt;
+
+&lt;p&gt;Potential tools:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Word&lt;/li&gt;
+  &lt;li&gt;Python&lt;/li&gt;
+  &lt;li&gt;Pandoc&lt;/li&gt;
+  &lt;li&gt;Texmaker&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;space&quot;&gt;Space&lt;/h3&gt;
+
+&lt;p&gt;Right now I work in a Windows environment in a small, windowless office. Which is fine. But I’ve taken to bringing in my Macbook and setting myself up in the empty “visitor” office, which has windows and plants. When people have walked by, I’ve explained, “I do not have space on my normal desk for this extra computer, the multiple monitors and mice (I have dual monitors on my work machine) would confuse me, and I wanted to bring my Macbook in since I’ve already set up a development environment for working with Python on my Mac that I did not wish to replicate on my Windows machine.” All of which is true, but very boring.&lt;/p&gt;
+
+&lt;p&gt;Spent a good deal of time trying to wrap my head around LaTeX, using TeXmaker, because these contracts need to be PDFs, and do I really want to go into the Word doc and save as PDF a dozen times?&lt;/p&gt;
+
+&lt;p&gt;At this point, yes. Trying to figure out LaTeX has been really tricky, most of all because I have an image (the company logo) that has to go on every page. I’d like this contract template to work for every contract we have.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Workflow Automation" /><category term="LaTeX" /><category term="Pandoc" /><category term="docx" /><summary type="html">Currently working on automating contract generation. I have to juggle multiple authors and their contracts, so I thought it’d be better to automate them so I can prevent errors and make things a little simple. Ideal workflow:</summary></entry><entry><title type="html">This is a test</title><link href="/blog/2017/04/01/Testing/" rel="alternate" type="text/html" title="This is a test" /><published>2017-04-01T07:30:00-04:00</published><updated>2017-04-01T07:30:00-04:00</updated><id>/blog/2017/04/01/Testing</id><content type="html" xml:base="/blog/2017/04/01/Testing/">&lt;p&gt;This is a test.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Workflow Automation" /><category term="LaTeX" /><category term="Pandoc" /><category term="docx" /><summary type="html">This is a test.</summary></entry><entry><title type="html">GradeYouLater</title><link href="/projects/GradeYouLater" rel="alternate" type="text/html" title="GradeYouLater" /><published>2016-12-17T12:24:17-05:00</published><updated>2016-12-17T12:24:17-05:00</updated><id>/projects/GradeYouLater</id><content type="html" xml:base="/projects/GradeYouLater">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;GradeYouLater is a simple grading calculator that tallies grades, posts those grades to a table, and then can export that table as a spreadsheet.&lt;/p&gt;
 
@@ -454,49 +488,4 @@
 &lt;p&gt;&lt;img src=&quot;../../img/redivider/2-logo.jpg&quot; alt=&quot;Logo for book&quot; /&gt;
 &lt;em&gt;Using the end of the R’s ears as the dots, I completed the division symbol with a bar pulled from the typeface’s division symbol&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../img/redivider/3-spread.jpg&quot; alt=&quot;Story spread&quot; /&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Rice and Rocks</title><link href="/projects/RiceAndRocks" rel="alternate" type="text/html" title="Rice and Rocks" /><published>2016-10-02T13:24:17-04:00</published><updated>2016-10-02T13:24:17-04:00</updated><id>/projects/RiceAndRocks</id><content type="html" xml:base="/projects/RiceAndRocks">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Rice and Rocks&lt;/em&gt; is a children’s book published by Wise Ink. I was contracted to create three different fixed-layout versions, one enhanced version with music and two more versions without the music enhancement, in EPUB3 and KF8/Mobi.&lt;/p&gt;
-
-&lt;h3 id=&quot;role&quot;&gt;Role&lt;/h3&gt;
-
-&lt;p&gt;Developer&lt;/p&gt;
-
-&lt;h3 id=&quot;skills-used&quot;&gt;Skills Used&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;InDesign&lt;/li&gt;
-  &lt;li&gt;EPUB3&lt;/li&gt;
-  &lt;li&gt;CSS&lt;/li&gt;
-  &lt;li&gt;XML&lt;/li&gt;
-  &lt;li&gt;XHTML&lt;/li&gt;
-  &lt;li&gt;JavaScript&lt;/li&gt;
-  &lt;li&gt;Audacity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/riceandrocks/1-spread-and-toc.jpg&quot; alt=&quot;Opening spread of Rice and Rocks&quot; /&gt;
-&lt;em&gt;On page load, the music file begins (hidden from the page). I edited to music to fade in and out so as not to feel jarring upon page turn&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Your Dream Cakes</title><link href="/projects/YourDreamCakes" rel="alternate" type="text/html" title="Your Dream Cakes" /><published>2016-10-01T13:24:17-04:00</published><updated>2016-10-01T13:24:17-04:00</updated><id>/projects/YourDreamCakes</id><content type="html" xml:base="/projects/YourDreamCakes">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;Your Dream Cakes is a custom dessert and catering service in South Florida. I built and designed the website using Wordpress. The website is &lt;a href=&quot;http://yourdreamcakes.com&quot;&gt;here&lt;/a&gt;. &lt;/p&gt;
-
-&lt;h3 id=&quot;role&quot;&gt;Role&lt;/h3&gt;
-
-&lt;p&gt;Designer and Developer&lt;/p&gt;
-
-&lt;h3 id=&quot;skills-used&quot;&gt;Skills Used&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;WordPress&lt;/li&gt;
-  &lt;li&gt;Photoshop&lt;/li&gt;
-  &lt;li&gt;CSS&lt;/li&gt;
-  &lt;li&gt;HTML5&lt;/li&gt;
-  &lt;li&gt;Javascript&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/yourdreamcakes/2-business-cards.JPG&quot; alt=&quot;Website&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/yourdreamcakes/1-website-image.jpg&quot; alt=&quot;Business cards&quot; /&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;../../img/redivider/3-spread.jpg&quot; alt=&quot;Story spread&quot; /&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry></feed>
