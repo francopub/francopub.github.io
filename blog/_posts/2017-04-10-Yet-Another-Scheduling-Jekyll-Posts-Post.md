@@ -4,7 +4,8 @@ title: Yet another scheduling Jekyll posts post
 tags:
   - Jekyll
   - Python
-category: Workflow Automation
+category: This Very Website
+published: true
 ---
 So I've been trying to research how to schedule these Jekyll blog posts so I am one of those great Internet unicorns that regularly updates their blog. If you don't know, Jekyll is very cool. It generates a static site from your computer, but it is pretty involved. 
 
