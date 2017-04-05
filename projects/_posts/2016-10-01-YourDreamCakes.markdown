@@ -5,7 +5,11 @@ subtitle: Website, logo, and business cards for catering company, created 2015
 permalink: /projects/YourDreamCakes
 imgfolder: yourdreamcakes
 category: projects
-project_type: Web design and development, WordPress, Branding
+tags: 
+ - Web design
+ - Web development
+ - WordPress
+ - Branding
 ---
 
 ### Summary

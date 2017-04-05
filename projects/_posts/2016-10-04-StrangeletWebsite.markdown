@@ -5,7 +5,10 @@ subtitle: Website for the literary magazine Strangelet, created 2015
 permalink: /projects/StrangeletWebsite
 imgfolder: strangeletwebsite
 category: projects
-project_type: Web design and development, WordPress
+tags: 
+ - Web design
+ - Web development
+ - WordPress
 ---
 
 ### Summary

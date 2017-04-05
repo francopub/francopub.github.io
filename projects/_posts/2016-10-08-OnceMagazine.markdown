@@ -1,11 +1,13 @@
 ---
 date:   2016-10-08 13:24:17 -0400
 title: Once
-subtitle: Magazine design, master's project, 2011
+subtitle: Magazine design, master&#8217s project, 2011
 permalink: /projects/Once
 imgfolder: oncemagazine
 category: projects
-project_type: Magazine design
+tags: 
+ - Magazine design
+ - Drawing
 ---
 
 ### Summary

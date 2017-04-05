@@ -5,7 +5,9 @@ subtitle: Print book and ebook production for the literary magazine <i>Strangele
 permalink: /projects/StrangeletPress
 imgfolder: strangeletpress
 category: projects
-project_type: Book design, Ebook development, CSS, XHTML
+tags: 
+ - Book design 
+ - Ebook development
 ---
 
 ### Summary

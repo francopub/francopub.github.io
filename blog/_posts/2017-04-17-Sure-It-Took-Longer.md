@@ -1,7 +1,7 @@
 ---
 date: '2017-04-17 00:00:00 -0400'
 published: true
-title: 'Sure, it took longer'
+title: Sure, it took longer
 category: Workflow Automation
 tags:
   - Python
@@ -62,3 +62,5 @@ for mdFile in os.listdir(curDir):
 Wow, this script has maybe been running for like 20 minutes at least (Update: 30 minutes?). Hope nothing is going wrong!😅
 
 Maybe this did take a little longer, but it has certainly been a lot less work, and writing a Python script is a lot more interesting than opening up 30 Word documents. Which I'm going to have to do anyway. (There wasn't really any way contextually to regex in the H2's).
+
+OK it broke on the last one! Not sure why. But all I have to do is pandoc it to docx, so not a big deal.

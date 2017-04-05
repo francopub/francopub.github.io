@@ -5,7 +5,9 @@ subtitle: Ebook series with paragraph numbering, freelance project, 2014–2015
 permalink: /projects/Litweaver
 imgfolder: litweaver
 category: projects
-project_type: Ebook development
+tags: 
+ - Ebook development
+ - Regular expressions
 ---
 
 ### Summary
@@ -22,6 +24,7 @@ Ebook Developer
 - CSS
 - XML
 - XHTML
+- RegEx
 
 ### Description
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-04-04T22:17:30-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-04-05T15:13:30-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
 </subtitle><entry><title type="html">Automating contracts</title><link href="http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts/" rel="alternate" type="text/html" title="Automating contracts" /><published>2017-04-03T00:00:00-04:00</published><updated>2017-04-03T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts/">&lt;p&gt;Currently working on automating contract generation. I have to juggle multiple authors and their contracts, so I thought it’d be better to automate them so I can prevent errors and make things a little simple. Ideal workflow:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -27,7 +27,7 @@
   &lt;li&gt;Texmaker&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;space&quot;&gt;Space&lt;/h3&gt;
+&lt;h2 id=&quot;space&quot;&gt;Space&lt;/h2&gt;
 
 &lt;p&gt;Right now I work in a Windows environment in a small, windowless office. Which is fine. But I’ve taken to bringing in my Macbook and setting myself up in the empty “visitor” office, which has windows and plants. When people have walked by, I’ve explained, “I do not have space on my normal desk for this extra computer, the multiple monitors and mice (I have dual monitors on my work machine) would confuse me, and I wanted to bring my Macbook in since I’ve already set up a development environment for working with Python on my Mac that I did not wish to replicate on my Windows machine.” All of which is true, but very boring.&lt;/p&gt;
 
@@ -62,7 +62,7 @@
 &lt;p&gt;The user can then push the grades to the table below, which can be exported to a spreadsheet.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../img/gradeyoulater/2-gradebook.jpg&quot; alt=&quot;Resulting gradebook&quot; /&gt;
-&lt;em&gt;Push student scores to table, which can then be exported to CSV&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Strangelet Press</title><link href="http://www.francoalvarado.com/projects/StrangeletPress" rel="alternate" type="text/html" title="Strangelet Press" /><published>2016-10-09T13:24:17-04:00</published><updated>2016-10-09T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/StrangeletPress</id><content type="html" xml:base="http://www.francoalvarado.com/projects/StrangeletPress">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;em&gt;Push student scores to table, which can then be exported to CSV&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="App" /><category term="Web design" /><category term="Javascript" /><summary type="html">Summary</summary></entry><entry><title type="html">Strangelet Press</title><link href="http://www.francoalvarado.com/projects/StrangeletPress" rel="alternate" type="text/html" title="Strangelet Press" /><published>2016-10-09T13:24:17-04:00</published><updated>2016-10-09T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/StrangeletPress</id><content type="html" xml:base="http://www.francoalvarado.com/projects/StrangeletPress">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;Strangelet&lt;/em&gt; was a bimonthly literary magazine of fantasy, science fiction, and magical realism. &lt;/p&gt;
 
@@ -189,7 +189,7 @@
 	&lt;span class=&quot;k&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;k&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
 	&lt;span class=&quot;k&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Once</title><link href="http://www.francoalvarado.com/projects/Once" rel="alternate" type="text/html" title="Once" /><published>2016-10-08T13:24:17-04:00</published><updated>2016-10-08T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/OnceMagazine</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Once">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><category term="Book design" /><category term="Ebook development" /><summary type="html">Summary</summary></entry><entry><title type="html">Once</title><link href="http://www.francoalvarado.com/projects/Once" rel="alternate" type="text/html" title="Once" /><published>2016-10-08T13:24:17-04:00</published><updated>2016-10-08T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/OnceMagazine</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Once">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;Once&lt;/em&gt; magazine was a project for my magazine design class at Emerson College’s Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics. &lt;/p&gt;
 
@@ -230,7 +230,7 @@
 &lt;em&gt;Detail of a feature article. I wanted the image to pop out of the page here to add some depth&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../img/oncemagazine/6-dept-spread.jpg&quot; alt=&quot;Departments&quot; /&gt;
-&lt;em&gt;Departments at the end of the issue&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Crimson Romance</title><link href="http://www.francoalvarado.com/projects/CrimsonRomance" rel="alternate" type="text/html" title="Crimson Romance" /><published>2016-10-07T13:24:17-04:00</published><updated>2016-10-07T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/CrimsonRomance</id><content type="html" xml:base="http://www.francoalvarado.com/projects/CrimsonRomance">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;em&gt;Departments at the end of the issue&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Magazine design" /><category term="Drawing" /><summary type="html">Summary</summary></entry><entry><title type="html">Crimson Romance</title><link href="http://www.francoalvarado.com/projects/CrimsonRomance" rel="alternate" type="text/html" title="Crimson Romance" /><published>2016-10-07T13:24:17-04:00</published><updated>2016-10-07T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/CrimsonRomance</id><content type="html" xml:base="http://www.francoalvarado.com/projects/CrimsonRomance">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;Crimson Romance is the romance line at Adams Media. This is an ebook-first series. For this series, I helped with a transition to a CMS-based workflow. I was the sole developer on this series during my time at F+W Media, with 2 to 3 titles being published per week.&lt;/p&gt;
 
@@ -349,7 +349,7 @@
 &lt;span class=&quot;n&quot;&gt;build_epub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;_&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookFolderName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;.epub&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;epub_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foul&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;shutil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rmtree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Beowulf</title><link href="http://www.francoalvarado.com/projects/Beowulf" rel="alternate" type="text/html" title="Beowulf" /><published>2016-10-06T13:24:17-04:00</published><updated>2016-10-06T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/Beowulf</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Beowulf">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;span class=&quot;n&quot;&gt;shutil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rmtree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><category term="Python" /><category term="Ebook development" /><category term="CMS" /><summary type="html">Summary</summary></entry><entry><title type="html">Beowulf</title><link href="http://www.francoalvarado.com/projects/Beowulf" rel="alternate" type="text/html" title="Beowulf" /><published>2016-10-06T13:24:17-04:00</published><updated>2016-10-06T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/Beowulf</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Beowulf">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;For this edition of &lt;em&gt;Beowulf&lt;/em&gt;, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.&lt;/p&gt;
 
@@ -395,7 +395,7 @@
 &lt;em&gt;Another spread with a large amount of footnotes&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../img/beowulf/5c-running-head-detail.jpg&quot; alt=&quot;Detail of running head&quot; /&gt;
-&lt;em&gt;Detail of running head&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Litweaver</title><link href="http://www.francoalvarado.com/projects/Litweaver" rel="alternate" type="text/html" title="Litweaver" /><published>2016-10-05T13:24:17-04:00</published><updated>2016-10-05T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/Litweaver</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Litweaver">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;em&gt;Detail of running head&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Book design" /><summary type="html">Summary</summary></entry><entry><title type="html">Litweaver</title><link href="http://www.francoalvarado.com/projects/Litweaver" rel="alternate" type="text/html" title="Litweaver" /><published>2016-10-05T13:24:17-04:00</published><updated>2016-10-05T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/Litweaver</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Litweaver">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.&lt;/p&gt;
 
@@ -410,6 +410,7 @@
   &lt;li&gt;CSS&lt;/li&gt;
   &lt;li&gt;XML&lt;/li&gt;
   &lt;li&gt;XHTML&lt;/li&gt;
+  &lt;li&gt;RegEx&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
@@ -428,7 +429,7 @@
 &lt;em&gt;Prose with line numbers&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../img/litweaver/5-drama-spread.jpg&quot; alt=&quot;Drama with line numbers&quot; /&gt;
-&lt;em&gt;Drama with line numbers&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Strangelet Website</title><link href="http://www.francoalvarado.com/projects/StrangeletWebsite" rel="alternate" type="text/html" title="Strangelet Website" /><published>2016-10-04T13:24:17-04:00</published><updated>2016-10-04T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/StrangeletWebsite</id><content type="html" xml:base="http://www.francoalvarado.com/projects/StrangeletWebsite">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;em&gt;Drama with line numbers&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Ebook development" /><category term="Regular expressions" /><summary type="html">Summary</summary></entry><entry><title type="html">Strangelet Website</title><link href="http://www.francoalvarado.com/projects/StrangeletWebsite" rel="alternate" type="text/html" title="Strangelet Website" /><published>2016-10-04T13:24:17-04:00</published><updated>2016-10-04T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/StrangeletWebsite</id><content type="html" xml:base="http://www.francoalvarado.com/projects/StrangeletWebsite">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;Strangelet&lt;/em&gt; was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the &lt;a href=&quot;../StrangeletPress&quot;&gt;production of the books and ebooks&lt;/a&gt;. The website is &lt;a href=&quot;http://strangeletjournal.com&quot;&gt;strangeletjournal.com&lt;/a&gt;. The content manager and I also handled the updates to the site.&lt;/p&gt;
 
@@ -464,7 +465,7 @@
 &lt;em&gt;Making the screen smaller allows the sidebar elements to fall away to the bottom of the browser screen&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../img/strangeletwebsite/3c-article-no-distraction.jpg&quot; alt=&quot;Distraction-free version&quot; /&gt;
-&lt;em&gt;This was a test version for a distraction-free version of an excerpt. This is found at &lt;a href=&quot;http://sample.strangeletjournal.com&quot;&gt;sample.strangeletjournal.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Redivider</title><link href="http://www.francoalvarado.com/projects/Redivider" rel="alternate" type="text/html" title="Redivider" /><published>2016-10-03T13:24:17-04:00</published><updated>2016-10-03T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/Redivider</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Redivider">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;em&gt;This was a test version for a distraction-free version of an excerpt. This is found at &lt;a href=&quot;http://sample.strangeletjournal.com&quot;&gt;sample.strangeletjournal.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Web design" /><category term="Web development" /><category term="WordPress" /><summary type="html">Summary</summary></entry><entry><title type="html">Redivider</title><link href="http://www.francoalvarado.com/projects/Redivider" rel="alternate" type="text/html" title="Redivider" /><published>2016-10-03T13:24:17-04:00</published><updated>2016-10-03T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/Redivider</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Redivider">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;Redivider&lt;/em&gt; is the graduate-run biannual literary magazine at Emerson College. I was production editor, leading the design and production of the journal. My team and I designed and laid out the cover and pages for the books. &lt;/p&gt;
 
@@ -488,7 +489,7 @@
 &lt;p&gt;&lt;img src=&quot;../../img/redivider/2-logo.jpg&quot; alt=&quot;Logo for book&quot; /&gt;
 &lt;em&gt;Using the end of the R’s ears as the dots, I completed the division symbol with a bar pulled from the typeface’s division symbol&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../img/redivider/3-spread.jpg&quot; alt=&quot;Story spread&quot; /&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry><entry><title type="html">Rice and Rocks</title><link href="http://www.francoalvarado.com/projects/RiceAndRocks" rel="alternate" type="text/html" title="Rice and Rocks" /><published>2016-10-02T13:24:17-04:00</published><updated>2016-10-02T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/RiceAndRocks</id><content type="html" xml:base="http://www.francoalvarado.com/projects/RiceAndRocks">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/redivider/3-spread.jpg&quot; alt=&quot;Story spread&quot; /&gt;&lt;/p&gt;</content><category term="projects" /><category term="Book design" /><summary type="html">Summary</summary></entry><entry><title type="html">Rice and Rocks</title><link href="http://www.francoalvarado.com/projects/RiceAndRocks" rel="alternate" type="text/html" title="Rice and Rocks" /><published>2016-10-02T13:24:17-04:00</published><updated>2016-10-02T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/RiceAndRocks</id><content type="html" xml:base="http://www.francoalvarado.com/projects/RiceAndRocks">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;Rice and Rocks&lt;/em&gt; is a children’s book published by Wise Ink. I was contracted to create three different fixed-layout versions, one enhanced version with music and two more versions without the music enhancement, in EPUB3 and KF8/Mobi.&lt;/p&gt;
 
@@ -511,4 +512,4 @@
 &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../img/riceandrocks/1-spread-and-toc.jpg&quot; alt=&quot;Opening spread of Rice and Rocks&quot; /&gt;
-&lt;em&gt;On page load, the music file begins (hidden from the page). I edited to music to fade in and out so as not to feel jarring upon page turn&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><summary type="html">Summary</summary></entry></feed>
+&lt;em&gt;On page load, the music file begins (hidden from the page). I edited to music to fade in and out so as not to feel jarring upon page turn&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Ebook development" /><category term="Fixed-layout ebook" /><category term="InDesign CC" /><category term="Audio editing" /><summary type="html">Summary</summary></entry></feed>

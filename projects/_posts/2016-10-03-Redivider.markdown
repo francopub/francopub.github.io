@@ -5,7 +5,8 @@ subtitle: Production editor at Redivider, literary magazine at Emerson College, 
 permalink: /projects/Redivider
 imgfolder: redivider
 category: projects
-project_type: Book design
+tags: 
+ - Book design
 ---
 
 ### Summary

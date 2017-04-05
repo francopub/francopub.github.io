@@ -10,7 +10,8 @@
     
       <div class="caption-text">
           <h3 class="title">{{ post.title }}</h3>
-          <p>{{ post.project_type}}</p>
+          <p>{{ post.tags | sort | join: ", " }}
+</p>
       </div>
     </div>
       </a>

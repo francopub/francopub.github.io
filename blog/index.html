@@ -13,6 +13,33 @@ category: blog
 	<h2>Wherein I write about developing projects</h2>
 </header>
 
+<div id="projectpane">
+  <div class="post-group">
+    {% for post in site.posts %}
+      {% if post.roll contains 'blog' %}
+    <div class="post">
+      <a href="{{ post.url }}">
+      <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E" width="200" height="150" />
+    <div class="caption">
+    
+      <div class="caption-text">
+          <h3 class="title">{{ post.title }}</h3>
+          <p>{{ post.tags | sort | join: ", " }}
+</p>
+      </div>
+    </div>
+      </a>
+    </div>
+  {% endif %}
+{% endfor %}
+  </div>
+</div>
+
+
+
+<!--
+
+
 <div class="post-group">
 {% for post in site.posts %}
   {% if post.roll contains 'blog' %}
@@ -26,3 +53,4 @@ category: blog
   {% endif %}
 {% endfor %}
 </div>
+
