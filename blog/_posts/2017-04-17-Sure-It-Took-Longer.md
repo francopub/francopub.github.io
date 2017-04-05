@@ -8,7 +8,7 @@ tags:
   - Pandoc
   - Regular Expressions
 ---
-I had 30 docx files, between 300 and 400 pages long, with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style. 
+I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style. 
 
 My boss asked me to go through and apply heading 1 and heading 2 *only* to the bolded text "headings", and otherwise remove the stylings applied. That is a simple find and replace, sure, and of course, I'd have to use my best judgment to change some to H1, others to H2. (To be clear, we were both not pleased to have to do this and agreed that we should take steps in the future to avoid inconsistent styling and semantics).
 
@@ -52,4 +52,4 @@ for mdFile in os.listdir(curDir):
 
 {% endhighlight %}
 
-Wow, quick update, this script has maybe been running for like 20 minutes at least. Hope nothing went wrong!😅 
+Wow, quick update, this script has maybe been running for like 20 minutes at least. Hope nothing went wrong!😅
