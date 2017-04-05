@@ -19,5 +19,12 @@ So, I could've gone in and done this manually, opened each of the 30 files and d
 
 Sure, it took longer to make and run the script than it would've to have done it all manually (mostly because I made little errors). And sure, it's not a script I'll use a lot. But I learned a lot!
 
-And of course, here's the script: 
+And of course, here's the script:
 
+{% highlight Python %}
+
+
+
+{% endhighlight %}
+
+Wow, quick update, this script has maybe been running for like 20 minutes at least. 
