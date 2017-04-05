@@ -14,7 +14,8 @@ My boss asked me to go through and apply heading 1 and heading 2 *only* to the b
 
 So, I could've gone in and done this manually, opened each of the 30 files and done a find and replace and apply style. OR: 
 
-[Python time!](https://upload.wikimedia.org/wikipedia/commons/3/34/Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg)**Python time! (The age of this python is a metaphor for my current abilities with the programming language. By Tigerpython (Own work) [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons)**
+![A photo of a python (the animal, not the programming language)](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg/320px-Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg)
+**Python time! (The age of this python is a metaphor for my current abilities with the programming language. By Tigerpython (Own work) [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons)**
 
 Sure, it took longer to make and run the script than it would've to have done it all manually (mostly because I made little errors). And sure, it's not a script I'll use a lot. But I learned a lot!
 
