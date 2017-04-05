@@ -6,6 +6,7 @@ tags:
   - Pandoc
   - docx
 category: Workflow Automation
+published: true
 ---
 
 Currently working on automating contract generation. I have to juggle multiple authors and their contracts, so I thought it'd be better to automate them so I can prevent errors and make things a little simple. Ideal workflow:
@@ -29,7 +30,7 @@ Potential tools:
 - Pandoc
 - Texmaker
 
-### Space
+## Space
 
 Right now I work in a Windows environment in a small, windowless office. Which is fine. But I've taken to bringing in my Macbook and setting myself up in the empty "visitor" office, which has windows and plants. When people have walked by, I've explained, "I do not have space on my normal desk for this extra computer, the multiple monitors and mice (I have dual monitors on my work machine) would confuse me, and I wanted to bring my Macbook in since I've already set up a development environment for working with Python on my Mac that I did not wish to replicate on my Windows machine." All of which is true, but very boring.
 
