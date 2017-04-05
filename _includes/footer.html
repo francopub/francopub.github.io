@@ -2,17 +2,21 @@
 	<p class="copyright">Site built by {{site.copyright}} &copy; {{ site.time | date: '%Y'}}. <a href="https://github.com/francofaa/francofaa.github.io">Site source</a>
 		{% if site.twitter_username %}
 	 | <a href="https://twitter.com/{{site.twitter_username}}">
-		      <i class="fa fa-twitter"></i> 
+		      <i class="fa fa-twitter"  aria-hidden="true"></i> 
 		    </a>
 		{% endif %}
 		{% if site.github_username %}
 		    | <a href="https://github.com/{{site.github_username}}">
-		      <i class="fa fa-github-alt"></i> 
+		      <i class="fa fa-github-alt"  aria-hidden="true"></i> 
 		    </a>
 		{% endif %}
 		{% if site.linkedin_username %}
 		    | <a href="https://linkedin.com/in/{{site.linkedin_username}}">
-		      <i class="fa fa-linkedin"></i> 
+		      <i class="fa fa-linkedin" aria-hidden="true"></i> 
 		    </a>
-		{% endif %} </p>
+		{% endif %} 
+			| <a href="{{site.url}}/blog">
+				<i class="fa fa-pencil-square-o" aria-hidden="true"></i> blog
+		    </a>
+		</p>
 </footer>

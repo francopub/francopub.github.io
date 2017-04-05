@@ -1,5 +1,5 @@
 ---
-date: '2017-04-10 06:00:00 -0400'
+date: '2017-04-10 00:00:00 -0400'
 title: Yet another scheduling Jekyll posts post
 tags:
   - Jekyll
