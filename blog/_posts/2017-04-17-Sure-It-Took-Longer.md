@@ -23,8 +23,33 @@ And of course, here's the script:
 
 {% highlight Python %}
 
+import os, pypandoc, re
+
+curDir = os.getcwd()
+
+for file in os.listdir(curDir): 
+	if file.endswith('.docx'):
+		fileName = os.path.splitext(file)[0]
+		output = pypandoc.convert_file(file, 'md', outputfile= fileName + "-FA.md")
+		print file + " has been converted to markdown"
+
+
+for mdFile in os.listdir(curDir): 
+	if mdFile.endswith('.md'):
+		mdFileName = os.path.splitext(mdFile)[0]
+		mdFile_opened = open(mdFile)
+		mdFile_contents = mdFile_opened.read()
+		mdFile_opened = open(mdFile, 'w')
+		regex = "\n\*\*(.*?)\*\*\n"
+		subst = r"\n# \1\n"
+		mdFile_contents = re.sub(regex, subst, mdFile_contents)
+		mdFile_opened.write(mdFile_contents)
+		mdFile_opened.close()
+		print "Headings inside of " + mdFile + " adjusted!"
+		revertdocx = pypandoc.convert_file(mdFile, 'docx', outputfile= mdFileName + ".docx")
+		print mdFile + "converted back to DOCX"
 
 
 {% endhighlight %}
 
-Wow, quick update, this script has maybe been running for like 20 minutes at least. 
+Wow, quick update, this script has maybe been running for like 20 minutes at least.
