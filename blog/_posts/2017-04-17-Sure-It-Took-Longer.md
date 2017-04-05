@@ -52,4 +52,4 @@ for mdFile in os.listdir(curDir):
 
 {% endhighlight %}
 
-Wow, quick update, this script has maybe been running for like 20 minutes at least.
+Wow, quick update, this script has maybe been running for like 20 minutes at least. Hope nothing went wrong!😅 
