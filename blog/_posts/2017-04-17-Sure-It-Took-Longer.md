@@ -22,6 +22,7 @@ Sure, it took longer to make and run the script than it would've to have done it
 And of course, here's the script:
 
 {% highlight Python %}
+#pypandoc let's you run pandoc in Python!
 
 import os, pypandoc, re
 
@@ -32,10 +33,13 @@ for file in os.listdir(curDir):
 		fileName = os.path.splitext(file)[0]
 		output = pypandoc.convert_file(file, 'md', outputfile= fileName + "-FA.md")
 		print file + " has been converted to markdown"
-
+        #left myself console notes so I knew where I was; 
+        #like I said, this script took a really long time to run
 
 for mdFile in os.listdir(curDir): 
 	if mdFile.endswith('.md'):
+	    #now we have our markdown files,
+    	#which are a little easier to parse than docx
 		mdFileName = os.path.splitext(mdFile)[0]
 		mdFile_opened = open(mdFile)
 		mdFile_contents = mdFile_opened.read()
@@ -43,13 +47,18 @@ for mdFile in os.listdir(curDir):
 		regex = "\n\*\*(.*?)\*\*\n"
 		subst = r"\n# \1\n"
 		mdFile_contents = re.sub(regex, subst, mdFile_contents)
+        #replace bolded text on its own line
+        #with h1's on their own lines
 		mdFile_opened.write(mdFile_contents)
 		mdFile_opened.close()
 		print "Headings inside of " + mdFile + " adjusted!"
+        
 		revertdocx = pypandoc.convert_file(mdFile, 'docx', outputfile= mdFileName + ".docx")
 		print mdFile + "converted back to DOCX"
 
 
 {% endhighlight %}
 
-Wow, quick update, this script has maybe been running for like 20 minutes at least. Hope nothing went wrong!😅
+Wow, this script has maybe been running for like 20 minutes at least (Update: 30 minutes?). Hope nothing is going wrong!😅
+
+Maybe this did take a little longer, but it has certainly been a lot less work, and writing a Python script is a lot more interesting than opening up 30 Word documents. Which I'm going to have to do anyway. (There wasn't really any way contextually to regex in the H2's).
