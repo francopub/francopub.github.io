@@ -14,7 +14,7 @@ But yes, as I said, it is very involved, for a very nice, light-weight pay-off. 
 
 So one thing that Jekyll can't do is schedule posts. So I can't, say, write several posts and have them update on the days I want them to. I'd like this to update every Monday, but that's just not going to happen without some fun rigamarole. And if you'd like to get involved in that rigamarole, you can go to this [site](http://helentran.com/scheduling-posts) that explains it quite well. In fact, this is probably the best way to do it, but for some reason in the past several days I have not been able to wrap my mind around it. Probably lack of sleep.
 
-Anyway, I'm going to try this:
+Anyway, I'm going to try something like this:
 
 {% highlight Python %}
 $ jekyll build
