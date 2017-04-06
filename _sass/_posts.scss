@@ -11,7 +11,14 @@ p img {
 	box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.54);
 }
 
-article, div#blog-roll {
+div#blog-roll {
+	@extend article;
+	.post {
+		@extend .boxshadow;
+	}
+}
+
+article {
 	margin: 0 auto;
     max-width: 50%;
     padding-top: 1px;
