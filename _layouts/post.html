@@ -4,24 +4,20 @@ layout: default
 {% assign author = site.data.authors[page.author] %}
 <article class="blogpost">
 	<header>
-		<h1 class="post-title">
-			{{page.title}}
-		</h1>
+		<h1 class="post-title">{{page.title}}</h1>
 		{% if page.subtitle %}
-		<h2 class="post-subtitle"> 
-			{{page.subtitle}}
-		</h2>
+			<h2 class="post-subtitle">{{page.subtitle}}</h2>
 		{% endif %}
 		{% if page.publication %}
-		<p class="post-info">from {{page.publication}}</p>
+			<p class="post-info">from {{page.publication}}</p>
 		{% endif %}
-		<p class="byline">{{ page.date | date_to_long_string }} |   {% if page.tags %} 
-  {% for tag in page.tags %}
-    <!--<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">-->
-    <b>{{ tag }} | </b>
-    <!--</a>-->
-  {% endfor %}
-  {% endif %} {{author.name}}</p>
+		<p class="byline">{{ page.date | date_to_long_string }} |   
+			{% if page.tags %} 
+				{% for tag in page.tags %} 
+					<!--<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">--> <b>{{ tag }} | </b> <!--</a>-->
+  				{% endfor %}
+  			{% endif %} 
+  		{{author.name}}</p>
 	</header>
 	<section>
 		{{content}}
@@ -36,3 +32,4 @@ layout: default
     <a class="prev" href="{{prev_post}}"><button class="left-btn">&laquo; {{page.previous.title}}</button></a>
   {% endif %}
 </div>
+{% include blog-roll.html %}
