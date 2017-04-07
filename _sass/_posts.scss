@@ -14,7 +14,11 @@ p img {
 div#blog-roll {
 	@extend article;
 	.post {
+		padding: 1em;
 		@extend .boxshadow;
+		p.meta, h3.title {
+			margin: 0;
+		}
 	}
 }
 

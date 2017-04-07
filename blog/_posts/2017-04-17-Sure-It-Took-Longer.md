@@ -22,7 +22,6 @@ Sure, it took longer to make and run the script than it would've to have done it
 And of course, here's the script:
 
 {% highlight Python %}
-#pypandoc let's you run pandoc in Python!
 
 import os, pypandoc, re
 

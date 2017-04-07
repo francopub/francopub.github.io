@@ -9,7 +9,7 @@ category: Workflow Automation
 published: true
 ---
 
-Currently working on automating contract generation. I have to juggle multiple authors and their contracts, so I thought it'd be better to automate them so I can prevent errors and make things a little simple. Ideal workflow:
+I have to juggle multiple authors and their contracts, so I thought it'd be better to automate those contracts so I can prevent errors and have uniformity throughout. Ideal workflow:
 
 - Receive info from routing editors, specifically
 	- Author name
