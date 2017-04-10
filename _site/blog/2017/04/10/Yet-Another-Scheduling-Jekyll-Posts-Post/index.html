@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width">
-	<title>Franco A. Alvarado > Franco Alvablogdo!</title>
+	<title>Franco A. Alvarado > Yet another scheduling Jekyll posts post</title>
 	<link rel="stylesheet" href="/css/screen.css" />
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -34,15 +34,63 @@
 		<li><a href="/#projectpane"><i class="fa fa-archive" aria-hidden="true"></i><span data-title="Projects"> Portfolio</span></a></li>		
 	</ul>
 </nav>
-<header role="banner" class="site-header">
-	<h1>
-		Too Many Projects!
-	</h1>
-	<p class="tag-line">
-			a process blog
-		</p>
-	<h2>Wherein I write about developing projects</h2>
-</header>
+
+<article class="blogpost">
+	<header>
+		<h1 class="post-title">Yet another scheduling Jekyll posts post</h1>
+		
+		
+		<p class="byline">10 April 2017 |   
+			 
+				 
+					<!--<a href="#jekyll" class="post-tag">--> <b>Jekyll | </b> <!--</a>-->
+  				 
+					<!--<a href="#python" class="post-tag">--> <b>Python | </b> <!--</a>-->
+  				
+  			 
+  		Franco A. Alvarado</p>
+	</header>
+	<section>
+		<p>So I’ve been trying to research how to schedule these Jekyll blog posts so I am one of those great Internet unicorns that regularly updates their blog. If you don’t know, Jekyll is very cool. It generates a static site from your computer, but it is pretty involved. </p>
+
+<p>But I like a project. I built this site over the span of a few months while I was facing an impending lay-off. You can see the source code here on <a href="https://github.com/francofaa/francofaa.github.io">github</a>. This site is being delivered straight from github in fact. </p>
+
+<p>But yes, as I said, it is very involved, for a very nice, light-weight pay-off. Blog posts and pages written in markdown, layout templates written in HTML and liquid syntax (which can use if/and statements and takes variables based on your site metadata and other things), and metadata written in very human-friendly YAML.</p>
+
+<p>So one thing that Jekyll can’t do is schedule posts. So I can’t, say, write several posts and have them update on the days I want them to. I’d like this to update every Monday, but that’s just not going to happen without some fun rigamarole. And if you’d like to get involved in that rigamarole, you can go to this <a href="http://helentran.com/scheduling-posts">site</a> that explains it quite well. In fact, this is probably the best way to do it, but for some reason in the past several days I have not been able to wrap my mind around it. Probably lack of sleep.</p>
+
+<p>Anyway, I’m going to try something like this:</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="err">$</span> <span class="n">jekyll</span> <span class="n">build</span>
+<span class="err">$</span> <span class="n">git</span> <span class="n">add</span> <span class="o">-</span><span class="n">A</span>
+<span class="err">$</span> <span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s">&quot;Weekly Blog Update&quot;</span>
+<span class="err">$</span> <span class="n">git</span> <span class="n">push</span></code></pre></div>
+
+
+	</section>
+		<aside class="bio">
+	<h2>Franco A. Alvarado 
+		    | <a href="https://twitter.com/NoFrancosPlease">
+		      <i class="fa fa-twitter"></i> 
+		    </a>
+		
+		
+		    | <a href="https://github.com/francofaa">
+		      <i class="fa fa-github"></i> 
+		    </a>
+		
+		
+		    | <a href="https://linkedin.com/in/franco-alvarado-17959124">
+		      <i class="fa fa-linkedin"></i> 
+		    </a>
+		</h2>
+	<p>I am a freelance ebook developer, a project manager at an academic publisher, and an author working on my first novel. I&#8217m interested in the space where digital and publishing meet, mostly to make my work faster and more efficient and to deliver content in new and interesting ways. This blog documents my weekly efforts to develop all the projects I&#8217m working on.</p>
+</aside>
+</article>
+<div class="PageNavigation">
+
+  
+</div>
 <div id="blog-roll">
 	
 	  
@@ -56,7 +104,7 @@
 					<!--<a href="#python" class="post-tag">--> <b>Python | </b> <!--</a>-->
   				
   			 
-  		</p>
+  		Franco A. Alvarado</p>
 				<p>
 					So I’ve been trying to research how to schedule these Jekyll blog posts so I am one of those great...
 				</p>
@@ -77,7 +125,7 @@
 					<!--<a href="#docx" class="post-tag">--> <b>docx | </b> <!--</a>-->
   				
   			 
-  		</p>
+  		Franco A. Alvarado</p>
 				<p>
 					I have to juggle multiple authors and their contracts, so I thought it’d be better to automate those contracts so...
 				</p>

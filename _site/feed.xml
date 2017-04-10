@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-04-06T20:17:12-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
-</subtitle><entry><title type="html">Automating contracts</title><link href="http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts/" rel="alternate" type="text/html" title="Automating contracts" /><published>2017-04-03T00:00:00-04:00</published><updated>2017-04-03T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts/">&lt;p&gt;I have to juggle multiple authors and their contracts, so I thought it’d be better to automate those contracts so I can prevent errors and have uniformity throughout. Ideal workflow:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-04-10T06:25:31-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
+</subtitle><entry><title type="html">Yet another scheduling Jekyll posts post</title><link href="http://www.francoalvarado.com/blog/2017/04/10/Yet-Another-Scheduling-Jekyll-Posts-Post/" rel="alternate" type="text/html" title="Yet another scheduling Jekyll posts post" /><published>2017-04-10T00:00:00-04:00</published><updated>2017-04-10T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/10/Yet-Another-Scheduling-Jekyll-Posts-Post</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/10/Yet-Another-Scheduling-Jekyll-Posts-Post/">&lt;p&gt;So I’ve been trying to research how to schedule these Jekyll blog posts so I am one of those great Internet unicorns that regularly updates their blog. If you don’t know, Jekyll is very cool. It generates a static site from your computer, but it is pretty involved. &lt;/p&gt;
+
+&lt;p&gt;But I like a project. I built this site over the span of a few months while I was facing an impending lay-off. You can see the source code here on &lt;a href=&quot;https://github.com/francofaa/francofaa.github.io&quot;&gt;github&lt;/a&gt;. This site is being delivered straight from github in fact. &lt;/p&gt;
+
+&lt;p&gt;But yes, as I said, it is very involved, for a very nice, light-weight pay-off. Blog posts and pages written in markdown, layout templates written in HTML and liquid syntax (which can use if/and statements and takes variables based on your site metadata and other things), and metadata written in very human-friendly YAML.&lt;/p&gt;
+
+&lt;p&gt;So one thing that Jekyll can’t do is schedule posts. So I can’t, say, write several posts and have them update on the days I want them to. I’d like this to update every Monday, but that’s just not going to happen without some fun rigamarole. And if you’d like to get involved in that rigamarole, you can go to this &lt;a href=&quot;http://helentran.com/scheduling-posts&quot;&gt;site&lt;/a&gt; that explains it quite well. In fact, this is probably the best way to do it, but for some reason in the past several days I have not been able to wrap my mind around it. Probably lack of sleep.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I’m going to try something like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;build&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;commit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Weekly Blog Update&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="This Very Website" /><category term="Jekyll" /><category term="Python" /><summary type="html">So I’ve been trying to research how to schedule these Jekyll blog posts so I am one of those great Internet unicorns that regularly updates their blog. If you don’t know, Jekyll is very cool. It generates a static site from your computer, but it is pretty involved.</summary></entry><entry><title type="html">Automating contracts</title><link href="http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts/" rel="alternate" type="text/html" title="Automating contracts" /><published>2017-04-03T00:00:00-04:00</published><updated>2017-04-03T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/03/Automating-Contracts/">&lt;p&gt;I have to juggle multiple authors and their contracts, so I thought it’d be better to automate those contracts so I can prevent errors and have uniformity throughout. Ideal workflow:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Receive info from routing editors, specifically
@@ -489,27 +502,4 @@
 &lt;p&gt;&lt;img src=&quot;../../img/redivider/2-logo.jpg&quot; alt=&quot;Logo for book&quot; /&gt;
 &lt;em&gt;Using the end of the R’s ears as the dots, I completed the division symbol with a bar pulled from the typeface’s division symbol&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../img/redivider/3-spread.jpg&quot; alt=&quot;Story spread&quot; /&gt;&lt;/p&gt;</content><category term="projects" /><category term="Book design" /><summary type="html">Summary</summary></entry><entry><title type="html">Rice and Rocks</title><link href="http://www.francoalvarado.com/projects/RiceAndRocks" rel="alternate" type="text/html" title="Rice and Rocks" /><published>2016-10-02T13:24:17-04:00</published><updated>2016-10-02T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/RiceAndRocks</id><content type="html" xml:base="http://www.francoalvarado.com/projects/RiceAndRocks">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Rice and Rocks&lt;/em&gt; is a children’s book published by Wise Ink. I was contracted to create three different fixed-layout versions, one enhanced version with music and two more versions without the music enhancement, in EPUB3 and KF8/Mobi.&lt;/p&gt;
-
-&lt;h3 id=&quot;role&quot;&gt;Role&lt;/h3&gt;
-
-&lt;p&gt;Developer&lt;/p&gt;
-
-&lt;h3 id=&quot;skills-used&quot;&gt;Skills Used&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;InDesign&lt;/li&gt;
-  &lt;li&gt;EPUB3&lt;/li&gt;
-  &lt;li&gt;CSS&lt;/li&gt;
-  &lt;li&gt;XML&lt;/li&gt;
-  &lt;li&gt;XHTML&lt;/li&gt;
-  &lt;li&gt;JavaScript&lt;/li&gt;
-  &lt;li&gt;Audacity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/riceandrocks/1-spread-and-toc.jpg&quot; alt=&quot;Opening spread of Rice and Rocks&quot; /&gt;
-&lt;em&gt;On page load, the music file begins (hidden from the page). I edited to music to fade in and out so as not to feel jarring upon page turn&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Ebook development" /><category term="Fixed-layout ebook" /><category term="InDesign CC" /><category term="Audio editing" /><summary type="html">Summary</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;../../img/redivider/3-spread.jpg&quot; alt=&quot;Story spread&quot; /&gt;&lt;/p&gt;</content><category term="projects" /><category term="Book design" /><summary type="html">Summary</summary></entry></feed>
