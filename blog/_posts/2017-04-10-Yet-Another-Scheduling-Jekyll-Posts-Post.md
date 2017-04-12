@@ -4,6 +4,7 @@ title: Yet another scheduling Jekyll posts post
 tags:
   - Jekyll
   - Python
+  - Meta
 category: This Very Website
 published: true
 ---
