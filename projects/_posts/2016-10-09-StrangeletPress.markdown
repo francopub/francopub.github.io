@@ -1,13 +1,16 @@
 ---
-date:   2016-10-09 13:24:17 -0400
+date: '2016-10-09 13:24:17 -0400'
 title: Strangelet Press
-subtitle: Print book and ebook production for the literary magazine <i>Strangelet</i>, 2012–2016
+subtitle: >-
+  Print book and ebook production for the literary magazine <i>Strangelet</i>,
+  2012–2016
 permalink: /projects/StrangeletPress
 imgfolder: strangeletpress
 category: projects
-tags: 
- - Book design 
- - Ebook development
+tags:
+  - Book design
+  - Ebook development
+published: true
 ---
 
 ### Summary
@@ -16,7 +19,7 @@ tags:
 
 ### Role
 
-Book Designer, Ebook Developer, Production Editor, Art Editor, Founding Partner, [Website Designer](../StrangeletWebsite)
+Book Designer, Ebook Developer, Production Editor, Art Editor, Founding Partner, [Website Designer](../projects/StrangeletWebsite)
 
 ### Skills Used
 
