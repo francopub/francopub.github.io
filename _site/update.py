@@ -19,7 +19,7 @@ elif message == 'project':
 	rot_contents = rot.read()
 	rot = open('_includes/rotation.html', 'wb')
 	content = '</i> current project: (.*?) <i'
-	replacement = '</i> current project: ' + proj + '</p>'
+	replacement = '</i> current project: ' + proj + ' <i'
 	rot_contents = re.sub(content, replacement, rot_contents)
 	rot.write(rot_contents)
 	rot.close()
