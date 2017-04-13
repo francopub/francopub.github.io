@@ -1,19 +1,20 @@
 ---
-date:   2016-10-04 13:24:17 -0400
+date: '2016-10-04 13:24:17 -0400'
 title: Strangelet Website
-subtitle: Website for the literary magazine Strangelet, created 2015
+subtitle: 'Website for the literary magazine Strangelet, created 2015'
 permalink: /projects/StrangeletWebsite
 imgfolder: strangeletwebsite
 category: projects
-tags: 
- - Web design
- - Web development
- - WordPress
+tags:
+  - Web design
+  - Web development
+  - WordPress
+published: true
 ---
 
 ### Summary
 
-*Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the [production of the books and ebooks](../StrangeletPress). The website is [strangeletjournal.com](http://strangeletjournal.com). The content manager and I also handled the updates to the site.
+*Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the [production of the books and ebooks](../projects/StrangeletPress). The website is [strangeletjournal.com](http://strangeletjournal.com). The content manager and I also handled the updates to the site.
 
 ### Role
 
