@@ -17,9 +17,9 @@ So, I could've gone in and done this manually, opened each of the 30 files and d
 ![A photo of a python (the animal, not the programming language)](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg/320px-Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg)
 **Python time! (The age of this python is a metaphor for my current abilities with the programming language. By Tigerpython (Own work) [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons)**
 
-Sure, it took longer to make and run the script than it would've to have done it all manually (mostly because I made little errors). 
+It took longer to make and run the script than it would've to have done it all manually (mostly because I made little errors). 
 
-And of course, here's the script:
+And here's the script:
 
 {% highlight Python %}
 
@@ -58,4 +58,6 @@ for mdFile in os.listdir(curDir):
 
 {% endhighlight %}
 
-Wow, this script has maybe been running for like 20 minutes at least (Update: 30 minutes?). After the script stalled out on one of the files, I decided to give up on it and go to a more manual method. It was actually faster than I thought find/replacing on bold and applying H1, and then promoting and demoting headings to appropriately nest them. Only took like 10 hours. No big deal.
+Not sure where it goes wrong, but it does go wrong. It ran for 20 minutes (thankfully giving me updates of its process due to the helpful print to console commands I put in there). After the script stalled out on one of the files, I stopped and went with a manual approach. It was actually faster than I thought find/replacing on bold and applying H1, and then promoting and demoting headings to appropriately nest them. Only took like 10 hours. No big deal. Most of that time was spent wondering whether something was a sub-section of another.
+
+Moral of the story: Make authors and editors determine heading hierarchy.
