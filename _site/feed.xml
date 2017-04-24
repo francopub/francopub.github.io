@@ -1,5 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-04-18T18:41:14-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
-</subtitle><entry><title type="html">A Python Disaster</title><link href="http://www.francoalvarado.com/blog/2017/04/17/A-Python-Disaster/" rel="alternate" type="text/html" title="A Python Disaster" /><published>2017-04-17T00:00:00-04:00</published><updated>2017-04-17T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/17/A-Python-Disaster</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/17/A-Python-Disaster/">&lt;p&gt;I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style. &lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-04-24T10:15:47-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
+</subtitle><entry><title type="html">Organizing Metadata in YAML</title><link href="http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML/" rel="alternate" type="text/html" title="Organizing Metadata in YAML" /><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML/">&lt;p&gt;I have organized a large amount of content into a YAML document. This will aid in the &lt;a href=&quot;../Automating-Contracts&quot;&gt;contact automation&lt;/a&gt; I was talking about before. For the encyclopedia project I am working on, there are topics and entries. The editors relay to me the author’s information and what topic they will be writing about, which I am to cross-reference with a set of three documents. &lt;/p&gt;
+
+&lt;p&gt;I have taken these three documents and condensed them into a 19,501 line YAML document. Here is an example of a single topic: &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;artnr&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;1.001.A&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Topic&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Example:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Subtopic&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Section&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Example&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;special-attention&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p-Indicator&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;Text describing the focus of the topic and entries. Text is often several sentences long.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So, like, 3,000 of those.&lt;/p&gt;
+
+&lt;p&gt;The routing editor sends me a list of authors and the entries they are contributing to the encyclopedia. I can gather that information into another YAML entry:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;entry1601&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;authors&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Author Name&lt;/span&gt;
+  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Second Author&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Topic&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Example:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Subtopic&amp;quot;&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;123@fakeemail.wow&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;special-attention&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p-Indicator&quot;&gt;&amp;gt;&lt;/span&gt; 
+  &lt;span class=&quot;no&quot;&gt;Text describing the focus of the topic and entries. Text is often several sentences long. &lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;5000&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;due&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;16 June 2017&lt;/span&gt;
+ &lt;span class=&quot;l-Scalar-Plain&quot;&gt;editor&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;aa&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I’m pretty new to YAML syntax. I am hoping to group this metadata together and use it to automate the creation of and updates to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Contracts&lt;/li&gt;
+  &lt;li&gt;Letters of invitation from the general editor&lt;/li&gt;
+  &lt;li&gt;The master TOC file for each supplement to the encyclopedia&lt;/li&gt;
+  &lt;li&gt;Emails to contributors&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="YAML" /><category term="Metadata" /><summary type="html">I have organized a large amount of content into a YAML document. This will aid in the contact automation I was talking about before. For the encyclopedia project I am working on, there are topics and entries. The editors relay to me the author’s information and what topic they will be writing about, which I am to cross-reference with a set of three documents.</summary></entry><entry><title type="html">A Python Disaster</title><link href="http://www.francoalvarado.com/blog/2017/04/17/A-Python-Disaster/" rel="alternate" type="text/html" title="A Python Disaster" /><published>2017-04-17T00:00:00-04:00</published><updated>2017-04-17T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/17/A-Python-Disaster</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/17/A-Python-Disaster/">&lt;p&gt;I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style. &lt;/p&gt;
 
 &lt;p&gt;My boss asked me to go through and apply heading styles &lt;em&gt;only&lt;/em&gt; to the bolded text, and otherwise remove the stylings applied.&lt;/p&gt;
 
@@ -482,40 +518,4 @@
 &lt;em&gt;Prose with line numbers&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../img/litweaver/5-drama-spread.jpg&quot; alt=&quot;Drama with line numbers&quot; /&gt;
-&lt;em&gt;Drama with line numbers&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Ebook development" /><category term="Regular expressions" /><summary type="html">Summary</summary></entry><entry><title type="html">Strangelet Website</title><link href="http://www.francoalvarado.com/projects/StrangeletWebsite" rel="alternate" type="text/html" title="Strangelet Website" /><published>2016-10-04T13:24:17-04:00</published><updated>2016-10-04T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/StrangeletWebsite</id><content type="html" xml:base="http://www.francoalvarado.com/projects/StrangeletWebsite">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Strangelet&lt;/em&gt; was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the &lt;a href=&quot;../projects/StrangeletPress&quot;&gt;production of the books and ebooks&lt;/a&gt;. The website is &lt;a href=&quot;http://strangeletjournal.com&quot;&gt;strangeletjournal.com&lt;/a&gt;. The content manager and I also handled the updates to the site.&lt;/p&gt;
-
-&lt;h3 id=&quot;role&quot;&gt;Role&lt;/h3&gt;
-
-&lt;p&gt;Designer and Developer&lt;/p&gt;
-
-&lt;h3 id=&quot;skills-used&quot;&gt;Skills Used&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;WordPress&lt;/li&gt;
-  &lt;li&gt;CSS&lt;/li&gt;
-  &lt;li&gt;HTML5&lt;/li&gt;
-  &lt;li&gt;Photoshop&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;The website was built in Wordpress, using a child theme based on the theme Responsive.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletwebsite/1-splash-page.jpg&quot; alt=&quot;Home page&quot; /&gt;
-&lt;em&gt;Home page with call-to-action to view the current issue of the magazine. The image and banner would change based on the cover image for that issue.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletwebsite/2-mobile.jpg&quot; alt=&quot;Mobile version&quot; /&gt;
-&lt;em&gt;The site is responsive.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The following three images show story excerpts on the website. The HTML for the excerpts is pulled directly from the ebook. I then created a separate stylesheet for the web edition of the excerpt.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletwebsite/3a-article-sidebars.jpg&quot; alt=&quot;Full width screen version&quot; /&gt;
-&lt;em&gt;Excerpt of story on a full width screen&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletwebsite/3b-article-narrow.jpg&quot; alt=&quot;Resizing screen&quot; /&gt;
-&lt;em&gt;Making the screen smaller allows the sidebar elements to fall away to the bottom of the browser screen&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletwebsite/3c-article-no-distraction.jpg&quot; alt=&quot;Distraction-free version&quot; /&gt;
-&lt;em&gt;This was a test version for a distraction-free version of an excerpt. This is found at &lt;a href=&quot;http://sample.strangeletjournal.com&quot;&gt;sample.strangeletjournal.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Web design" /><category term="Web development" /><category term="WordPress" /><summary type="html">Summary</summary></entry></feed>
+&lt;em&gt;Drama with line numbers&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Ebook development" /><category term="Regular expressions" /><summary type="html">Summary</summary></entry></feed>
