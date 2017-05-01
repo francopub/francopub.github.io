@@ -43,8 +43,8 @@ Merely include the following line in the blog/index.html file:
 		</p>
 	<h2>Wherein I write about developing projects</h2>
 </header>
-{% include rotation.html %}
-{% include blog-roll.html %}
+\{% include rotation.html %\}
+\{% include blog-roll.html %\}
 
 {% endhighlight %}
 
