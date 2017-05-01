@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-05-01T19:27:03-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-05-01T19:31:14-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
 </subtitle><entry><title type="html">Project Rotation</title><link href="http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation/" rel="alternate" type="text/html" title="Project Rotation" /><published>2017-05-01T00:00:00-04:00</published><updated>2017-05-01T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation/">&lt;p&gt;I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects (which I am careful to make sure are never a conflict of interest, in case you were wondering). The projects can include any of the following:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -31,13 +31,18 @@
 			a process blog
 		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 	&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Wherein I write about developing projects&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;
+\{ % include rotation.html % \}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;I then created a Python script to help with updates. I am prompted to first describe the type of update I am making to the website.&lt;/p&gt;
 
 &lt;p&gt;If it is ‘project’, I am then prompted to describe the current project I am working on, say, “updating main website”, and that will be placed in the include file, so that the text now reads: &lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;center&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;fa fa-cog fa-spin fa-fw&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt; current project: updating main website&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;fa fa-cog fa-spin fa-fw&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Time Management" /><category term="Python" /><category term="Jekyll" /><category term="Meta" /><summary type="html">I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects (which I am careful to make sure are never a conflict of interest, in case you were wondering). The projects can include any of the following:</summary></entry><entry><title type="html">Organizing Metadata in YAML</title><link href="http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML/" rel="alternate" type="text/html" title="Organizing Metadata in YAML" /><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML/">&lt;p&gt;I have organized a large amount of content into a YAML document. This will aid in the &lt;a href=&quot;../Automating-Contracts&quot;&gt;contact automation&lt;/a&gt; I was talking about before. For the encyclopedia project I am working on, there are topics and entries. The editors relay to me the author’s information and what topic they will be writing about, which I am to cross-reference with a set of three documents. &lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;center&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;fa fa-cog fa-spin fa-fw&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt; current project: updating main website&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;fa fa-cog fa-spin fa-fw&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Time Management" /><category term="Python" /><category term="Jekyll" /><category term="Meta" /><summary type="html">I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects (which I am careful to make sure are never a conflict of interest, in case you were wondering). The projects can include any of the following:</summary></entry><entry><title type="html"></title><link href="http://www.francoalvarado.com/blog/2017/05/01/" rel="alternate" type="text/html" title="" /><published>2017-05-01T00:00:00-04:00</published><updated>2017-05-01T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/05/</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/05/01/">&lt;p&gt;I had a lot of freelance work to do this particular week. It made me think about whether I should quit doing this blog, but then I realized that it’s probably fine. It’s more like a check-in for myself and my projects. Someone might stumble upon this, but it’s not adding anything terribly interesting just yet to the different subjects I am working on.&lt;/p&gt;
+
+&lt;p&gt;So this entry will just be about time management and adjusting to a new work-life schedule. I have no advice about this. I only have what I have done thus far to balance. &lt;/p&gt;
+
+&lt;p&gt;I have actually been working on a project, but I’ll have to actually compose a blog post for it. It’s nothing to do with what I’ve been doing thus far.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><summary type="html">I had a lot of freelance work to do this particular week. It made me think about whether I should quit doing this blog, but then I realized that it’s probably fine. It’s more like a check-in for myself and my projects. Someone might stumble upon this, but it’s not adding anything terribly interesting just yet to the different subjects I am working on.</summary></entry><entry><title type="html">Organizing Metadata in YAML</title><link href="http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML/" rel="alternate" type="text/html" title="Organizing Metadata in YAML" /><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/04/24/Organizing-Metadata-in-YAML/">&lt;p&gt;I have organized a large amount of content into a YAML document. This will aid in the &lt;a href=&quot;../Automating-Contracts&quot;&gt;contact automation&lt;/a&gt; I was talking about before. For the encyclopedia project I am working on, there are topics and entries. The editors relay to me the author’s information and what topic they will be writing about, which I am to cross-reference with a set of three documents. &lt;/p&gt;
 
 &lt;p&gt;I have taken these three documents and condensed them into a 19,501 line YAML document. Here is an example of a single topic: &lt;/p&gt;
 
@@ -476,50 +481,4 @@
 &lt;span class=&quot;n&quot;&gt;build_epub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;_&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookFolderName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;.epub&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;epub_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foul&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;shutil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rmtree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><category term="Python" /><category term="Ebook development" /><category term="CMS" /><summary type="html">Summary</summary></entry><entry><title type="html">Beowulf</title><link href="http://www.francoalvarado.com/projects/Beowulf" rel="alternate" type="text/html" title="Beowulf" /><published>2016-10-06T13:24:17-04:00</published><updated>2016-10-06T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/Beowulf</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Beowulf">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;For this edition of &lt;em&gt;Beowulf&lt;/em&gt;, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.&lt;/p&gt;
-
-&lt;h3 id=&quot;role&quot;&gt;Role&lt;/h3&gt;
-
-&lt;p&gt;Book Designer&lt;/p&gt;
-
-&lt;h3 id=&quot;skills-used&quot;&gt;Skills Used&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;InDesign&lt;/li&gt;
-  &lt;li&gt;Photoshop&lt;/li&gt;
-  &lt;li&gt;GREP (RegEx)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1a-title-page.jpg&quot; alt=&quot;Title page&quot; /&gt;
-&lt;em&gt;For the cover, I created a Viking ship on the water using typographical ornaments. These were then echoed in the title page.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1b-title-page-detail.jpg&quot; alt=&quot;Title page, detail&quot; /&gt;
-&lt;em&gt;Detail of ornaments&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1c-cover.jpg&quot; alt=&quot;Cover&quot; /&gt;
-&lt;em&gt;Cover image&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/2a-chapter-spread.jpg&quot; alt=&quot;Chapter open spread&quot; /&gt;
-&lt;em&gt;Chapter opener spread, showing all text elements: running text, running headers, chapter number and title, glosses, footnotes, line numbers, and folios&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/2b-marginalia-detail.jpg&quot; alt=&quot;Marginalia detail&quot; /&gt;
-&lt;em&gt;Detail of page&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/3-dedication.jpg&quot; alt=&quot;Dedication page&quot; /&gt;
-&lt;em&gt;Dedication page&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/4-fm-spread.jpg&quot; alt=&quot;Front matter with drop cap&quot; /&gt;
-&lt;em&gt;Front matter (prose) with drop cap&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5a-pages-spread.jpg&quot; alt=&quot;Another spread, without chapter opener&quot; /&gt;
-&lt;em&gt;Another spread, without chapter opener&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5b-footnote-spread.jpg&quot; alt=&quot;Spread with a large amount of footnotes&quot; /&gt;
-&lt;em&gt;Another spread with a large amount of footnotes&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5c-running-head-detail.jpg&quot; alt=&quot;Detail of running head&quot; /&gt;
-&lt;em&gt;Detail of running head&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Book design" /><summary type="html">Summary</summary></entry></feed>
+&lt;span class=&quot;n&quot;&gt;shutil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rmtree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><category term="Python" /><category term="Ebook development" /><category term="CMS" /><summary type="html">Summary</summary></entry></feed>
