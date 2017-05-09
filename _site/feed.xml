@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-05-01T19:42:47-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
-</subtitle><entry><title type="html">Project Rotation</title><link href="http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation/" rel="alternate" type="text/html" title="Project Rotation" /><published>2017-05-01T00:00:00-04:00</published><updated>2017-05-01T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation/">&lt;p&gt;I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects (which I am careful to make sure are never a conflict of interest, in case you were wondering). The projects can include any of the following:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.francoalvarado.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator><link href="http://www.francoalvarado.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francoalvarado.com/" rel="alternate" type="text/html" /><updated>2017-05-08T20:38:24-04:00</updated><id>http://www.francoalvarado.com/</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
+</subtitle><entry><title type="html"></title><link href="http://www.francoalvarado.com/blog/2017/05/08/Overload/" rel="alternate" type="text/html" title="" /><published>2017-05-08T00:00:00-04:00</published><updated>2017-05-08T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/05/08/Overload</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/05/08/Overload/">&lt;p&gt;I had a lot of freelance work to do this week. It made me think about whether I should quit doing this blog, but then I realized that it’s probably fine. It’s more like a check-in for myself and my projects. Someone might stumble upon this, but it’s not adding anything terribly interesting just yet to the discussion of the different topics I’d like to get into.&lt;/p&gt;
+
+&lt;p&gt;So this entry will just be about time management and adjusting to a new work-life schedule. I have no advice about this. I only have what I have done thus far to balance, and that has been actually very little. My plan for this now is to just keep as many things on the backburner as possible while I adjust to this job. It will allow me as well to shift any extra time and focus to my novel, which is my most important side project but funnily the one I am least interested in writing &lt;em&gt;about&lt;/em&gt;. Other people write about writing better than I do. I’m happy to answer questions about writing to those who are less experienced than I am because though I am unpublished, I am &lt;em&gt;in&lt;/em&gt; the publishing industry. &lt;/p&gt;
+
+&lt;p&gt;I have actually been working on a project that is related to my novel, but I’ll have to compose a separate blog post for it. It’s nothing to do with what I’ve been posting about thus far.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Time Management" /><category term="Meta" /><category term="Writing" /><summary type="html">I had a lot of freelance work to do this week. It made me think about whether I should quit doing this blog, but then I realized that it’s probably fine. It’s more like a check-in for myself and my projects. Someone might stumble upon this, but it’s not adding anything terribly interesting just yet to the discussion of the different topics I’d like to get into.</summary></entry><entry><title type="html">Project Rotation</title><link href="http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation/" rel="alternate" type="text/html" title="Project Rotation" /><published>2017-05-01T00:00:00-04:00</published><updated>2017-05-01T00:00:00-04:00</updated><id>http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation</id><content type="html" xml:base="http://www.francoalvarado.com/blog/2017/05/01/Project-Rotation/">&lt;p&gt;I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects (which I am careful to make sure are never a conflict of interest, in case you were wondering). The projects can include any of the following:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Web design and development&lt;/li&gt;
@@ -477,50 +481,4 @@
 &lt;span class=&quot;n&quot;&gt;build_epub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;_&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookFolderName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;.epub&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;epub_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foul&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;shutil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rmtree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><category term="Python" /><category term="Ebook development" /><category term="CMS" /><summary type="html">Summary</summary></entry><entry><title type="html">Beowulf</title><link href="http://www.francoalvarado.com/projects/Beowulf" rel="alternate" type="text/html" title="Beowulf" /><published>2016-10-06T13:24:17-04:00</published><updated>2016-10-06T13:24:17-04:00</updated><id>http://www.francoalvarado.com/projects/Beowulf</id><content type="html" xml:base="http://www.francoalvarado.com/projects/Beowulf">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;For this edition of &lt;em&gt;Beowulf&lt;/em&gt;, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.&lt;/p&gt;
-
-&lt;h3 id=&quot;role&quot;&gt;Role&lt;/h3&gt;
-
-&lt;p&gt;Book Designer&lt;/p&gt;
-
-&lt;h3 id=&quot;skills-used&quot;&gt;Skills Used&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;InDesign&lt;/li&gt;
-  &lt;li&gt;Photoshop&lt;/li&gt;
-  &lt;li&gt;GREP (RegEx)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1a-title-page.jpg&quot; alt=&quot;Title page&quot; /&gt;
-&lt;em&gt;For the cover, I created a Viking ship on the water using typographical ornaments. These were then echoed in the title page.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1b-title-page-detail.jpg&quot; alt=&quot;Title page, detail&quot; /&gt;
-&lt;em&gt;Detail of ornaments&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/1c-cover.jpg&quot; alt=&quot;Cover&quot; /&gt;
-&lt;em&gt;Cover image&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/2a-chapter-spread.jpg&quot; alt=&quot;Chapter open spread&quot; /&gt;
-&lt;em&gt;Chapter opener spread, showing all text elements: running text, running headers, chapter number and title, glosses, footnotes, line numbers, and folios&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/2b-marginalia-detail.jpg&quot; alt=&quot;Marginalia detail&quot; /&gt;
-&lt;em&gt;Detail of page&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/3-dedication.jpg&quot; alt=&quot;Dedication page&quot; /&gt;
-&lt;em&gt;Dedication page&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/4-fm-spread.jpg&quot; alt=&quot;Front matter with drop cap&quot; /&gt;
-&lt;em&gt;Front matter (prose) with drop cap&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5a-pages-spread.jpg&quot; alt=&quot;Another spread, without chapter opener&quot; /&gt;
-&lt;em&gt;Another spread, without chapter opener&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5b-footnote-spread.jpg&quot; alt=&quot;Spread with a large amount of footnotes&quot; /&gt;
-&lt;em&gt;Another spread with a large amount of footnotes&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/beowulf/5c-running-head-detail.jpg&quot; alt=&quot;Detail of running head&quot; /&gt;
-&lt;em&gt;Detail of running head&lt;/em&gt;&lt;/p&gt;</content><category term="projects" /><category term="Book design" /><summary type="html">Summary</summary></entry></feed>
+&lt;span class=&quot;n&quot;&gt;shutil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rmtree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isbn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="projects" /><category term="Python" /><category term="Ebook development" /><category term="CMS" /><summary type="html">Summary</summary></entry></feed>
