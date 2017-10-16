@@ -4,3 +4,9 @@ This is the repo for my personal website. As you can see, this site is built usi
 I created two blogrolls for it, a projects blogroll for my portfolio section and a personal blogroll, which has not been filled in, so it is not visible (except here on the repo). I have recently added a new entry in the portfolio section after finalizing the site and it was pretty easy to do, so that is good.
 
 The site that is deployed lives in the \_site folder.
+
+# To do for next iteration
+
+- Add testimonials
+- Add old personal site
+- Add tags and categories to blog
