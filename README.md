@@ -10,3 +10,12 @@ The site that is deployed lives in the \_site folder.
 - Add testimonials
 - Add old personal site
 - Add tags and categories to blog
+
+# Future iterations
+
+- Store page with book samples (Beowulf, etc)
+  - Candide
+  - Importance of Being Earnest
+  - Sir Gawain and the Green Knight
+- Affiliate links with Delta Bayou
+- TOC navigation sidebar for blog
