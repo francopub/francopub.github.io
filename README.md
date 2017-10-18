@@ -8,8 +8,12 @@ The site that is deployed lives in the \_site folder.
 # To do for next iteration
 
 - Add testimonials
-- Add old personal site
 - Add tags and categories to blog
+
+## Projects to add
+
+- Add FCC projects when they are finished
+- Add TOC Builder for EWIC
 
 # Future iterations
 
@@ -17,5 +21,5 @@ The site that is deployed lives in the \_site folder.
   - Candide
   - Importance of Being Earnest
   - Sir Gawain and the Green Knight
-- Affiliate links with Delta Bayou
+- Affiliate links for side project authors
 - TOC navigation sidebar for blog
