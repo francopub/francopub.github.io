@@ -7,8 +7,12 @@ The site that is deployed lives in the \_site folder.
 
 # To do for next iteration
 
-- Add testimonials
-- Add tags and categories to blog
+- Reduce font-size to 16px / 1rem
+- Improve image folder naming conventions
+- Fade in on load
+- Give more structure to project pages, have role + skills used sections in columns 
+- Incorporate logos and icons
+- Refer to http://kylethacker.com
 
 ## Projects to add
 
@@ -17,9 +21,37 @@ The site that is deployed lives in the \_site folder.
 
 # Future iterations
 
-- Store page with book samples (Beowulf, etc)
-  - Candide
-  - Importance of Being Earnest
-  - Sir Gawain and the Green Knight
+## Features
+
+- Store page for book samples (Beowulf, etc)
 - Affiliate links for side project authors
-- TOC navigation sidebar for blog
+- TOC navigation sidebar for blog: http://peteanicholson.com/writing/in-the-belly-of-jehovah; http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
+- Added subscription service to blog: https://blog.webjeda.com/jekyll-subscribe-form/
+- Automated social media sharing of blog posts https://www.jflh.ca/2017-02-08-how-i-automate-social-media-sharing-of-my-jekyll-blog-articles
+- Added disqus to blog posts https://disqus.com/
+
+## Projects
+
+- Candide, book
+- Importance of Being Earnest, book
+- Sir Gawain and the Green Knight, book
+- Poker deck, product
+- Beowulf, book
+- Install and test ProseMirror
+
+## Strategy
+
+- Add testimonials
+- Rethink blog strategy
+- Separated author vs freelancer identities
+
+## Structure
+
+- Filter projects by category and tag
+- Filter blog entries by category and tag
+- Create archive for first entries into blog
+
+
+
+
+
