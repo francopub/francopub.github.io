@@ -14,6 +14,7 @@ The site that is deployed lives in the \_site folder.
 - Incorporate logos and icons
 - Refer to http://kylethacker.com
 - Make navbar white, make the active link subtler
+- Remove date stamp from preview of blog posts
 
 ## Projects to add
 
