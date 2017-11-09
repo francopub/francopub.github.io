@@ -6,7 +6,8 @@
 				<p class="meta">{{ post.date | date_to_long_string }} |   
 			{% if post.tags %} 
 				{% for tag in post.tags %} 
-					<!--<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">--> <b>{{ tag }} | </b> <!--</a>-->
+					<!--<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">--> 
+						<b>{{ tag }} | </b> <!--</a>-->
   				{% endfor %}
   			{% endif %} 
   		{{author.name}}</p>
