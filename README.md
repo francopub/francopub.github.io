@@ -7,13 +7,14 @@ The site that is deployed lives in the \_site folder.
 
 # To do for next iteration
 
-- Reduce font-size to 16px / 1rem
+- ~~Reduce font-size to 16px / 1rem~~
 - Improve image folder naming conventions
-- Fade in on load
-- Give more structure to project pages, have role + skills used sections in columns 
+- ~~Fade in on load~~
+- Give more structure to project pages, have role + skills used sections in columns
+	- Refer to clients and companies
 - Incorporate logos and icons
 - Refer to http://kylethacker.com
-- Make navbar white, make the active link subtler
+- ~~Make navbar white, make the active link subtler~~
 - Remove date stamp from preview of blog posts
 
 ## Projects to add

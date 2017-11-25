@@ -12,6 +12,8 @@ tags:
 published: true
 ---
 
+<!-- Leverage the metadata. Place the role, companies / clients in metadata; have that metadata establisehd below ; put this in the layout for projects -->
+
 ### Summary
 
 *Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the [production of the books and ebooks](../projects/StrangeletPress). The website is [strangeletjournal.com](http://strangeletjournal.com). The content manager and I also handled the updates to the site.

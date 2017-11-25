@@ -16,7 +16,11 @@
 
 </script>
 </head>
-<body>
+<body><!-- 
+<script>
+document.body.className += ' fade-out';
+</script>
+ -->
 <nav class="topnav">
 	<div id="logo">
 		<a href="/">
@@ -760,12 +764,6 @@ and icecap climates will be less. A large enough inclination - about
       
     
       
-    
-      
-    
-      
-    
-      
         <div class="post">
           <a href="/projects/GradeYouLater">
             <img src="../img/gradeyoulater/gradeyoulater.jpg" alt="image" />
@@ -967,6 +965,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+// $(function() {
+//     $('body').removeClass('fade-out');
+// });
 </script>
 </body>
 </html>

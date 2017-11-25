@@ -16,7 +16,11 @@
 
 </script>
 </head>
-<body>
+<body><!-- 
+<script>
+document.body.className += ' fade-out';
+</script>
+ -->
 <nav class="topnav">
 	<div id="logo">
 		<a href="/">
@@ -70,12 +74,6 @@
 <div id="projectpane">
   <h1 id="projects">Portfolio</h1>
   <div class="post-group">
-    
-      
-    
-      
-    
-      
     
       
     
@@ -295,6 +293,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+// $(function() {
+//     $('body').removeClass('fade-out');
+// });
 </script>
 </body>
 </html>

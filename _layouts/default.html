@@ -16,7 +16,11 @@
 
 </script>
 </head>
-<body>
+<body><!-- 
+<script>
+document.body.className += ' fade-out';
+</script>
+ -->
 {% include nav.html %}
 {{content}}
 {% include contact.html %}
@@ -49,6 +53,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+// $(function() {
+//     $('body').removeClass('fade-out');
+// });
 </script>
 </body>
 </html>

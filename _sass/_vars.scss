@@ -3,12 +3,12 @@ $paper: url(../img/back.jpg);
 
 /* black and white */
 $charcoal: #2f3036;
-$offwhite: #f3f3f3;
+$offwhite: #FFF;
 $gray: mix($charcoal, $offwhite);
 
 /* colors */
 
-$maincolor: #BD4010;
+$maincolor: #379997;
 $selectcolor: adjust-hue($maincolor, 25deg);
 
 $complementcolor: complement($maincolor);

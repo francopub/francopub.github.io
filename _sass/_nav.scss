@@ -5,14 +5,14 @@ nav.topnav {
 	width: 100%;
 	position: fixed;
 	height: 90px;
-	background-color: $charcoal;
+	background-color: $offwhite;
 	div#logo {
 		@extend .boxshadow;
 		float: left;
 		width: 80px;
 		position: relative;
 		height: 80px;
-		color: $offwhite;
+		color: $charcoal;
 		margin: 6px 8px;
 		border-radius: 50px;
 		-moz-border-radius: 50px;
@@ -47,13 +47,13 @@ nav.topnav {
 		margin-right: 1px;
 		font-size: 1rem;
 		&:hover ul#menu a {
-			background: $offwhite;
-			color: $charcoal;
+			background: $charcoal;
+			color: $offwhite;
 			height: 40px;
 			line-height: 40px;
 			&:hover {
 				background: lighten($maincolor, 20%);
-				color: $offwhite;
+				color: $charcoal;
 				}
 			}
 		}
@@ -64,10 +64,10 @@ nav.topnav {
 		text-align: center;
 		line-height: 50px;
 		font-family: $stack-ss;
-		color: $offwhite;
+		color: $charcoal;
 		text-decoration: none;
 			&:hover {
-			background: $maincolor;
+			background: lighten($maincolor,50%);
 			}
 		}
 		li#name {
@@ -79,11 +79,11 @@ nav.topnav {
 		padding: 0 20px;
 		margin-left: 10px;
 		font-size: 2em;
-		background-color: $charcoal;
+		background-color: $offwhite;
 		font-family: $stack-logo;
 		text-transform: uppercase;
 			&:hover {
-			background-color: $charcoal;
+			background-color: $offwhite;
 			animation: textpulse 10s infinite;
 			}
 		}
@@ -91,7 +91,7 @@ nav.topnav {
 		-webkit-user-select: none; /* Chrome/Safari */        
 		-moz-user-select: none; /* Firefox */
 		-ms-user-select: none; 
-		background-color: $complementcolor;
+		background-color: $offwhite;
 		cursor: pointer;
 		}
 	}
