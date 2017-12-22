@@ -2,6 +2,7 @@
    	display: inline-grid;
     margin-right: 10%;
     margin-top: 25px;  
+    
     ul {
       -webkit-margin-before: 0.25em;
       -webkit-padding-start: 0;
@@ -18,6 +19,8 @@
     display: block;
     margin-bottom: 0;
     font-family: $stack-ss
+	text-shadow: $shadow;
+
  }
 }
 
@@ -108,12 +111,11 @@ article#xp {
 
 article.project {
 	margin: 0 auto;
-    max-width: 760px;
+    max-width: 900px;
 	/*max-width: 100%;
 	@extend .boxshadow;*/
 	header {
 		margin: 0 auto;
-		max-width: 760px;
 		h1 {
 		margin: 4.5em 0 0;
         text-align: left;
@@ -165,6 +167,8 @@ article.project {
 
 	}
 }
+
+/* Project Pane */
 
 .post-group {
   min-height: 500px;
@@ -245,7 +249,7 @@ article.project {
     }
     p {
     	font-family: $stack-serif;
-    	margin: 0 1.5em;
+    	margin: 0 0 0 2em;
     	font-style: italic;
     }
 }
