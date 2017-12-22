@@ -13,7 +13,6 @@ The site that is deployed lives in the \_site folder.
 - Give more structure to project pages, have role + skills used sections in columns
 	- Refer to clients and companies
 - Incorporate logos and icons
-- Refer to http://kylethacker.com
 - ~~Make navbar white, make the active link subtler~~
 - Remove date stamp from preview of blog posts
 
