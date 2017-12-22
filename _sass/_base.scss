@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 	color: $maincolor;
 		&:-webkit-any-link {
-			cursor: auto;
+			/*cursor: auto;*/
 		}
 		&:hover {
 	        color: darken($maincolor, 5%)
