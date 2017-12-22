@@ -8,7 +8,14 @@ layout: default
 	</header>
 	<section>
 		<div title="role" class="info">{{page.role}}</div>
-		<div title="skills" class="info">{{page.skills}}</div>
+		<div title="skills" class="info">
+			<ul>
+				{% for c in page.skills %}
+					<li>{{c}}</li>
+				{% endfor %}
+			</ul>
+		
+		</div>
 		{% if page.company  %}
 			<div title="company" class="info">{{page.company}}</div>
 		{% endif %}
