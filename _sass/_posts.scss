@@ -41,7 +41,8 @@ div#blog-roll {
 	@extend article;
 	.post {
 		padding: 1em;
-		@extend .boxshadow;
+		// @extend .boxshadow;
+		border-bottom: 1px solid $bordercolor;
 		p.meta, h3.title {
 			margin: 0;
 		}
