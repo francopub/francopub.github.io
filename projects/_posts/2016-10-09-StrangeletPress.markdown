@@ -12,14 +12,16 @@ tags:
   - Ebook development
 published: true
 company: Strangelet Press
-role: Book Designer, Ebook Developer, Production Editor, Art Editor, Founding Partner, and [Website Designer](../projects/StrangeletWebsite)
-skills: 
- - InDesign
- - Photoshop
- - EPUB3
- - CSS
- - XML
- - XHTML
+role: >-
+  Book Designer, Ebook Developer, Production Editor, Art Editor, Founding
+  Partner, and Website Designer
+skills:
+  - InDesign
+  - Photoshop
+  - EPUB3
+  - CSS
+  - XML
+  - XHTML
 ---
 
 ### Summary
