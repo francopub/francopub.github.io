@@ -1,3 +1,26 @@
+.info {
+   	display: inline-grid;
+    margin-right: 10%;
+    margin-top: 25px;  
+    ul {
+      -webkit-margin-before: 0.25em;
+      -webkit-padding-start: 0;
+      list-style-type: none;
+
+    }
+
+&::before {
+    content: attr(title);
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 0.2em;
+    color: $gray;
+    display: block;
+    margin-bottom: 8px;
+    font-family: $stack-ss
+ }
+}
+
 h1#projects {
 	border-bottom: none;
 }
@@ -83,8 +106,9 @@ article#xp {
 
 article.project {
 	margin: 0 auto;
-	max-width: 100%;
-	@extend .boxshadow;
+    max-width: 760px;
+	/*max-width: 100%;
+	@extend .boxshadow;*/
 	header {
 		margin: 0 auto;
 		max-width: 650px;
@@ -111,8 +135,8 @@ article.project {
 			margin-top: 0.5em;
 			font-size: 1em;
 			line-height: 1.5;
-			margin-left: 10%;
-			margin-right: 10%;
+			/*margin-left: 10%;
+			margin-right: 10%;*/
 			widows: 2;
 			orphans: 2;
 			font-family: $stack-serif;
@@ -121,9 +145,9 @@ article.project {
 			line-height: 1;
 		}
 		h3 {
-			font-size: 1.5em;
-			margin-left: 10%;
-			margin-right: 10%;
+			font-size: 1.25em;
+			/*margin-left: 10%;
+			margin-right: 10%;*/
 			font-family: $stack-ss;
 		}
 
