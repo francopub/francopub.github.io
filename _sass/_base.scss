@@ -13,13 +13,14 @@ a {
     text-decoration: none;
 	color: $maincolor;
 		&:-webkit-any-link {
-			/*cursor: auto;*/
+			cursor: pointer;
 		}
 		&:hover {
-	        color: darken($maincolor, 5%)
+	        color: darken($maincolor, 5%);
+            cursor: pointer;
 	    }
         &:active {
-        	color: darken($maincolor, 15%)
+        	color: darken($maincolor, 15%);
         }
 }
 
