@@ -9,22 +9,17 @@ tags:
  - App
  - Web design
  - Javascript
+role: Developer and Designer
+skills: 
+ - CSS3
+ - HTML5
+ - Javascript
+ - JQuery
 ---
 
 ### Summary
 
 GradeYouLater is a simple grading calculator that tallies grades, posts those grades to a table, and then can export that table as a spreadsheet.
-
-### Role
-
-Developer and Designer
-
-### Skills Used
-
-- CSS3
-- HTML5
-- Javascript
-- JQuery
 
 ### Description
 

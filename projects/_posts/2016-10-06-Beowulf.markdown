@@ -7,21 +7,17 @@ imgfolder: beowulf
 category: projects
 tags: 
  - Book design
+role: Book Designer
+skills: 
+ - InDesign
+ - Photoshop
+ - GREP (RegEx)
 ---
 
 ### Summary
 
 For this edition of *Beowulf*, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.
 
-### Role
-
-Book Designer
-
-### Skills Used
-
-- InDesign
-- Photoshop
-- GREP (RegEx)
 
 ### Description
 

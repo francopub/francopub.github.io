@@ -7,20 +7,16 @@ imgfolder: redivider
 category: projects
 tags: 
  - Book design
+role: Production Editor
+company: Redivider
+skills: 
+ - InDesign
+ - PhotoShop
 ---
 
 ### Summary
 
 *Redivider* is the graduate-run biannual literary magazine at Emerson College. I was production editor, leading the design and production of the journal. My team and I designed and laid out the cover and pages for the books. 
-
-### Role
-
-Production Editor
-
-### Skills Used
-
-- InDesign
-- Photoshop
 
 ### Description
 

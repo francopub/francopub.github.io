@@ -10,24 +10,19 @@ tags:
  - Web development
  - WordPress
  - Branding
+role: Designer and Developer
+company: Your Dream Cakes
+skills: 
+ - WordPress
+ - Photoshop
+ - CSS
+ - HTML5
+ - Javascript
 ---
 
 ### Summary
 
 Your Dream Cakes is a custom dessert and catering service in South Florida. I built and designed the website using Wordpress. The website is [here](http://yourdreamcakes.com). 
-
-
-### Role
-
-Designer and Developer
-
-### Skills Used
-
-- WordPress
-- Photoshop
-- CSS
-- HTML5
-- Javascript
 
 ### Description
 

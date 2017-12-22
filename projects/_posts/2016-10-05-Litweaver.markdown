@@ -8,23 +8,20 @@ category: projects
 tags: 
  - Ebook development
  - Regular expressions
+role: Ebook Developer
+company: Litweaver
+skills: 
+ - EPUB3
+ - CSS
+ - XML
+ - XHTML
+ - RegEx
+
 ---
 
 ### Summary
 
 Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.
-
-### Role
-
-Ebook Developer
-
-### Skills Used
-
-- EPUB3
-- CSS
-- XML
-- XHTML
-- RegEx
 
 ### Description
 

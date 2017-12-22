@@ -8,21 +8,17 @@ category: projects
 tags: 
  - Magazine design
  - Drawing
+role: Magazine Designer
+skills: 
+ - InDesign
+ - PhotoShop
+ - Drawing
+
 ---
 
 ### Summary
 
 *Once* magazine was a project for my magazine design class at Emerson College's Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics. 
-
-### Role
-
-Magazine Designer
-
-### Skills Used
-
-- InDesign
-- Photoshop
-- Drawing
 
 ### Description
 

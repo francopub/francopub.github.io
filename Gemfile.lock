@@ -97,7 +97,7 @@ GEM
     minitest (5.9.1)
     multipart-post (2.0.0)
     net-dns (0.8.0)
-    nokogiri (1.6.8.1)
+    nokogiri (1.8.1)
       mini_portile2 (~> 2.1.0)
     octokit (4.6.2)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -139,7 +139,7 @@ DEPENDENCIES
   jekyll-sass-converter
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.4.1p111
 
 BUNDLED WITH
-   1.15.4
+   1.16.1

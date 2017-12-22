@@ -11,24 +11,20 @@ tags:
   - Book design
   - Ebook development
 published: true
+company: Strangelet Press
+role: Book Designer, Ebook Developer, Production Editor, Art Editor, Founding Partner, and [Website Designer](../projects/StrangeletWebsite)
+skills: 
+ - InDesign
+ - Photoshop
+ - EPUB3
+ - CSS
+ - XML
+ - XHTML
 ---
 
 ### Summary
 
 *Strangelet* was a bimonthly literary magazine of fantasy, science fiction, and magical realism. 
-
-### Role
-
-Book Designer, Ebook Developer, Production Editor, Art Editor, Founding Partner, [Website Designer](../projects/StrangeletWebsite)
-
-### Skills Used
-
-- InDesign
-- Photoshop
-- EPUB3
-- CSS
-- XML
-- XHTML
 
 ### Description
 
