@@ -50,8 +50,8 @@ div#blog-roll {
 }
 
 article {
-	margin: 0 auto;
-    max-width: 50%;
+// 	margin: 0 auto;
+//     max-width: 50%;
     padding-top: 1px;
 	section {
 		border-bottom: 1px solid $bordercolor;
@@ -103,16 +103,16 @@ article.blogpost {
 	padding-top: 9.5em;
 }
 
-article#xp {
-	margin: 0 auto;
-    padding: 1px 25%;
-    @extend .boxshadow;
+// article#xp {
+// 	margin: 0 auto;
+//     padding: 1px 25%;
+//     @extend .boxshadow;
 
-}
+// }
 
 article.project {
-	margin: 0 auto;
-    max-width: 900px;
+// 	margin: 0 auto;
+//     max-width: 900px;
 	/*max-width: 100%;
 	@extend .boxshadow;*/
 	header {
