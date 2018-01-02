@@ -41,11 +41,11 @@ document.body.className += ' fade-out';
 	</ul>
 </nav>
 
-<style>footer { display: none; }</style>
+<!-- <style>footer { display: none; }</style>
 <main id="thanks">
 	<p>That is not a page that exists on this site.</p>
 	<a href="/index.html"><button>Return home</button></a>
-</main>
+</main> -->
 <!-- <div id="form-container">
 <h1>Keep in touch!</h1>
 <form method="POST" action="http://formspree.io/franco.faa@gmail.com">
