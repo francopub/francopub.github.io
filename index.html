@@ -3,19 +3,12 @@ layout: page
 title: About
 permalink: /
 ---
-{% include services.html %}
+<!-- {% include services.html %} -->
 <article id="aboutarticle">
-<h1 id="aboutme">About me</h1>
-<p>
-	Welcome to my website. I am a publishing professional living in the Boston area. I&#8217;m a problem-solver, and I like to fix things: print books, ebooks, and websites. {% if site.available == true %} I am currently <b>available </b>to help you! {% else %} I am currently working at {{ site.job }}, but please feel free to get in touch anyway. {% endif %} Check out my portfolio below to see some of my previous work.
-</p>
-{% if site.available == true %} 
-<p class="center">
-	<i>Accepting new projects! Get in touch with me on <a href="https://twitter.com/{{site.twitter_username}}"> Twitter</a>, <a href="https://linkedin.com/in/{{site.linkedin_username}}">LinkedIn</a>, or using the big friendly contact button above.</i>
-</p>
-{% else %}
-<p class="center">
-	<i>Get in touch with me on Twitter, LinkedIn, or my contact page.</i>	
-</p>
- {% endif %}
+<!-- <h1 id="aboutme">About me</h1> -->
+
+<p>I have always strived to be efficient, to make the little things automatic and out of the way. Whether writing Python scripts to automate tasks or planning meals weeks in advance, I always like to make more space to create.</p>
+<p>I started my career in the publishing industry in the Boston area, focusing primarily on digital publishing and ebooks. From there, I began developing skills in web development and scripting.</p>
+<p>I bring this experience in and passion for workflow optimization to every project I encounter. {% if site.job %}I currently work as {{site.job}}.{% endif %} Contact me via <a href="https://twitter.com/{{site.twitter_username}}"> Twitter</a>, <a href="https://linkedin.com/in/{{site.linkedin_username}}">LinkedIn</a>, or <a href="mailto:{{site.email}}?subject=I am a robot">email</a>.</p>
+	<p>Learn more about my <a href="/experience">experience</a> or view <a href="#projectpane">my portfolio</a>.</p>
 </article>
