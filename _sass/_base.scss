@@ -57,8 +57,15 @@ li, li ul li {
 	orphans: 2;	
 }
 article#aboutarticle {
-	max-width: 100%;
-	padding: 0em 15%;
+    max-width: 100%;
+    padding: 1em 30%;
+    -moz-columns: 4 150px;
+    columns: 2 50px;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+    border-bottom: none;
+    margin-top: 2em;
 }
 
 
