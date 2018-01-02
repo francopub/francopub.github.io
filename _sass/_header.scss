@@ -1,7 +1,7 @@
 header.site-header 	{
   	width: 100%;
 	display: block;
-    padding: 1.5em 0 4em;
+   	padding: 1.5em 0 4em;
 	text-align: center;
 	text-indent: 0;
 	box-sizing: border-box;
@@ -39,6 +39,7 @@ header.site-header 	{
 		line-height: 1.5;
 		font-family: $stack-serif;
 		margin: 0;
+		padding: 0;
 		font-size: 1.3em;
 		font-style: italic;
 		}
