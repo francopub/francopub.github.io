@@ -5,9 +5,13 @@ input#user-input:focus {
 }
 
 input#user-input {
-    margin: 10em 0 2em;
     border: none;
     width: 95%;
     font-weight: bold;
     text-align: right;
+}
+
+p#game-input {
+     width: 100%;
+    margin: 10em 0 2em 0;   
 }
