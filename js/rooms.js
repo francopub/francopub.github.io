@@ -5,7 +5,7 @@ var rooms = {
         "directions": {
             "north": "clearing1",
             "west": "bridge1"
-        }
+        },
         "items": {
             "sword": "You see a shimmering light in a bush" // 
         }
@@ -25,7 +25,7 @@ var rooms = {
      opens the door. What do you do?",
         "directions": {
             "south": "clearing1"
-        }
+        },
         "npcs": {
             "old lady": "The old lady emits a strange noise and attacks you"
         }
