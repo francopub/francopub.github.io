@@ -1,6 +1,13 @@
-div#game-text { 
+input#user-input:focus {
+    outline: none;
+    border-bottom: solid 2px $maincolor;
+    font-weight: normal;
 }
 
 input#user-input {
-   margin: 10em auto 2em;
+    margin: 10em 0 2em;
+    border: none;
+    width: 95%;
+    font-weight: bold;
+    text-align: right;
 }
