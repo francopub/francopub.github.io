@@ -1,4 +1,4 @@
-var currentRoom = "start";
+var currentRoom = "a1";
 var commands = ["go", "get", "look", "talk", "fight", "inventory"];
 var inventory = ["sword", "shield"];
 
@@ -7,7 +7,7 @@ function changeRoom(dir) {
 		currentRoom = rooms[currentRoom].directions[dir]
 		$('#game-text').prepend("<p>" + rooms[currentRoom].description + "</p>");
 	} else {
-		$('#game-text').prepend("<p>You start walking in that direction, but the graphics do not render, so you return</p>"); // randomize a bunch of creepy messages
+		$('#game-text').prepend("<p>You walk into the wall, but you do not pass through. You do not know this spell yet. You take 3 points of bludgeoning damage.</p>"); // randomize a bunch of creepy messages
 	} 
 }
 
@@ -43,7 +43,7 @@ function playerInput(input) {
 }
 
 $(document).ready(function(){
-	$('#game-text').prepend("<p>" + rooms.start.description + "</p>");
+	$('#game-text').prepend("<p>" + rooms.a1.description + "</p>");
 	$(document).keypress(function(key){
 		if(key.which === 13 && $('#user-input').is(':focus')) {
 			var value = $('#user-input').val().toLowerCase();
