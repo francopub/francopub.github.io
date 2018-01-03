@@ -57,7 +57,7 @@ function closeNav() {
 //     $('body').removeClass('fade-out');
 // });
 </script><!-- change made -->
-{% if page.title == "error" %}
+{% if page.title contains 'Error' %}
 	<script src="js/rooms.js" type="text/javascript"></script>
 	<script src="js/game.js" type="text/javascript"></script>
 {% endif %}
