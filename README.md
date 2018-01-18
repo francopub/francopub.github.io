@@ -17,7 +17,7 @@ The site that is deployed lives in the \_site folder.
 
 ## Features
 
-- Store page for book samples (Beowulf, etc)
+- Store page for book samples (Beowulf, etc) using Sellfy
 - Affiliate links for side project authors
 - TOC navigation sidebar for blog: http://peteanicholson.com/writing/in-the-belly-of-jehovah; http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
 - Added subscription service to blog: https://blog.webjeda.com/jekyll-subscribe-form/
@@ -32,6 +32,7 @@ The site that is deployed lives in the \_site folder.
 - Poker deck, product
 - Beowulf, book
 - Install and test ProseMirror
+- Invoicing app
 
 ## Strategy
 
