@@ -12,7 +12,7 @@ function changeRoom(dir) {
 }
 
 function showHelp() {
-	$('#game-text').prepend("<p>You have " + commands +  " </p>") // make this look better
+	$('#game-text').prepend("<p>You have " + commands.join(", ") +  " </p>") // make this look better
 }
 
 
@@ -21,7 +21,7 @@ function showInventory() {
 		$('#game-text').prepend("<p>You have nothing </p>") // make this look better
 		return;
 		}	
-	$('#game-text').prepend("<p>Here are your options: " + inventory +  " </p>") // make this look better
+	$('#game-text').prepend("<p>Here are your options: " + inventory.join(", ") +  " </p>") // make this look better
 }
 
 function playerInput(input) {
