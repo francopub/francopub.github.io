@@ -54,6 +54,11 @@ defaults:
     values:
       layout: "project"
       roll: "projects"
+  - 
+    scope: 
+      path: "recipe"
+    values:
+      layout: "recipe"
 
 permalink: blog/:year/:month/:day/:title/
 sass:
