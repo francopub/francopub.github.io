@@ -1,19 +1,19 @@
 header.site-header 	{
-  	width: 100%;
+  	// width: 100%;
 	display: block;
-   	padding: 1.5em 0 4em;
-	text-align: center;
+   	// padding: 1.5em 0 4em;
+	// text-align: center;
 	text-indent: 0;
 	box-sizing: border-box;
 	color: $charcoal;
-	margin: 0;
-	background: $paper;
+	margin: 0 auto;
+	// background: $paper;
 	text-shadow: $shadow;
 	font-family: $stack-ss;
 	h1 {
 		margin: 0.67em;
 		font-size: 4em;
-		padding-top: 2.5em;
+		padding-top: 2em;
 		line-height: 1.2;
 		margin: 0;
 		font-family: $stack-logo;
