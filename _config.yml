@@ -29,7 +29,7 @@ job: Senior Content Standards Project Manager at Macmillan Learning
 # Build settings
 markdown: kramdown
 theme: 
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
