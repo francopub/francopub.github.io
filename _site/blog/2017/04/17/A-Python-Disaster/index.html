@@ -5,16 +5,16 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Franco A. Alvarado > A Python Disaster</title>
 	<link rel="stylesheet" href="/css/screen.css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89146983-2"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-89146983-2', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-89146983-2');
 </script>
+
 </head>
 <body><!-- 
 <script>
@@ -60,50 +60,50 @@ document.body.className += ' fade-out';
   		Franco A. Alvarado</p>
 	</header>
 	<section>
-		<p>I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style. </p>
+		<p>I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style.</p>
 
 <p>My boss asked me to go through and apply heading styles <em>only</em> to the bolded text, and otherwise remove the stylings applied.</p>
 
-<p>So, I could’ve gone in and done this manually, opened each of the 30 files and done a find and replace and apply style. OR: </p>
+<p>So, I could’ve gone in and done this manually, opened each of the 30 files and done a find and replace and apply style. OR:</p>
 
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg/320px-Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg" alt="A photo of a python (the animal, not the programming language)" />
 <strong>Python time! (The age of this python is a metaphor for my current abilities with the programming language. By Tigerpython (Own work) <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons)</strong></p>
 
-<p>It took longer to make and run the script than it would’ve to have done it all manually (mostly because I made little errors). </p>
+<p>It took longer to make and run the script than it would’ve to have done it all manually (mostly because I made little errors).</p>
 
 <p>And here’s the script:</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">pypandoc</span><span class="o">,</span> <span class="nn">re</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">os</span><span class="p">,</span> <span class="n">pypandoc</span><span class="p">,</span> <span class="n">re</span>
 
 <span class="n">curDir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
 
 <span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">curDir</span><span class="p">):</span> 
-	<span class="k">if</span> <span class="nb">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">&#39;.docx&#39;</span><span class="p">):</span>
+	<span class="k">if</span> <span class="nb">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">'.docx'</span><span class="p">):</span>
 		<span class="n">fileName</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="nb">file</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-		<span class="n">output</span> <span class="o">=</span> <span class="n">pypandoc</span><span class="o">.</span><span class="n">convert_file</span><span class="p">(</span><span class="nb">file</span><span class="p">,</span> <span class="s">&#39;md&#39;</span><span class="p">,</span> <span class="n">outputfile</span><span class="o">=</span> <span class="n">fileName</span> <span class="o">+</span> <span class="s">&quot;-FA.md&quot;</span><span class="p">)</span>
-		<span class="k">print</span> <span class="nb">file</span> <span class="o">+</span> <span class="s">&quot; has been converted to markdown&quot;</span>
+		<span class="n">output</span> <span class="o">=</span> <span class="n">pypandoc</span><span class="o">.</span><span class="n">convert_file</span><span class="p">(</span><span class="nb">file</span><span class="p">,</span> <span class="s">'md'</span><span class="p">,</span> <span class="n">outputfile</span><span class="o">=</span> <span class="n">fileName</span> <span class="o">+</span> <span class="s">"-FA.md"</span><span class="p">)</span>
+		<span class="k">print</span> <span class="nb">file</span> <span class="o">+</span> <span class="s">" has been converted to markdown"</span>
         <span class="c">#left myself console notes so I knew where I was; </span>
         <span class="c">#like I said, this script took a really long time to run</span>
 
 <span class="k">for</span> <span class="n">mdFile</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">curDir</span><span class="p">):</span> 
-	<span class="k">if</span> <span class="n">mdFile</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">&#39;.md&#39;</span><span class="p">):</span>
+	<span class="k">if</span> <span class="n">mdFile</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">'.md'</span><span class="p">):</span>
 	    <span class="c">#now we have our markdown files,</span>
     	<span class="c">#which are a little easier to parse than docx</span>
 		<span class="n">mdFileName</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">mdFile</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
 		<span class="n">mdFile_opened</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">mdFile</span><span class="p">)</span>
 		<span class="n">mdFile_contents</span> <span class="o">=</span> <span class="n">mdFile_opened</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-		<span class="n">mdFile_opened</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">mdFile</span><span class="p">,</span> <span class="s">&#39;w&#39;</span><span class="p">)</span>
-		<span class="n">regex</span> <span class="o">=</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">\*\*(.*?)\*\*</span><span class="se">\n</span><span class="s">&quot;</span>
-		<span class="n">subst</span> <span class="o">=</span> <span class="s">r&quot;\n# \1\n&quot;</span>
+		<span class="n">mdFile_opened</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">mdFile</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span>
+		<span class="n">regex</span> <span class="o">=</span> <span class="s">"</span><span class="se">\n</span><span class="err">\</span><span class="s">*</span><span class="err">\</span><span class="s">*(.*?)</span><span class="err">\</span><span class="s">*</span><span class="err">\</span><span class="s">*</span><span class="se">\n</span><span class="s">"</span>
+		<span class="n">subst</span> <span class="o">=</span> <span class="s">r"\n# \1\n"</span>
 		<span class="n">mdFile_contents</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">regex</span><span class="p">,</span> <span class="n">subst</span><span class="p">,</span> <span class="n">mdFile_contents</span><span class="p">)</span>
         <span class="c">#replace bolded text on its own line</span>
-        <span class="c">#with h1&#39;s on their own lines</span>
+        <span class="c">#with h1's on their own lines</span>
 		<span class="n">mdFile_opened</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">mdFile_contents</span><span class="p">)</span>
 		<span class="n">mdFile_opened</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-		<span class="k">print</span> <span class="s">&quot;Headings inside of &quot;</span> <span class="o">+</span> <span class="n">mdFile</span> <span class="o">+</span> <span class="s">&quot; adjusted!&quot;</span>
+		<span class="k">print</span> <span class="s">"Headings inside of "</span> <span class="o">+</span> <span class="n">mdFile</span> <span class="o">+</span> <span class="s">" adjusted!"</span>
         
-		<span class="n">revertdocx</span> <span class="o">=</span> <span class="n">pypandoc</span><span class="o">.</span><span class="n">convert_file</span><span class="p">(</span><span class="n">mdFile</span><span class="p">,</span> <span class="s">&#39;docx&#39;</span><span class="p">,</span> <span class="n">outputfile</span><span class="o">=</span> <span class="n">mdFileName</span> <span class="o">+</span> <span class="s">&quot;.docx&quot;</span><span class="p">)</span>
-		<span class="k">print</span> <span class="n">mdFile</span> <span class="o">+</span> <span class="s">&quot;converted back to DOCX&quot;</span></code></pre></div>
+		<span class="n">revertdocx</span> <span class="o">=</span> <span class="n">pypandoc</span><span class="o">.</span><span class="n">convert_file</span><span class="p">(</span><span class="n">mdFile</span><span class="p">,</span> <span class="s">'docx'</span><span class="p">,</span> <span class="n">outputfile</span><span class="o">=</span> <span class="n">mdFileName</span> <span class="o">+</span> <span class="s">".docx"</span><span class="p">)</span>
+		<span class="k">print</span> <span class="n">mdFile</span> <span class="o">+</span> <span class="s">"converted back to DOCX"</span></code></pre></figure>
 
 <p>Not sure where it goes wrong, but it does go wrong. It ran for 20 minutes (thankfully giving me updates of its process due to the helpful print to console commands I put in there). After the script stalled out on one of the files, I stopped and went with a manual approach. It was actually faster than I thought find/replacing on bold and applying H1, and then promoting and demoting headings to appropriately nest them. Only took like 10 hours. No big deal. Most of that time was spent wondering whether something was a sub-section of another.</p>
 
@@ -126,7 +126,7 @@ document.body.className += ' fade-out';
 		      <i class="fa fa-linkedin"></i> 
 		    </a>
 		</h2>
-	<p>I currently work in publishing, mostly ebook development and print production. I am learning full stack web development and working on my first novel. I&#8217m interested in the space where digital and publishing meet, mostly to make my work faster and more efficient and to deliver content in new and interesting ways. This blog documents everything related to the many projects I am working on.</p>
+	<p>I currently work in publishing, specifically ebooks! I have dabbled in web development, and I am working on my first novel.</p>
 </aside>
 </article>
 <div class="PageNavigation">
@@ -150,9 +150,7 @@ document.body.className += ' fade-out';
   			 
   		Franco A. Alvarado</p>
 				<p>
-					This one was going to be about maps, but I accidentally painted a painting! Isn't that fun? So as not to keep you in suspense, here it is:
-
-
+					This one was going to be about maps, but I accidentally painted a painting! Isn’t that fun? So as not to keep you in suspense,...
 				</p>
 
 		</div>
@@ -173,9 +171,7 @@ document.body.className += ' fade-out';
   			 
   		Franco A. Alvarado</p>
 				<p>
-					I believe I am still adjusting to this new way of working, this new way of living. I had a very productive weekend at the very least. I turned the kitchen island 90 degrees. It separates the space in a more pleasing way. My fianceé had realized that we had just created another galley kitchen by having the kitchen island parallel to the sink / oven / countertop. It's a strange looking layout to be honest, but I tested it out today when I cooked three different meals at the same time. I made a chicken tikka masala, eggplant pasta, and pesto. Cooked for the week so I can also get back on my workout schedule.
-
-
+					I believe I am still adjusting to this new way of working, this new way of living. I had a very productive weekend at the...
 				</p>
 
 		</div>
@@ -196,9 +192,7 @@ document.body.className += ' fade-out';
   			 
   		Franco A. Alvarado</p>
 				<p>
-					I had a lot of freelance work to do this week. It made me think about whether I should quit doing this blog, but then I realized that it's probably fine. It's more like a check-in for myself and my projects. Someone might stumble upon this, but it's not adding anything terribly interesting just yet to the discussion of the different topics I'd like to get into.
-
-
+					I had a lot of freelance work to do this week. It made me think about whether I should quit doing this blog, but then...
 				</p>
 
 		</div>
@@ -222,9 +216,7 @@ document.body.className += ' fade-out';
   			 
   		Franco A. Alvarado</p>
 				<p>
-					I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects (which I am careful to make sure are never a conflict of interest, in case you were wondering). The projects can include any of the following:
-
-
+					I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects...
 				</p>
 
 		</div>
@@ -245,9 +237,7 @@ document.body.className += ' fade-out';
   			 
   		Franco A. Alvarado</p>
 				<p>
-					I have organized a large amount of content into a YAML document. This will aid in the [contact automation](../Automating-Contracts) I was talking about before. For the encyclopedia project I am working on, there are topics and entries. The editors relay to me the author's information and what topic they will be writing about, which I am to cross-reference with a set of three documents. 
-
-
+					I have organized a large amount of content into a YAML document. This will aid in the contact automation I was talking about before. For...
 				</p>
 
 		</div>
@@ -271,9 +261,7 @@ document.body.className += ' fade-out';
   			 
   		Franco A. Alvarado</p>
 				<p>
-					I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style. 
-
-
+					I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and...
 				</p>
 
 		</div>
@@ -297,9 +285,7 @@ document.body.className += ' fade-out';
   			 
   		Franco A. Alvarado</p>
 				<p>
-					I’ve been trying to research how to schedule these Jekyll blog posts so I am one of those great Internet unicorns that regularly updates their blog. If you don’t know, Jekyll is a static site generator, but it is pretty involved in its setup. 
-
-
+					I’ve been trying to research how to schedule these Jekyll blog posts so I am one of those great Internet unicorns that regularly updates their...
 				</p>
 
 		</div>
@@ -323,9 +309,7 @@ document.body.className += ' fade-out';
   			 
   		Franco A. Alvarado</p>
 				<p>
-					I have to juggle multiple authors and their contracts, so I thought it’d be better to automate those contracts so I can prevent errors and have uniformity throughout. Ideal workflow:
-
-
+					I have to juggle multiple authors and their contracts, so I thought it’d be better to automate those contracts so I can prevent errors and...
 				</p>
 
 		</div>
@@ -364,7 +348,7 @@ document.body.className += ' fade-out';
 </form>
 </div> -->
 <footer>
-	<p class="copyright">Site built by Franco A. Alvarado &copy; 2017. <a href="https://github.com/francofaa/francofaa.github.io">Site source</a>
+	<p class="copyright">Site built by Franco A. Alvarado &copy; 2019. <a href="https://github.com/francofaa/francofaa.github.io">Site source</a>
 		
 	 | <a href="https://twitter.com/NoFrancosPlease">
 		      <i class="fa fa-twitter"  aria-hidden="true"></i> 
@@ -376,7 +360,7 @@ document.body.className += ' fade-out';
 		    </a>
 		
 		
-		    | <a href="https://linkedin.com/in/franco-alvarado-17959124">
+		    | <a href="https://linkedin.com/in/franco-alvarado">
 		      <i class="fa fa-linkedin" aria-hidden="true"></i> 
 		    </a>
 		 
@@ -385,7 +369,11 @@ document.body.className += ' fade-out';
 		    </a>
 		</p>
 </footer>
-<script src="/js/jquery-2.1.1.min.js"></script>
+<!-- <script src="/js/jquery-2.1.1.min.js"></script> -->
+	<script
+  src="https://code.jquery.com/jquery-2.1.1.min.js"
+  integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ="
+  crossorigin="anonymous"></script>
 <script>
 	$(function() {  
   var shiftWindow = function() { scrollBy(0, -135) };
@@ -416,6 +404,7 @@ function closeNav() {
 // $(function() {
 //     $('body').removeClass('fade-out');
 // });
-</script>
+</script><!-- change made -->
+
 </body>
 </html>

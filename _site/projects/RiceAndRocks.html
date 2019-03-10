@@ -3,18 +3,18 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width">
-	<title>Franco A. Alvarado > Litweaver</title>
+	<title>Franco A. Alvarado > Rice and Rocks</title>
 	<link rel="stylesheet" href="/css/screen.css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89146983-2"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-89146983-2', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-89146983-2');
 </script>
+
 </head>
 <body><!-- 
 <script>
@@ -43,13 +43,15 @@ document.body.className += ' fade-out';
 
 <article class="project">
 	<header>
-		<h1>Litweaver </h1>
-		<h2>Ebook series with paragraph numbering, freelance project, 2014–2015</h2>
+		<h1>Rice and Rocks </h1>
+		<h2><mark>Enhanced fixed-layout EPUB, freelance project, 2016</mark></h2>
 	</header>
 	<section>
-		<div title="role" class="info"><p>Ebook Developer</p></div>
+		<div title="role" class="info"><p>Developer</p></div>
 		<div title="skills" class="info">
 			<ul>
+				
+					<li>InDesign</li>
 				
 					<li>EPUB3</li>
 				
@@ -59,37 +61,26 @@ document.body.className += ' fade-out';
 				
 					<li>XHTML</li>
 				
-					<li>RegEx</li>
+					<li>JavaScript</li>
+				
+					<li>Audacity</li>
 				
 			</ul>
 		
 		</div>
 		
-      <div title="company" class="info"><p>Litweaver</p></div>
+      <div title="company" class="info"><p>Wise Ink</p></div>
 		
 	</section>
 	<section>
 		<h3 id="summary">Summary</h3>
 
-<p>Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.</p>
+<p><em>Rice and Rocks</em> is a children’s book published by Wise Ink. I was contracted to create three different fixed-layout versions, one enhanced version with music and two more versions without the music enhancement, in EPUB3 and KF8/Mobi.</p>
 
 <h3 id="description">Description</h3>
 
-<p><img src="../../img/litweaver/1-library.jpg" alt="Selection of the Litweaver ebook library" /></p>
-
-<p>I worked with Litweaver for two years, creating over 100 ebooks for the series, which included short stories, novels, poems, and plays. I also developed a paragraph-numbering system for them. Previously they had been using non-semantic tables, which presented various problems in resizing and accessibility. To compensate for e-reader technology, instead of implementing a purely CSS3 solution, I included the numbering in the mark-up and used CSS to position the paragraphs appropriately.</p>
-
-<p><img src="../../img/litweaver/2-poem-firstpage.jpg" alt="First page of a poem" />
-<em>First page of a poem</em></p>
-
-<p><img src="../../img/litweaver/3-poem-spread.jpg" alt="Poem with line-number back links included" />
-<em>Poem with line number links included</em></p>
-
-<p><img src="../../img/litweaver/4-prose-spread.jpg" alt="Prose with line numbers" />
-<em>Prose with line numbers</em></p>
-
-<p><img src="../../img/litweaver/5-drama-spread.jpg" alt="Drama with line numbers" />
-<em>Drama with line numbers</em></p>
+<p><img src="../../img/riceandrocks/1-spread-and-toc.jpg" alt="Opening spread of Rice and Rocks" />
+<em>On page load, the music file begins (hidden from the page). I edited to music to fade in and out so as not to feel jarring upon page turn</em></p>
 
 	</section>
 </article>
@@ -267,7 +258,7 @@ document.body.className += ' fade-out';
 </form>
 </div> -->
 <footer>
-	<p class="copyright">Site built by Franco A. Alvarado &copy; 2017. <a href="https://github.com/francofaa/francofaa.github.io">Site source</a>
+	<p class="copyright">Site built by Franco A. Alvarado &copy; 2019. <a href="https://github.com/francofaa/francofaa.github.io">Site source</a>
 		
 	 | <a href="https://twitter.com/NoFrancosPlease">
 		      <i class="fa fa-twitter"  aria-hidden="true"></i> 
@@ -279,7 +270,7 @@ document.body.className += ' fade-out';
 		    </a>
 		
 		
-		    | <a href="https://linkedin.com/in/franco-alvarado-17959124">
+		    | <a href="https://linkedin.com/in/franco-alvarado">
 		      <i class="fa fa-linkedin" aria-hidden="true"></i> 
 		    </a>
 		 
@@ -288,7 +279,11 @@ document.body.className += ' fade-out';
 		    </a>
 		</p>
 </footer>
-<script src="/js/jquery-2.1.1.min.js"></script>
+<!-- <script src="/js/jquery-2.1.1.min.js"></script> -->
+	<script
+  src="https://code.jquery.com/jquery-2.1.1.min.js"
+  integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ="
+  crossorigin="anonymous"></script>
 <script>
 	$(function() {  
   var shiftWindow = function() { scrollBy(0, -135) };
@@ -319,6 +314,7 @@ function closeNav() {
 // $(function() {
 //     $('body').removeClass('fade-out');
 // });
-</script>
+</script><!-- change made -->
+
 </body>
 </html>

@@ -1,6 +1,6 @@
 import os, time, re
 
-message = raw_input('Write blog, project, or another string: ')
+message = input('Write blog, project, or another string: ')
 
 def update(msg):
 	os.system("jekyll build")
@@ -14,7 +14,7 @@ if message == 'blog':
 	print("Blog post made for " + today + "!")
 
 elif message == 'project':
-	proj = raw_input("What is this week's project? ")
+	proj = input("What is this week's project? ")
 	rot = open('_includes/rotation.html')
 	rot_contents = rot.read()
 	rot = open('_includes/rotation.html', 'wb')

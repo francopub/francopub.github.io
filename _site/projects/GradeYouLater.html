@@ -3,18 +3,18 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width">
-	<title>Franco A. Alvarado > Strangelet Website</title>
+	<title>Franco A. Alvarado > GradeYouLater</title>
 	<link rel="stylesheet" href="/css/screen.css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89146983-2"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-89146983-2', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-89146983-2');
 </script>
+
 </head>
 <body><!-- 
 <script>
@@ -43,54 +43,45 @@ document.body.className += ' fade-out';
 
 <article class="project">
 	<header>
-		<h1>Strangelet Website </h1>
-		<h2>Website for the literary magazine Strangelet, created 2015</h2>
+		<h1>GradeYouLater </h1>
+		<h2><mark>Single page application for grading, 2016</mark></h2>
 	</header>
 	<section>
-		<div title="role" class="info"><p>Designer and Developer</p></div>
+		<div title="role" class="info"><p>Developer and Designer</p></div>
 		<div title="skills" class="info">
 			<ul>
 				
-					<li>WordPress</li>
-				
-					<li>CSS</li>
+					<li>CSS3</li>
 				
 					<li>HTML5</li>
 				
-					<li>PhotoShop</li>
+					<li>Javascript</li>
+				
+					<li>JQuery</li>
 				
 			</ul>
 		
 		</div>
 		
-      <div title="company" class="info"><p>Strangelet Press</p></div>
-		
 	</section>
 	<section>
 		<h3 id="summary">Summary</h3>
 
-<p><em>Strangelet</em> was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the <a href="../projects/StrangeletPress">production of the books and ebooks</a>. The website is <a href="http://strangeletjournal.com">strangeletjournal.com</a>. The content manager and I also handled the updates to the site.</p>
+<p>GradeYouLater is a simple grading calculator that tallies grades, posts those grades to a table, and then can export that table as a spreadsheet.</p>
 
 <h3 id="description">Description</h3>
 
-<p>The website was built in Wordpress, using a child theme based on the theme Responsive.</p>
+<p>Play around with the project <a href="https://francofaa.github.io/GradeYouLater/">here</a>. Explore the code <a href="https://github.com/francofaa/GradeYouLater/">here on Github</a>.</p>
 
-<p><img src="../../img/strangeletwebsite/1-splash-page.jpg" alt="Home page" />
-<em>Home page with call-to-action to view the current issue of the magazine. The image and banner would change based on the cover image for that issue.</em></p>
+<p>The user enters in the student name, assignment name, and total possible points. The user then tallies using the big plus and minus buttons.</p>
 
-<p><img src="../../img/strangeletwebsite/2-mobile.jpg" alt="Mobile version" />
-<em>The site is responsive.</em></p>
+<p><img src="../../img/gradeyoulater/1-tally.jpg" alt="Tallying" />
+<em>Tallying the student’s score here</em></p>
 
-<p>The following three images show story excerpts on the website. The HTML for the excerpts is pulled directly from the ebook. I then created a separate stylesheet for the web edition of the excerpt.</p>
+<p>The user can then push the grades to the table below, which can be exported to a spreadsheet.</p>
 
-<p><img src="../../img/strangeletwebsite/3a-article-sidebars.jpg" alt="Full width screen version" />
-<em>Excerpt of story on a full width screen</em></p>
-
-<p><img src="../../img/strangeletwebsite/3b-article-narrow.jpg" alt="Resizing screen" />
-<em>Making the screen smaller allows the sidebar elements to fall away to the bottom of the browser screen</em></p>
-
-<p><img src="../../img/strangeletwebsite/3c-article-no-distraction.jpg" alt="Distraction-free version" />
-<em>This was a test version for a distraction-free version of an excerpt. This is found at <a href="http://sample.strangeletjournal.com">sample.strangeletjournal.com</a>.</em></p>
+<p><img src="../../img/gradeyoulater/2-gradebook.jpg" alt="Resulting gradebook" />
+<em>Push student scores to table, which can then be exported to CSV</em></p>
 
 	</section>
 </article>
@@ -268,7 +259,7 @@ document.body.className += ' fade-out';
 </form>
 </div> -->
 <footer>
-	<p class="copyright">Site built by Franco A. Alvarado &copy; 2017. <a href="https://github.com/francofaa/francofaa.github.io">Site source</a>
+	<p class="copyright">Site built by Franco A. Alvarado &copy; 2019. <a href="https://github.com/francofaa/francofaa.github.io">Site source</a>
 		
 	 | <a href="https://twitter.com/NoFrancosPlease">
 		      <i class="fa fa-twitter"  aria-hidden="true"></i> 
@@ -280,7 +271,7 @@ document.body.className += ' fade-out';
 		    </a>
 		
 		
-		    | <a href="https://linkedin.com/in/franco-alvarado-17959124">
+		    | <a href="https://linkedin.com/in/franco-alvarado">
 		      <i class="fa fa-linkedin" aria-hidden="true"></i> 
 		    </a>
 		 
@@ -289,7 +280,11 @@ document.body.className += ' fade-out';
 		    </a>
 		</p>
 </footer>
-<script src="/js/jquery-2.1.1.min.js"></script>
+<!-- <script src="/js/jquery-2.1.1.min.js"></script> -->
+	<script
+  src="https://code.jquery.com/jquery-2.1.1.min.js"
+  integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ="
+  crossorigin="anonymous"></script>
 <script>
 	$(function() {  
   var shiftWindow = function() { scrollBy(0, -135) };
@@ -320,6 +315,7 @@ function closeNav() {
 // $(function() {
 //     $('body').removeClass('fade-out');
 // });
-</script>
+</script><!-- change made -->
+
 </body>
 </html>
