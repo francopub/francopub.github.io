@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "print.css",
+	"sources": [
+		"print.scss"
+	],
+	"sourcesContent": [
+		".content {\n  width: 80%;\n  margin: 0 auto;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,MAAM,CACf"
+}

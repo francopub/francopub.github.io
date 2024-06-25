@@ -1,0 +1,22 @@
+I"-<h3 id="summary">Summary</h3>
+
+<p>Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.</p>
+
+<h3 id="description">Description</h3>
+
+<p><img src="../../img/litweaver/1-library.jpg" alt="Selection of the Litweaver ebook library" /></p>
+
+<p>I worked with Litweaver for two years, creating over 100 ebooks for the series, which included short stories, novels, poems, and plays. I also developed a paragraph-numbering system for them. Previously they had been using non-semantic tables, which presented various problems in resizing and accessibility. To compensate for e-reader technology, instead of implementing a purely CSS3 solution, I included the numbering in the mark-up and used CSS to position the paragraphs appropriately.</p>
+
+<p><img src="../../img/litweaver/2-poem-firstpage.jpg" alt="First page of a poem" />
+<em>First page of a poem</em></p>
+
+<p><img src="../../img/litweaver/3-poem-spread.jpg" alt="Poem with line-number back links included" />
+<em>Poem with line number links included</em></p>
+
+<p><img src="../../img/litweaver/4-prose-spread.jpg" alt="Prose with line numbers" />
+<em>Prose with line numbers</em></p>
+
+<p><img src="../../img/litweaver/5-drama-spread.jpg" alt="Drama with line numbers" />
+<em>Drama with line numbers</em></p>
+:ET

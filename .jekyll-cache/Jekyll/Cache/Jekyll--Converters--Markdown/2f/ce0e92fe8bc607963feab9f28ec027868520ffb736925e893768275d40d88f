@@ -1,0 +1,115 @@
+I"�<h3 id="summary">Summary</h3>
+
+<p><em>Strangelet</em> was a bimonthly literary magazine of fantasy, science fiction, and magical realism.</p>
+
+<h3 id="description">Description</h3>
+
+<p>For <em>Strangelet</em>, I typeset the book in Caslon with the display text as Marta. The title page typeface is Hightower and the cover a combination of typefaces to reflect the tone of the books: strange, bizarre, eerie. We produced bimonthly issues, around 50 to 70 pages each, and combined them in an omnibus at the end of the year.</p>
+
+<p>By setting up the InDesign files myself, we were able to have a streamlined and efficient production process for the ebook edition. I also developed CSS for rendering poetry, at the bottom, and found <a href="https://github.com/francofaa/PoetryCSS">here on Github</a>.</p>
+
+<p><img src="../../img/strangeletpress/1-covers-anthologies.jpg" alt="Our anthologies" />
+<em>Issue 0 was our proof-of-concept. Volume 1 and 2 followed</em></p>
+
+<p><img src="../../img/strangeletpress/2-year1-covers.jpg" alt="The issues from volume 1, along with the omnibus" />
+<em>Issues from volume 1</em></p>
+
+<p><img src="../../img/strangeletpress/3-year2-covers.jpg" alt="The issues from volume 2, along with the omnibus" />
+<em>Issues from volume 2. During this year, I took over the art acquisition duties</em></p>
+
+<p><img src="../../img/strangeletpress/4-library.jpg" alt="Ebook editions of all of our books" />
+<em>Ebook editions of all of our books, save the omnibuses</em></p>
+
+<p><img src="../../img/strangeletpress/5a-title-page.jpg" alt="Title page" />
+<em>Title page, standard throughout the magazine’s run</em></p>
+
+<p><img src="../../img/strangeletpress/5b-i-title-page-open-ebook.jpg" alt="Title page in EPUB, color pulled from cover" />
+<img src="../../img/strangeletpress/5b-ii-title-page-open-ebook.jpg" alt="Another title page in EPUB, color pulled from cover" />
+<em>For the ebook edition, I pulled colors from the covers as the link and highlight color.</em></p>
+
+<p><img src="../../img/strangeletpress/6-toc.jpg" alt="Table of contents" />
+<em>Table of contents</em></p>
+
+<p><img src="../../img/strangeletpress/7a-story-open-spread.jpg" alt="Story opener" />
+<em>For Vol 1, Issue 4, we had an illustrator create drawings for each of the pieces.</em></p>
+
+<p><img src="../../img/strangeletpress/7b-i-story-open-spread.jpg" alt="Story opener in the ebook" />
+<em>The opener for the same story. The illustration was moved to allow the reader to see the illustration in context.</em></p>
+
+<p><img src="../../img/strangeletpress/7b-ii-story-open-spread.jpg" alt="Illustration in reflowable ebook" />
+<em>Example of illustration treatment in reflowable ebook</em></p>
+
+<p><img src="../../img/strangeletpress/8a-prose-spread.jpg" alt="Prose spread" />
+<em>Prose page spread</em></p>
+
+<p><img src="../../img/strangeletpress/8b-section-div-spread.jpg" alt="Illustration as section break" />
+<em>For the story “Running With,” shown above, I used these small sketches as the section breaks.</em></p>
+
+<p><img src="../../img/strangeletpress/8d-footer-detail.jpg" alt="Running feet detail" />
+<em>Running feet detail</em></p>
+
+<p><img src="../../img/strangeletpress/9-prose-bio.jpg" alt="Author bio" />
+<em>Treatment of the author bio.</em></p>
+
+<p><img src="../../img/strangeletpress/8c-ebook-spread-1.jpg" alt="Different text element treatments in ebook edition" />
+<em>Demonstration of treatment of different text elements in the ebook edition: title, subtitle, author name, sub-sections, epigraphs, and author bio sections. Compare with print versions.</em></p>
+
+<p><img src="../../img/strangeletpress/11a-poem-print.JPG" alt="Poem in print" />
+<em>Poem treatment in print book. Compare with ebook version below.</em></p>
+
+<p><img src="../../img/strangeletpress/11b-poem-ebook.jpg" alt="Poem in ebook" />
+<em>Poem treatment in ebook. Poetry ebooks have long languished as after-thoughts for some publishers.</em></p>
+
+<p>CSS for poetry below:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/*poetry*/</span>
+<span class="nt">p</span><span class="nc">.poem-1</span> <span class="p">{</span>
+	<span class="nl">margin-left</span><span class="p">:</span><span class="m">1.5em</span><span class="p">;</span>
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;}</span>
+		
+<span class="nt">p</span><span class="nc">.poem-1-ind1-sa</span> <span class="p">{</span>
+	<span class="nl">margin-top</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">3.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span><span class="nc">.poem-1-ind1</span> <span class="p">{</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">3.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span><span class="nc">.poem-1-ind1-sb</span> <span class="p">{</span>
+	<span class="nl">margin-bottom</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">3.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span><span class="nc">.poem-2</span> <span class="p">{</span>
+	<span class="nl">margin-bottom</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">1.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;}</span>
+
+<span class="nt">p</span><span class="nc">.poem-2-sa</span> <span class="p">{</span>
+	<span class="nl">margin-top</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">1.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span><span class="nc">.poem-2-ind1-sb</span> <span class="p">{</span>
+	<span class="nl">margin-bottom</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">3.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span><span class="nc">.poem-1-ind2</span> <span class="p">{</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">5.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span><span class="nc">.poem-2-ind2-sb</span> <span class="p">{</span>
+	<span class="nl">margin-bottom</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">5.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+:ET

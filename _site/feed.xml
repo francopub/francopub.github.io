@@ -1,308 +1,367 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://www.francopub.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.francopub.com/" rel="alternate" type="text/html" /><updated>2020-02-16T14:43:23-05:00</updated><id>http://www.francopub.com/feed.xml</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume, portfolio, and process blog of Franco A. Alvarado
-</subtitle><entry><title type="html">Painting</title><link href="http://www.francopub.com/blog/2017/05/22/Painting/" rel="alternate" type="text/html" title="Painting" /><published>2017-05-22T00:00:00-04:00</published><updated>2017-05-22T00:00:00-04:00</updated><id>http://www.francopub.com/blog/2017/05/22/Painting</id><content type="html" xml:base="http://www.francopub.com/blog/2017/05/22/Painting/">&lt;p&gt;This one was going to be about maps, but I accidentally painted a painting! Isn’t that fun? So as not to keep you in suspense, here it is:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4002/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4002/" rel="alternate" type="text/html" /><updated>2024-06-25T15:32:05-04:00</updated><id>http://localhost:4002/feed.xml</id><title type="html">Franco A. Alvarado</title><subtitle>The online resume and portfolio Franco A. Alvarado
+</subtitle><entry><title type="html">GradeYouLater</title><link href="http://localhost:4002/projects/GradeYouLater" rel="alternate" type="text/html" title="GradeYouLater" /><published>2016-12-17T12:24:17-05:00</published><updated>2016-12-17T12:24:17-05:00</updated><id>http://localhost:4002/projects/GradeYouLater</id><content type="html" xml:base="http://localhost:4002/projects/GradeYouLater"><![CDATA[<h3 id="summary">Summary</h3>
 
-&lt;p&gt;&lt;img src=&quot;http://www.francopub.com/blog/img/painting.JPG&quot; alt=&quot;Painting of a hill overlooking a stormy sea. In the near distance, cities with white buildings and red roofs. In the far distance, a mountainous shore with black towers. Upon the sea are red-sailed ships in a line between the two civilizations.&quot; /&gt;&lt;/p&gt;
+<p>GradeYouLater is a simple grading calculator that tallies grades, posts those grades to a table, and then can export that table as a spreadsheet.</p>
 
-&lt;p&gt;It was originally something else entirely. Unfortunately I don’t have a photo of it, but it was a swamp with reeds and there was a large ship approaching. I didn’t like the color scheme, but eventually it came out to a completely different environment. I might add some flowers in the foreground or something. But other than that, I’m fairly happy with how it came out. Painting isn’t something I’m aspiring to be great at, but it’s fun and it looks all right so I can hang it somewhere.&lt;/p&gt;
+<h3 id="description">Description</h3>
 
-&lt;p&gt;I woke up that morning. It was Saturday. I woke up early and was by myself for a good two hours. I sat on the patio and had breakfast. And I wanted to redo the painting. I had woken up very homesick. While I was painting, I had this image in my head of a photo. It’s a photo of my grandfather and my older brother, before I was born, in Moyobamba, Peru. My brother is probably 4 or 5 in the photo, holding a plastic uzi gun. It’s a photo that was part of my memories of growing up, but I didn’t go to that spot or even to that town until almost 20 years later. It’s an outdoor space. I guess you could call it a courtyard. Maybe it’ll be the next thing I paint.&lt;/p&gt;
+<p>Play around with the project <a href="https://francofaa.github.io/GradeYouLater/">here</a>. Explore the code <a href="https://github.com/francofaa/GradeYouLater/">here on Github</a>.</p>
 
-&lt;p&gt;Anyway, this weekend, we started a podcast as well. Haven’t done anything but record a preliminary episode, but we’d been talking about it for over a month and finally got together to do it. Even if it doesn’t turn out great, it’s important to try things, especially creative things. Keeps the mind sharp. Another week of me trying my hand at things I’m not really very good at.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Painting" /><category term="Painting" /><category term="Podcasting" /><summary type="html">This one was going to be about maps, but I accidentally painted a painting! Isn’t that fun? So as not to keep you in suspense, here it is:</summary></entry><entry><title type="html">Resets</title><link href="http://www.francopub.com/blog/2017/05/15/Resets/" rel="alternate" type="text/html" title="Resets" /><published>2017-05-15T00:00:00-04:00</published><updated>2017-05-15T00:00:00-04:00</updated><id>http://www.francopub.com/blog/2017/05/15/Resets</id><content type="html" xml:base="http://www.francopub.com/blog/2017/05/15/Resets/">&lt;p&gt;I believe I am still adjusting to this new way of working, this new way of living. I had a very productive weekend at the very least. I turned the kitchen island 90 degrees. It separates the space in a more pleasing way. My fianceé had realized that we had just created another galley kitchen by having the kitchen island parallel to the sink / oven / countertop. It’s a strange looking layout to be honest, but I tested it out today when I cooked three different meals at the same time. I made a chicken tikka masala, eggplant pasta, and pesto. Cooked for the week so I can also get back on my workout schedule.&lt;/p&gt;
+<p>The user enters in the student name, assignment name, and total possible points. The user then tallies using the big plus and minus buttons.</p>
 
-&lt;p&gt;We have started organizing our enclosed porch as well. We purchased some herbs (lavender, mint, basil, oregano, rosemary, and something that smells like lime) and petunias. It already looks better just after decluttering the space. Reorganizing one’s space is very motivating. When optimizing one’s life for efficiency, it’s not enough to buy items and download apps. One must also understand the logical flow of the space you inhabit, whether that’s the rooms in your home, the space on your desk, the route from your work to home, and so on.&lt;/p&gt;
+<p><img src="../../img/gradeyoulater/1-tally.jpg" alt="Tallying" />
+<em>Tallying the student’s score here</em></p>
 
-&lt;p&gt;At any rate, I completed a couple of freelance projects this past week, in addition to moving a client’s site to another host. Fairly successful week in spite of the lack of writing and working out.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Time Management" /><category term="Meta" /><category term="Organization" /><summary type="html">I believe I am still adjusting to this new way of working, this new way of living. I had a very productive weekend at the very least. I turned the kitchen island 90 degrees. It separates the space in a more pleasing way. My fianceé had realized that we had just created another galley kitchen by having the kitchen island parallel to the sink / oven / countertop. It’s a strange looking layout to be honest, but I tested it out today when I cooked three different meals at the same time. I made a chicken tikka masala, eggplant pasta, and pesto. Cooked for the week so I can also get back on my workout schedule.</summary></entry><entry><title type="html">Overload</title><link href="http://www.francopub.com/blog/2017/05/08/Overload/" rel="alternate" type="text/html" title="Overload" /><published>2017-05-08T00:00:00-04:00</published><updated>2017-05-08T00:00:00-04:00</updated><id>http://www.francopub.com/blog/2017/05/08/Overload</id><content type="html" xml:base="http://www.francopub.com/blog/2017/05/08/Overload/">&lt;p&gt;I had a lot of freelance work to do this week. It made me think about whether I should quit doing this blog, but then I realized that it’s probably fine. It’s more like a check-in for myself and my projects. Someone might stumble upon this, but it’s not adding anything terribly interesting just yet to the discussion of the different topics I’d like to get into.&lt;/p&gt;
+<p>The user can then push the grades to the table below, which can be exported to a spreadsheet.</p>
 
-&lt;p&gt;So this entry will just be about time management and adjusting to a new work-life schedule. I have no advice about this. I only have what I have done thus far to balance, and that has been actually very little. My plan for this now is to just keep as many things on the backburner as possible while I adjust to this job. It will allow me as well to shift any extra time and focus to my novel, which is my most important side project but funnily the one I am least interested in writing &lt;em&gt;about&lt;/em&gt;. Other people write about writing better than I do. I’m happy to answer questions about writing to those who are less experienced than I am because though I am unpublished, I am &lt;em&gt;in&lt;/em&gt; the publishing industry.&lt;/p&gt;
+<p><img src="../../img/gradeyoulater/2-gradebook.jpg" alt="Resulting gradebook" />
+<em>Push student scores to table, which can then be exported to CSV</em></p>]]></content><author><name></name></author><category term="projects" /><category term="App" /><category term="Web design" /><category term="Javascript" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Strangelet Press</title><link href="http://localhost:4002/projects/StrangeletPress" rel="alternate" type="text/html" title="Strangelet Press" /><published>2016-10-09T13:24:17-04:00</published><updated>2016-10-09T13:24:17-04:00</updated><id>http://localhost:4002/projects/StrangeletPress</id><content type="html" xml:base="http://localhost:4002/projects/StrangeletPress"><![CDATA[<h3 id="summary">Summary</h3>
 
-&lt;p&gt;I have actually been working on a project that is related to my novel, but I’ll have to compose a separate blog post for it. It’s nothing to do with what I’ve been posting about thus far.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Time Management" /><category term="Meta" /><category term="Writing" /><summary type="html">I had a lot of freelance work to do this week. It made me think about whether I should quit doing this blog, but then I realized that it’s probably fine. It’s more like a check-in for myself and my projects. Someone might stumble upon this, but it’s not adding anything terribly interesting just yet to the discussion of the different topics I’d like to get into.</summary></entry><entry><title type="html">Project Rotation</title><link href="http://www.francopub.com/blog/2017/05/01/Project-Rotation/" rel="alternate" type="text/html" title="Project Rotation" /><published>2017-05-01T00:00:00-04:00</published><updated>2017-05-01T00:00:00-04:00</updated><id>http://www.francopub.com/blog/2017/05/01/Project-Rotation</id><content type="html" xml:base="http://www.francopub.com/blog/2017/05/01/Project-Rotation/">&lt;p&gt;I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects (which I am careful to make sure are never a conflict of interest, in case you were wondering). The projects can include any of the following:&lt;/p&gt;
+<p><em>Strangelet</em> was a bimonthly literary magazine of fantasy, science fiction, and magical realism.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Web design and development&lt;/li&gt;
-  &lt;li&gt;Book layout and design&lt;/li&gt;
-  &lt;li&gt;Editing my novel&lt;/li&gt;
-&lt;/ul&gt;
+<h3 id="description">Description</h3>
 
-&lt;p&gt;In addition, I like to work on other stuff, like the following (most of it is just learning new things):&lt;/p&gt;
+<p>For <em>Strangelet</em>, I typeset the book in Caslon with the display text as Marta. The title page typeface is Hightower and the cover a combination of typefaces to reflect the tone of the books: strange, bizarre, eerie. We produced bimonthly issues, around 50 to 70 pages each, and combined them in an omnibus at the end of the year.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Single source / multiple output book production&lt;/li&gt;
-  &lt;li&gt;Learning Python beyond publishing&lt;/li&gt;
-  &lt;li&gt;Learning songs on guitar&lt;/li&gt;
-&lt;/ul&gt;
+<p>By setting up the InDesign files myself, we were able to have a streamlined and efficient production process for the ebook edition. I also developed CSS for rendering poetry, at the bottom, and found <a href="https://github.com/francofaa/PoetryCSS">here on Github</a>.</p>
 
-&lt;p&gt;Hard to prioritize day by day, so I’ve decided to prioritize week to week. I will be setting aside my down time to these particular projects. And I’ll be displaying the project on the landing page of the blog.&lt;/p&gt;
+<p><img src="../../img/strangeletpress/1-covers-anthologies.jpg" alt="Our anthologies" />
+<em>Issue 0 was our proof-of-concept. Volume 1 and 2 followed</em></p>
 
-&lt;p&gt;I’ve set up the area for it on the blog’s main page in a Jekyll include. A file in my includes folder is called rotation.html, which contains this HTML partial:&lt;/p&gt;
+<p><img src="../../img/strangeletpress/2-year1-covers.jpg" alt="The issues from volume 1, along with the omnibus" />
+<em>Issues from volume 1</em></p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;center&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-cog fa-spin fa-fw&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt; current project: editing novel &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-cog fa-spin fa-fw&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<p><img src="../../img/strangeletpress/3-year2-covers.jpg" alt="The issues from volume 2, along with the omnibus" />
+<em>Issues from volume 2. During this year, I took over the art acquisition duties</em></p>
 
-&lt;p&gt;Merely include the following line in the blog/index.html file:&lt;/p&gt;
+<p><img src="../../img/strangeletpress/4-library.jpg" alt="Ebook editions of all of our books" />
+<em>Ebook editions of all of our books, save the omnibuses</em></p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;header&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;banner&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;site-header&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;
-		Too Many Projects!
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tag-line&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-			a process blog
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Wherein I write about developing projects&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;
-{ % include rotation.html % }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<p><img src="../../img/strangeletpress/5a-title-page.jpg" alt="Title page" />
+<em>Title page, standard throughout the magazine’s run</em></p>
 
-&lt;p&gt;I then created a Python script to help with updates. I am prompted to first describe the type of update I am making to the website.&lt;/p&gt;
+<p><img src="../../img/strangeletpress/5b-i-title-page-open-ebook.jpg" alt="Title page in EPUB, color pulled from cover" />
+<img src="../../img/strangeletpress/5b-ii-title-page-open-ebook.jpg" alt="Another title page in EPUB, color pulled from cover" />
+<em>For the ebook edition, I pulled colors from the covers as the link and highlight color.</em></p>
 
-&lt;p&gt;If it is ‘project’, I am then prompted to describe the current project I am working on, say, “updating main website”, and that will be placed in the include file, so that the text now reads:&lt;/p&gt;
+<p><img src="../../img/strangeletpress/6-toc.jpg" alt="Table of contents" />
+<em>Table of contents</em></p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;center&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-cog fa-spin fa-fw&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt; current project: updating main website&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-cog fa-spin fa-fw&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Time Management" /><category term="Python" /><category term="Jekyll" /><category term="Meta" /><summary type="html">I have extra-curricular projects I like to work on, in additon to projects at work where I am a project manager and my freelance projects (which I am careful to make sure are never a conflict of interest, in case you were wondering). The projects can include any of the following:</summary></entry><entry><title type="html">Organizing Metadata in YAML</title><link href="http://www.francopub.com/blog/2017/04/24/Organizing-Metadata-in-YAML/" rel="alternate" type="text/html" title="Organizing Metadata in YAML" /><published>2017-04-24T00:00:00-04:00</published><updated>2017-04-24T00:00:00-04:00</updated><id>http://www.francopub.com/blog/2017/04/24/Organizing-Metadata-in-YAML</id><content type="html" xml:base="http://www.francopub.com/blog/2017/04/24/Organizing-Metadata-in-YAML/">&lt;p&gt;I have organized a large amount of content into a YAML document. This will aid in the &lt;a href=&quot;../Automating-Contracts&quot;&gt;contact automation&lt;/a&gt; I was talking about before. For the encyclopedia project I am working on, there are topics and entries. The editors relay to me the author’s information and what topic they will be writing about, which I am to cross-reference with a set of three documents.&lt;/p&gt;
+<p><img src="../../img/strangeletpress/7a-story-open-spread.jpg" alt="Story opener" />
+<em>For Vol 1, Issue 4, we had an illustrator create drawings for each of the pieces.</em></p>
 
-&lt;p&gt;I have taken these three documents and condensed them into a 19,501 line YAML document. Here is an example of a single topic:&lt;/p&gt;
+<p><img src="../../img/strangeletpress/7b-i-story-open-spread.jpg" alt="Story opener in the ebook" />
+<em>The opener for the same story. The illustration was moved to allow the reader to see the illustration in context.</em></p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;artnr&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1.001.A&quot;&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Topic&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Example:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Subtopic&quot;&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Section&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Example&quot;&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;special-attention&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;no&quot;&gt;Text describing the focus of the topic and entries. Text is often several sentences long. &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<p><img src="../../img/strangeletpress/7b-ii-story-open-spread.jpg" alt="Illustration in reflowable ebook" />
+<em>Example of illustration treatment in reflowable ebook</em></p>
 
-&lt;p&gt;So, like, 3,000 of those.&lt;/p&gt;
+<p><img src="../../img/strangeletpress/8a-prose-spread.jpg" alt="Prose spread" />
+<em>Prose page spread</em></p>
 
-&lt;p&gt;The routing editor sends me a list of authors and the entries they are contributing to the encyclopedia. I can gather that information into another YAML entry:&lt;/p&gt;
+<p><img src="../../img/strangeletpress/8b-section-div-spread.jpg" alt="Illustration as section break" />
+<em>For the story “Running With,” shown above, I used these small sketches as the section breaks.</em></p>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;entry1601&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;authors&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Author Name&lt;/span&gt;
-  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Second Author&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Topic&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Example:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Subtopic&quot;&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;123@fakeemail.wow&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;special-attention&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;&amp;gt;&lt;/span&gt; 
-  &lt;span class=&quot;no&quot;&gt;Text describing the focus of the topic and entries. Text is often several sentences long. &lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;5000&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;due&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;16 June 2017&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;editor&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;aa&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+<p><img src="../../img/strangeletpress/8d-footer-detail.jpg" alt="Running feet detail" />
+<em>Running feet detail</em></p>
 
-&lt;p&gt;I’m pretty new to YAML syntax. I am hoping to group this metadata together and use it to automate the creation of and updates to:&lt;/p&gt;
+<p><img src="../../img/strangeletpress/9-prose-bio.jpg" alt="Author bio" />
+<em>Treatment of the author bio.</em></p>
 
-&lt;ul&gt;
-  &lt;li&gt;Contracts&lt;/li&gt;
-  &lt;li&gt;Letters of invitation from the general editor&lt;/li&gt;
-  &lt;li&gt;The master TOC file for each supplement to the encyclopedia&lt;/li&gt;
-  &lt;li&gt;Emails to contributors&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="YAML" /><category term="Metadata" /><summary type="html">I have organized a large amount of content into a YAML document. This will aid in the contact automation I was talking about before. For the encyclopedia project I am working on, there are topics and entries. The editors relay to me the author’s information and what topic they will be writing about, which I am to cross-reference with a set of three documents.</summary></entry><entry><title type="html">A Python Disaster</title><link href="http://www.francopub.com/blog/2017/04/17/A-Python-Disaster/" rel="alternate" type="text/html" title="A Python Disaster" /><published>2017-04-17T00:00:00-04:00</published><updated>2017-04-17T00:00:00-04:00</updated><id>http://www.francopub.com/blog/2017/04/17/A-Python-Disaster</id><content type="html" xml:base="http://www.francopub.com/blog/2017/04/17/A-Python-Disaster/">&lt;p&gt;I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style.&lt;/p&gt;
+<p><img src="../../img/strangeletpress/8c-ebook-spread-1.jpg" alt="Different text element treatments in ebook edition" />
+<em>Demonstration of treatment of different text elements in the ebook edition: title, subtitle, author name, sub-sections, epigraphs, and author bio sections. Compare with print versions.</em></p>
 
-&lt;p&gt;My boss asked me to go through and apply heading styles &lt;em&gt;only&lt;/em&gt; to the bolded text, and otherwise remove the stylings applied.&lt;/p&gt;
+<p><img src="../../img/strangeletpress/11a-poem-print.JPG" alt="Poem in print" />
+<em>Poem treatment in print book. Compare with ebook version below.</em></p>
 
-&lt;p&gt;So, I could’ve gone in and done this manually, opened each of the 30 files and done a find and replace and apply style. OR:&lt;/p&gt;
+<p><img src="../../img/strangeletpress/11b-poem-ebook.jpg" alt="Poem in ebook" />
+<em>Poem treatment in ebook. Poetry ebooks have long languished as after-thoughts for some publishers.</em></p>
 
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg/320px-Hatchling_Python_sebae_Tropicario%2C_FIN_2.jpg&quot; alt=&quot;A photo of a python (the animal, not the programming language)&quot; /&gt;
-&lt;strong&gt;Python time! (The age of this python is a metaphor for my current abilities with the programming language. By Tigerpython (Own work) &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0&quot;&gt;CC BY-SA 3.0&lt;/a&gt;, via Wikimedia Commons)&lt;/strong&gt;&lt;/p&gt;
+<p>CSS for poetry below:</p>
 
-&lt;p&gt;It took longer to make and run the script than it would’ve to have done it all manually (mostly because I made little errors).&lt;/p&gt;
-
-&lt;p&gt;And here’s the script:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pypandoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;curDir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getcwd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;curDir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endswith&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'.docx'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;fileName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pypandoc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;convert_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'md'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;outputfile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fileName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;-FA.md&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; has been converted to markdown&quot;&lt;/span&gt;
-        &lt;span class=&quot;c&quot;&gt;#left myself console notes so I knew where I was; &lt;/span&gt;
-        &lt;span class=&quot;c&quot;&gt;#like I said, this script took a really long time to run&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mdFile&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;curDir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; 
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mdFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endswith&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'.md'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-	    &lt;span class=&quot;c&quot;&gt;#now we have our markdown files,&lt;/span&gt;
-    	&lt;span class=&quot;c&quot;&gt;#which are a little easier to parse than docx&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;mdFileName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mdFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;mdFile_opened&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mdFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;mdFile_contents&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mdFile_opened&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;mdFile_opened&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mdFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'w'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;regex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;*(.*?)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;subst&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;r&quot;\n# \1\n&quot;&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;mdFile_contents&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;regex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mdFile_contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;c&quot;&gt;#replace bolded text on its own line&lt;/span&gt;
-        &lt;span class=&quot;c&quot;&gt;#with h1's on their own lines&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;mdFile_opened&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mdFile_contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;mdFile_opened&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Headings inside of &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mdFile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; adjusted!&quot;&lt;/span&gt;
-        
-		&lt;span class=&quot;n&quot;&gt;revertdocx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pypandoc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;convert_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mdFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'docx'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;outputfile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mdFileName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;.docx&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mdFile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;converted back to DOCX&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Not sure where it goes wrong, but it does go wrong. It ran for 20 minutes (thankfully giving me updates of its process due to the helpful print to console commands I put in there). After the script stalled out on one of the files, I stopped and went with a manual approach. It was actually faster than I thought find/replacing on bold and applying H1, and then promoting and demoting headings to appropriately nest them. Only took like 10 hours. No big deal. Most of that time was spent wondering whether something was a sub-section of another.&lt;/p&gt;
-
-&lt;p&gt;Moral of the story: Make authors and editors determine heading hierarchy.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Workflow Automation" /><category term="Python" /><category term="Pandoc" /><category term="Regular Expressions" /><summary type="html">I had 30 docx files, each between 300 and 400 pages long (so between 9,000 and 12,000 pages total), with random headings thrown in and also bolded text that is supposed to be a heading but is, of course, like most things in life, completely without style.</summary></entry><entry><title type="html">Yet another scheduling Jekyll posts post</title><link href="http://www.francopub.com/blog/2017/04/10/Yet-Another-Scheduling-Jekyll-Posts-Post/" rel="alternate" type="text/html" title="Yet another scheduling Jekyll posts post" /><published>2017-04-10T00:00:00-04:00</published><updated>2017-04-10T00:00:00-04:00</updated><id>http://www.francopub.com/blog/2017/04/10/Yet-Another-Scheduling-Jekyll-Posts-Post</id><content type="html" xml:base="http://www.francopub.com/blog/2017/04/10/Yet-Another-Scheduling-Jekyll-Posts-Post/">&lt;p&gt;I’ve been trying to research how to schedule these Jekyll blog posts so I am one of those great Internet unicorns that regularly updates their blog. If you don’t know, Jekyll is a static site generator, but it is pretty involved in its setup.&lt;/p&gt;
-
-&lt;p&gt;But I like a project. I built this site over the span of a few months while I was facing an impending lay-off. You can see the source code here on &lt;a href=&quot;https://github.com/francofaa/francofaa.github.io&quot;&gt;github&lt;/a&gt;. This site is being delivered straight from github in fact.&lt;/p&gt;
-
-&lt;p&gt;But yes, as I said, it is very involved, for a very nice, light-weight pay-off. Blog posts and pages written in markdown, layout templates written in HTML and liquid syntax (which can use if/and statements and takes variables based on your site metadata and other things), and metadata written in very human-friendly YAML.&lt;/p&gt;
-
-&lt;p&gt;One thing that Jekyll can’t do is schedule posts. So I can’t, say, write several posts and have them update on the days I want them to. I’d like this to update every Monday, but that’s just not going to happen without some fun rigamarole. And if you’d like to get involved in that rigamarole, you can go to this &lt;a href=&quot;http://helentran.com/scheduling-posts&quot;&gt;site&lt;/a&gt; that explains it quite well. In fact, this is probably the best way to do it, but for some reason in the past several days I have not been able to wrap my mind around it. Probably lack of sleep.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="This Very Website" /><category term="Jekyll" /><category term="Python" /><category term="Meta" /><summary type="html">I’ve been trying to research how to schedule these Jekyll blog posts so I am one of those great Internet unicorns that regularly updates their blog. If you don’t know, Jekyll is a static site generator, but it is pretty involved in its setup.</summary></entry><entry><title type="html">Automating contracts</title><link href="http://www.francopub.com/blog/2017/04/03/Automating-Contracts/" rel="alternate" type="text/html" title="Automating contracts" /><published>2017-04-03T00:00:00-04:00</published><updated>2017-04-03T00:00:00-04:00</updated><id>http://www.francopub.com/blog/2017/04/03/Automating-Contracts</id><content type="html" xml:base="http://www.francopub.com/blog/2017/04/03/Automating-Contracts/">&lt;p&gt;I have to juggle multiple authors and their contracts, so I thought it’d be better to automate those contracts so I can prevent errors and have uniformity throughout. Ideal workflow:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Receive info from routing editors, specifically
-    &lt;ul&gt;
-      &lt;li&gt;Author name&lt;/li&gt;
-      &lt;li&gt;Author email address&lt;/li&gt;
-      &lt;li&gt;Article title&lt;/li&gt;
-      &lt;li&gt;Article abstract&lt;/li&gt;
-      &lt;li&gt;Due date&lt;/li&gt;
-      &lt;li&gt;Article word count&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Collect that info &lt;em&gt;somewhere&lt;/em&gt; (YAML, an array, whatever)&lt;/li&gt;
-  &lt;li&gt;Run Python or some other kind of script to generate an email with a PDF attachment that is sent to the author&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Of course, all of the work is between bullet 2 and 3.&lt;/p&gt;
-
-&lt;p&gt;Potential tools:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Word&lt;/li&gt;
-  &lt;li&gt;Python&lt;/li&gt;
-  &lt;li&gt;Pandoc&lt;/li&gt;
-  &lt;li&gt;Texmaker&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;space&quot;&gt;Space&lt;/h2&gt;
-
-&lt;p&gt;Right now I work in a Windows environment in a small, windowless office. Which is fine. But I’ve taken to bringing in my Macbook and setting myself up in the empty “visitor” office, which has windows and plants. When people have walked by, I’ve explained, “I do not have space on my normal desk for this extra computer, the multiple monitors and mice (I have dual monitors on my work machine) would confuse me, and I wanted to bring my Macbook in since I’ve already set up a development environment for working with Python on my Mac that I did not wish to replicate on my Windows machine.” All of which is true, but very boring.&lt;/p&gt;
-
-&lt;p&gt;Spent a good deal of time trying to wrap my head around LaTeX, using TeXmaker, because these contracts need to be PDFs, and do I really want to go into the Word doc and save as PDF a dozen times?&lt;/p&gt;
-
-&lt;p&gt;At this point, yes. Trying to figure out LaTeX has been really tricky, most of all because I have an image (the company logo) that has to go on every page. I’d like this contract template to work for every contract we have.&lt;/p&gt;</content><author><name>Franco A. Alvarado</name><email>franco.faa@gmail.com</email></author><category term="Workflow Automation" /><category term="LaTeX" /><category term="Pandoc" /><category term="docx" /><summary type="html">I have to juggle multiple authors and their contracts, so I thought it’d be better to automate those contracts so I can prevent errors and have uniformity throughout. Ideal workflow:</summary></entry><entry><title type="html">GradeYouLater</title><link href="http://www.francopub.com/projects/GradeYouLater" rel="alternate" type="text/html" title="GradeYouLater" /><published>2016-12-17T12:24:17-05:00</published><updated>2016-12-17T12:24:17-05:00</updated><id>http://www.francopub.com/projects/GradeYouLater</id><content type="html" xml:base="http://www.francopub.com/projects/GradeYouLater">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;GradeYouLater is a simple grading calculator that tallies grades, posts those grades to a table, and then can export that table as a spreadsheet.&lt;/p&gt;
-
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;Play around with the project &lt;a href=&quot;https://francofaa.github.io/GradeYouLater/&quot;&gt;here&lt;/a&gt;. Explore the code &lt;a href=&quot;https://github.com/francofaa/GradeYouLater/&quot;&gt;here on Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The user enters in the student name, assignment name, and total possible points. The user then tallies using the big plus and minus buttons.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/gradeyoulater/1-tally.jpg&quot; alt=&quot;Tallying&quot; /&gt;
-&lt;em&gt;Tallying the student’s score here&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The user can then push the grades to the table below, which can be exported to a spreadsheet.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/gradeyoulater/2-gradebook.jpg&quot; alt=&quot;Resulting gradebook&quot; /&gt;
-&lt;em&gt;Push student scores to table, which can then be exported to CSV&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="projects" /><category term="App" /><category term="Web design" /><category term="Javascript" /><summary type="html">Summary</summary></entry><entry><title type="html">Strangelet Press</title><link href="http://www.francopub.com/projects/StrangeletPress" rel="alternate" type="text/html" title="Strangelet Press" /><published>2016-10-09T13:24:17-04:00</published><updated>2016-10-09T13:24:17-04:00</updated><id>http://www.francopub.com/projects/StrangeletPress</id><content type="html" xml:base="http://www.francopub.com/projects/StrangeletPress">&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Strangelet&lt;/em&gt; was a bimonthly literary magazine of fantasy, science fiction, and magical realism.&lt;/p&gt;
-
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;For &lt;em&gt;Strangelet&lt;/em&gt;, I typeset the book in Caslon with the display text as Marta. The title page typeface is Hightower and the cover a combination of typefaces to reflect the tone of the books: strange, bizarre, eerie. We produced bimonthly issues, around 50 to 70 pages each, and combined them in an omnibus at the end of the year.&lt;/p&gt;
-
-&lt;p&gt;By setting up the InDesign files myself, we were able to have a streamlined and efficient production process for the ebook edition. I also developed CSS for rendering poetry, at the bottom, and found &lt;a href=&quot;https://github.com/francofaa/PoetryCSS&quot;&gt;here on Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/1-covers-anthologies.jpg&quot; alt=&quot;Our anthologies&quot; /&gt;
-&lt;em&gt;Issue 0 was our proof-of-concept. Volume 1 and 2 followed&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/2-year1-covers.jpg&quot; alt=&quot;The issues from volume 1, along with the omnibus&quot; /&gt;
-&lt;em&gt;Issues from volume 1&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/3-year2-covers.jpg&quot; alt=&quot;The issues from volume 2, along with the omnibus&quot; /&gt;
-&lt;em&gt;Issues from volume 2. During this year, I took over the art acquisition duties&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/4-library.jpg&quot; alt=&quot;Ebook editions of all of our books&quot; /&gt;
-&lt;em&gt;Ebook editions of all of our books, save the omnibuses&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/5a-title-page.jpg&quot; alt=&quot;Title page&quot; /&gt;
-&lt;em&gt;Title page, standard throughout the magazine’s run&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/5b-i-title-page-open-ebook.jpg&quot; alt=&quot;Title page in EPUB, color pulled from cover&quot; /&gt;
-&lt;img src=&quot;../../img/strangeletpress/5b-ii-title-page-open-ebook.jpg&quot; alt=&quot;Another title page in EPUB, color pulled from cover&quot; /&gt;
-&lt;em&gt;For the ebook edition, I pulled colors from the covers as the link and highlight color.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/6-toc.jpg&quot; alt=&quot;Table of contents&quot; /&gt;
-&lt;em&gt;Table of contents&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/7a-story-open-spread.jpg&quot; alt=&quot;Story opener&quot; /&gt;
-&lt;em&gt;For Vol 1, Issue 4, we had an illustrator create drawings for each of the pieces.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/7b-i-story-open-spread.jpg&quot; alt=&quot;Story opener in the ebook&quot; /&gt;
-&lt;em&gt;The opener for the same story. The illustration was moved to allow the reader to see the illustration in context.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/7b-ii-story-open-spread.jpg&quot; alt=&quot;Illustration in reflowable ebook&quot; /&gt;
-&lt;em&gt;Example of illustration treatment in reflowable ebook&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/8a-prose-spread.jpg&quot; alt=&quot;Prose spread&quot; /&gt;
-&lt;em&gt;Prose page spread&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/8b-section-div-spread.jpg&quot; alt=&quot;Illustration as section break&quot; /&gt;
-&lt;em&gt;For the story “Running With,” shown above, I used these small sketches as the section breaks.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/8d-footer-detail.jpg&quot; alt=&quot;Running feet detail&quot; /&gt;
-&lt;em&gt;Running feet detail&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/9-prose-bio.jpg&quot; alt=&quot;Author bio&quot; /&gt;
-&lt;em&gt;Treatment of the author bio.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/8c-ebook-spread-1.jpg&quot; alt=&quot;Different text element treatments in ebook edition&quot; /&gt;
-&lt;em&gt;Demonstration of treatment of different text elements in the ebook edition: title, subtitle, author name, sub-sections, epigraphs, and author bio sections. Compare with print versions.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/11a-poem-print.JPG&quot; alt=&quot;Poem in print&quot; /&gt;
-&lt;em&gt;Poem treatment in print book. Compare with ebook version below.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../img/strangeletpress/11b-poem-ebook.jpg&quot; alt=&quot;Poem in ebook&quot; /&gt;
-&lt;em&gt;Poem treatment in ebook. Poetry ebooks have long languished as after-thoughts for some publishers.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;CSS for poetry below:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/*poetry*/&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/*poetry*/</span>
+<span class="nt">p</span><span class="nc">.poem-1</span> <span class="p">{</span>
+	<span class="nl">margin-left</span><span class="p">:</span><span class="m">1.5em</span><span class="p">;</span>
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;}</span>
 		
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-1-ind1-sa&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+<span class="nt">p</span><span class="nc">.poem-1-ind1-sa</span> <span class="p">{</span>
+	<span class="nl">margin-top</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">3.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-1-ind1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+<span class="nt">p</span><span class="nc">.poem-1-ind1</span> <span class="p">{</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">3.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-1-ind1-sb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+<span class="nt">p</span><span class="nc">.poem-1-ind1-sb</span> <span class="p">{</span>
+	<span class="nl">margin-bottom</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">3.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+<span class="nt">p</span><span class="nc">.poem-2</span> <span class="p">{</span>
+	<span class="nl">margin-bottom</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">1.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;}</span>
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-2-sa&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+<span class="nt">p</span><span class="nc">.poem-2-sa</span> <span class="p">{</span>
+	<span class="nl">margin-top</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">1.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-2-ind1-sb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+<span class="nt">p</span><span class="nc">.poem-2-ind1-sb</span> <span class="p">{</span>
+	<span class="nl">margin-bottom</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">3.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-1-ind2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+<span class="nt">p</span><span class="nc">.poem-1-ind2</span> <span class="p">{</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">5.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span>
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.poem-2-ind2-sb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;text-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;-1.5em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="projects" /><category term="Book design" /><category term="Ebook development" /><summary type="html">Summary</summary></entry></feed>
+<span class="nt">p</span><span class="nc">.poem-2-ind2-sb</span> <span class="p">{</span>
+	<span class="nl">margin-bottom</span><span class="p">:</span><span class="m">1em</span><span class="p">;</span>
+	<span class="nl">margin-left</span><span class="p">:</span> <span class="m">5.5em</span><span class="p">;</span> 
+	<span class="nl">text-indent</span><span class="p">:</span><span class="m">-1.5em</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>]]></content><author><name></name></author><category term="projects" /><category term="Book design" /><category term="Ebook development" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Once</title><link href="http://localhost:4002/projects/Once" rel="alternate" type="text/html" title="Once" /><published>2016-10-08T13:24:17-04:00</published><updated>2016-10-08T13:24:17-04:00</updated><id>http://localhost:4002/projects/OnceMagazine</id><content type="html" xml:base="http://localhost:4002/projects/Once"><![CDATA[<h3 id="summary">Summary</h3>
+
+<p><em>Once</em> magazine was a project for my magazine design class at Emerson College’s Publishing MA program. The premise was of a magazine covering various folk tale, fairy tale, and fantasy topics.</p>
+
+<h3 id="description">Description</h3>
+
+<p><img src="../../img/oncemagazine/1a-cover.jpg" alt="Front cover of magazine" />
+<img src="../../img/oncemagazine/1b-back-cover.jpg" alt="Back cover of magazine" />
+<em>For the back cover, I took a public domain image of a German postage stamp and edited it in Photoshop</em></p>
+
+<p><img src="../../img/oncemagazine/2a-toc-spread.jpg" alt="The table of contents, laid out as a map" />
+<em>To add to the whimsical nature of the project, I decided to make the table of contents into a map. I illustrated some images and combined them in Photoshop along with the appropriate text</em></p>
+
+<p><img src="../../img/oncemagazine/2b-toc-detail-1.jpg" alt="Detail of table of contents" />
+<img src="../../img/oncemagazine/2c-toc-detail-2.jpg" alt="Detail of table of contents" /></p>
+
+<p><img src="../../img/oncemagazine/3-troll-spread.jpg" alt="Interview article spread" />
+<em>Article spread for an interview</em></p>
+
+<p><img src="../../img/oncemagazine/4a-red-spread.jpg" alt="Feature spread" />
+<em>Feature article spread</em></p>
+
+<p><img src="../../img/oncemagazine/4b-red-detail.jpg" alt="Detail, edited images from the public domain" />
+<em>Detail</em></p>
+
+<p><img src="../../img/oncemagazine/5-fenrir-detail.jpg" alt="Detail, feature article" />
+<em>Detail of a feature article. I wanted the image to pop out of the page here to add some depth</em></p>
+
+<p><img src="../../img/oncemagazine/6-dept-spread.jpg" alt="Departments" />
+<em>Departments at the end of the issue</em></p>]]></content><author><name></name></author><category term="projects" /><category term="Magazine design" /><category term="Drawing" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Crimson Romance</title><link href="http://localhost:4002/projects/CrimsonRomance" rel="alternate" type="text/html" title="Crimson Romance" /><published>2016-10-07T13:24:17-04:00</published><updated>2016-10-07T13:24:17-04:00</updated><id>http://localhost:4002/projects/CrimsonRomance</id><content type="html" xml:base="http://localhost:4002/projects/CrimsonRomance"><![CDATA[<h3 id="summary">Summary</h3>
+
+<p>Crimson Romance is the romance line at Adams Media. This is an ebook-first series. For this series, I helped with a transition to a CMS-based workflow. I was the sole developer on this series during my time at F+W Media, with 2 to 3 titles being published per week.</p>
+
+<h3 id="description">Description</h3>
+
+<p><img src="../../img/crimsonromance/1-library.jpg" alt="Library of Crimson Romance ebooks" /></p>
+
+<p>Due to the quick turnaround with this series, I was presented with an interesting challenge. The CMS filled in the metadata fields for the EPUB export; however, since the content was outpacing the metadata for this fast-paced workflow, I had to enter in that information manually: the cover, author name, title, and ISBN. Initially, I set up a set of regexes that I would run upon opening the files, but eventually I created a Python script. The script is available <a href="https://github.com/francofaa/RomanceEPUBCleanup">here on github</a>.</p>
+
+<p>It’s also down here:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">re</span><span class="p">,</span> <span class="n">zipfile</span><span class="p">,</span> <span class="n">os</span><span class="p">,</span> <span class="n">shutil</span>
+
+<span class="n">firstName</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Author</span><span class="se">\'</span><span class="s">s first name: '</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">firstName</span><span class="p">)</span>
+<span class="n">lastName</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Author</span><span class="se">\'</span><span class="s">s last name: '</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">lastName</span><span class="p">)</span>
+
+<span class="n">bookFolder</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">getcwd</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="p">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">bookFolder</span><span class="p">):</span>
+	<span class="k">if</span> <span class="nb">file</span><span class="p">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">'.epub'</span><span class="p">):</span>
+		<span class="n">foul</span> <span class="o">=</span> <span class="nb">file</span>
+
+<span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="p">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">bookFolder</span><span class="p">):</span>
+	<span class="k">if</span> <span class="nb">file</span><span class="p">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">'.jpg'</span><span class="p">):</span>
+		<span class="n">isbn</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">splitext</span><span class="p">(</span><span class="nb">file</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="n">os</span><span class="p">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span>
+<span class="n">zip_ref</span> <span class="o">=</span> <span class="n">zipfile</span><span class="p">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">foul</span><span class="p">,</span> <span class="s">'r'</span><span class="p">)</span>
+<span class="n">zip_ref</span><span class="p">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span>
+<span class="n">zip_ref</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="n">epub_folder</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">bookFolder</span> <span class="o">+</span> <span class="s">'/'</span> <span class="o">+</span> <span class="n">isbn</span><span class="p">)</span>
+<span class="n">oebps_folder</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">epub_folder</span> <span class="o">+</span> <span class="s">'/OEBPS'</span><span class="p">)</span>
+
+<span class="n">os</span><span class="p">.</span><span class="n">rename</span><span class="p">(</span><span class="n">isbn</span> <span class="o">+</span> <span class="s">'.jpg'</span><span class="p">,</span> <span class="s">'cover.jpg'</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">os</span><span class="p">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">bookFolder</span><span class="p">):</span>
+	<span class="k">if</span> <span class="nb">file</span><span class="p">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">'.jpg'</span><span class="p">):</span>
+		<span class="n">coverImg</span> <span class="o">=</span> <span class="nb">file</span>
+
+<span class="n">shutil</span><span class="p">.</span><span class="n">copy</span><span class="p">(</span><span class="n">coverImg</span><span class="p">,</span> <span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">'/images'</span><span class="p">)</span>
+
+<span class="n">os</span><span class="p">.</span><span class="n">rename</span><span class="p">(</span><span class="s">'cover.jpg'</span><span class="p">,</span> <span class="n">isbn</span> <span class="o">+</span> <span class="s">'.jpg'</span><span class="p">)</span>
+
+<span class="n">opf</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">'/content.opf'</span><span class="p">)</span>
+<span class="n">opf_contents</span> <span class="o">=</span> <span class="n">opf</span><span class="p">.</span><span class="n">read</span><span class="p">()</span>
+<span class="n">opf</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">'/content.opf'</span><span class="p">,</span> <span class="s">'wb'</span><span class="p">)</span>
+
+<span class="n">opf_contents</span> <span class="o">=</span> <span class="n">opf_contents</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'</span><span class="se">\r</span><span class="s">'</span><span class="p">,</span> <span class="s">''</span><span class="p">)</span>
+<span class="n">opf_contents</span> <span class="o">=</span> <span class="n">opf_contents</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'</span><span class="se">\r</span><span class="s">'</span><span class="p">,</span> <span class="s">''</span><span class="p">)</span>
+<span class="n">opf_contents</span> <span class="o">=</span> <span class="n">opf_contents</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'  '</span><span class="p">,</span> <span class="s">' '</span><span class="p">)</span>
+
+<span class="n">spine_regex</span> <span class="o">=</span> <span class="s">'&lt;spine toc="ncx" page-progression-direction="ltr"&gt;</span><span class="se">\n</span><span class="s">&lt;itemref idref="toc" /&gt;</span><span class="se">\n</span><span class="s"> &lt;itemref idref="(.*?)" /&gt;</span><span class="se">\n</span><span class="s"> &lt;itemref idref="(.*?)" /&gt;'</span>
+<span class="n">spine_subst</span> <span class="o">=</span> <span class="sa">r</span><span class="s">'&lt;spine toc="ncx" page-progression-direction="ltr"&gt;&lt;itemref idref="cover" linear="yes" /&gt;&lt;itemref idref="\1" /&gt;&lt;itemref idref="\2" /&gt;&lt;itemref idref="newsletter" /&gt;&lt;itemref idref="toc" /&gt;'</span>
+<span class="n">opf_contents</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="n">spine_regex</span><span class="p">,</span> <span class="n">spine_subst</span><span class="p">,</span> <span class="n">opf_contents</span><span class="p">)</span>
+
+<span class="n">metadata_regex</span> <span class="o">=</span> <span class="s">'&lt;dc:identifier id="bookid"&gt;&lt;/dc:identifier&gt;</span><span class="se">\n</span><span class="s">&lt;dc:date&gt;(.*?)&lt;/dc:date&gt;</span><span class="se">\n</span><span class="s">&lt;dc:rights&gt;&lt;/dc:rights&gt;'</span>
+<span class="n">metadata_subst</span> <span class="o">=</span> <span class="sa">r</span><span class="s">'&lt;dc:date&gt;\1&lt;/dc:date&gt;&lt;dc:identifier id="bookid"&gt;'</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s">'&lt;/dc:identifier&gt;&lt;dc:creator id="mainauthor1"&gt;'</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">firstName</span><span class="p">)</span> <span class="o">+</span> <span class="s">' '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">lastName</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s">'&lt;/dc:creator&gt;&lt;meta refines="#mainauthor1" property="role" scheme="marc:relators"&gt;aut&lt;/meta&gt;&lt;meta refines="#mainauthor1" property="file-as"&gt;'</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">lastName</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s">', '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">firstName</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s">'&lt;/meta&gt;&lt;meta refines="#mainauthor1" property="display-seq"&gt;1&lt;/meta&gt;&lt;dc:publisher&gt;Adams Media&lt;/dc:publisher&gt;&lt;dc:rights&gt;WORLD&lt;/dc:rights&gt;'</span>
+<span class="n">opf_contents</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="n">metadata_regex</span><span class="p">,</span> <span class="n">metadata_subst</span><span class="p">,</span> <span class="n">opf_contents</span><span class="p">)</span>
+
+<span class="n">opf</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">opf_contents</span><span class="p">)</span>
+<span class="n">opf</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="n">nav</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">'/nav.xhtml'</span><span class="p">)</span>
+<span class="n">nav_contents</span> <span class="o">=</span> <span class="n">nav</span><span class="p">.</span><span class="n">read</span><span class="p">()</span>
+<span class="n">nav</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">'/nav.xhtml'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span>
+
+<span class="n">nav_regex</span> <span class="o">=</span> <span class="sa">r</span><span class="s">'&lt;ol class="epub_landmarks" epub:type="list"&gt;'</span>
+<span class="n">nav_subst</span> <span class="o">=</span> <span class="sa">r</span><span class="s">'&lt;ol class="epub_landmarks" epub:type="list"&gt;\n&lt;li&gt;&lt;a epub:type="cover" href="cover.xhtml"&gt;Cover&lt;/a&gt;&lt;/li&gt;'</span>
+<span class="n">nav_contents</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="n">nav_regex</span><span class="p">,</span> <span class="n">nav_subst</span><span class="p">,</span> <span class="n">nav_contents</span><span class="p">)</span>
+
+<span class="n">nav</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">nav_contents</span><span class="p">)</span>
+<span class="n">nav</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="n">ncx</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">'/toc.ncx'</span><span class="p">)</span>
+<span class="n">ncx_contents</span> <span class="o">=</span> <span class="n">ncx</span><span class="p">.</span><span class="n">read</span><span class="p">()</span>
+<span class="n">ncx</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">oebps_folder</span> <span class="o">+</span> <span class="s">'/toc.ncx'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span>
+
+<span class="n">ncx_regex</span> <span class="o">=</span> <span class="sa">r</span><span class="s">'&lt;meta name="dtb:uid" content="" /&gt;'</span>
+<span class="n">ncx_subst</span> <span class="o">=</span> <span class="sa">r</span><span class="s">'&lt;meta name="dtb:uid" content="'</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span> <span class="o">+</span> <span class="sa">r</span><span class="s">'" /&gt;'</span>
+<span class="n">ncx_contents</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="n">ncx_regex</span><span class="p">,</span> <span class="n">ncx_subst</span><span class="p">,</span> <span class="n">ncx_contents</span><span class="p">)</span>
+
+<span class="n">ncx</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">ncx_contents</span><span class="p">)</span>
+<span class="n">ncx</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">build_epub</span><span class="p">(</span><span class="n">epub_name</span><span class="p">,</span> <span class="nb">dir</span><span class="p">):</span>
+	<span class="n">dir_length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">dir</span><span class="p">.</span><span class="n">rstrip</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">sep</span><span class="p">))</span> <span class="o">+</span> <span class="mi">1</span>
+	<span class="k">with</span> <span class="n">zipfile</span><span class="p">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">epub_name</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s">"w"</span><span class="p">,</span> <span class="n">compression</span><span class="o">=</span><span class="n">zipfile</span><span class="p">.</span><span class="n">ZIP_DEFLATED</span><span class="p">)</span> <span class="k">as</span> <span class="n">zf</span><span class="p">:</span>
+		<span class="k">for</span> <span class="n">dirname</span><span class="p">,</span> <span class="n">subdirs</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">os</span><span class="p">.</span><span class="n">walk</span><span class="p">(</span><span class="nb">dir</span><span class="p">):</span>
+			<span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+				<span class="k">if</span> <span class="ow">not</span> <span class="n">filename</span><span class="p">.</span><span class="n">startswith</span><span class="p">(</span><span class="s">'.'</span><span class="p">):</span>
+					<span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+					<span class="n">entry</span> <span class="o">=</span> <span class="n">path</span><span class="p">[</span><span class="n">dir_length</span><span class="p">:]</span>
+					<span class="n">zf</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">entry</span><span class="p">)</span>
+
+<span class="n">bookFolderName</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="n">bookFolder</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">build_epub</span><span class="p">(</span><span class="n">isbn</span> <span class="o">+</span> <span class="s">'_'</span> <span class="o">+</span> <span class="n">bookFolderName</span> <span class="o">+</span> <span class="s">'.epub'</span><span class="p">,</span> <span class="n">epub_folder</span><span class="p">)</span>
+
+<span class="n">os</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="n">foul</span><span class="p">)</span>
+<span class="n">shutil</span><span class="p">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">isbn</span><span class="p">)</span></code></pre></figure>]]></content><author><name></name></author><category term="projects" /><category term="Python" /><category term="Ebook development" /><category term="CMS" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Beowulf</title><link href="http://localhost:4002/projects/Beowulf" rel="alternate" type="text/html" title="Beowulf" /><published>2016-10-06T13:24:17-04:00</published><updated>2016-10-06T13:24:17-04:00</updated><id>http://localhost:4002/projects/Beowulf</id><content type="html" xml:base="http://localhost:4002/projects/Beowulf"><![CDATA[<h3 id="summary">Summary</h3>
+
+<p>For this edition of <em>Beowulf</em>, as translated by J. Lesslie Hall, I had to tackle a layout with three different types of marginalia: line numbers, asides, and footnotes.</p>
+
+<h3 id="description">Description</h3>
+
+<p><img src="../../img/beowulf/1a-title-page.jpg" alt="Title page" />
+<em>For the cover, I created a Viking ship on the water using typographical ornaments. These were then echoed in the title page.</em></p>
+
+<p><img src="../../img/beowulf/1b-title-page-detail.jpg" alt="Title page, detail" />
+<em>Detail of ornaments</em></p>
+
+<p><img src="../../img/beowulf/1c-cover.jpg" alt="Cover" />
+<em>Cover image</em></p>
+
+<p><img src="../../img/beowulf/2a-chapter-spread.jpg" alt="Chapter open spread" />
+<em>Chapter opener spread, showing all text elements: running text, running headers, chapter number and title, glosses, footnotes, line numbers, and folios</em></p>
+
+<p><img src="../../img/beowulf/2b-marginalia-detail.jpg" alt="Marginalia detail" />
+<em>Detail of page</em></p>
+
+<p><img src="../../img/beowulf/3-dedication.jpg" alt="Dedication page" />
+<em>Dedication page</em></p>
+
+<p><img src="../../img/beowulf/4-fm-spread.jpg" alt="Front matter with drop cap" />
+<em>Front matter (prose) with drop cap</em></p>
+
+<p><img src="../../img/beowulf/5a-pages-spread.jpg" alt="Another spread, without chapter opener" />
+<em>Another spread, without chapter opener</em></p>
+
+<p><img src="../../img/beowulf/5b-footnote-spread.jpg" alt="Spread with a large amount of footnotes" />
+<em>Another spread with a large amount of footnotes</em></p>
+
+<p><img src="../../img/beowulf/5c-running-head-detail.jpg" alt="Detail of running head" />
+<em>Detail of running head</em></p>]]></content><author><name></name></author><category term="projects" /><category term="Book design" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Litweaver</title><link href="http://localhost:4002/projects/Litweaver" rel="alternate" type="text/html" title="Litweaver" /><published>2016-10-05T13:24:17-04:00</published><updated>2016-10-05T13:24:17-04:00</updated><id>http://localhost:4002/projects/Litweaver</id><content type="html" xml:base="http://localhost:4002/projects/Litweaver"><![CDATA[<h3 id="summary">Summary</h3>
+
+<p>Litweaver was a library of original young adult literature developed for schools and distributed as EPUB and Mobi/KF8 files.</p>
+
+<h3 id="description">Description</h3>
+
+<p><img src="../../img/litweaver/1-library.jpg" alt="Selection of the Litweaver ebook library" /></p>
+
+<p>I worked with Litweaver for two years, creating over 100 ebooks for the series, which included short stories, novels, poems, and plays. I also developed a paragraph-numbering system for them. Previously they had been using non-semantic tables, which presented various problems in resizing and accessibility. To compensate for e-reader technology, instead of implementing a purely CSS3 solution, I included the numbering in the mark-up and used CSS to position the paragraphs appropriately.</p>
+
+<p><img src="../../img/litweaver/2-poem-firstpage.jpg" alt="First page of a poem" />
+<em>First page of a poem</em></p>
+
+<p><img src="../../img/litweaver/3-poem-spread.jpg" alt="Poem with line-number back links included" />
+<em>Poem with line number links included</em></p>
+
+<p><img src="../../img/litweaver/4-prose-spread.jpg" alt="Prose with line numbers" />
+<em>Prose with line numbers</em></p>
+
+<p><img src="../../img/litweaver/5-drama-spread.jpg" alt="Drama with line numbers" />
+<em>Drama with line numbers</em></p>]]></content><author><name></name></author><category term="projects" /><category term="Ebook development" /><category term="Regular expressions" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Strangelet Website</title><link href="http://localhost:4002/projects/StrangeletWebsite" rel="alternate" type="text/html" title="Strangelet Website" /><published>2016-10-04T13:24:17-04:00</published><updated>2016-10-04T13:24:17-04:00</updated><id>http://localhost:4002/projects/StrangeletWebsite</id><content type="html" xml:base="http://localhost:4002/projects/StrangeletWebsite"><![CDATA[<h3 id="summary">Summary</h3>
+
+<p><em>Strangelet</em> was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the <a href="../projects/StrangeletPress">production of the books and ebooks</a>. The website is <a href="http://strangeletjournal.com">strangeletjournal.com</a>. The content manager and I also handled the updates to the site.</p>
+
+<h3 id="description">Description</h3>
+
+<p>The website was built in Wordpress, using a child theme based on the theme Responsive.</p>
+
+<p><img src="../../img/strangeletwebsite/1-splash-page.jpg" alt="Home page" />
+<em>Home page with call-to-action to view the current issue of the magazine. The image and banner would change based on the cover image for that issue.</em></p>
+
+<p><img src="../../img/strangeletwebsite/2-mobile.jpg" alt="Mobile version" />
+<em>The site is responsive.</em></p>
+
+<p>The following three images show story excerpts on the website. The HTML for the excerpts is pulled directly from the ebook. I then created a separate stylesheet for the web edition of the excerpt.</p>
+
+<p><img src="../../img/strangeletwebsite/3a-article-sidebars.jpg" alt="Full width screen version" />
+<em>Excerpt of story on a full width screen</em></p>
+
+<p><img src="../../img/strangeletwebsite/3b-article-narrow.jpg" alt="Resizing screen" />
+<em>Making the screen smaller allows the sidebar elements to fall away to the bottom of the browser screen</em></p>
+
+<p><img src="../../img/strangeletwebsite/3c-article-no-distraction.jpg" alt="Distraction-free version" />
+<em>This was a test version for a distraction-free version of an excerpt. This is found at <a href="http://sample.strangeletjournal.com">sample.strangeletjournal.com</a>.</em></p>]]></content><author><name></name></author><category term="projects" /><category term="Web design" /><category term="Web development" /><category term="WordPress" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Redivider</title><link href="http://localhost:4002/projects/Redivider" rel="alternate" type="text/html" title="Redivider" /><published>2016-10-03T13:24:17-04:00</published><updated>2016-10-03T13:24:17-04:00</updated><id>http://localhost:4002/projects/Redivider</id><content type="html" xml:base="http://localhost:4002/projects/Redivider"><![CDATA[<h3 id="summary">Summary</h3>
+
+<p><em>Redivider</em> is the graduate-run biannual literary magazine at Emerson College. I was production editor, leading the design and production of the journal. My team and I designed and laid out the cover and pages for the books.</p>
+
+<h3 id="description">Description</h3>
+
+<p>Additionally, I redesigned the logo for <em>Redivider.</em></p>
+
+<p><img src="../../img/redivider/1-cover.jpg" alt="Covers for Redivider" /></p>
+
+<p><img src="../../img/redivider/2-logo.jpg" alt="Logo for book" />
+<em>Using the end of the R’s ears as the dots, I completed the division symbol with a bar pulled from the typeface’s division symbol</em></p>
+
+<p><img src="../../img/redivider/3-spread.jpg" alt="Story spread" /></p>]]></content><author><name></name></author><category term="projects" /><category term="Book design" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Rice and Rocks</title><link href="http://localhost:4002/projects/RiceAndRocks" rel="alternate" type="text/html" title="Rice and Rocks" /><published>2016-10-02T13:24:17-04:00</published><updated>2016-10-02T13:24:17-04:00</updated><id>http://localhost:4002/projects/RiceAndRocks</id><content type="html" xml:base="http://localhost:4002/projects/RiceAndRocks"><![CDATA[<h3 id="summary">Summary</h3>
+
+<p><em>Rice and Rocks</em> is a children’s book published by Wise Ink. I was contracted to create three different fixed-layout versions, one enhanced version with music and two more versions without the music enhancement, in EPUB3 and KF8/Mobi.</p>
+
+<h3 id="description">Description</h3>
+
+<p><img src="../../img/riceandrocks/1-spread-and-toc.jpg" alt="Opening spread of Rice and Rocks" />
+<em>On page load, the music file begins (hidden from the page). I edited to music to fade in and out so as not to feel jarring upon page turn</em></p>]]></content><author><name></name></author><category term="projects" /><category term="Ebook development" /><category term="Fixed-layout ebook" /><category term="InDesign CC" /><category term="Audio editing" /><summary type="html"><![CDATA[Summary]]></summary></entry><entry><title type="html">Your Dream Cakes</title><link href="http://localhost:4002/projects/YourDreamCakes" rel="alternate" type="text/html" title="Your Dream Cakes" /><published>2016-10-01T13:24:17-04:00</published><updated>2016-10-01T13:24:17-04:00</updated><id>http://localhost:4002/projects/YourDreamCakes</id><content type="html" xml:base="http://localhost:4002/projects/YourDreamCakes"><![CDATA[<h3 id="summary">Summary</h3>
+
+<p>Your Dream Cakes is a custom dessert and catering service in South Florida. I built and designed the website using Wordpress. The website is <a href="http://yourdreamcakes.com">here</a>.</p>
+
+<h3 id="description">Description</h3>
+
+<p><img src="../../img/yourdreamcakes/2-business-cards.JPG" alt="Website" /></p>
+
+<p><img src="../../img/yourdreamcakes/1-website-image.jpg" alt="Business cards" /></p>]]></content><author><name></name></author><category term="projects" /><category term="Web design" /><category term="Web development" /><category term="WordPress" /><category term="Branding" /><summary type="html"><![CDATA[Summary]]></summary></entry></feed>

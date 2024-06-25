@@ -1,0 +1,25 @@
+I"<h3 id="summary">Summary</h3>
+
+<p><em>Strangelet</em> was a bimonthly literary magazine of fantasy, science fiction, and magical realism. In addition to creating and co-managing the website, I was also one of its co-founders and managed the <a href="../projects/StrangeletPress">production of the books and ebooks</a>. The website is <a href="http://strangeletjournal.com">strangeletjournal.com</a>. The content manager and I also handled the updates to the site.</p>
+
+<h3 id="description">Description</h3>
+
+<p>The website was built in Wordpress, using a child theme based on the theme Responsive.</p>
+
+<p><img src="../../img/strangeletwebsite/1-splash-page.jpg" alt="Home page" />
+<em>Home page with call-to-action to view the current issue of the magazine. The image and banner would change based on the cover image for that issue.</em></p>
+
+<p><img src="../../img/strangeletwebsite/2-mobile.jpg" alt="Mobile version" />
+<em>The site is responsive.</em></p>
+
+<p>The following three images show story excerpts on the website. The HTML for the excerpts is pulled directly from the ebook. I then created a separate stylesheet for the web edition of the excerpt.</p>
+
+<p><img src="../../img/strangeletwebsite/3a-article-sidebars.jpg" alt="Full width screen version" />
+<em>Excerpt of story on a full width screen</em></p>
+
+<p><img src="../../img/strangeletwebsite/3b-article-narrow.jpg" alt="Resizing screen" />
+<em>Making the screen smaller allows the sidebar elements to fall away to the bottom of the browser screen</em></p>
+
+<p><img src="../../img/strangeletwebsite/3c-article-no-distraction.jpg" alt="Distraction-free version" />
+<em>This was a test version for a distraction-free version of an excerpt. This is found at <a href="http://sample.strangeletjournal.com">sample.strangeletjournal.com</a>.</em></p>
+:ET

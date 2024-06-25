@@ -14,20 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Franco A. Alvarado
-email: franco.faa@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The online resume, portfolio, and process blog of Franco A. Alvarado
+  The online resume and portfolio Franco A. Alvarado
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.francopub.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: NoFrancosPlease
 github_username: francofaa
 linkedin_username: franco-alvarado
 copyright: Franco A. Alvarado
-# available: true
+available: true
 future: false
-job: Senior Project Manager, Digital Workflows, at Macmillan Learning
 # Build settings
 markdown: kramdown
+port: 4002
+version: 2.0
 theme: 
 plugins:
   - jekyll-feed

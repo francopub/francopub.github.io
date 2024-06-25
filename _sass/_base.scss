@@ -9,20 +9,20 @@ body {
 //     transition: none;
 // }
 
-a {
-    text-decoration: none;
-	color: $maincolor;
-		&:-webkit-any-link {
-			cursor: pointer !important;
-		}
-		&:hover {
-	        color: darken($maincolor, 5%);
-            cursor: pointer;
-	    }
-        &:active {
-        	color: darken($maincolor, 15%);
-        }
-}
+// a {
+//     text-decoration: none;
+// 	color: $maincolor;
+// 		&:-webkit-any-link {
+// 			cursor: pointer !important;
+// 		}
+// 		&:hover {
+// 	        color: darken($maincolor, 5%);
+//             cursor: pointer;
+// 	    }
+//         &:active {
+//         	color: darken($maincolor, 15%);
+//         }
+// }
 
 ::selection {
 	background: $selectcolor;

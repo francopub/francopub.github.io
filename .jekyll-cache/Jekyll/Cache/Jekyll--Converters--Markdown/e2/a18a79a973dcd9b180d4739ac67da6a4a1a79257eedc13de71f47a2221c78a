@@ -1,0 +1,18 @@
+I"°<h3 id="summary">Summary</h3>
+
+<p>GradeYouLater is a simple grading calculator that tallies grades, posts those grades to a table, and then can export that table as a spreadsheet.</p>
+
+<h3 id="description">Description</h3>
+
+<p>Play around with the project <a href="https://francofaa.github.io/GradeYouLater/">here</a>. Explore the code <a href="https://github.com/francofaa/GradeYouLater/">here on Github</a>.</p>
+
+<p>The user enters in the student name, assignment name, and total possible points. The user then tallies using the big plus and minus buttons.</p>
+
+<p><img src="../../img/gradeyoulater/1-tally.jpg" alt="Tallying" />
+<em>Tallying the studentâ€™s score here</em></p>
+
+<p>The user can then push the grades to the table below, which can be exported to a spreadsheet.</p>
+
+<p><img src="../../img/gradeyoulater/2-gradebook.jpg" alt="Resulting gradebook" />
+<em>Push student scores to table, which can then be exported to CSV</em></p>
+:ET
