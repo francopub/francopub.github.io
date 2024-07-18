@@ -3,3 +3,24 @@ title: Projects
 layout: page
 category: projects
 ---
+
+<div id="projectpane">
+  <h1 id="projects">Portfolio</h1>
+  <div class="post-group">
+    {% for post in site.posts %}
+      {% if post.roll contains 'projects' %}
+        <div class="post">
+          <a href="{{ post.url }}">
+            <img src="../img/{{ post.imgfolder }}/{{ post.imgfolder }}.jpg" alt="image" />
+            <div class="caption">
+              <div class="caption-text">
+                <h3 class="title">{{ post.title }}</h3>
+                <p>{{ post.tags | sort | join: ", " }}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
