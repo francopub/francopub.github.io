@@ -4,8 +4,12 @@ layout: page
 category: projects
 ---
 
+<header role="banner" class="site-header">
+	<h1 style="text-align: center;">
+		Portfolio
+	</h1>
+</header>
 <div id="projectpane">
-  <h1 id="projects">Portfolio</h1>
   <div class="post-group">
     {% for post in site.posts %}
       {% if post.roll contains 'projects' %}

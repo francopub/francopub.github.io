@@ -1,8 +1,8 @@
 footer {
-	// float: left;
+	float: left;
     // position: relative;
     color: $charcoal;
-    text-align: center;
+    text-align: right;
     width: 100%;
     font-family: $stack-serif;
     margin-top: 2em;
@@ -10,7 +10,7 @@ footer {
     font-size: 1em;
     padding-top: 1em;
     .copyright {
-		// padding-left: 1em;
+		padding-left: 1em;
     }
     .social {
     	padding-left: 1em;
