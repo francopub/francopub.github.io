@@ -36,3 +36,31 @@ gem "webrick", "~> 1.7"
 
 gem "just-the-docs"
 gem 'jekyll-toc'
+
+source "https://rubygems.org"
+ruby RUBY_VERSION
+
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+
+gem 'jekyll-sass-converter'
+gem "kramdown", ">= 2.3.0"
+gem "kramdown-parser-gfm"
+gem "logger"
+gem "csv"
+gem "base64"
+
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# If you have any plugins, put them here!
+
+
+gem "bigdecimal", "~> 4.0"
